@@ -1,4 +1,4 @@
 website
 ==========
 
-This is the source code for what will become my personal website.
+Source code for Jan Antolik's computational system neuroscience group at Charles University
