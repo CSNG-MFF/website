@@ -7,4 +7,3 @@ title: Publications
 ----------------------
 
 {% bibliography %}
-
