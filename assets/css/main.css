@@ -204,7 +204,7 @@ h1 > a:hover {
 }
 
 .gravatar {
-    background: url("./assets/img/Jan_Antolik.jpg");
+    background: url("./assets/img/Jan_Antolik.jpg") no-repeat;
     background-size: 200px 200px;
     border: 1px solid #ccc;
     border-radius: 100%;
