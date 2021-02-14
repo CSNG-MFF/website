@@ -329,7 +329,7 @@ a.creative-commons:hover {
        only screen and (min--moz-device-pixel-ratio: 1.5),
        only screen and (min-resolution: '144dpi') {
     .gravatar {
-        background-image: url("/assets/img/Jan_Antolik.jpg");
+        background-image: url("./assets/img/Jan_Antolik.jpg");
     }
 }
 
