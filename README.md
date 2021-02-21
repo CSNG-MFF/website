@@ -1,4 +1,4 @@
 website
 ==========
 
-This is the source code for what will become my personal website.
+This is the source code for the Jan Antolik's CSNG at Charles University 
