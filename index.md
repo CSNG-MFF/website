@@ -5,7 +5,7 @@ description: I am Jan Antolik, a computational neuroscientists. This is my homep
 ---
 
 
-### Who is Jan
+### Who is Jan Antolik
 
 I am a computational neuroscientist based in Prague, Czechia at the  <a href="https://www.mff.cuni.cz/">Faculty of Mathematics and Physics</a> of <a href="https://cuni.cz/">Charles University</a>.
 <br>

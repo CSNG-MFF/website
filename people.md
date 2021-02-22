@@ -10,7 +10,7 @@ title: people
         {{member.role}}  <br />
         <a href="mailto:{{member.email}}">{{member.email}}</a> <br />
         github: <a href="https://github.com/{{ member.github }}"> {{ member.github }} </a> 
-        <div class="gravatar"></div> 
+        <div class="gravatar" style="background-image: url(/assets/img/{{member.image}})"></div> 
     {% endfor %}
 </ul>
 
