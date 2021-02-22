@@ -4,6 +4,7 @@ title: index
 description: I am Jan Antolik, a computational neuroscientists. This is my homepage with my publications, active projects, and project proposals for anybody interested.
 ---
 
+ciao
 
 ### Who is Jan Antolik
 
