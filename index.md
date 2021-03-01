@@ -4,41 +4,13 @@ title: index
 description: I am Jan Antolik, a computational neuroscientists. This is my homepage with my publications, active projects, and project proposals for anybody interested.
 ---
 
-ciao
 
-### Who is Jan Antolik
 
-I am a computational neuroscientist based in Prague, Czechia at the  <a href="https://www.mff.cuni.cz/">Faculty of Mathematics and Physics</a> of <a href="https://cuni.cz/">Charles University</a>.
-<br>
-<br>
-The goal of my research is to identify computations implemented in the neural system that underly our sensory perception. To that end, my group builds models 
+
+The goal of our research is to identify computations implemented in the neural system that underly our sensory perception. To that end, we build models 
 of visual system at various levels of abstraction using variety of computational techniques including, but not limited to, machine learning and large-scale biophysical neural simulations.
-Through confrontation of these models with the biological data we further our understanding of visual processing and drive future experiments towards most informative questions.
-<br>
-<br>
-We collaborate closely with the experimental group of <a href="http://neuro-psi.cnrs.fr/spip.php?article934&lang=fr">Yves Frégnac</a>, the theoretical group of <a href="http://cns.iaf.cnrs-gif.fr/Main.html">Alain Destexhe</a>
-and the neuroinformatics group of <a href="http://andrewdavison.info/about/">Andrew Davison</a> at <a href="http://neuro-psi.cnrs.fr/?lang=en">NeuroPSI</a>, CNRS, France as well 
-as experimental group of <a href="https://neuro-marseille.org/en/neuroscience-masters-program/laboratoire/timone-neuroscience-institute/">Frédéric Chavane</a> at the Timone Neuroscience Institute, Marseille.
-<br>
-<br>
-<br>
-<br>
+Through confrontation of these models with the biological data we further our understanding of visual processing and drive future experiments and towards most informative questions.
 
-### Research background
-
-
-By training I am a theoretical computer scientist with the focus on artificial intelligence and machine learning. Towards the end of my
-studies, I have increasingly often tapped neuroscience and psychology for inspirations on how to build intelligent systems.
-This dual interest lead me to join a program in [Neuroinformatics](http://www.anc.ed.ac.uk/dtc/) at the [Unviersity of Edinburgh](http://www.ed.ac.uk/home), where my interest in the brain
-grew further, eventually leading to my PhD thesis on the topic of [Development of functional properties in primary visual cortex](https://www.era.lib.ed.ac.uk/handle/1842/4875) under the
-supervision of [James Bednar](http://homepages.inf.ed.ac.uk/jbednar/). My first post-doctoral post was in the lab of [Tom-Mrsic Flogel](http://www.biozentrum.unibas.ch/research/groups-platforms/overview/unit/mrsic-flogel/) at UCL, where I had the chance to
-brush up my machine learning skills while investigating novel ways to estimate receptive fields in local populations of mouse
-primary visual cortex neurons. Next I have switched my attention to studying cat early vision  using [large-scale spiking neural modelling approach](http://127.0.0.1:4000/projects.html) under the co-supervision of <a href="http://andrewdavison.info/">Andrew Davison</a> and <a href="https://www.unic.cnrs-gif.fr/people/Yves_Fr%C3%A9gnac/"> Yves Frégnac</a> at 
-the <a href="https://www.unic.cnrs-gif.fr/">UNIC</a> department of CNRS.  I then continued to pursue the study of early vision at <a href="http://www.institut-vision.org/en/">Institute de la Vision</a> in Paris in the
-group of <a href="http://www.institut-vision.org/en/vision-and-natural-computation/item/109-benosman-ryad.html">Pr. Ryad Benosman</a>, where I applied the large scale models of V1 to 
-the problem of [optogenetic based cortical visual prosthesis](https://www.darpa.mil/news-events/2017-07-10), as well as utilized my experience in artificial intelligence and 
-cortical modeling to pursue projects in the field of [Neuromorphic Vision](http://neuromorphic-vision.com/). Currently I continue to pursue all these lines of research at my alma mater, 
-the <a href="https://www.mff.cuni.cz/">Faculty of Mathematics and Physics</a> of <a href="https://cuni.cz/">Charles University</a> in Prague. 
 
 ### Current research interests (MAKE A PARAGRAPH )
 * visual system
@@ -50,21 +22,30 @@ the <a href="https://www.mff.cuni.cz/">Faculty of Mathematics and Physics</a> of
 
 <br>
 
-### Contacts
+<div>
+    <div style="display:inline-block, width:60%">
+        <div class="mapouter">
+            <div class="gmap_canvas">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2559.8947125084264!2d14.4006772!3d50.0882581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdbc36558fd05ccd7!2sUniverzita%20Karlova%2C%20Matematicko-fyzik%C3%A1ln%C3%AD%20fakulta%2C%20Informatick%C3%A1%20sekce!5e0!3m2!1sit!2scz!4v1614553843320!5m2!1sit!2scz" height="450" style="border:0; width:100%" allowfullscreen="" loading="lazy"></iframe> 
+            </div>
+        </div>
+    <div style="width:30%, padding-left:50px, display:inline-block">
+        <b>Contacts</b>
+        <br>
+        <br>
+        Computational System Neuroscience Group <br>
+        Faculty of Mathematics and Physics<br>
+        Charles University in Prague<br>
+        Malostranské nám. 25<br>
+        118 00 Prague<br>
+        Czechia<br>
+        email: antolikjan@gmail.com
+    </div>
+</div>
 
-Ján Antolík <br>
-Faculty of Mathematics and Physics<br>
-Charles University in Prague<br>
-Malostranské nám. 25<br>
-118 00 Prague<br>
-Czechia<br>
-email: antolikjan@gmail.com
 
-    
-<div class="mapouter"><div class="gmap_canvas">
-    <iframe width="700" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=malostranske%20namesti%2025&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-    </iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:700px;}</style>
-    <a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:700px;}</style></div></div>
+
+
 
 
 

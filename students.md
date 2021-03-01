@@ -3,7 +3,15 @@ layout: default
 title: Research
 ---
 
-### Available student projects
+## Courses
+* <a href="./programovani1.html"><span>NPRG030: Cvičení z Programování I</span></a>
+* <a href="./programovani2.html"><span>NPRG031: Cvičení z Programování II</span></a>
+* <a href="./ikv1.html"><span>NAIL087: Inforamtics and Cognitive Science I</span></a>
+* <a href="./ikv2.html"><span>NAIL088: Inforamtics and Cognitive Science II</span></a>
+
+<br>
+
+## Available student projects
 
 Would you like to contribute to our research? This is a list of projects available for interested students. 
 Most are designed to be completed within 3 to 6 month, but some can be expanded into longer projects even 
