@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #eee;
+    background-color: #fff;
     color: #333;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
@@ -127,6 +127,7 @@ footer {
     text-align: center;
 }
 
+
 /**
  * Header
  * ==================================================
@@ -208,10 +209,20 @@ h1 > a:hover {
     background-repeat: no-repeat;
     border: 1px solid #ccc;
     border-radius: 100%;
-    display: block;
+    display: inline-block;
     height: 200px;
-    margin: 0 auto 50px;
+    margin: 50px 50px 50px;
+    margin-left:80px;
     width: 200px;
+    vertical-align:top;
+}
+
+.info-person{
+    height: 200px;
+    margin: 50px 50px 50px;
+    text-align: center;
+    display: inline-block;
+    vertical-align:top;
 }
 
 .social {
