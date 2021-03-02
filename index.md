@@ -4,9 +4,7 @@ title: index
 description: I am Jan Antolik, a computational neuroscientists. This is my homepage with my publications, active projects, and project proposals for anybody interested.
 ---
 
-We are the Computational Systems Neuroscience Group, led by Jan Antolik at Charles University, Prague.
-
-The main goal of our research is to identify computations implemented in the neural system that underly our sensory perception.
+We are the Computational Systems Neuroscience Group, led by Jan Antolik at Charles University, Prague. The main goal of our research is to identify computations implemented in the neural system that underly our sensory perception. 
 
 Building on previous work of Ján Antolík, we further develop the <a href="https://www.biorxiv.org/content/10.1101/416156v4">model of cat primary visual cortex</a> and use it to study various questions of basic and applied neuroscience:
 - model of optogenetic cortical visual prosthesis (collaboration with ...)

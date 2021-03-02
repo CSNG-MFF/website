@@ -1,11 +1,11 @@
-- name: Jan Antolik
+- name: Ján Antolík
   role: Research group leader
   github: antolikjan
   email: antolik@ksvi.mff.cuni.cz
   image: Jan_Antolik.jpg
   personal_website: /
 
-- name: Karolina Korvasova
+- name: Karolína Korvasová
   role: Post-doc
   github: kkorvasova
   email: karolina.korvasova@mff.cuni.cz
@@ -26,14 +26,14 @@
   image: Jan_Antolik.jpg
   personal_website: /
 
-- name: Remy Cagnol
+- name: Rémy Cagnol
   role: PhD student
   github: RCagnol
   email: cagnol@ksvi.mff.cuni.cz
   image: Jan_Antolik.jpg
   personal_website: /
 
-- name: Tibor Rozsa
+- name: Tibor Rózsa
   role: PhD student
   github: rozsatib
   email: rozsa@ksvi.mff.cuni.cz
