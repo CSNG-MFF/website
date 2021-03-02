@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: #fff;
+    background-color: #ccc;
     color: #333;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
@@ -128,6 +128,27 @@ footer {
 }
 
 
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .left {
+    width: 50%;
+  }
+  
+  .right {
+      width: 45.99%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /**
  * Header
  * ==================================================
@@ -211,16 +232,17 @@ h1 > a:hover {
     border-radius: 100%;
     display: inline-block;
     height: 200px;
-    margin: 50px 50px 50px;
-    margin-left:80px;
+    margin-bottom: 50px;
     width: 200px;
     vertical-align:top;
 }
 
-.info-person{
-    height: 200px;
-    margin: 50px 50px 50px;
-    text-align: center;
+.info-person {
+    width: 200px;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-right: 50px;
+    text-align: left;
     display: inline-block;
     vertical-align:top;
 }

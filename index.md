@@ -4,23 +4,21 @@ title: index
 description: I am Jan Antolik, a computational neuroscientists. This is my homepage with my publications, active projects, and project proposals for anybody interested.
 ---
 
+We are the Computational Systems Neuroscience Group, led by Jan Antolik at Charles University, Prague.
+
+The main goal of our research is to identify computations implemented in the neural system that underly our sensory perception.
+
+Building on previous work of Ján Antolík, we further develop the <a href="https://www.biorxiv.org/content/10.1101/416156v4">model of cat primary visual cortex</a> and use it to study various questions of basic and applied neuroscience:
+- model of optogenetic cortical visual prosthesis (collaboration with ...)
+- model of electrical cortical visual prosthesis (collaboration with Eduardo Fernandez, Universidad Miguel Hernández de Elche, Spain)
+- investigate the function of oscillations in cortical processing (collaboration with Sanja Bauer Mikulovic, LIN Magdeburg, Germany)
+- .....
+
+Developing biologically inspired deep neural networks trained on experimental and simulated data we study how visual information is encoded by neurons in the early stages of the visual pathway
+
+Add collaborators..
 
 
-
-The goal of our research is to identify computations implemented in the neural system that underly our sensory perception. To that end, we build models 
-of visual system at various levels of abstraction using variety of computational techniques including, but not limited to, machine learning and large-scale biophysical neural simulations.
-Through confrontation of these models with the biological data we further our understanding of visual processing and drive future experiments and towards most informative questions.
-
-
-### Current research interests (MAKE A PARAGRAPH )
-* visual system
-* computational neuroscience
-* system identification
-* machine learning
-* neuromorphic computation
-* prosthetic vision
-
-<br>
 
 <div>
     <div style="display:inline-block, width:60%">
@@ -43,23 +41,8 @@ Through confrontation of these models with the biological data we further our un
     </div>
 </div>
 
-
-
-
-
-
-
-<p class="social">
-    <a href="mailto:antolikjan@gmail.com" title="Email me"><i class="icon-gmail"></i></a>    
-    <a href="https://github.com/antolikjan" title="Fork me on GitHub"><i class="icon-github-circled"></i></a>
-    <a href="https://sk.linkedin.com/in/antolikjan" title="Connect with me on LinkedIn"><i class="icon-linkedin-squared"></i></a>
-    <a href="https://scholar.google.cz/citations?user=tlR3lH0AAAAJ&hl=en" title="GoogleScholar profile"><i class="ai ai-google-scholar-square fa-3x"></i></a>
-    <a href="https://www.mendeley.com/profiles/jan-antolik1/" title="Mendeley profile"><i class="ai ai-mendeley-square fa-3x" style="color:#B61F2F"></i></a>
-    <a href="https://www.researchgate.net/profile/Jan_Antolik" title="ResearchGate profile"><i class="ai ai-researchgate-square fa-3x" style="color:black"></i></a>
-</p>
-
-
-
+<br>
+<br>
 
 <p align='center'>This site is powered by <a href="http://jekyllrb.com/">Jekyll</a> and hosted on
 <a href="https://pages.github.com/">GitHub Pages</a>. The source code for this site is publicly available on
