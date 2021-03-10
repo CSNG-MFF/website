@@ -3,13 +3,17 @@
   github: antolikjan
   email: antolik@ksvi.mff.cuni.cz
   image: Jan_Antolik.jpg
+  twitter: /
+  google_scholar: /
   personal_website: /
 
 - name: Karolína Korvasová
   role: Post-doc
   github: kkorvasova
   email: karolina.korvasova@mff.cuni.cz
-  image: Jan_Antolik.jpg
+  image: Karolina_Korvasova.jpg
+  twitter: KKorvasova
+  google_scholar: https://scholar.google.com/citations?user=UPz8zo0AAAAJ&hl=en
   personal_website: /
 
 - name: David Berling
@@ -17,6 +21,8 @@
   github: dberling
   email: berling@ksvi.mff.cuni.cz
   image: Jan_Antolik.jpg
+  twitter: /
+  google_scholar: /
   personal_website: /
 
 - name: Luca Baroni
@@ -24,13 +30,17 @@
   github: lucabaroni
   email: baroni@ksvi.mff.cuni.cz
   image: Jan_Antolik.jpg
+  twitter: /
+  google_scholar: /
   personal_website: /
 
 - name: Rémy Cagnol
   role: PhD student
   github: RCagnol
   email: cagnol@ksvi.mff.cuni.cz
-  image: Jan_Antolik.jpg
+  image: Remy_Cagnol.jpg
+  twitter: /
+  google_scholar: /
   personal_website: /
 
 - name: Tibor Rózsa
@@ -38,4 +48,6 @@
   github: rozsatib
   email: rozsa@ksvi.mff.cuni.cz
   image: Jan_Antolik.jpg
+  twitter: /
+  google_scholar: /
   personal_website: /

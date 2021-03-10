@@ -4,19 +4,20 @@ title: index
 description: I am Jan Antolik, a computational neuroscientists. This is my homepage with my publications, active projects, and project proposals for anybody interested.
 ---
 
-We are the Computational Systems Neuroscience Group, led by Jan Antolik at Charles University, Prague. The main goal of our research is to identify computations implemented in the neural system that underly our sensory perception. 
+We are the Computational Systems Neuroscience Group, led by Ján Antolík at Charles University, Prague. The main goal of our research is to identify computations implemented in the neural system that underly sensory perception.
 
 Building on previous work of Ján Antolík, we further develop the <a href="https://www.biorxiv.org/content/10.1101/416156v4">model of cat primary visual cortex</a> and use it to study various questions of basic and applied neuroscience:
-- model of optogenetic cortical visual prosthesis (collaboration with ...)
-- model of electrical cortical visual prosthesis (collaboration with Eduardo Fernandez, Universidad Miguel Hernández de Elche, Spain)
-- investigate the function of oscillations in cortical processing (collaboration with Sanja Bauer Mikulovic, LIN Magdeburg, Germany)
-- .....
 
-Developing biologically inspired deep neural networks trained on experimental and simulated data we study how visual information is encoded by neurons in the early stages of the visual pathway
+- model of optogenetic cortical visual prosthesis (collaboration with ...?)
+- model of electrical cortical visual prosthesis (collaboration with Eduardo Fernandez, Universidad Miguel Hernández de Elche, Spain)
+- investigate the function of oscillations in visual processing
+- ....?
+
+Developing biologically inspired deep neural networks trained on experimental and simulated data we study how visual information is encoded in neural responses in the early stages of the visual pathway
+
+Moreover, the group develops Mozaik(link: to software of directly Github?), an open-source software for for large-scale neural simulation automatizing the workflow from the definition of model and of the experiment specificities, to the execution of the simulation and the data analysis and visualization
 
 Add collaborators..
-
-
 
 <div>
     <div style="display:inline-block, width:60%">

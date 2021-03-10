@@ -4,6 +4,7 @@ title: people
 ---
 
 {% for member in site.data.people %}
+
 <div class="gravatar" style="background-image: url(/website/assets/img/{{ member.image }})"></div>   
 <div class="info-person">
         <b>{{ member.name }} </b> <br /> 
@@ -12,4 +13,3 @@ title: people
         github: <a href="https://github.com/{{ member.github }}"> {{ member.github }} </a> 
 </div>
 {% endfor %}
-
