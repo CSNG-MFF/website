@@ -8,16 +8,16 @@ We are the Computational Systems Neuroscience Group, led by Ján Antolík at Cha
 
 Building on previous work of Ján Antolík, we further develop the <a href="https://www.biorxiv.org/content/10.1101/416156v4">model of cat primary visual cortex</a> and use it to study various questions of basic and applied neuroscience:
 
-- model of optogenetic cortical visual prosthesis (collaboration with ...?)
+- model of optogenetic cortical visual prosthesis
 - model of electrical cortical visual prosthesis (collaboration with Eduardo Fernandez, Universidad Miguel Hernández de Elche, Spain)
 - investigate the function of oscillations in visual processing
-- ....?
 
-Developing biologically inspired deep neural networks trained on experimental and simulated data we study how visual information is encoded in neural responses in the early stages of the visual pathway
 
-Moreover, the group develops Mozaik(link: to software of directly Github?), an open-source software for for large-scale neural simulation automatizing the workflow from the definition of model and of the experiment specificities, to the execution of the simulation and the data analysis and visualization
+Developing biologically inspired deep neural networks trained on experimental and simulated data we study how visual information is encoded in neural responses in the early stages of the visual pathway.
 
-Add collaborators..
+Moreover, the group develops [Mozaik](/software.html), an open-source software for for large-scale neural simulation automatizing the workflow from the definition of model and of the experiment specificities, to the execution of the simulation and the data analysis and visualization.
+
+
 
 <div>
     <div style="display:inline-block, width:60%">
