@@ -17,9 +17,7 @@ Developing biologically inspired deep neural networks trained on experimental an
 
 Moreover, the group develops [Mozaik](/software.html), an open-source software for for large-scale neural simulation automatizing the workflow from the definition of model and of the experiment specificities, to the execution of the simulation and the data analysis and visualization.
 
-
-
-<div>
+<div style="margin-top:40px">
     <div style="display:inline-block, width:60%">
         <div class="mapouter">
             <div class="gmap_canvas">
