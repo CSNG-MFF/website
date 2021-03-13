@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-color: #ccc;
+  background-color: #e2e2e2;
   color: #333;
   font-family:  'Lato', 'Roboto', sans-serif;
   font-size: 15px;
@@ -100,7 +100,7 @@ header {
 .navigation {
   color: #bbb;
   background-color: #fff;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #e2e2e2;
   font-size: 18px;
   border-radius: 0px 0px 0 65px;
   margin: 0;
@@ -108,7 +108,7 @@ header {
   padding-left: 25px;
   padding-right: 50px;
   text-align: right;
-  height: 129px;
+  height: 130px;
   position: relative;
 
 }
@@ -136,18 +136,16 @@ header {
 
 .content {
   background-color: #fff;
-  border: 0px solid #ccc;
-  border-top-width: 0;
   min-height: 250px;
   padding: 50px;
+  padding-top: 25px;
   padding-bottom: 25px
 }
 
 footer {
   background-color: #fff;
-  border: 0px solid #ccc;
-  border-radius: 0 0 25px 25px;
-  border-top-width: 0;
+  border-top: 1px solid #e2e2e2;
+  border-radius: 0 25px 25px 25px;
   padding: 25px;
   text-align: center;
 }
@@ -286,11 +284,11 @@ h1 > a:hover {
 .gravatar {
   background-size: 200px 200px;
   background-repeat: no-repeat;
-  border: 0px solid #ccc;
   border-radius: 100%;
   display: inline-block;
   height: 200px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  margin-top: 25px;
   margin-left: 5px;
   width: 200px;
   vertical-align: top;
@@ -299,11 +297,12 @@ h1 > a:hover {
 .info-person {
   width: 205px;
   margin-left: 35px;
-  margin-top: 35px;
+  margin-bottom: 25px;
   margin-right: 50px;
   text-align: left;
+  vertical-align:center;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: bottom;
 }
 
 .social {
@@ -358,7 +357,7 @@ h1 > a:hover {
 }
 
 .not-found img {
-  border: 1px solid #ccc;
+  border: 1px solid #e2e2e2;
   border-radius: 10px;
   display: block;
   height: auto;
