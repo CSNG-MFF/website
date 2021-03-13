@@ -110,7 +110,6 @@ header {
   text-align: right;
   height: 130px;
   position: relative;
-
 }
 
 .cuni-logo {
@@ -306,7 +305,7 @@ h1 > a:hover {
 }
 
 .social {
-  font-size: 38px;
+  font-size: 36px;
   line-height: 75px;
   text-align: left;
 }
