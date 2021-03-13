@@ -5,7 +5,7 @@ title: people
 
 {% for person in site.data.people %}
 
-<div class="gravatar" style="background-image: url(/assets/img/{{ person.image }})"></div>   
+<div class="gravatar" style="background-image: url(./assets/img/{{ person.image }})"></div>   
 <div class="info-person">
         <b>{{ person.name }} </b> <br /> 
         {{person.role}}  <br />
