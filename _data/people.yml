@@ -1,9 +1,8 @@
 - name: Ján Antolík
   role: Research group leader
   github: antolikjan
-  email: antolik@ksvi.mff.cuni.cz
+  email: antolikjan@gmail.com
   image: Jan_Antolik.jpg
-  twitter: /
   google_scholar: https://scholar.google.com/citations?user=tlR3lH0AAAAJ&hl=en
   website: http://antolik.net/
 
@@ -20,33 +19,21 @@
   github: dberling
   email: berling@ksvi.mff.cuni.cz
   image: Jan_Antolik.jpg
-  twitter: /
-  google_scholar: /
   
-
 - name: Luca Baroni
   role: PhD student
   github: lucabaroni
   email: baroni@ksvi.mff.cuni.cz
   image: Jan_Antolik.jpg
-  twitter: /
-  google_scholar: /
  
-
 - name: Rémy Cagnol
   role: PhD student
   github: RCagnol
   email: cagnol@ksvi.mff.cuni.cz
   image: Remy_Cagnol.jpg
-  twitter: /
-  google_scholar: /
   
-
 - name: Tibor Rózsa
   role: PhD student
   github: rozsatib
   email: rozsa@ksvi.mff.cuni.cz
   image: Jan_Antolik.jpg
-  twitter: /
-  google_scholar: /
-  
