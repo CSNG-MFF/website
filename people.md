@@ -18,7 +18,7 @@ title: people
                         <a href="{{person.google_scholar}}" title="Google Scholar profile"><i class="ai ai-google-scholar-square fa-3x"></i></a>
                 {% endif %}
                 {% if person.twitter %}
-                        <a href="https://sk.linkedin.com/in/antolikjan" title="Connect with me on Twitter"><i class="icon-twitter"></i></a>
+                        <a href="https://twitter.com/{{person.twitter}}" title="Connect with me on Twitter"><i class="icon-twitter"></i></a>
                 {% endif %}
         </div>
 </div>
