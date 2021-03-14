@@ -20,6 +20,9 @@ title: people
                 {% if person.twitter %}
                         <a href="https://twitter.com/{{person.twitter}}" title="Connect with me on Twitter"><i class="icon-twitter"></i></a>
                 {% endif %}
+                {% if person.linkedin %}
+                        <a href="https://linkedin.com/in/{{person.linkedin}}" title="Connect with me on Linkedin"><i class="icon-linkedin-squared"></i></a>
+                {% endif %}
         </div>
 </div>
 {% endfor %}
