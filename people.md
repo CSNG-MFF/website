@@ -7,7 +7,11 @@ title: people
 
 <div class="gravatar" style="background-image: url(./assets/img/{{ person.image }})"></div>   
 <div class="info-person">
-        <b>{{ person.name }} </b> <br /> 
+        {% if person.website %}
+                <a href="{{person.website}}" title="Personal website">{{person.name}}</a>  <br />
+        {% else %}
+                <b>{{ person.name }} </b> <br /> 
+        {% endif %}
         {{person.role}}  <br />
         <a href="mailto:{{person.email}}">{{person.email}}</a> <br />
         <div class="social">
