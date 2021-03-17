@@ -4,7 +4,7 @@ title: index
 description: This is the homepage of the Computational System Neuroscience Group of Charles University, Prague. From here you can find our information about our research projects, software, publications, and project proposals.
 ---
 
-We are the Computational Systems Neuroscience Group, led by Ján Antolík at Charles University, Prague. The main goal of our research is to identify computations implemented in the neural system that underly l perception.
+We are the Computational Systems Neuroscience Group, led by Ján Antolík at Charles University, Prague. The main goal of our research is to identify computations implemented in the neural system that underly visual perception.
 
 Building on previous work of Ján Antolík, we further develop the <a href="https://www.biorxiv.org/content/10.1101/416156v4">model of cat primary visual cortex</a> and use it to study various questions of basic and applied neuroscience:
 
