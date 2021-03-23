@@ -16,7 +16,7 @@ title: Research
 
 Would you like to contribute to our research? This is a list of projects available for interested students.
 Most are designed to be completed within 3 to 6 month, but some can be expanded into longer projects even
-full PhD scope. If you are interested in working on any of the projects please [contact Ján Antolík](./index.html).
+full PhD scope. If you are interested in working on any of the projects please contact [Ján Antolík](antolikjan@gmail.com).
 
 #### Computational Neuroscience Projects
 
