@@ -1,21 +1,14 @@
 ---
 layout: default
 title: index
-description: This is the homepage of the Computational System Neuroscience Group of Charles University, Prague. From here you can find our information about our research projects, software, publications, and project proposals.
+description: This is the homepage of the Computational System Neuroscience Group at the Faculty of Mathematics and Physics of Charles University, Prague. From here you can find our information about our research projects, software, publications, and project proposals.
 ---
 
-We are the Computational Systems Neuroscience Group, led by Ján Antolík at Charles University, Prague. The main goal of our research is to identify computations implemented in the neural system that underly visual perception.
+We are the Computational Systems Neuroscience Group based at the [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/) of [Charles University](https://cuni.cz/), Prague. 
 
-Building on previous work of Ján Antolík, we further develop the <a href="https://www.biorxiv.org/content/10.1101/416156v4">model of cat primary visual cortex</a> and use it to study various questions of basic and applied neuroscience:
+The main goal of our group is to identify computations implemented in the neural system that underly our sensory perception, as well as applying this knowledge to the design of stimulation protocols for visual prosthetic systems. To that end, we build models of visual system at various levels of abstraction using variety of computational techniques including, but not limited to, machine learning and large-scale biologically plausible spiking neural network simulations. To help us with this endevour, we also develop [Mozaik](/software.html), an open-source framework for rapid prototyping of large-scale neural simulations of sensory system, and automation of the virutal experimental workflow.
 
-- model of optogenetic cortical visual prosthesis
-- model of electrical cortical visual prosthesis (collaboration with Eduardo Fernandez, Universidad Miguel Hernández de Elche, Spain)
-- investigate the function of oscillations in visual processing
-
-
-Developing biologically inspired deep neural networks trained on experimental and simulated data we study how visual information is encoded in neural responses in the early stages of the visual pathway.
-
-Moreover, the group develops [Mozaik](/software.html), an open-source software for for large-scale neural simulation automatizing the workflow from the definition of model and of the experiment specificities, to the execution of the simulation and the data analysis and visualization.
+We collaborate closely with the experimental group of Yves Frégnac, the theoretical group of Alain Destexhe and the neuroinformatics group of Andrew Davison at NeuroPSI, CNRS, France as well as experimental group of Diego Contreras at the University of Pittsburgh.
 
 <div style="margin-top:40px">
     <div style="display:inline-block, width:60%">
