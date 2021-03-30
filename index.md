@@ -7,7 +7,7 @@ description: This is the homepage of the Computational System Neuroscience Group
 
 <div class="charles_uni_picture"></div> 
 
-We are the Computational Systems Neuroscience Group based at the [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/) of [Charles University](https://cuni.cz/), Prague. 
+We are the Computational Systems Neuroscience Group (CSNG) based at the [Faculty of Mathematics and Physics](https://www.mff.cuni.cz/) of [Charles University](https://cuni.cz/), Prague. 
 
 The main goal of our group is to identify computations implemented in the neural system that underly our sensory perception, as well as applying this knowledge to the design of stimulation protocols for visual prosthetic systems. To that end, we build models of visual system at various levels of abstraction using variety of computational techniques including, but not limited to, machine learning and large-scale biologically plausible spiking neural network simulations. To help us with this endevour, we also develop [Mozaik](/software.html), an open-source framework for rapid prototyping of large-scale neural simulations of sensory system, and automation of the virutal experimental workflow.
 

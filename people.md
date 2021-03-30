@@ -31,7 +31,9 @@ title: people
 </div>
 {% endfor %}
 
-### Alumni
+<div style="font-size:25px;">
+        Alumni
+</div>
 
 {% for person in site.data.alumni %}
 
