@@ -3,8 +3,6 @@ layout: default
 title: Positions
 ---
 
-<div class="charles_uni_picture"></div> 
-
 We are always on a lookout for talented and motivated students or junior researchers to join our ranks.
 If our research caught your interest, and your skills fit the focus of the group, feel free to drop us an [email](/index.html). Include a brief description of why you are interested in joining us, and your CV.
 Please have a look [here](/research.html) at an (incomplete) list of examples of available projects.

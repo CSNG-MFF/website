@@ -154,7 +154,7 @@ footer {
   margin-right: auto;
   margin-left: auto;
   width: 100%;
-  height: 500px;
+  height: 450px;
   background-image: url(./../img/mff_malostranske_namesti.jpg);
   border-radius: 25px;
   margin-bottom: 50px;
@@ -182,6 +182,14 @@ footer {
   clear: both;
 }
 
+
+.flex {
+  display: flex;
+}
+
+.flex > * {
+  width: 50%;
+}
 /**
  * Header
  * ==================================================
@@ -293,6 +301,19 @@ h1 > a:hover {
   vertical-align: top;
 }
 
+.alumni {
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 5px;
+  vertical-align: top;
+}
+
 .info-person {
   width: 205px;
   margin-left: 35px;
@@ -304,9 +325,20 @@ h1 > a:hover {
   vertical-align: bottom;
 }
 
+.info-alumni {
+  width: 300px;
+  margin-left: 35px;
+  margin-right: 50px;
+  text-align: left;
+  vertical-align:center;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+
 .social {
   font-size: 36px;
-  line-height: 75px;
+  line-height: 63px;
   text-align: left;
 }
 

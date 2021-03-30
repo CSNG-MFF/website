@@ -37,3 +37,15 @@
   github: rozsatib
   email: rozsa@ksvi.mff.cuni.cz
   image: Tibor_Rozsa.jpg
+
+- name: Michaela Vystrčilová
+  role: Student
+  github: Mvystrcilova
+  email: Mvystrcilova1@seznam.cz
+  image: person-icon.png
+
+- name: Stefan Hajduk
+  role: Student
+  github: StefanHajduk
+  email: stefek.hajduk@gmail.com
+  image: Stefan_Hajduk.jpg
