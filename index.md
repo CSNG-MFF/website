@@ -1,7 +1,7 @@
 ---
 layout: default
 title: index
-description: This is the homepage of the Computational System Neuroscience Group at the Faculty of Mathematics and Physics of Charles University, Prague. From here you can find our information about our research projects, software, publications, and project proposals.
+description: This is the homepage of the Computational System Neuroscience Group at the Faculty of Mathematics and Physics of Charles University, Prague. Here you can find our information about our research projects, software, publications, and project proposals.
 ---
 
 
