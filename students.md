@@ -21,6 +21,15 @@ full PhD scope. If you are interested in working on any of the projects please c
 
 #### Machine Learning in Neuroscience
 
+- <a href="javascript:void(0)" onclick="$('#project_EEG').toggle();">Application of state-of-the-art DNN methods on intra-cortical EEG time series.</a>  
+   <small id="project_EEG" class="studentprojectlist" style="display: none;">
+   In this project you will explore novel DNN architectures to predict movement (direction and speed) from intra-cortical ECoG device implamnted in
+   human patients awaiting brain surger for epilepsy. This research contributes towards development of future Brain-Machine-Interface systems for motor
+   function restoration. You will be working with DNN library designed for EEG data analysis, and explore the new DNN architectures to maximize prediction
+   performance. Visualization of the representation that form in DNN and broader EEG data analysis is also part of the project.
+   </small>
+
+
 - <a href="javascript:void(0)" onclick="$('#project_V1power').toggle();">Determining the computational power of detailed spiking model of V1.</a>  
    <small id="project_V1power" class="studentprojectlist" style="display: none;">
    V1 is a complex recurrent dynamical system that operates quite differently from how moder neural network systems do. It however still remains 
