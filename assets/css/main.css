@@ -116,7 +116,7 @@ header {
   background-image: url(./../img/charles_uni_side.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 500px;
+  width: 370px;
   height: 126px;
   /* margin-left: 20px; */
   /* margin-top: 10px; */
@@ -160,27 +160,6 @@ footer {
   margin-bottom: 50px;
 }
 
-
-.column {
-  float: left;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.left {
-  width: 50%;
-}
-
-.right {
-  width: 45.99%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 
 .flex {
