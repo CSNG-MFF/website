@@ -3,7 +3,7 @@
  * ==================================================
  */
 
-html {
+ html {
   font-size: 100%;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
@@ -122,7 +122,7 @@ header {
   /* margin-top: 10px; */
 }
 
-.csng-text{
+.csng-full-text{
   position: absolute;
   font-family: 'Major Mono Display', monospace;
   top: 45px;
@@ -131,6 +131,33 @@ header {
   text-align: right;
   color: #050505;
   font-size: 30px;
+}
+
+.csng-short-text{
+  position: absolute;
+  font-family: 'Major Mono Display', monospace;
+  /* top: 45px;
+  right: 50px;
+  width: 500px; */
+  text-align: left;
+  color: #050505;
+  font-size: 30px;
+  display: none
+}
+
+@media (max-width: 910px) {
+  .cuni-logo {background-image: url(./../img/charles_uni_side_crop.jpg);}
+}
+
+@media (max-width: 715px) {
+  /* .csng-short-text { display: inline-block; }
+  .csng-full-text { display: none; } */
+  .cuni-logo {background-image:none;}
+}
+
+@media (max-width: 500px) {
+  .csng-short-text { display: inline-block; }
+  .csng-full-text { display: none; }
 }
 
 .content {
@@ -246,7 +273,6 @@ h1 > a:hover {
  */
 
 
-
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 .flex-container {
   flex-wrap: wrap;
@@ -269,13 +295,6 @@ h1 > a:hover {
   }
 }
 
-.project-img {
-  flex: 20%;
-}
-
-.project_decription {
-  flex: 70%
-}
 
 .charles_uni_picture {
   max-width: 1000px;
@@ -407,6 +426,41 @@ h1 > a:hover {
   width: 100%;
 }
 
+table {
+  border-spacing: 30px 0px;
+}
+
+@media (max-width: 800px) {
+  table{
+    border-spacing: 0px 0px;
+  }
+}
+
+.img-container{
+  width: 180px;
+}
+
+
+@media (max-width: 800px) {
+  .img-container{
+    width: 80px;
+  }
+}
+
+
+.project-img {
+  float: left;
+  width: 180px;
+}
+
+@media (max-width: 800px) {
+  .project-img{
+    width: 65px;
+  }
+}
+
+
+
 .projectrow {
   vertical-align: center;
   border-spacing: 30px;
@@ -466,23 +520,24 @@ a.creative-commons:hover {
  * ==================================================
  */`
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 800px) {
   .contacts {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .map {
     width: 100%;
   }
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1130px) {
   .container {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     width: auto;
   }
 }
