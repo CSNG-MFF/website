@@ -116,7 +116,7 @@ header {
   background-image: url(./../img/charles_uni_side.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 500px;
+  width: 370px;
   height: 126px;
   /* margin-left: 20px; */
   /* margin-top: 10px; */
@@ -149,47 +149,8 @@ footer {
   text-align: center;
 }
 
-.charles_uni_picture {
-  display: table;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  height: 450px;
-  background-image: url(./../img/mff_malostranske_namesti.jpg);
-  border-radius: 25px;
-  margin-bottom: 50px;
-}
 
 
-.column {
-  float: left;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.left {
-  width: 50%;
-}
-
-.right {
-  width: 45.99%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.flex {
-  display: flex;
-}
-
-.flex > * {
-  width: 50%;
-}
 /**
  * Header
  * ==================================================
@@ -283,6 +244,53 @@ h1 > a:hover {
  * Content
  * ==================================================
  */
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+.flex-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.map {
+  flex: 65%;
+}
+
+.contacts {
+  flex: 30%;
+  margin:50px 25px 25px 25px;
+}
+
+@media (max-width: 600px) {
+  .map, .contacts {
+    flex: 100%;
+    margin:15px 0 0 0;
+  }
+}
+
+.project-img {
+  flex: 20%;
+}
+
+.project_decription {
+  flex: 70%
+}
+
+.charles_uni_picture {
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  object-fit: cover;
+  object-position: 20% 10%;
+}
+
+@media (max-width: 600px) {
+  .charles_uni_picture{
+    margin-bottom: 15px;
+  }
+}
 
 .content p:last-child {
   margin-bottom: 0;
@@ -456,7 +464,20 @@ a.creative-commons:hover {
 /**
  * Responsiveness
  * ==================================================
- */
+ */`
+
+ @media screen and (max-width: 600px) {
+  .contacts {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .map {
+    width: 100%;
+  }
+}
+
 
 @media only screen and (max-width: 767px) {
   .container {
