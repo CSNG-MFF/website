@@ -591,8 +591,8 @@ a.creative-commons:hover {
 
 @media only screen and (max-width: 1130px) {
   .container {
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     margin-bottom: 10px;
     width: auto;
   }
