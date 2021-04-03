@@ -431,15 +431,19 @@ h1 > a:hover {
     background-size: 110px 110px;
     height: 110px;
     width: 110px;
-    margin-bottom: 50px;
-    margin-top: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
   }
   .info-person, .info-alumni{
     height: 110px;
     margin-bottom: 50px;
     margin-right: 0;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-top: 0;
+  }
+  .alumni, .info-alumni {
+    margin-top:25px;
+    margin-bottom: 0px;
   }
 }
 
