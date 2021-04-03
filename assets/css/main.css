@@ -175,12 +175,12 @@ header {
 .csng-short-text{
   position: absolute;
   font-family: 'Major Mono Display', monospace;
-  top: 66px;
-  right: 50px;
-  width: 500px;
+  top: 22px;
+  right: 22px;
+  width: 250px;
   text-align: right;
   color: #050505;
-  font-size: 40px;
+  font-size: 20px;
   display: none
 }
 
@@ -313,9 +313,13 @@ h1 > a:hover {
 }
 
 @media (max-width: 600px) {
-  .map, .contacts {
+  .map {
     flex: 100%;
-    margin:15px 0 0 0;
+    margin: -25px 0 0 0;
+  }
+  .contacts {
+    flex: 100%;
+    margin: 15px 0 0 0;
   }
 }
 
