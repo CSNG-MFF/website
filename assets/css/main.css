@@ -124,33 +124,6 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
-  .navigation-header {padding-right: 25px;}
-  .navigation-menu {
-    padding: 0px;
-    padding-top: -20px;
-  }
-  .navigation-menu a {display: none;}
-  .navigation-menu.responsive {paddding: 0px}
-  .navigation-menu a.icon {
-    display: block;
-    padding-right: 0px;
-  }
-
-  .navigation-menu.responsive a {
-    display: block;
-    text-align: right;
-    font-size: 16px;
-    margin: 7px;
-    /* margin-right: 45px; */
-    margin-right: -2px;;
-
-  }
-}
-
-
-
-
 .cuni-logo {
   background-image: url(./../img/charles_uni_side.png);
   background-repeat: no-repeat;
@@ -188,16 +161,10 @@ header {
   .cuni-logo {background-image: url(./../img/charles_uni_side_crop.jpg);}
 }
 
-@media (max-width: 715px) {
-  /* .csng-short-text { display: inline-block; }
-  .csng-full-text { display: none; } */
-  .cuni-logo {background-image:none;}
-}
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .csng-short-text { display: inline-block; }
   .csng-full-text { display: none; }
-  .cuni-logo {background-image: url(./../img/charles_uni_side_crop.jpg);}
 }
 
 .content {
@@ -291,6 +258,15 @@ h1 > a:hover {
   text-decoration: none;
 }
 
+@media (max-width:900px) {
+  .navigation-menu a {
+    font-size:16px;
+    margin-right: 10px;
+  }
+}
+
+
+
 /**
  * Content
  * ==================================================
@@ -312,7 +288,7 @@ h1 > a:hover {
   margin:50px 25px 25px 25px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .map {
     flex: 100%;
     margin: -25px 0 0 0;
@@ -320,6 +296,30 @@ h1 > a:hover {
   .contacts {
     flex: 100%;
     margin: 15px 0 0 0;
+  }
+  .charles_uni_picture{
+    margin-bottom: 15px;
+  }
+  .navigation-header {padding-right: 25px;}
+  .navigation-menu {
+    padding: 0px;
+    padding-top: -20px;
+  }
+  .navigation-menu a {display: none;}
+  .navigation-menu.responsive {paddding: 0px}
+  .navigation-menu a.icon {
+    display: block;
+    padding-right: 0px;
+  }
+
+  .navigation-menu.responsive a {
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    margin: 7px;
+    /* margin-right: 45px; */
+    margin-right: -2px;;
+
   }
 }
 
@@ -333,11 +333,6 @@ h1 > a:hover {
   object-position: 20% 10%;
 }
 
-@media (max-width: 600px) {
-  .charles_uni_picture{
-    margin-bottom: 15px;
-  }
-}
 
 .content p:last-child {
   margin-bottom: 0;
