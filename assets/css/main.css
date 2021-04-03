@@ -319,7 +319,9 @@ h1 > a:hover {
     margin: 7px;
     /* margin-right: 45px; */
     margin-right: -2px;;
-
+  }
+  .navigation-menu.responsive a:first-child {
+    margin-top: 0px;
   }
 }
 
