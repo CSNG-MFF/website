@@ -97,27 +97,66 @@ header {
   text-align: center;
 }
 
-.navigation {
+.navigation-header {
   color: #bbb;
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
-  font-size: 18px;
   border-radius: 0px 0px 0 65px;
   margin: 0;
   padding:18px;
   padding-left: 25px;
+  padding-bottom: 9px;
   padding-right: 50px;
   text-align: right;
-  height: 130px;
   position: relative;
 }
+
+.navigation-menu {
+  font-size: 18px;
+  margin-top: -12px;
+}
+
+.navigation-menu a:last-child {
+  margin-right: 0;
+}
+
+.navigation-menu .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .navigation-header {padding-right: 25px;}
+  .navigation-menu {
+    padding: 0px;
+    padding-top: -20px;
+  }
+  .navigation-menu a {display: none;}
+  .navigation-menu.responsive {paddding: 0px}
+  .navigation-menu a.icon {
+    display: block;
+    padding-right: 0px;
+  }
+
+  .navigation-menu.responsive a {
+    display: block;
+    text-align: right;
+    font-size: 16px;
+    margin: 7px;
+    /* margin-right: 45px; */
+    margin-right: -2px;;
+
+  }
+}
+
+
+
 
 .cuni-logo {
   background-image: url(./../img/charles_uni_side.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 370px;
   height: 126px;
+  width: 35%;
   /* margin-left: 20px; */
   /* margin-top: 10px; */
 }
@@ -136,7 +175,7 @@ header {
 .csng-short-text{
   position: absolute;
   font-family: 'Major Mono Display', monospace;
-  top: 45px;
+  top: 66px;
   right: 50px;
   width: 500px;
   text-align: right;
@@ -238,34 +277,18 @@ h1 > a:hover {
  * ==================================================
  */
 
-.navigation > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-.navigation > ul > li {
-  display: inline-block;
-  margin-right: 21px;
-}
-
-.navigation > ul > li:last-child {
-  margin-right: 0;
-}
-
-.navigation > ul > li > a {
+.navigation-menu a {
   color: #999;
   font-weight: 700;
   transition: color 0.1s ease-in-out;
+  margin-right: 21px;
 }
 
-.navigation > ul > li > a:hover {
+
+.navigation-menu a:hover {
   color: #25a;
   text-decoration: none;
-}
-
-.navigation > ul > li > a > i {
-  display: none;
 }
 
 /**
@@ -565,37 +588,13 @@ a.creative-commons:hover {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .navigation {
-    font-size: 35px;
-    padding: 20px;
-  }
-
-  .navigation > ul > li {
-    margin-right: 0;
-  }
-
-  .navigation > ul > li > a > i {
-    display: inline-block;
-  }
-
-  .navigation > ul > li > a > span {
-    display: none;
-  }
-
-  .social {
-    font-size: 40px;
-    line-height: 75px;
-  }
-}
-
 @media only screen and (max-width: 400px) {
   .container {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .navigation,
+  .navigation-header,
   .content,
   footer {
     border-left-width: 0;
@@ -613,7 +612,7 @@ a.creative-commons:hover {
     width: 26px;
   }
 
-  .navigation {
+  .navigation-header {
     padding-left: 15px;
     padding-right: 15px;
   }
