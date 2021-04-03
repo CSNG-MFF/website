@@ -307,29 +307,31 @@ h1 > a:hover {
     padding: 0px;
     padding-top: -20px;
     height: 30px;
-    -webkit-transition: height, 0.2s linear;
-    -moz-transition: height, 0.2s linear;
-    -ms-transition: height, 0.2s linear;
-    -o-transition: height, 0.2s linear;
-    transition: height, 0.2s linear;
-  }
-  .navigation-menu a {
-    display:none;
-    height: 0;
-    -webkit-transition: height 0.25s ease-in-out;
-    -moz-transition: height 0.25s ease-in-out;
-    -ms-transition: height 0.25s ease-in-out;
-    -o-transition: height 0.25s ease-in-out;
-    transition: height 0.25s ease-in-out;
-  }
-  .navigation-menu.responsive {
-    padding: 0px;
-    height: 255px;    
     -webkit-transition: height, 0.25s ease-in-out;
     -moz-transition: height, 0.25s ease-in-out;
     -ms-transition: height, 0.25s ease-in-out;
     -o-transition: height, 0.25s ease-in-out;
     transition: height, 0.25s ease-in-out;
+  }
+  .navigation-menu a {
+    display:none;
+    height: 0;
+
+    opacity: 0;
+    -webkit-transition: height 0.25s ease-out, opacity 2s ease;
+    -moz-transition: height 0.25s ease-out, opacity 2s ease;
+    -ms-transition: height 0.25s ease-out, opacity 2s ease;
+    -o-transition: height 0.25s ease-out, opacity 2s ease;
+    transition: height 0.25s ease-out, opacity 2s ease;
+  }
+  .navigation-menu.responsive {
+    padding: 0px;
+    height: 255px;    
+    -webkit-transition: height, 0.25s ease-out;
+    -moz-transition: height, 0.25s ease-out;
+    -ms-transition: height, 0.25s ease-out;
+    -o-transition: height, 0.25s ease-out;
+    transition: height, 0.25s ease-out;
   }
 
   .navigation-menu a.icon {
@@ -341,11 +343,12 @@ h1 > a:hover {
   .navigation-menu.responsive a {
     display: block;
     height: 25px;
-    -webkit-transition: height 0.25s ease-in-out;
-    -moz-transition: height 0.25s ease-in-out;
-    -ms-transition: height 0.25s ease-in-out;
-    -o-transition: height 0.25s ease-in-out;
-    transition: height 0.25s ease-in-out;
+    opacity: 1;
+    -webkit-transition: height 0.25s ease-out, opacity 2s ease;
+    -moz-transition: height 0.25s ease-out, opacity 2s ease;
+    -ms-transition: height 0.25s ease-out, opacity 2s ease;
+    -o-transition: height 0.25s ease-out, opacity 2s ease;
+    transition: height 0.25s ease-out, opacity 2s ease;
 
     font-size: 16px;
     margin: 7px;
