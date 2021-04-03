@@ -304,21 +304,51 @@ h1 > a:hover {
   .navigation-menu {
     padding: 0px;
     padding-top: -20px;
+    height: 30px;
+    -webkit-transition: height, 0.2s linear;
+    -moz-transition: height, 0.2s linear;
+    -ms-transition: height, 0.2s linear;
+    -o-transition: height, 0.2s linear;
+    transition: height, 0.2s linear;
   }
-  .navigation-menu a {display: none;}
-  .navigation-menu.responsive {paddding: 0px}
+  .navigation-menu a {
+    display:none;
+    height: 0;
+    -webkit-transition: height 0.28s linear;
+    -moz-transition: height 0.28s linear;
+    -ms-transition: height 0.28s linear;
+    -o-transition: height 0.28s linear;
+    transition: height 0.28s linear;
+  }
+  .navigation-menu.responsive {
+    padding: 0px;
+    height: 255px;    
+    -webkit-transition: height, 0.2s linear;
+    -moz-transition: height, 0.2s linear;
+    -ms-transition: height, 0.2s linear;
+    -o-transition: height, 0.2s linear;
+    transition: height, 0.2s linear;
+  }
+
   .navigation-menu a.icon {
     display: block;
+    opacity: 1;
     padding-right: 0px;
   }
 
   .navigation-menu.responsive a {
     display: block;
-    text-align: right;
+    height: 25px;
+    -webkit-transition: height 0.28s linear;
+    -moz-transition: height 0.28s linear;
+    -ms-transition: height 0.28s linear;
+    -o-transition: height 0.28s linear;
+    transition: height 0.28s linear;
+
     font-size: 16px;
     margin: 7px;
     /* margin-right: 45px; */
-    margin-right: -2px;;
+    margin-right: -2px;
   }
   .navigation-menu.responsive a:first-child {
     margin-top: 0px;
@@ -334,6 +364,7 @@ h1 > a:hover {
   object-fit: cover;
   object-position: 20% 10%;
 }
+
 
 
 .content p:last-child {
