@@ -289,6 +289,10 @@ h1 > a:hover {
 }
 
 @media (max-width: 750px) {
+  .intro {
+    margin-top:25px;
+  }
+
   .map {
     flex: 100%;
     margin: -25px 0 0 0;
@@ -297,9 +301,7 @@ h1 > a:hover {
     flex: 100%;
     margin: 15px 0 0 0;
   }
-  .charles_uni_picture{
-    margin-bottom: 15px;
-  }
+
   .navigation-header {padding-right: 25px;}
   .navigation-menu {
     padding: 0px;
@@ -365,7 +367,11 @@ h1 > a:hover {
   object-position: 20% 10%;
 }
 
-
+@media (max-width: 750px) {
+  .charles_uni_picture{
+    margin-bottom: 25px;
+  }
+}
 
 .content p:last-child {
   margin-bottom: 0;
@@ -589,7 +595,7 @@ a.creative-commons:hover {
 }
 
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 1100px) {
   .container {
     /* margin-left: 10px;
     margin-right: 10px; */
@@ -650,8 +656,8 @@ a.creative-commons:hover {
   }
 
   .content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .social {
