@@ -3,7 +3,7 @@
  * ==================================================
  */
 
-html {
+ html {
   font-size: 100%;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
@@ -97,32 +97,44 @@ header {
   text-align: center;
 }
 
-.navigation {
+.navigation-header {
   color: #bbb;
   background-color: #fff;
   border-bottom: 1px solid #e2e2e2;
-  font-size: 18px;
   border-radius: 0px 0px 0 65px;
   margin: 0;
   padding:18px;
   padding-left: 25px;
+  padding-bottom: 9px;
   padding-right: 50px;
   text-align: right;
-  height: 130px;
   position: relative;
+}
+
+.navigation-menu {
+  font-size: 18px;
+  margin-top: -12px;
+}
+
+.navigation-menu a:last-child {
+  margin-right: 0;
+}
+
+.navigation-menu .icon {
+  display: none;
 }
 
 .cuni-logo {
   background-image: url(./../img/charles_uni_side.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 500px;
   height: 126px;
+  width: 35%;
   /* margin-left: 20px; */
   /* margin-top: 10px; */
 }
 
-.csng-text{
+.csng-full-text{
   position: absolute;
   font-family: 'Major Mono Display', monospace;
   top: 45px;
@@ -131,6 +143,28 @@ header {
   text-align: right;
   color: #050505;
   font-size: 30px;
+}
+
+.csng-short-text{
+  position: absolute;
+  font-family: 'Major Mono Display', monospace;
+  top: 22px;
+  right: 22px;
+  width: 250px;
+  text-align: right;
+  color: #050505;
+  font-size: 20px;
+  display: none
+}
+
+@media (max-width: 910px) {
+  .cuni-logo {background-image: url(./../img/charles_uni_side_crop.jpg);}
+}
+
+
+@media (max-width: 700px) {
+  .csng-short-text { display: inline-block; }
+  .csng-full-text { display: none; }
 }
 
 .content {
@@ -149,47 +183,8 @@ footer {
   text-align: center;
 }
 
-.charles_uni_picture {
-  display: table;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  height: 450px;
-  background-image: url(./../img/mff_malostranske_namesti.jpg);
-  border-radius: 25px;
-  margin-bottom: 50px;
-}
 
 
-.column {
-  float: left;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-}
-
-.left {
-  width: 50%;
-}
-
-.right {
-  width: 45.99%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-.flex {
-  display: flex;
-}
-
-.flex > * {
-  width: 50%;
-}
 /**
  * Header
  * ==================================================
@@ -249,40 +244,137 @@ h1 > a:hover {
  * ==================================================
  */
 
-.navigation > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-.navigation > ul > li {
-  display: inline-block;
-  margin-right: 21px;
-}
-
-.navigation > ul > li:last-child {
-  margin-right: 0;
-}
-
-.navigation > ul > li > a {
+.navigation-menu a {
   color: #999;
   font-weight: 700;
   transition: color 0.1s ease-in-out;
+  margin-right: 21px;
 }
 
-.navigation > ul > li > a:hover {
+
+.navigation-menu a:hover {
   color: #25a;
   text-decoration: none;
 }
 
-.navigation > ul > li > a > i {
-  display: none;
+@media (max-width:900px) {
+  .navigation-menu a {
+    font-size:16px;
+    margin-right: 10px;
+  }
 }
+
+
 
 /**
  * Content
  * ==================================================
  */
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+.flex-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.map {
+  flex: 65%;
+}
+
+.contacts {
+  flex: 30%;
+  margin:50px 25px 25px 25px;
+}
+
+@media (max-width: 750px) {
+  .intro {
+    margin-top:25px;
+  }
+
+  .map {
+    flex: 100%;
+    margin: -25px 0 0 0;
+  }
+  .contacts {
+    flex: 100%;
+    margin: 15px 0 0 0;
+  }
+
+  .navigation-header {padding-right: 25px;}
+  .navigation-menu {
+    padding: 0px;
+    padding-top: -20px;
+    height: 30px;
+    -webkit-transition: height, 0.25s ease-in-out;
+    -moz-transition: height, 0.25s ease-in-out;
+    -ms-transition: height, 0.25s ease-in-out;
+    -o-transition: height, 0.25s ease-in-out;
+    transition: height, 0.25s ease-in-out;
+  }
+  .navigation-menu a {
+    display:none;
+    height: 0;
+
+    opacity: 0;
+    -webkit-transition: height 0.25s ease-out, opacity 2s ease;
+    -moz-transition: height 0.25s ease-out, opacity 2s ease;
+    -ms-transition: height 0.25s ease-out, opacity 2s ease;
+    -o-transition: height 0.25s ease-out, opacity 2s ease;
+    transition: height 0.25s ease-out, opacity 2s ease;
+  }
+  .navigation-menu.responsive {
+    padding: 0px;
+    height: 255px;    
+    -webkit-transition: height, 0.25s ease-out;
+    -moz-transition: height, 0.25s ease-out;
+    -ms-transition: height, 0.25s ease-out;
+    -o-transition: height, 0.25s ease-out;
+    transition: height, 0.25s ease-out;
+  }
+
+  .navigation-menu a.icon {
+    display: block;
+    opacity: 1;
+    padding-right: 0px;
+  }
+
+  .navigation-menu.responsive a {
+    display: block;
+    height: 25px;
+    opacity: 1;
+    -webkit-transition: height 0.25s ease-out, opacity 2s ease;
+    -moz-transition: height 0.25s ease-out, opacity 2s ease;
+    -ms-transition: height 0.25s ease-out, opacity 2s ease;
+    -o-transition: height 0.25s ease-out, opacity 2s ease;
+    transition: height 0.25s ease-out, opacity 2s ease;
+
+    font-size: 16px;
+    margin: 7px;
+    /* margin-right: 45px; */
+    margin-right: -2px;
+  }
+  .navigation-menu.responsive a:first-child {
+    margin-top: 0px;
+  }
+}
+
+
+.charles_uni_picture {
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  object-fit: cover;
+  object-position: 20% 10%;
+}
+
+@media (max-width: 750px) {
+  .charles_uni_picture{
+    margin-bottom: 25px;
+  }
+}
 
 .content p:last-child {
   margin-bottom: 0;
@@ -327,7 +419,7 @@ h1 > a:hover {
 }
 
 .info-alumni {
-  width: 300px;
+  width: 205px;
   margin-left: 35px;
   margin-right: 50px;
   margin-bottom: 25px;
@@ -337,6 +429,26 @@ h1 > a:hover {
   vertical-align: bottom;
 }
 
+@media  (max-width:600px){
+  .gravatar, .alumni {
+    background-size: 110px 110px;
+    height: 110px;
+    width: 110px;
+    margin: 0px;
+    margin-bottom: 15px;
+  }
+  .info-person, .info-alumni{
+    height: 110px;
+    margin-bottom: 50px;
+    margin-right: 0;
+    margin-left: 25px;
+    margin-top: 0;
+  }
+  .alumni, .info-alumni {
+    margin-top:25px;
+    margin-bottom: 0px;
+  }
+}
 
 .social {
   font-size: 36px;
@@ -399,6 +511,41 @@ h1 > a:hover {
   width: 100%;
 }
 
+table {
+  border-spacing: 30px 0px;
+}
+
+@media (max-width: 800px) {
+  table{
+    border-spacing: 0px 0px;
+  }
+}
+
+.img-container{
+  width: 180px;
+}
+
+
+@media (max-width: 800px) {
+  .img-container{
+    width: 80px;
+  }
+}
+
+
+.project-img {
+  float: left;
+  width: 180px;
+}
+
+@media (max-width: 800px) {
+  .project-img{
+    width: 65px;
+  }
+}
+
+
+
 .projectrow {
   vertical-align: center;
   border-spacing: 30px;
@@ -456,12 +603,29 @@ a.creative-commons:hover {
 /**
  * Responsiveness
  * ==================================================
- */
+ */`
 
-@media only screen and (max-width: 767px) {
+
+
+
+@media screen and (max-width: 800px) {
+  .contacts {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .map {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
   .container {
-    margin-left: 15px;
-    margin-right: 15px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-bottom: 0px;
     width: auto;
   }
 }
@@ -488,37 +652,13 @@ a.creative-commons:hover {
   }
 }
 
-@media only screen and (max-width: 500px) {
-  .navigation {
-    font-size: 35px;
-    padding: 20px;
-  }
-
-  .navigation > ul > li {
-    margin-right: 0;
-  }
-
-  .navigation > ul > li > a > i {
-    display: inline-block;
-  }
-
-  .navigation > ul > li > a > span {
-    display: none;
-  }
-
-  .social {
-    font-size: 40px;
-    line-height: 75px;
-  }
-}
-
 @media only screen and (max-width: 400px) {
   .container {
     margin-left: 0;
     margin-right: 0;
   }
 
-  .navigation,
+  .navigation-header,
   .content,
   footer {
     border-left-width: 0;
@@ -536,14 +676,14 @@ a.creative-commons:hover {
     width: 26px;
   }
 
-  .navigation {
+  .navigation-header {
     padding-left: 15px;
     padding-right: 15px;
   }
 
   .content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .social {
