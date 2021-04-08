@@ -439,6 +439,7 @@ h1 > a:hover {
   }
   .info-person, .info-alumni{
     height: 110px;
+    width: 185px;
     margin-bottom: 50px;
     margin-right: 0;
     margin-left: 25px;
