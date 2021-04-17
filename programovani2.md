@@ -9,3 +9,4 @@ title: Programovani II
 [Slidy 4](https://u.pcloud.link/publink/show?code=XZGTC2XZma7zfOEB6xyAq0QSnvANFfllYLOy) &nbsp; [video](https://u.pcloud.link/publink/show?code=XZFgC2XZuLR4DoeUbDHdcgOSlNCUBkcSoHSk) (24.3.2021) <br>
 [Slidy 5](https://docs.google.com/presentation/d/1xGAPrFu0UJIdTW5t3le6SvO5GpTDYRTOQTVBknIUE9I/edit?usp=sharing) (31.3.2021) <br>
 [Slidey 6](https://u.pcloud.link/publink/show?code=XZ1icWXZpOTFFHFWPiFC7WmlGyb6K4EseAk7) &nbsp; [video](https://u.pcloud.link/publink/show?code=XZQrcWXZfFjEXf81X3VKPHK3E7ebB8PKFI8V) (7.4.2021) <br>
+[Slidty7 ](https://u.pcloud.link/publink/show?code=XZ447DXZkhf7AOWo0a80gfffLmLfnHBWaDAk) &nbsp; [video](https://u.pcloud.link/publink/show?code=XZbz7DXZwBycLEXbfxXqGITv0DBypB8jsUQV) (14.4.2021) <br>
