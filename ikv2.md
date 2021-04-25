@@ -23,7 +23,7 @@ but neural and behavioral learning will also be covered. Starting from school ye
 | 2.4.   |  &nbsp;&nbsp; State holidays |&nbsp;&nbsp;   | 
 | 9.4.   |  &nbsp;&nbsp; Computational modelling: system identification |[\(slides\)](https://u.pcloud.link/publink/show?code=XZLY7DXZpFjoeJJaGqhMqjsebbbBAV7L2VuV)  &nbsp;&nbsp; [\(video\)](https://u.pcloud.link/publink/show?code=XZkY7DXZdefiaVFGGi0MszvaXVG374Pph0mk) | 
 | 16.4.  |  &nbsp;&nbsp; Computational modelling: normative models |[\(slides\)](https://u.pcloud.link/publink/show?code=XZ647DXZvCCwBKJ8qfbJ9RiyWjjjy7TS2pPy) &nbsp;&nbsp; [\(video\)](https://u.pcloud.link/publink/show?code=XZe47DXZYOcpb65nMT7CXIGYUTCO8QjbGR87) | 
-| 23.4.  |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček) | &nbsp;&nbsp;  | 
+| 23.4.  |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZzHoDXZewsFTaRI4VJda6zBWFnHzYvxITnX)  | 
 | 30.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek) | |
 | 7.5.   |  &nbsp;&nbsp; Memory (Kamil Vlček)  | | 
 | 14.5.  |  &nbsp;&nbsp; Computational modelling: dynamical models | |
