@@ -24,12 +24,12 @@ but neural and behavioral learning will also be covered. Starting from school ye
 | 9.4.   |  &nbsp;&nbsp; Computational modelling: system identification |[\(slides\)](https://u.pcloud.link/publink/show?code=XZLY7DXZpFjoeJJaGqhMqjsebbbBAV7L2VuV)  &nbsp;&nbsp; [\(video\)](https://u.pcloud.link/publink/show?code=XZkY7DXZdefiaVFGGi0MszvaXVG374Pph0mk) | 
 | 16.4.  |  &nbsp;&nbsp; Computational modelling: normative models |[\(slides\)](https://u.pcloud.link/publink/show?code=XZ647DXZvCCwBKJ8qfbJ9RiyWjjjy7TS2pPy) &nbsp;&nbsp; [\(video\)](https://u.pcloud.link/publink/show?code=XZe47DXZYOcpb65nMT7CXIGYUTCO8QjbGR87) | 
 | 23.4.  |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZzHoDXZewsFTaRI4VJda6zBWFnHzYvxITnX)  | 
-| 30.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek) | |
-| 7.5.   |  &nbsp;&nbsp; Memory (Kamil Vlček)  | | 
-| 14.5.  |  &nbsp;&nbsp; Computational modelling: dynamical models | |
-| 21.5.  |  &nbsp;&nbsp; Spatial cognition (Kamil Vlček) | | 
-| 28.5.  |  &nbsp;&nbsp; Cognitive theories of multimedia learning (Cyril Brom) | |
-| 4.6.   |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák) | |
+| 30.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZ5zb9XZvwWz8ryJS3LMkhC479DRn7eshl5k) |
+| 7.5.   |  &nbsp;&nbsp; Memory (Kamil Vlček)  | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZfRb9XZWWCLWuC6H6HlTLrJKtiXkzkn3Cj7)  | 
+| 14.5.  |  &nbsp;&nbsp; Computational modelling: dynamical models | canceled due to illness  |
+| 21.5.  |  &nbsp;&nbsp; Spatial cognition (Kamil Vlček) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZ1Rb9XZuIj8WaQHb7F0ML8DeUl6py6NWq4X) | 
+| 28.5.  |  &nbsp;&nbsp; Cognitive theories of multimedia learning (Cyril Brom) |  |
+| 4.6.   |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák) |  |
 
 #### Lab work
 
