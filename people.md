@@ -38,7 +38,7 @@ title: people
 
 {% for person in site.data.alumni %}
 
-<div>
+<div class="alumni-box">
         <div class="alumni" style="background-image: url(./assets/img/{{ person.image }})"></div>   
         <div class="info-alumni">
                 {% if person.website %}
