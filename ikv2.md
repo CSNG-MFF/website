@@ -26,16 +26,16 @@ but neural and behavioral learning will also be covered. Starting from school ye
 | 23.4.  |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZzHoDXZewsFTaRI4VJda6zBWFnHzYvxITnX)  | 
 | 30.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZ5zb9XZvwWz8ryJS3LMkhC479DRn7eshl5k) |
 | 7.5.   |  &nbsp;&nbsp; Memory (Kamil Vlček)  | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZfRb9XZWWCLWuC6H6HlTLrJKtiXkzkn3Cj7)  | 
-| 14.5.  |  &nbsp;&nbsp; Computational modelling: dynamical models | canceled due to illness  |
+| 14.5.  |  &nbsp;&nbsp; Computational modelling: dynamical models | cancelled |
 | 21.5.  |  &nbsp;&nbsp; Spatial cognition (Kamil Vlček) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZ1Rb9XZuIj8WaQHb7F0ML8DeUl6py6NWq4X) | 
-| 28.5.  |  &nbsp;&nbsp; Cognitive theories of multimedia learning (Cyril Brom) |  |
-| 4.6.   |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák) |  |
+| 28.5.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZC7VMXZiBzS2J7y87Rhc6FKHt6MyVP2pDNX) |
+| 4.6.   |  &nbsp;&nbsp; Cognitive theories of multimedia learning (Cyril Brom) |  |
 
 #### Lab work
 
 |--------|------------------------------------------------------------|----|
 |4.3     | &nbsp;&nbsp; Mean field approaches:                                    |[slides](https://u.pcloud.link/publink/show?code=XZrEmBXZHgecb2lGB7So3MC50XbyUS8YUjG7) &nbsp;&nbsp; [video\(part1\)](https://u.pcloud.link/publink/show?code=XZxEmBXZy5x9INqz0WufGjq9Sfl4ufhEJ7ay) &nbsp;&nbsp;  [video\(part2\)](https://u.pcloud.link/publink/show?code=XZEEmBXZG91Rz5mCnw0NQU2olJrhHBSey7GV) &nbsp;&nbsp; [assignment](https://u.pcloud.link/publink/show?code=XZzOmBXZEBquBaMkvxQtKw1A4RP2eXi57Ufk)|
-|TBA     | &nbsp;&nbsp; Development and learning in vision - theoretical session  | &nbsp;&nbsp; |
+|TBA     | &nbsp;&nbsp; Development and learning in vision - theoretical session  |[slides](https://u.pcloud.link/publink/show?code=XZH7VMXZ3DJrORx6wQyhN8IVmbbQzub8iHmX) &nbsp;&nbsp; [video](https://u.pcloud.link/publink/show?code=XZu7VMXZXnjXwHHHGh5BRs0JO1SDJpJna3i7) |
 |TBA     | &nbsp;&nbsp; Development and learning in vision - practical session    | &nbsp;&nbsp; |
 
 <!---
