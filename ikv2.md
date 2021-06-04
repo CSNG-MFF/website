@@ -29,22 +29,12 @@ but neural and behavioral learning will also be covered. Starting from school ye
 | 14.5.  |  &nbsp;&nbsp; Computational modelling: dynamical models | cancelled |
 | 21.5.  |  &nbsp;&nbsp; Spatial cognition (Kamil Vlček) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZ1Rb9XZuIj8WaQHb7F0ML8DeUl6py6NWq4X) | 
 | 28.5.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák) | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZC7VMXZiBzS2J7y87Rhc6FKHt6MyVP2pDNX) |
-| 4.6.   |  &nbsp;&nbsp; Cognitive theories of multimedia learning (Cyril Brom) |  |
+| 4.6.   |  &nbsp;&nbsp; Cognitive theories of multimedia learning (Cyril Brom) | [\(video\)](https://u.pcloud.link/publink/show?code=XZr6RMXZzd5pBkY5vAFVzRlKA1XEY0HJbrT7) |
 
 #### Lab work
 
 |--------|------------------------------------------------------------|----|
 |4.3     | &nbsp;&nbsp; Mean field approaches:                                    |[slides](https://u.pcloud.link/publink/show?code=XZrEmBXZHgecb2lGB7So3MC50XbyUS8YUjG7) &nbsp;&nbsp; [video\(part1\)](https://u.pcloud.link/publink/show?code=XZxEmBXZy5x9INqz0WufGjq9Sfl4ufhEJ7ay) &nbsp;&nbsp;  [video\(part2\)](https://u.pcloud.link/publink/show?code=XZEEmBXZG91Rz5mCnw0NQU2olJrhHBSey7GV) &nbsp;&nbsp; [assignment](https://u.pcloud.link/publink/show?code=XZzOmBXZEBquBaMkvxQtKw1A4RP2eXi57Ufk)|
-|TBA     | &nbsp;&nbsp; Development and learning in vision - theoretical session  |[slides](https://u.pcloud.link/publink/show?code=XZH7VMXZ3DJrORx6wQyhN8IVmbbQzub8iHmX) &nbsp;&nbsp; [video](https://u.pcloud.link/publink/show?code=XZu7VMXZXnjXwHHHGh5BRs0JO1SDJpJna3i7) |
-|TBA     | &nbsp;&nbsp; Development and learning in vision - practical session    | &nbsp;&nbsp; |
+|28.5.     | &nbsp;&nbsp; Development and learning in vision - theoretical session  |[slides](https://u.pcloud.link/publink/show?code=XZH7VMXZ3DJrORx6wQyhN8IVmbbQzub8iHmX) &nbsp;&nbsp; [video](https://u.pcloud.link/publink/show?code=XZu7VMXZXnjXwHHHGh5BRs0JO1SDJpJna3i7) |
+|4.6.     | &nbsp;&nbsp; Development and learning in vision - practical session    | [video](https://u.pcloud.link/publink/show?code=XZOERMXZUyKExO6TNhHrGGF3RL0XjJ9ojiQ7) &nbsp;&nbsp; [assignement](https://u.pcloud.link/publink/show?code=XZyORMXZmurN2zCIpu8r49N1fdHTmkdmhJo7)  &nbsp;&nbsp;[model file](https://u.pcloud.link/publink/show?code=XZyORMXZmurN2zCIpu8r49N1fdHTmkdmhJo7)|
 
-<!---
-#### Friday sessions (11:00 - 12:30)
-
-|--------|-------------------------------------------|----|
-| 27.3. |  &nbsp;&nbsp; Topographica modelling excercise session 1 | &nbsp;&nbsp; [slides](../assets/slides/LabWork.zip) |
-| 3.4. |  &nbsp;&nbsp; Topographica modelling excercise session 2 | |
-| 17.4. |  &nbsp;&nbsp; Topographica modelling excercise session 3 | |
-| 24.4. |  &nbsp;&nbsp; Topographica modelling excercise session 4 | |
-
--->
