@@ -66,6 +66,13 @@ full PhD scope. If you are interested in working on any of the projects please c
   on V1 processing is a possible future extension of the project.
   </small>
 
+- <a href="javascript:void(0)" onclick="$('#project_unified').toggle();">Unified model of cat primary visual cortex.</a>  
+   <small id="project_unified" class="studentprojectlist" style="display: none;">
+  We have recently constructed a detailed large-scale [model](https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf) of cat primary visual cortex.
+  Since, we have expanded the model in different directions in several followup studies: [addition of cortico-thalamic loop](http://www.theses.fr/2018USPCB083), [simulation of proshetic vision](https://www.nature.com/articles/s41598-021-88960-8) , and [exploration of conductance dynamics]().
+  The goal of this project is to unify the existing models into single model instance and demonstrate that it can reproduce all the findings shown in the inidividual previous studies.
+  </small>
+
 
 - <a href="javascript:void(0)" onclick="$('#project2').toggle();">Embedding of detailed compartmental neuron models into large-scale model of V1.</a>  
    <small id="project2" class="studentprojectlist" style="display: none;">
@@ -105,7 +112,7 @@ full PhD scope. If you are interested in working on any of the projects please c
 
 #### Models of neural system development
 
-- <a href="javascript:void(0)" onclick="$('#project_body').toggle();">Biologically plausible model of body representation development.</a>  
+- <a href="javascript:void(0)" onclick="$('#project_body').toggle();">Biologically plausible model of body representation development (in collaboration with the robotics group of Matej Hoffman, CVUT).</a>  
    <small id="project_body" class="studentprojectlist" style="display: none;">
   This project is performed in tight collaboration with the robotics group of [Matej Hoffman](https://sites.google.com/site/matejhof/home).
   The goal of this project is to explain how body representations can be learned in humanoid robots during
