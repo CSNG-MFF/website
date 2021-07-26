@@ -9,8 +9,7 @@ Please have a look [here](/research.html) at an (incomplete) list of examples of
 We also welcome students with their own project ideas, as long as they are aligned with the
 resarch focus of the group.
 
-Currently, _we do not have fully funded positions available_, however, below is a list of funding
-possibilities that you could pursue:
+Currently, _we do not have fully funded positions available_, however, below is a list of funding possibilities that you could pursue:
 
 ### PhD funding
 
@@ -30,9 +29,11 @@ possibilities that you could pursue:
 - The Faculty of Mathematics and Physics makes calls for visiting post-doctoral fellows with similar conditions. These calls are irregular, contact
   me for the current status.
 
-- We can help you write a project for the [Marie Skłodowska-Curie Individual Fellowship](https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en).
+- We can help you write a project for the [Marie Skłodowska-Curie Postdoctoral Fellowship](https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en). 
+As Czech Republic is one of the Widening Countries, there are additional Widening Fellowships available within the MSCA-PF calls, as well as Czech national funding of the 
+applications with high evaluation but no funding. This significantly increase the chance of the application being funded.
 
-### Country specific funding
+### Bilateral funding
 
 - For students from France: [Barrande Funding Scheme](https://studium.ifp.cz/en/doctorants/barrande-fellowship-program/?fbclid=IwAR3r-ISWEpvANAmC5b5wdR7S4HKg54JphDiTXnJ1sL6C22REYRs8bnbwE7A)
 
