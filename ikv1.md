@@ -39,15 +39,15 @@ Psychological experiment assignemnt is [here](https://osf.io/d42v3/).
 ### Lecture overview and slides
 
 |--------|-------------------------------------------|----|
-|1.10. |  &nbsp;&nbsp; Ján Antolík - Introduction (S4,S8: 10:40-13:50) | &nbsp;&nbsp;  &nbsp;  |
-|8.10. |  &nbsp;&nbsp; Ján Antolík - Neurons - Biology (S4,S8: 10:40-13:50) | &nbsp;&nbsp; &nbsp;  |
-|15.10.|  &nbsp;&nbsp;  Ján Antolík - Neurons - Models (S4,S8: 10:40-13:50) |&nbsp;&nbsp;   &nbsp;   |
-|22.10.|  &nbsp;&nbsp;  Ján Antolík - Neural coding (S4: 10:40-12:10), Filip Dechterenko - Seminar I (S8: 12:20-13:50) | &nbsp;  &nbsp; &nbsp; |
-|29.10.|  &nbsp;&nbsp;  Ján Antolík - test (S4: 19:40-12:10), Cortical architecture  (S8: 12:20-13:50) |&nbsp;  &nbsp; |
-|5.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System (S4,S8: 10:40-13:50) |&nbsp;&nbsp; &nbsp; |
-|19.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I (S4,S8: 10:40-13:50) |&nbsp;&nbsp; &nbsp;|
-|26.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II (S4,S8: 10:40-13:50) |&nbsp;&nbsp; |
-|3.12.|  &nbsp;&nbsp;  Filip Dechterenko - Seminar II (S4,S8: 10:40-13:50) |&nbsp;&nbsp;  &nbsp;&nbsp; |
-|10.12.|  &nbsp;&nbsp;  Matej Hoffman - Motor system (S4,S8: 10:40-13:50) |&nbsp;&nbsp; |
-|17.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology III (S4,S8: 10:40-13:50) |&nbsp;&nbsp;| 
-|7.1.  |  &nbsp;&nbsp; Filip Dechterenko - Seminar III (S4,S8: 10:40-13:50) ||
+|1.10. |  &nbsp;&nbsp; Ján Antolík - Introduction (S4: 9:00-12:10) | &nbsp;&nbsp;  &nbsp;  |
+|8.10. |  &nbsp;&nbsp; Ján Antolík - Neurons - Biology (S4: 9:00-12:10) | &nbsp;&nbsp; &nbsp;  |
+|15.10.|  &nbsp;&nbsp;  Ján Antolík - Neurons - Models (S4: 9:00-12:10) |&nbsp;&nbsp;   &nbsp;   |
+|22.10.|  &nbsp;&nbsp;  Ján Antolík - Neural coding (S4: 9:00-12:10), Filip Dechterenko - Seminar I (S8: 12:20-13:50) | &nbsp;  &nbsp; &nbsp; |
+|29.10.|  &nbsp;&nbsp;  Ján Antolík - test (S4: 9:00-12:10), Cortical architecture  (S8: 12:20-13:50) |&nbsp;  &nbsp; |
+|5.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System (S4: 9:00-12:10) |&nbsp;&nbsp; &nbsp; |
+|19.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I (S4: 9:00-12:10) |&nbsp;&nbsp; &nbsp;|
+|26.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II (S4: 9:00-12:10) |&nbsp;&nbsp; |
+|3.12.|  &nbsp;&nbsp;  Filip Dechterenko - Seminar II (S4: 9:00-12:10) |&nbsp;&nbsp;  &nbsp;&nbsp; |
+|10.12.|  &nbsp;&nbsp;  Matej Hoffman - Motor system (S4: 9:00-12:10) |&nbsp;&nbsp; |
+|17.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology III (S4: 9:00-12:10) |&nbsp;&nbsp;| 
+|7.1.  |  &nbsp;&nbsp; Filip Dechterenko - Seminar III (S4: 9:00-12:10) |&nbsp;&nbsp;|
