@@ -45,8 +45,8 @@ Psychological experiment assignemnt is [here](https://osf.io/d42v3/).
 |1.10. |  &nbsp;&nbsp; Ján Antolík - Introduction (S4: 9:00-12:10) | &nbsp;&nbsp;  &nbsp;  |
 |8.10. |  &nbsp;&nbsp; Ján Antolík - Neurons (Biology) (S4: 9:00-12:10) | &nbsp;&nbsp; &nbsp;  |
 |15.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) (S4: 9:00-12:10) |&nbsp;&nbsp;   &nbsp;   |
-|22.10.|  &nbsp;&nbsp;  Ján Antolík - Neural coding (S4: 9:00-12:10), Filip Dechterenko - Seminar I (S8: 12:20-13:50) | &nbsp;  &nbsp; &nbsp; |
-|29.10.|  &nbsp;&nbsp;  Ján Antolík - test (S4: 9:00-12:10), Cortical architecture  (S8: 12:20-13:50) |&nbsp;  &nbsp; |
+|22.10.|  &nbsp;&nbsp;  Ján Antolík - Neural coding (S4: 9:00-12:10), Filip Dechterenko - Seminar I  | &nbsp;  &nbsp; &nbsp; |
+|29.10.|  &nbsp;&nbsp;  Ján Antolík - test (S4: 9:00-10:30), Cortical architecture (S4: 9:00-10:30)  |&nbsp;  &nbsp; |
 |5.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System (S4: 9:00-12:10) |&nbsp;&nbsp; &nbsp; |
 |19.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I (S4: 9:00-12:10) |&nbsp;&nbsp; &nbsp;|
 |26.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II (S4: 9:00-12:10) |&nbsp;&nbsp; |
