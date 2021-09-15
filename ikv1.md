@@ -9,17 +9,20 @@ title: Informatics and Cognitive Science
 This course represents an introduction into the subjects of computational neuroscience and cognitive psychology. The first semester focuses on basics of 
 neural computation, including canonical models of neurons, architecture of cortical circuitry and its function and information processing
 in neural substrate. This basic knowledge is then built upon to introduce students to principles of cognition in several example systems,
-including vision and motor system.
+including vision and motor system. This course is taught by multiple experts in the respective sub-disciplines (see list of lectures below)
 
 If you wish to gain better insight into latest developments in computational neuroscience consider joining also our 
 Computational Neuroscience Seiminar [NAIL128](https://is.cuni.cz/studium/predmety/index.php?id=e34f2b1b8f3413965755b49c30c63187&tid=&do=predmet&kod=NAIL128) 
 running in parallel.
 
-### Requirements
+### Requirements for passing the course
 
 1) A computational modelling task <br>
 2) A psychological experiment <br>
 3) Written test: Required reading: [Bear book](https://www.amazon.com/Neuroscience-Exploring-Mark-F-Bear/dp/0781760038), available in library, chapters 1-5. <br>
+
+You will get a grade for each of the three tasks, and the final grade will be calculated as the arhitmetic mean of the three partial grades.
+Specific info on 1 and 2 will appear here later in the semester.
 
 <!--
 ### Participation in experiment
@@ -40,8 +43,8 @@ Psychological experiment assignemnt is [here](https://osf.io/d42v3/).
 
 |--------|-------------------------------------------|----|
 |1.10. |  &nbsp;&nbsp; Ján Antolík - Introduction (S4: 9:00-12:10) | &nbsp;&nbsp;  &nbsp;  |
-|8.10. |  &nbsp;&nbsp; Ján Antolík - Neurons - Biology (S4: 9:00-12:10) | &nbsp;&nbsp; &nbsp;  |
-|15.10.|  &nbsp;&nbsp;  Ján Antolík - Neurons - Models (S4: 9:00-12:10) |&nbsp;&nbsp;   &nbsp;   |
+|8.10. |  &nbsp;&nbsp; Ján Antolík - Neurons (Biology) (S4: 9:00-12:10) | &nbsp;&nbsp; &nbsp;  |
+|15.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) (S4: 9:00-12:10) |&nbsp;&nbsp;   &nbsp;   |
 |22.10.|  &nbsp;&nbsp;  Ján Antolík - Neural coding (S4: 9:00-12:10), Filip Dechterenko - Seminar I (S8: 12:20-13:50) | &nbsp;  &nbsp; &nbsp; |
 |29.10.|  &nbsp;&nbsp;  Ján Antolík - test (S4: 9:00-12:10), Cortical architecture  (S8: 12:20-13:50) |&nbsp;  &nbsp; |
 |5.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System (S4: 9:00-12:10) |&nbsp;&nbsp; &nbsp; |

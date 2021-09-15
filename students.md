@@ -18,7 +18,7 @@ Would you like to contribute to our research? This is a list of projects availab
 Most are designed to be completed within 3 to 6 month, but some can be expanded into longer projects, even
 full PhD scope. If you are interested in working on any of the projects please contact [Ján Antolík](antolikjan@gmail.com).
 
-If you want to get to know us before you commit, stop by at the Computational neuroscience seminar (<a href="https://is.cuni.cz/studium/predmety/index.php?id=e34f2b1b8f3413965755b49c30c63187&tid=&do=predmet&kod=NAIL128">NAIL128</a>) and have a chat with us.
+If you want to get to know us, stop by at the Computational neuroscience seminar (<a href="https://is.cuni.cz/studium/predmety/index.php?id=e34f2b1b8f3413965755b49c30c63187&tid=&do=predmet&kod=NAIL128">NAIL128</a>) and have a chat with us.
 
 #### Machine Learning in Neuroscience
 
