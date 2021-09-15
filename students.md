@@ -9,7 +9,7 @@ title: Research
 - <a href="./programovani2.html"><span>NPRG031: Cvičení z Programování II</span></a>
 - <a href="./ikv1.html"><span>NAIL087: Informatics and Cognitive Science I</span></a>
 - <a href="./ikv2.html"><span>NAIL088: Informatics and Cognitive Science II</span></a>
-
+- <a href="https://is.cuni.cz/studium/predmety/index.php?id=e34f2b1b8f3413965755b49c30c63187&tid=&do=predmet&kod=NAIL128"><span>NAIL128: Computational neuroscience seminar</span></a>
 <br>
 
 ## Available student projects
@@ -18,6 +18,7 @@ Would you like to contribute to our research? This is a list of projects availab
 Most are designed to be completed within 3 to 6 month, but some can be expanded into longer projects, even
 full PhD scope. If you are interested in working on any of the projects please contact [Ján Antolík](antolikjan@gmail.com).
 
+If you want to get to know us before you commit, stop by at the Computational neuroscience seminar (<a href="https://is.cuni.cz/studium/predmety/index.php?id=e34f2b1b8f3413965755b49c30c63187&tid=&do=predmet&kod=NAIL128">NAIL128</a>) and have a chat with us.
 
 #### Machine Learning in Neuroscience
 
@@ -30,16 +31,16 @@ full PhD scope. If you are interested in working on any of the projects please c
    </small>
 
 
-- <a href="javascript:void(0)" onclick="$('#project_V1power').toggle();">Determining the computational power of detailed spiking model of V1.</a>  
+- <a href="javascript:void(0)" onclick="$('#project_V1power').toggle();">Determining the computational power of detailed spiking models of biological vision.</a>  
    <small id="project_V1power" class="studentprojectlist" style="display: none;">
-   V1 is a complex recurrent dynamical system that operates quite differently from how moder neural network systems do. It however still remains 
+   Primary visual cortex is a complex recurrent dynamical system that operates quite differently from how moder neural network systems do. It however still remains 
    unclear how does a biological V1 compare in its computational power to the state-of-the-art DNN systems for image analysis. In this project you
    will take our <a href="./research.html">large-scale biologically dietailed spiking network model </a> of cat primary visual cortex (V1) and prepend
    it to an existing state-of-the-art DNN system as its first stage of processing. You will then train both the original DNN and the new hybrid system
    on an image categorization benchmark and analyze the difference between the performance of the two systems.
    </small>
 
-- <a href="javascript:void(0)" onclick="$('#project_RF').toggle();">Characterizing computations in a large-scale recurrent spiking network model of primary visual cortex using state-of-the art DNN approaches.</a>  
+- <a href="javascript:void(0)" onclick="$('#project_RF').toggle();">Characterizing computations in a model of biological vision using state-of-the art DNN approaches.</a>  
    <small id="project_RF" class="studentprojectlist" style="display: none;">
   We have recently constructed a detailed large-scale [model](https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf) of cat primary visual cortex.
   One of the major approaches for characterizing the functional properties of sensory neurons is called system indetification, wherby one applies machine learning
@@ -49,7 +50,7 @@ full PhD scope. If you are interested in working on any of the projects please c
   but also identify limitations in current DNN architectures to improve their ability to identify the encoding in the biological visual system.
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project11').toggle();">Deep biologically structured system identification approaches for studying primary visual cortex function.</a>  
+- <a href="javascript:void(0)" onclick="$('#project11').toggle();">Deep biologically structured system identification approaches for studying computation in biological vision.</a>  
    <small id="project11" class="studentprojectlist" style="display: none;">
   A common approach for studying the function of early sensory systems is to determine the relationship between sensory inputs and associated (experimentally recorded) neural responses. In the past, mostly linear \[[1](http://www.ncbi.nlm.nih.gov/pubmed/12938771)\], or shallow non-linear techniques were utilized, leading to limited predictive and consequently explanatory power of models fitted in this way. More recently, the popular deep convolutional architectures were successfully tested on the neural data \[[2](https://arxiv.org/abs/1711.02653),[3](https://doi.org/10.1101/201764)\]. These general, machine-learning motivated models ,however, ignore the known anatomical and functional architecture of visual system. Recently, we have presented a multi-stage model of V1 which reflected some of the most prominent features of the retino-cortical pathway \[[4](https://doi.org/10.1371/journal.pcbi.1004927)\], and demonstrated that such incorporation of V1 biology can improve performance in comparison to state-of-the-art models. In this project we will built upon these early results, and develop novel deep-architectures inspired by the deep convolutional networks, but enriched by biologically inspired elements. The student will be responsible for designing, implementing and subsequently testing the new models on neural population recordings from cat primary visual cortex. This project will be undertaken in collaboration with experimental lab of Yves Fregnac, CNRS, France, and computational lab of Dan Butts, University of Maryland. Prior experience in machine learning is a plus.
   </small>
@@ -57,7 +58,7 @@ full PhD scope. If you are interested in working on any of the projects please c
 
 #### Spiking Network Models of Visual System
 
-- <a href="javascript:void(0)" onclick="$('#project_macaque').toggle();">Model of Macaque V1.</a>  
+- <a href="javascript:void(0)" onclick="$('#project_macaque').toggle();">Model of monkey visual system.</a>  
    <small id="project_macaque" class="studentprojectlist" style="display: none;">
   We have recently constructed a detailed large-scale [model](https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf) of cat primary visual cortex.
   Along with cat, macaque is the most common animal model in which vision in higher mammals is studied. Recently, a comprehensive
@@ -66,7 +67,7 @@ full PhD scope. If you are interested in working on any of the projects please c
   on V1 processing is a possible future extension of the project.
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project_unified').toggle();">Unified model of cat primary visual cortex.</a>  
+- <a href="javascript:void(0)" onclick="$('#project_unified').toggle();">Unified model of cat visual system.</a>  
    <small id="project_unified" class="studentprojectlist" style="display: none;">
   We have recently constructed a detailed large-scale [model](https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf) of cat primary visual cortex.
   Since, we have expanded the model in different directions in several followup studies: [addition of cortico-thalamic loop](http://www.theses.fr/2018USPCB083), [simulation of proshetic vision](https://www.nature.com/articles/s41598-021-88960-8) , and [exploration of conductance dynamics]().
@@ -74,7 +75,7 @@ full PhD scope. If you are interested in working on any of the projects please c
   </small>
 
 
-- <a href="javascript:void(0)" onclick="$('#project2').toggle();">Embedding of detailed compartmental neuron models into large-scale model of V1.</a>  
+- <a href="javascript:void(0)" onclick="$('#project2').toggle();">Embedding of detailed compartmental neuron models into large-scale model of primary visual cortex.</a>  
    <small id="project2" class="studentprojectlist" style="display: none;">
   One of the ongoing projects in our group is development of <a href="./research.html">large-scale integrative model </a> of cat primary visual cortex (V1).
   This model is based on the <a href="http://www.scholarpedia.org/article/Adaptive_exponential_integrate-and-fire_model">Adaptive-Exponential Leaky Integrate and Fire</a>
@@ -84,7 +85,7 @@ full PhD scope. If you are interested in working on any of the projects please c
   V1 simulation, focusing on properties influenced by the neuron's geometry.
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project10').toggle();">Stimulation protocols for cortical visual prosthesis.</a>  
+- <a href="javascript:void(0)" onclick="$('#project10').toggle();">Stimulation protocols for vision restoration using brain-machine-interface.</a>  
    <small id="project10" class="studentprojectlist" style="display: none;">
   Recently we have applied the large-scale models developed in our team to the problem of cortical visual prosthesis. New approach to sensory prosthetics is being developed,
   wherby the the cortex is stimulated via opto-genetic tools, which are being translated from mice to higher-order mammals including primates. While all the technological components
@@ -162,7 +163,7 @@ full PhD scope. If you are interested in working on any of the projects please c
 
 #### Software engineering projects
 
-- <a href="javascript:void(0)" onclick="$('#project5').toggle();">Mozaik data-store module based on object oriented database.</a>  
+- <a href="javascript:void(0)" onclick="$('#project5').toggle();">Data-store module based on object oriented database for biological neural network simulator.</a>  
    <small id="project5" class="studentprojectlist" style="display: none;">
   <a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations,
   with a highly modular architecture. One of the core Mozaik modules is a data-store, in which recordings from simulations richly
@@ -172,7 +173,7 @@ full PhD scope. If you are interested in working on any of the projects please c
   [BerkelyDB](http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html) or [CodernityDB](http://labs.codernity.com/codernitydb/).
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project6').toggle();">A model inspection/visualization tool for Mozaik.</a>  
+- <a href="javascript:void(0)" onclick="$('#project6').toggle();">A model inspection/visualization tool for biological neural network simulator.</a>  
    <small id="project6"  class="studentprojectlist" style="display: none;">
   <a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations.
   The [model of primary visual cortex](/research.html) developed in our lab, and implemented in Mozaik, has a complex connectivity structure.
@@ -203,7 +204,7 @@ full PhD scope. If you are interested in working on any of the projects please c
   (3) Expand upon 1 and 2 to build full open science platform similar to OpenWorm project, and build striving community around it.
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project4').toggle();">Graphical user interface for Mozaik datastore and analysis.</a>  
+- <a href="javascript:void(0)" onclick="$('#project4').toggle();">Graphical user interface for biological neural network simulator.</a>  
    <small id="project4" class="studentprojectlist" style="display: none;">
   <a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations.
   Mozaik automatically records data from simulations, annotates it with metadata regarding experimental context, and stores
@@ -214,7 +215,7 @@ full PhD scope. If you are interested in working on any of the projects please c
   visualization routines from Mozaik libraries.  
    </small>
 
-- <a href="javascript:void(0)" onclick="$('#project7').toggle();">Deployment of Mozaik on a HPC platrform.</a>  
+- <a href="javascript:void(0)" onclick="$('#project7').toggle();">Deployment of a biological neural network simulator on a HPC platrform.</a>  
    <small id="project7" class="studentprojectlist" style="display: none;">
   [Mozaik](https://github.com/antolikjan/mozaik) is a an automated workflow for large-scale neural simulations.
   Mozaik depends on a moderate software stack including [PyNN](http://neuralensemble.org/PyNN/) as a simulator independent
