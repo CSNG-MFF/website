@@ -12,7 +12,7 @@ in neural substrate. This basic knowledge is then built upon to introduce studen
 including vision and motor system. This course is taught by multiple experts in the respective sub-disciplines (see list of lectures below)
 
 If you wish to gain better insight into latest developments in computational neuroscience consider joining also our 
-Computational Neuroscience Seiminar [NAIL128](https://is.cuni.cz/studium/predmety/index.php?id=e34f2b1b8f3413965755b49c30c63187&tid=&do=predmet&kod=NAIL128) 
+Computational Neuroscience Seiminar [NAIL128](./compneuroseminar.html) 
 running in parallel.
 
 ### Requirements for passing the course
@@ -42,7 +42,7 @@ Psychological experiment assignemnt is [here](https://osf.io/d42v3/).
 ### Lecture overview and slides
 
 |--------|-------------------------------------------|----|
-|1.10. |  &nbsp;&nbsp; Ján Antolík - Introduction (S4: 9:00-12:10) | &nbsp;&nbsp;  &nbsp;  |
+|1.10. |  &nbsp;&nbsp; Ján Antolík - Introduction (S4: 9:00-12:10) | &nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZL596XZq7B2QPb2AwysOosUpxnYL0iwXYIV)  &nbsp;  |
 |8.10. |  &nbsp;&nbsp; Ján Antolík - Neurons (Biology) (S4: 9:00-12:10) | &nbsp;&nbsp; &nbsp;  |
 |15.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) (S4: 9:00-12:10) |&nbsp;&nbsp;   &nbsp;   |
 |22.10.|  &nbsp;&nbsp;  Ján Antolík - Neural coding (S4: 9:00-10:30), Cortical Architectures (S4: 10:40-12:10),   | &nbsp;  &nbsp; &nbsp; |
