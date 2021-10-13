@@ -113,6 +113,8 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Models of neural system development
 
+
+
 - <a href="javascript:void(0)" onclick="$('#project_body').toggle();">Biologically plausible model of body representation development (in collaboration with the robotics group of Matej Hoffman, CVUT).</a>  
    <small id="project_body" class="studentprojectlist" style="display: none;">
   This project is performed in tight collaboration with the robotics group of [Matej Hoffman](https://sites.google.com/site/matejhof/home).
@@ -131,6 +133,18 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   mechanism, test its impact on map formation in closed-loop system, integrate the resulting model within the humanoid
   robotic system at Hoffman group, and perform experiments to confirm effectiveness of the model and search for bio-morphic
   correlates in the resulting behavior.
+  </small>
+
+- <a href="javascript:void(0)" onclick="$('#project_kaschube').toggle();">Development of long-range correlations in spontaneous activity.</a>  
+  In a recent paper, [Smith et al.](Distributed network interactions and their emergence in developing neocortex) demonstrate that spontaneous activity 
+  in early post-natal V1 in ferrets, before eye opening, is already highly structured with spontaneous spatial correlations that are linked to the
+  orientation maps that develop few days later. Furthermore, it was shown, that no afferent input from thalamus (or retina) is needed for these
+  structure in spontaneous activity to appear. The authors hypothesize, that local maxican-hat-like connectivity that is anysothropic is 
+  sufficent for such correlation patterns to appear. In this project we will verify the hypothesis that the anaysothropy of local connections, which
+  is questionable, is not neccesary if hebbian learning on the cortico-corticl synapses is assumed, and furthermore, such mechanisms can explain
+  further development and refinenement of orientation maps. The goal of this project is to build a firing-rate model with hebbian-learning that 
+  will demonstrate test this hypothesis.
+   <small id="project_kaschube" class="studentprojectlist" style="display: none;">
   </small>
 
 - <a href="javascript:void(0)" onclick="$('#project_dev_ON_OFF').toggle();">Reconciling activity driven development of orientation maps with ON/OFF V1 convergence.</a>  
