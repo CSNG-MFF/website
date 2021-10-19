@@ -3,11 +3,16 @@ layout: default
 title: Positions
 ---
 
+
 We are always on a lookout for talented and motivated students or junior researchers to join our ranks.
 If our research caught your interest, and your skills fit the focus of the group, feel free to drop us an [email](/index.html). Include a brief description of why you are interested in joining us, and your CV.
 Please have a look [here](/research.html) at an (incomplete) list of examples of available projects.
 We also welcome students with their own project ideas, as long as they are aligned with the
 resarch focus of the group.
+
+<div >
+<img class="charles_uni_picture" src="./assets/img/mff_malostranske_namesti_crop.jpg">
+</div> 
 
 Currently, _we do not have fully funded positions available_, however, below is a list of funding possibilities that you could pursue:
 
