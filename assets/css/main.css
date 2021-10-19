@@ -279,18 +279,46 @@ h1 > a:hover {
   display: flex;
 }
 
+.introduction {
+  flex:40%;
+  margin:25px 50px 25px 0px;
+  text-align:justify;
+}
+
+.group_logo {
+  flex: 30%;
+  margin:25px 25px 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brain_logo {
+  width: 100%;
+}
+
 .map {
-  flex: 65%;
+  flex: 60%;
+  margin-right: 25px;
 }
 
 .contacts {
-  flex: 30%;
-  margin:50px 25px 25px 25px;
+  flex: 25%;
+  margin:25px 25px 25px 25px;
 }
+
 
 @media (max-width: 750px) {
   .intro {
     margin-top:25px;
+  }
+  
+  .introduction{
+    margin-right: 0px;
+  }
+
+  .group_logo {
+    display: none;
   }
 
   .map {
