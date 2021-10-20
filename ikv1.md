@@ -44,7 +44,7 @@ Psychological experiment assignemnt is [here](https://osf.io/d42v3/).
 |--------|-------------------------------------------|----|
 |1.10. |  &nbsp;&nbsp; Ján Antolík - Introduction (S4: 9:00-12:10) | &nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZL596XZq7B2QPb2AwysOosUpxnYL0iwXYIV)  &nbsp; [video](https://u.pcloud.link/publink/show?code=XZw4qJXZkOxVefrj06JPWlvjVOzqXp2zdmoy) |
 |8.10. |  &nbsp;&nbsp; Ján Antolík - Neurons (Biology) (S4: 9:00-12:10) | &nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZEbHEXZkwN6g5BNP5uHxYhs06MBD8xWmKVX) &nbsp; [video](https://u.pcloud.link/publink/show?code=XZ6H2FXZXVRcPgsIAjyJLXmXAln20FvxJbC7) |
-|15.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) (S4: 9:00-12:10) |&nbsp;&nbsp;    [video](https://u.pcloud.link/publink/show?code=XZaHBpXZD3YRN1pP3phbQ4ROlIBU6zp3wGjX)   |
+|15.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) (S4: 9:00-12:10) | &nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZhhaFXZPTaHVYu4vt85Ej3PBJ8DhHQDCEHX) &nbsp;&nbsp;    [video](https://u.pcloud.link/publink/show?code=XZaHBpXZD3YRN1pP3phbQ4ROlIBU6zp3wGjX)   |
 |22.10.|  &nbsp;&nbsp;  Ján Antolík - Neural coding (S4: 9:00-10:30), Cortical Architectures (S4: 10:40-12:10),   | &nbsp;  &nbsp;[video1](https://u.pcloud.link/publink/show?code=XZYNCpXZsfSVw2ffemLYwvbBo2U6dXuFU1YV) &nbsp; [video2](https://u.pcloud.link/publink/show?code=XZphNHXZqo33Rb82xe0RNTCiqqG4PbNsKtP7) |
 |29.10.|  &nbsp;&nbsp;  Ján Antolík - test (S4: 9:00-10:30), Filip Dechterenko - Seminar I (S4: 9:00-10:30)  |&nbsp;  &nbsp; |
 |5.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System (S4: 9:00-12:10) |&nbsp;&nbsp; &nbsp; [video](https://u.pcloud.link/publink/show?code=XZPNezXZJyNoMyF4gT5UyLf7u7jRHzpLFqi7) |
