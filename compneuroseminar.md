@@ -25,6 +25,6 @@ To obtain the credit, you must attend at least 10 seminars. It is mandatory to a
 |19.10. | &nbsp;&nbsp; Ján Antolík        | &nbsp;&nbsp; [Distributed network interactions and their emergence in developing neocortex](https://www.nature.com/articles/s41593-018-0247-5)  | &nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZ8lEEXZGxxNtbivnI4yk0qKpYBzHyf18eSX) |
 |26.10. | &nbsp;&nbsp; Remy Cagnol        | &nbsp;&nbsp; [Opposing effects of selectivity and invariance in peripheral vision](https://www.nature.com/articles/s41467-021-24880-5) | &nbsp;&nbsp; |
 |2.11.  | &nbsp;&nbsp; Karolína Korvasová | &nbsp;&nbsp; [Architecture of the Mouse Brain Synaptome](https://www.sciencedirect.com/science/article/pii/S0896627318305816?via%3Dihub) | &nbsp;&nbsp; |
-|9.11.  | &nbsp;&nbsp; Tibor Rózsa        | &nbsp;&nbsp; TBA | &nbsp;&nbsp; |
+|9.11.  | &nbsp;&nbsp; Tibor Rózsa        | &nbsp;&nbsp; [A transcriptomic axis predicts state modulation of cortical interneurons](https://www.biorxiv.org/content/10.1101/2021.10.24.465600v3.full.pdf) | &nbsp;&nbsp; |
 |16.11.  | &nbsp;&nbsp; David Berling     | &nbsp;&nbsp; TBA | &nbsp;&nbsp; |
-|16.11.  | &nbsp;&nbsp; Luca Baroni       | &nbsp;&nbsp; [A flow-based latent state generative model of neural population responses to natural images](https://www.biorxiv.org/content/10.1101/2021.09.09.459570v1) | &nbsp;&nbsp; |
+|23.11.  | &nbsp;&nbsp; Luca Baroni       | &nbsp;&nbsp; [A flow-based latent state generative model of neural population responses to natural images](https://www.biorxiv.org/content/10.1101/2021.09.09.459570v1) | &nbsp;&nbsp; |
