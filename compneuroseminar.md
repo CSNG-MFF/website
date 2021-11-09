@@ -3,7 +3,7 @@ layout: default
 title: Computational neuroscience seminar
 ---
 
-<p style="color:red;">The seminar will take place each Tuesday at 8:30 at Mala Strana in the room 511.</p>
+<p style="color:red;">The seminar will take place each Tuesday at 8:30 at Mala Strana in the room 510.</p>
 
 ### Synopsis
 
