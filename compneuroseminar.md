@@ -28,7 +28,7 @@ To obtain the credit, you must attend at least 10 seminars. It is mandatory to a
 |9.11.  | &nbsp;&nbsp; Tibor Rózsa        | &nbsp;&nbsp; [A transcriptomic axis predicts state modulation of cortical interneurons](https://www.biorxiv.org/content/10.1101/2021.10.24.465600v3.full.pdf) | &nbsp;&nbsp; [slides](https://e.pcloud.link/publink/show?code=XZxiLJZUEoEyw9Qy4YbY22dktaSvp6AfjH7) |
 |16.11.  | &nbsp;&nbsp; CANCELED     | &nbsp;&nbsp; | &nbsp;&nbsp; |
 |23.11.  | &nbsp;&nbsp; CANCELED     | &nbsp;&nbsp; | &nbsp;&nbsp; |
-|30.11.  | &nbsp;&nbsp; CANCELED DUE TO COVID     | &nbsp;&nbsp; | &nbsp;&nbsp; |
+|30.11.  | &nbsp;&nbsp; CANCELED    | DUE TO COVID REASONS | &nbsp;&nbsp; |
 |07.12.  | &nbsp;&nbsp; Jan Šochman    | &nbsp;&nbsp; [Numenta and HTM model](https://numenta.com/) | &nbsp;&nbsp; |
 |14.12.  | &nbsp;&nbsp; David Berling    | &nbsp;&nbsp; [Shape perception via a high-channel-count neuroprosthesis in monkey visual cortex](https://www.science.org/doi/10.1126/science.abd7435) | &nbsp;&nbsp; |
 |11.01.22 | &nbsp;&nbsp; Luca Baroni       | &nbsp;&nbsp; [A flow-based latent state generative model of neural population responses to natural images](https://www.biorxiv.org/content/10.1101/2021.09.09.459570v1) | &nbsp;&nbsp;|
