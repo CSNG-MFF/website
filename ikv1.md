@@ -31,10 +31,12 @@ The experiment will be run by [Filip Děchtěrenko](http://www.ms.mff.cuni.cz/~d
 During october you should receive email with details of the experiment and the date.
 -->
 
-<!--
+
 ### Assignment
 
-Computational analysis homework is [here](https://github.com/fidadoma/etraChallenge_ICS).
+Computational analysis homework is [here](https://osf.io/d42v3/).
+
+<!--
 Psychological experiment assignemnt is [here](https://osf.io/d42v3/).
 -->
 
@@ -48,8 +50,8 @@ Psychological experiment assignemnt is [here](https://osf.io/d42v3/).
 |22.10.|  &nbsp;&nbsp;  Ján Antolík - Neural coding (S4: 9:00-10:30), Cortical Architectures (S4: 10:40-12:10),   | &nbsp;  &nbsp;[video1](https://u.pcloud.link/publink/show?code=XZYNCpXZsfSVw2ffemLYwvbBo2U6dXuFU1YV) &nbsp; [video2](https://u.pcloud.link/publink/show?code=XZphNHXZqo33Rb82xe0RNTCiqqG4PbNsKtP7) |
 |29.10.|  &nbsp;&nbsp;  Ján Antolík - test (S4: 9:00-10:30), Filip Dechterenko - Seminar I (S4: 9:00-10:30)  |&nbsp;  &nbsp; |
 |5.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System (S4: 9:00-12:10) |&nbsp;&nbsp; &nbsp; [video](https://u.pcloud.link/publink/show?code=XZPNezXZJyNoMyF4gT5UyLf7u7jRHzpLFqi7) |
-|19.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I (S4: 9:00-12:10) |&nbsp;&nbsp; &nbsp; [video](https://u.pcloud.link/publink/show?code=XZi2gRXZFLNO1zHvGE0vbXXOs6WU90qGwteV)|
-|26.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II (S4: 9:00-12:10) |&nbsp;&nbsp; [video](https://u.pcloud.link/publink/show?code=XZ7WgRXZqwMd813QDpLjdqlLktPXjH1JOksk) |
+|19.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I (S4: 9:00-12:10) |&nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZrz9AXZaruJ0OSvA64Aqd8CmW0rSBUwOozX) &nbsp; [video](https://u.pcloud.link/publink/show?code=XZi2gRXZFLNO1zHvGE0vbXXOs6WU90qGwteV)|
+|26.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II (S4: 9:00-12:10) |&nbsp; &nbsp; [slides](https://u.pcloud.link/publink/show?code=XZHR9AXZ12LbJ4kGVL8NStPBhyDAS0LtVd3V)     &nbsp; [video](https://u.pcloud.link/publink/show?code=XZ7WgRXZqwMd813QDpLjdqlLktPXjH1JOksk) |
 |3.12.|  &nbsp;&nbsp;  Filip Dechterenko - Seminar II (S4: 9:00-12:10) |&nbsp;&nbsp;  &nbsp;&nbsp; |
 |10.12.|  &nbsp;&nbsp;  Matej Hoffmann - Motor system (S4: 9:00-12:10) |&nbsp;&nbsp; |
 |17.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology III (S4: 9:00-12:10) |&nbsp;&nbsp;[video](https://u.pcloud.link/publink/show?code=XZHf9QXZ5CB42T7xir5qBg0n0ghvd8NjnelX) | 
