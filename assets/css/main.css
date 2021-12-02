@@ -551,7 +551,7 @@ h1 > a:hover {
 }
 
 table {
-  border-spacing: 15px 0px;
+  border-spacing: 10px 0px;
 }
 
 @media (max-width: 800px) {
