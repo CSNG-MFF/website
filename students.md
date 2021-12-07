@@ -22,33 +22,15 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Machine Learning in Neuroscience
 
-- <a href="javascript:void(0)" onclick="$('#project_EEG').toggle();">Application of state-of-the-art DNN methods on intra-cortical EEG time series.</a>  
-   <small id="project_EEG" class="studentprojectlist" style="display: none;">
-   In this project you will explore novel DNN architectures to predict movement (direction and speed) from intra-cortical ECoG device implamnted in
-   human patients awaiting brain surger for epilepsy. This research contributes towards development of future Brain-Machine-Interface systems for motor
-   function restoration. You will be working with DNN library designed for EEG data analysis, and explore the new DNN architectures to maximize prediction
-   performance. Visualization of the representation that form in DNN and broader EEG data analysis is also part of the project.
-   </small>
-
-
 - <a href="javascript:void(0)" onclick="$('#project_V1power').toggle();">Determining the computational power of detailed spiking models of biological vision.</a>  
    <small id="project_V1power" class="studentprojectlist" style="display: none;">
-   Primary visual cortex is a complex recurrent dynamical system that operates quite differently from how moder neural network systems do. It however still remains 
+   Primary visual cortex is a complex recurrent dynamical system that operates quite differently from how modern neural network systems do. It however still remains 
    unclear how does a biological V1 compare in its computational power to the state-of-the-art DNN systems for image analysis. In this project you
    will take our <a href="./research.html">large-scale biologically dietailed spiking network model </a> of cat primary visual cortex (V1) and prepend
    it to an existing state-of-the-art DNN system as its first stage of processing. You will then train both the original DNN and the new hybrid system
    on an image categorization benchmark and analyze the difference between the performance of the two systems.
    </small>
 
-- <a href="javascript:void(0)" onclick="$('#project_RF').toggle();">Characterizing computations in a model of biological vision using state-of-the art DNN approaches.</a>  
-   <small id="project_RF" class="studentprojectlist" style="display: none;">
-  We have recently constructed a detailed large-scale [model](https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf) of cat primary visual cortex.
-  One of the major approaches for characterizing the functional properties of sensory neurons is called system indetification, wherby one applies machine learning
-  techniques to long recordings of neurons responding to sensory stimuli. Many such studies have been undertaken for biological primary visual cortex. In this project, the goal
-  is to analyze our spiking V1 model with the same system identification techniques to compare how neurons in the model encode visual information in comparison to
-  their biological counterparts. This project will both help understand what computations are represented in the state-of-the-art biologically inspired models of V1, 
-  but also identify limitations in current DNN architectures to improve their ability to identify the encoding in the biological visual system.
-  </small>
 
 - <a href="javascript:void(0)" onclick="$('#project11').toggle();">Deep biologically structured system identification approaches for studying computation in biological vision.</a>  
    <small id="project11" class="studentprojectlist" style="display: none;">
@@ -72,6 +54,14 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   We have recently constructed a detailed large-scale [model](https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf) of cat primary visual cortex.
   Since, we have expanded the model in different directions in several followup studies: [addition of cortico-thalamic loop](http://www.theses.fr/2018USPCB083), [simulation of proshetic vision](https://www.nature.com/articles/s41598-021-88960-8) , and [exploration of conductance dynamics]().
   The goal of this project is to unify the existing models into single model instance and demonstrate that it can reproduce all the findings shown in the inidividual previous studies.
+  </small>
+
+- <a href="javascript:void(0)" onclick="$('#project_mozaik_ON_OFF').toggle();">OFF centred thalamic V1 convergence.</a>  
+   <small id="project_mozaik_ON_OFF" class="studentprojectlist" style="display: none;">
+  Recent [work](https://www.nature.com/articles/nature17936) by Alonso Lab has shown that thalamic ON and OFF afferents converging onto neurons in primary visual cortex
+  have a very specific organization, which is OFF dominated, OFF centric and runs orthogonal to ocular dominance columns. Our current <a href="./research.html">large-scale integrative model </a>
+  of V1 does not feature this specific organization of thalamo-cortical afferents. The goal of this project will be to integrate this specific thalamo-cortical convergence
+  into the model, and then analyze the impact of this more specfific connectivity on the functional properties of the model.
   </small>
 
 
@@ -110,10 +100,19 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   <a href="https://www.unic.cnrs-gif.fr/teams/Research%20group%20of%20Yves%20Fr%C3%A9gnac">Yves Frégnac group</a>.
   </small>
 
+- <a href="javascript:void(0)" onclick="$('#project_tw').toggle();">Travelling waves.</a>  
+   <small id="project_tw" class="studentprojectlist" style="display: none;">
+  During spontaneous activity, mammalina cortex exhibits regular spontaneous emergence of waves of activity that travel across the cortical surface.
+  Furthermore, spatially, these waves tend to be correlated with the functional organization across cortical surface. Such highly structured spontaneous
+  activity, present even in low-level sensory cortical areas, has been hypothesized to be linked to such phenomena, as imagination, dreams, formation
+  of long-term memory and other high-level cognitive phenomena. In this project student will explore the presence of such spontaneos waves in our comprehensive model
+  of cat primary visual cortex. He/she will expand the <a href="https://github.com/antolikjan/mozaik">Mozaik</a> framework with the ability to record Local Field Potential
+  type of signal. Perform experiments in which the waves will be recorded and will compare such in-silico generated data to in-vivo data from our international collaborators.
+  </small>
+
+
 
 #### Models of neural system development
-
-
 
 - <a href="javascript:void(0)" onclick="$('#project_body').toggle();">Biologically plausible model of body representation development (in collaboration with the robotics group of Matej Hoffman, CVUT).</a>  
    <small id="project_body" class="studentprojectlist" style="display: none;">
@@ -135,9 +134,8 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   correlates in the resulting behavior.
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project_kaschube').toggle();">
+- <a href="javascript:void(0)" onclick="$('#project_kaschube').toggle();">Development of long-range correlations in spontaneous activity.</a>
    <small id="project_kaschube" class="studentprojectlist" style="display: none;">
-  Development of long-range correlations in spontaneous activity.</a>  
   In a recent paper, [Smith et al.](Distributed network interactions and their emergence in developing neocortex) demonstrate that spontaneous activity 
   in early post-natal V1 in ferrets, before eye opening, is already highly structured with spontaneous spatial correlations that are linked to the
   orientation maps that develop few days later. Furthermore, it was shown, that no afferent input from thalamus (or retina) is needed for these
@@ -245,24 +243,6 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Archive of taken projects
 
-- <a href="javascript:void(0)" onclick="$('#project_mozaik_ON_OFF').toggle();">OFF centred thalamic V1 convergence.</a>  
-   <small id="project_mozaik_ON_OFF" class="studentprojectlist" style="display: none;">
-  Recent [work](https://www.nature.com/articles/nature17936) by Alonso Lab has shown that thalamic ON and OFF afferents converging onto neurons in primary visual cortex
-  have a very specific organization, which is OFF dominated, OFF centric and runs orthogonal to ocular dominance columns. Our current <a href="./research.html">large-scale integrative model </a>
-  of V1 does not feature this specific organization of thalamo-cortical afferents. The goal of this project will be to integrate this specific thalamo-cortical convergence
-  into the model, and then analyze the impact of this more specfific connectivity on the functional properties of the model.
-  </small>
-
-- <a href="javascript:void(0)" onclick="$('#project_tw').toggle();">Travelling waves.</a>  
-   <small id="project_tw" class="studentprojectlist" style="display: none;">
-  During spontaneous activity, mammalina cortex exhibits regular spontaneous emergence of waves of activity that travel across the cortical surface.
-  Furthermore, spatially, these waves tend to be correlated with the functional organization across cortical surface. Such highly structured spontaneous
-  activity, present even in low-level sensory cortical areas, has been hypothesized to be linked to such phenomena, as imagination, dreams, formation
-  of long-term memory and other high-level cognitive phenomena. In this project student will explore the presence of such spontaneos waves in our comprehensive model
-  of cat primary visual cortex. He/she will expand the <a href="https://github.com/antolikjan/mozaik">Mozaik</a> framework with the ability to record Local Field Potential
-  type of signal. Perform experiments in which the waves will be recorded and will compare such in-silico generated data to in-vivo data from our international collaborators.
-  </small>
-
 - <a href="javascript:void(0)" onclick="$('#project_assoc').toggle();">Association field in visual cortex of higher mammals.</a>  
    <small id="project_assoc" class="studentprojectlist" style="display: none;">
   In the visual environment, human observers directly extract continuous contours effortlessly. This could be explained by the existence of lateral
@@ -278,4 +258,22 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 - <a href="javascript:void(0)" onclick="$('#project9').toggle();">Processing of higher order correlations in early visual cortex\: a computational modelling investigation.</a>  
   <small id="project9" class="studentprojectlist" style="display: none;">
   Recent experimental studies have revealed differences in how neurons in primary (V1) and secondary (V2) visual cortices (the first two stages of visual cortical processing) process high-order statistics in visual scenes, indicating emergence of sensitivity to 2nd order correlations in V2 but not V1 neurons \[[1](https://doi.org/10.1038/nn.3402),[2](https://doi.org/10.1016/j.visres.2014.10.004),[3](https://doi.org/10.7554/eLife.03722)\]. However, the neural mechanisms of such sensitivity, and their implementation in biological neural substrate remain unknown. To address this question, we will use detailed large-scale spiking neural network modelling paradigm to formulate hypothesis of neural circuits that can explain such neural functional properties. The student will be responsible for the first stage of longer-term project, in which he will implement a set of specialized visual stimuli as in \[[1](https://doi.org/10.1038/nn.3402)\]. Subsequently, student will test an existing model of V1 using the same experimental paradigm as in \[[1](https://doi.org/10.1038/nn.3402)\] for sensitivity to 2nd order correlations.
+  </small>
+
+- <a href="javascript:void(0)" onclick="$('#project_EEG').toggle();">Application of state-of-the-art DNN methods on intra-cortical EEG time series.</a>  
+   <small id="project_EEG" class="studentprojectlist" style="display: none;">
+   In this project you will explore novel DNN architectures to predict movement (direction and speed) from intra-cortical ECoG device implamnted in
+   human patients awaiting brain surger for epilepsy. This research contributes towards development of future Brain-Machine-Interface systems for motor
+   function restoration. You will be working with DNN library designed for EEG data analysis, and explore the new DNN architectures to maximize prediction
+   performance. Visualization of the representation that form in DNN and broader EEG data analysis is also part of the project.
+   </small>
+
+- <a href="javascript:void(0)" onclick="$('#project_RF').toggle();">Characterizing computations in a model of biological vision using state-of-the art DNN approaches.</a>  
+   <small id="project_RF" class="studentprojectlist" style="display: none;">
+  We have recently constructed a detailed large-scale [model](https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf) of cat primary visual cortex.
+  One of the major approaches for characterizing the functional properties of sensory neurons is called system indetification, wherby one applies machine learning
+  techniques to long recordings of neurons responding to sensory stimuli. Many such studies have been undertaken for biological primary visual cortex. In this project, the goal
+  is to analyze our spiking V1 model with the same system identification techniques to compare how neurons in the model encode visual information in comparison to
+  their biological counterparts. This project will both help understand what computations are represented in the state-of-the-art biologically inspired models of V1, 
+  but also identify limitations in current DNN architectures to improve their ability to identify the encoding in the biological visual system.
   </small>
