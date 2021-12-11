@@ -37,9 +37,8 @@ During october you should receive email with details of the experiment and the d
 - Computational analysis homework is [here](https://osf.io/d42v3/).
 - Psychological experiment assignemnt
    * **Deadline** for consultation of hypothesis for ETRA challenge: **12.12.2021**
-   * Use dechterenko (at) praha (dot) psu (dot) cz and add ETRA to subject
+   * Use dechterenko (at) praha (dot) psu (dot) cas (dot) cz and add ETRA to subject
    * **Deadline** for finished report for ETRA challenge: one week before the exam
-
 
 ### Lecture overview and slides
 
