@@ -4,7 +4,7 @@ title: Computational neuroscience seminar
 ---
 
 <s style="color:red;">The seminar will take place each Tuesday at 8:30 at Mala Strana in the room 510.</s>
-<p style="color:red;">Due to aggravating of the Covid pandemic, the seminar will take place online each Tuesday at 8:30 via Zoom.</p>
+<p style="color:red;">Due to aggravating of the Covid pandemic, the seminar will take place online each Wednesday at 8:30 via Zoom.</p>
 
 ### Synopsis
 
@@ -31,5 +31,7 @@ To obtain the credit, you must attend at least 10 seminars. It is mandatory to a
 |23.11.  | &nbsp;&nbsp; CANCELED DUE TO COVID    | &nbsp;&nbsp; | &nbsp;&nbsp; |
 |30.11.  | &nbsp;&nbsp; CANCELED DUE TO COVID    | &nbsp;&nbsp; | &nbsp;&nbsp; |
 |07.12.  | &nbsp;&nbsp; Jan Šochman    | &nbsp;&nbsp; [Numenta and HTM model](https://numenta.com/) | &nbsp;&nbsp; |
-|14.12.  | &nbsp;&nbsp; David Berling    | &nbsp;&nbsp; [Shape perception via a high-channel-count neuroprosthesis in monkey visual cortex](https://www.science.org/doi/10.1126/science.abd7435) | &nbsp;&nbsp; |
-|11.01.22 | &nbsp;&nbsp; Luca Baroni       | &nbsp;&nbsp; [A flow-based latent state generative model of neural population responses to natural images](https://www.biorxiv.org/content/10.1101/2021.09.09.459570v1) | &nbsp;&nbsp;|
+|12.01.22  | &nbsp;&nbsp; David Berling    | &nbsp;&nbsp; [Shape perception via a high-channel-count neuroprosthesis in monkey visual cortex](https://www.science.org/doi/10.1126/science.abd7435) | &nbsp;&nbsp; |
+|19.01.22 | &nbsp;&nbsp; Martin Picek       | &nbsp;&nbsp;  | &nbsp;&nbsp;|
+|26.01.22 | &nbsp;&nbsp; Luca Baroni       | &nbsp;&nbsp; [A flow-based latent state generative model of neural population responses to natural images](https://www.biorxiv.org/content/10.1101/2021.09.09.459570v1) | &nbsp;&nbsp;|
+|02.02.22 | &nbsp;&nbsp;  Domenico Guarino     | &nbsp;&nbsp;  Connection topology explains the dynamical organization of cortical population events | &nbsp;&nbsp;|
