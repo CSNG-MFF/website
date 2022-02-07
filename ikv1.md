@@ -54,4 +54,5 @@ During october you should receive email with details of the experiment and the d
 |3.12.|  &nbsp;&nbsp;  Filip Dechterenko - Seminar II (S4: 9:00-12:10) |&nbsp;&nbsp; [slides1](https://u.pcloud.link/publink/show?code=XZguvAXZ7Wia7wtGy6ymUvaeULz2574LsPVX)  &nbsp;&nbsp; [slides2](https://u.pcloud.link/publink/show?code=XZxuvAXZuTuEy2bR5SurPI698qzqCjLVgUvy)|
 |10.12.|  &nbsp;&nbsp;  Matej Hoffmann - Motor system (S4: 9:00-12:10) |&nbsp;&nbsp; |
 |17.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology III (S4: 9:00-12:10) |&nbsp;&nbsp;[video](https://u.pcloud.link/publink/show?code=XZHf9QXZ5CB42T7xir5qBg0n0ghvd8NjnelX) | 
-|7.1.  |  &nbsp;&nbsp; Filip Dechterenko - Seminar III (S4: 9:00-12:10) |&nbsp;&nbsp;|
+|7.1.  |  &nbsp;&nbsp; Filip Dechterenko - Seminar III (S4: 9:00-12:10) |&nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZILeyVZB4f1lVgpA4X0FoFYb7Sob05HYaL7)|
+
