@@ -19,10 +19,10 @@ but neural and behavioral learning will also be covered. Starting from school ye
 | 10.3.  |  &nbsp;&nbsp; Medium-to-high level vision I                      | [\(slides\)](https://u.pcloud.link/publink/show?code=XZBgC2XZ1GqjyCKDBomKEFw0cwJxbfLh45V0) &nbsp;&nbsp;   [\(video\)](https://u.pcloud.link/publink/show?code=XZraS2XZy50ALeJEEdJnuVvszXEoImcW0mnV) | 
 | 17.3.  |  &nbsp;&nbsp; TBA                                                | 
 | 24.3.  |  &nbsp;&nbsp; Medium-to-high level vision II                     | [\(slides\)](https://u.pcloud.link/publink/show?code=XZBgC2XZ1GqjyCKDBomKEFw0cwJxbfLh45V0) &nbsp;&nbsp;  [\(video\)](https://u.pcloud.link/publink/show?code=XZ1fO2XZxpLm4Kaoen4jpBbfh7J2EFy4HxoV) | 
-| 31.3.  |  &nbsp;&nbsp; Computational modelling: system identification     |[\(slides\)](https://u.pcloud.link/publink/show?code=XZLY7DXZpFjoeJJaGqhMqjsebbbBAV7L2VuV)  &nbsp;&nbsp; [\(video\)](https://u.pcloud.link/publink/show?code=XZkY7DXZdefiaVFGGi0MszvaXVG374Pph0mk) | 
+| 31.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                          | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZ5zb9XZvwWz8ryJS3LMkhC479DRn7eshl5k) |
 | 7.4.   |  &nbsp;&nbsp; Computational modelling: normative models          |[\(slides\)](https://u.pcloud.link/publink/show?code=XZ647DXZvCCwBKJ8qfbJ9RiyWjjjy7TS2pPy) &nbsp;&nbsp; [\(video\)](https://u.pcloud.link/publink/show?code=XZe47DXZYOcpb65nMT7CXIGYUTCO8QjbGR87) | 
 | 14.4.  |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček)          | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZzHoDXZewsFTaRI4VJda6zBWFnHzYvxITnX)  | 
-| 21.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                          | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZ5zb9XZvwWz8ryJS3LMkhC479DRn7eshl5k) |
+| 21.3.  |  &nbsp;&nbsp; Computational modelling: system identification     |[\(slides\)](https://u.pcloud.link/publink/show?code=XZLY7DXZpFjoeJJaGqhMqjsebbbBAV7L2VuV)  &nbsp;&nbsp; [\(video\)](https://u.pcloud.link/publink/show?code=XZkY7DXZdefiaVFGGi0MszvaXVG374Pph0mk) | 
 | 28.4.  |  &nbsp;&nbsp; Memory (Kamil Vlček)                               | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZfRb9XZWWCLWuC6H6HlTLrJKtiXkzkn3Cj7)  | 
 | 5.5.   |  &nbsp;&nbsp; Computational modelling: dynamical models          |   |
 | 12.5.  |  &nbsp;&nbsp; Spatial cognition (Kamil Vlček)                    | &nbsp;&nbsp;[\(video\)](https://u.pcloud.link/publink/show?code=XZ1Rb9XZuIj8WaQHb7F0ML8DeUl6py6NWq4X) | 
