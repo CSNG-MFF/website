@@ -25,10 +25,11 @@ The course happanes every Thursday at 9:00.
 | 7.4.   |  &nbsp;&nbsp; Computational modelling: normative models          | [\(slides\)](https://u.pcloud.link/publink/show?code=XZ647DXZvCCwBKJ8qfbJ9RiyWjjjy7TS2pPy) | 
 | 14.4.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                 | | 
 | 21.3.  |  &nbsp;&nbsp; Computational modelling: system identification     | [\(slides\)](https://u.pcloud.link/publink/show?code=XZLY7DXZpFjoeJJaGqhMqjsebbbBAV7L2VuV) | 
-| 28.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models          | | 
-| 5.5.   |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček)          | |
-| 12.5.  |  &nbsp;&nbsp; Memory (Kamil Vlček)                               | | 
+| 28.4.  |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček)          | | 
+| 5.5.   |  &nbsp;&nbsp; Memory (Kamil Vlček)                               | |
+| 12.5.  |  &nbsp;&nbsp; Computational modelling: dynamical models          | | 
 | 19.5.  |  &nbsp;&nbsp; Spatial cognition (Kamil Vlček)                    | |
+
 
 
 #### Lab work
