@@ -3,7 +3,7 @@
  * ==================================================
  */
 
- html {
+html {
   font-size: 100%;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
@@ -13,7 +13,7 @@
 body {
   background-color: #e2e2e2;
   color: #333;
-  font-family:  'Lato', 'Roboto', sans-serif;
+  font-family: 'Lato', 'Roboto', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 25px;
@@ -90,7 +90,7 @@ pre {
 
 .container {
   margin: 0 auto 50px;
-  width: 1100px;
+  width: 1200px;
 }
 
 header {
@@ -103,7 +103,7 @@ header {
   border-bottom: 1px solid #e2e2e2;
   border-radius: 0px 0px 0 65px;
   margin: 0;
-  padding:18px;
+  padding: 18px;
   padding-left: 25px;
   padding-bottom: 9px;
   padding-right: 50px;
@@ -134,7 +134,7 @@ header {
   /* margin-top: 10px; */
 }
 
-.csng-full-text{
+.csng-full-text {
   position: absolute;
   font-family: 'Major Mono Display', monospace;
   top: 45px;
@@ -145,7 +145,7 @@ header {
   font-size: 30px;
 }
 
-.csng-short-text{
+.csng-short-text {
   position: absolute;
   font-family: 'Major Mono Display', monospace;
   top: 22px;
@@ -158,13 +158,20 @@ header {
 }
 
 @media (max-width: 910px) {
-  .cuni-logo {background-image: url(./../img/charles_uni_side_crop.jpg);}
+  .cuni-logo {
+    background-image: url(./../img/charles_uni_side_crop.jpg);
+  }
 }
 
 
 @media (max-width: 700px) {
-  .csng-short-text { display: inline-block; }
-  .csng-full-text { display: none; }
+  .csng-short-text {
+    display: inline-block;
+  }
+
+  .csng-full-text {
+    display: none;
+  }
 }
 
 .content {
@@ -190,8 +197,8 @@ footer {
  * ==================================================
  */
 
-h1 > a,
-h1 > a:visited {
+h1>a,
+h1>a:visited {
   color: #333;
   display: inline-block;
   font-weight: 700;
@@ -200,22 +207,25 @@ h1 > a:visited {
   transition: color 0.5s ease-in-out;
 }
 
-h1 > a:hover {
+h1>a:hover {
   color: #999;
   text-decoration: none;
 }
 
 @-webkit-keyframes wobble {
+
   0%,
   50%,
   100% {
     -webkit-transform: rotate(0deg);
     -webkit-animation-timing-function: ease-out;
   }
+
   25% {
     -webkit-transform: rotate(30deg);
     -webkit-animation-timing-function: ease-in;
   }
+
   75% {
     -webkit-transform: rotate(-30deg);
     -webkit-animation-timing-function: ease-in;
@@ -223,16 +233,19 @@ h1 > a:hover {
 }
 
 @keyframes wobble {
+
   0%,
   50%,
   100% {
     transform: rotate(0deg);
     animation-timing-function: ease-out;
   }
+
   25% {
     transform: rotate(30deg);
     animation-timing-function: ease-in;
   }
+
   75% {
     transform: rotate(-30deg);
     animation-timing-function: ease-in;
@@ -260,7 +273,7 @@ h1 > a:hover {
 
 @media (max-width:900px) {
   .navigation-menu a {
-    font-size:16px;
+    font-size: 16px;
     margin-right: 10px;
   }
 }
@@ -280,14 +293,14 @@ h1 > a:hover {
 }
 
 .introduction {
-  flex:40%;
-  margin:25px 50px 25px 0px;
-  text-align:justify;
+  flex: 40%;
+  margin: 25px 50px 25px 0px;
+  text-align: justify;
 }
 
 .group_logo {
   flex: 30%;
-  margin:25px 25px 25px 0px;
+  margin: 25px 25px 25px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,16 +317,16 @@ h1 > a:hover {
 
 .contacts {
   flex: 25%;
-  margin:25px 25px 25px 25px;
+  margin: 25px 25px 25px 25px;
 }
 
 
 @media (max-width: 750px) {
   .intro {
-    margin-top:25px;
+    margin-top: 25px;
   }
-  
-  .introduction{
+
+  .introduction {
     margin-right: 0px;
   }
 
@@ -325,12 +338,16 @@ h1 > a:hover {
     flex: 100%;
     margin: -25px 0 0 0;
   }
+
   .contacts {
     flex: 100%;
     margin: 15px 0 0 0;
   }
 
-  .navigation-header {padding-right: 25px;}
+  .navigation-header {
+    padding-right: 25px;
+  }
+
   .navigation-menu {
     padding: 0px;
     padding-top: -20px;
@@ -341,8 +358,9 @@ h1 > a:hover {
     -o-transition: height, 0.25s ease-in-out;
     transition: height, 0.25s ease-in-out;
   }
+
   .navigation-menu a {
-    display:none;
+    display: none;
     height: 0;
 
     opacity: 0;
@@ -352,9 +370,10 @@ h1 > a:hover {
     -o-transition: height 0.25s ease-out, opacity 2s ease;
     transition: height 0.25s ease-out, opacity 2s ease;
   }
+
   .navigation-menu.responsive {
     padding: 0px;
-    height: 255px;    
+    height: 255px;
     -webkit-transition: height, 0.25s ease-out;
     -moz-transition: height, 0.25s ease-out;
     -ms-transition: height, 0.25s ease-out;
@@ -383,6 +402,7 @@ h1 > a:hover {
     /* margin-right: 45px; */
     margin-right: -2px;
   }
+
   .navigation-menu.responsive a:first-child {
     margin-top: 0px;
   }
@@ -399,7 +419,7 @@ h1 > a:hover {
 }
 
 @media (max-width: 750px) {
-  .charles_uni_picture{
+  .charles_uni_picture {
     margin-bottom: 25px;
   }
 }
@@ -446,7 +466,7 @@ h1 > a:hover {
   margin-bottom: 50px;
   margin-right: 50px;
   text-align: left;
-  vertical-align:center;
+  vertical-align: center;
   display: inline-block;
   vertical-align: bottom;
 }
@@ -457,25 +477,28 @@ h1 > a:hover {
   margin-right: 50px;
   margin-bottom: 25px;
   text-align: left;
-  vertical-align:center;
+  vertical-align: center;
   display: inline-block;
   vertical-align: bottom;
 }
 
-@media  (max-width:600px){
-  .alumni-box{
+@media (max-width:600px) {
+  .alumni-box {
     display: block;
     width: auto;
   }
 
-  .gravatar, .alumni {
+  .gravatar,
+  .alumni {
     background-size: 110px 110px;
     height: 110px;
     width: 110px;
     margin: 0px;
     margin-bottom: 15px;
   }
-  .info-person, .info-alumni{
+
+  .info-person,
+  .info-alumni {
     height: 110px;
     width: 185px;
     margin-bottom: 50px;
@@ -483,8 +506,10 @@ h1 > a:hover {
     margin-left: 25px;
     margin-top: 0;
   }
-  .alumni, .info-alumni {
-    margin-top:25px;
+
+  .alumni,
+  .info-alumni {
+    margin-top: 25px;
     margin-bottom: 0px;
   }
 }
@@ -555,18 +580,18 @@ table {
 }
 
 @media (max-width: 800px) {
-  table{
+  table {
     border-spacing: 0px 0px;
   }
 }
 
-.img-container{
+.img-container {
   width: 180px;
 }
 
 
 @media (max-width: 800px) {
-  .img-container{
+  .img-container {
     width: 80px;
   }
 }
@@ -578,7 +603,7 @@ table {
 }
 
 @media (max-width: 800px) {
-  .project-img{
+  .project-img {
     width: 65px;
   }
 }
@@ -610,11 +635,11 @@ footer {
   color: #999;
 }
 
-footer > p {
+footer>p {
   margin-bottom: 15px;
 }
 
-footer > p:last-child {
+footer>p:last-child {
   margin-bottom: 0;
 }
 
@@ -632,8 +657,8 @@ a.creative-commons:hover {
  */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-  only screen and (min--moz-device-pixel-ratio: 1.5),
-  only screen and (min-resolution: "144dpi") {
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-resolution: "144dpi") {
   .gravatar {
     background-image: url("/assets/img/Jan_Antolik.jpg");
   }
@@ -709,7 +734,7 @@ a.creative-commons:hover {
     font-size: 40px;
   }
 
-  h1 > a > .dot-head {
+  h1>a>.dot-head {
     background-size: 26px 26px;
     height: 26px;
     width: 26px;
