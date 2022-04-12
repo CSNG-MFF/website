@@ -22,7 +22,8 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 
 #### Visual prostheses
-<a href="javascript:void(0)" onclick="$('#project_V1power').toggle();">Modeling electrical stimulation in the visual cortex for visual prosthetic (brain-computer interface) applications</a>  
+
+- <a href="javascript:void(0)" onclick="$('#project_V1power').toggle();">Modeling electrical stimulation in the visual cortex for visual prosthetic (brain-computer interface) applications</a>  
    <small id="project_V1power" class="studentprojectlist" style="display: none;">
    Intracortical microstimulation (ICMS) describes the local stimulation of neurons in the cortex with penetrating electrodes. The technique enabled several breakthroughs in interfacing with the brain, among them the control of a cursor through neural activity in the motor cortex of a human patient and the visual perception of shapes in non-human primates. Only recently, a computational study presented a model unifying experimental observations how ICMS directly activates neurons in the close surrounding of the electrode: ICMS activates a sparse set of neurons around the electrode with the number of activated neurons in the sphere around the electrode tip decreasing over distance to the electrode. Yet, the way the brain responds to the direct activation of a set of neurons around the electrode with network activity (e.g. neural firing rates) remains poorly understood. The goal of this project is to implement an abstract model of ICMS for the our group's large-scale model of cat primary visual cortex. Utilizing this model to simulate ICMS in cat primary visual cortex, the spatial extent of the network response to the stimulation shall be compared to the one reported in experimental recordings from monkey and human cortex.
    </small>
