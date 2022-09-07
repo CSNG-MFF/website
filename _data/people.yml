@@ -38,19 +38,13 @@
   email: rozsa@ksvi.mff.cuni.cz
   image: Tibor_Rozsa.jpg
 
-- name: Stefan Hajduk
-  role: MSc student
-  github: StefanHajduk
-  email: stefek.hajduk@gmail.com
-  image: Stefan_Hajduk.jpg
+# - name: Stefan Hajduk
+#   role: MSc student
+#   github: StefanHajduk
+#   email: stefek.hajduk@gmail.com
+#   image: Stefan_Hajduk.jpg
 
-- name: Filipe Cunha
-  role: MSc student
-  email: filipelopescunha@gmail.com
-  image: Filipe_Cunha.jpg
-
-- name: Leon Gorißen
-  role: Intern
-  email: leon.gorissen@rwth-aachen.de
-  github: Leeeeon4
-  image: Leon_Gorissen.jpg
+# - name: Filipe Cunha
+#   role: MSc student
+#   email: filipelopescunha@gmail.com
+#   image: Filipe_Cunha.jpg
