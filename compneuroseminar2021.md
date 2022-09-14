@@ -24,6 +24,5 @@ title: Computational neuroscience seminar
 |13.04.22  | &nbsp;&nbsp; Jan Šochman    | &nbsp;&nbsp; Computer vision SOTA models for depth estimation/optical flows| &nbsp;&nbsp; [slides](https://e1.pcloud.link/publink/show?code=XZ77FzZmyIsgjxG5rJ36nkoj2EFgQlzErRk)
 |20.04.22  | &nbsp;&nbsp;  Karolína Korvasová  | &nbsp;&nbsp; [Feedforward and feedback interactions between visual cortical areas use different population activity patterns](https://www.nature.com/articles/s41467-022-28552-w)| &nbsp;&nbsp; [slides](https://e1.pcloud.link/publink/show?code=XZoWTzZH99HFIkC2lHK9uLjtYI3BY0T0tAy)|
 |27.04.22  | &nbsp;&nbsp;  Luca Baroni  | &nbsp;&nbsp; [Simultaneous Neural Spike Encoding and Decoding Based on Cross-modal Dual Deep Generative Model](https://ieeexplore.ieee.org/document/9207466)| &nbsp;&nbsp; [slides](https://e1.pcloud.link/publink/show?code=XZzsTzZO9pusyJdmlJ4hXrEcs6D6yqNJU5X)|
-|11.05.22  | &nbsp;&nbsp;  Jan Antolik  | &nbsp;&nbsp; TBD | &nbsp;&nbsp; |
 
 
