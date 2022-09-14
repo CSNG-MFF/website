@@ -1,5 +1,5 @@
 ---
-layout: seminar
+layout: default
 title: Computational neuroscience seminar
 ---
 
