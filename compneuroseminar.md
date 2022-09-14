@@ -5,7 +5,7 @@ title: Computational neuroscience seminar
 
 
 ## When and Where: 
-#### Each Wedneday at 11am both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268))
+#### Each Wednesday at 11am both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268))
 
 ### Synopsis
 
