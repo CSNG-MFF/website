@@ -29,12 +29,14 @@ Specific info on 1 and 2 will appear here later in the semester.
 
 The experiment will be run by [Filip Děchtěrenko](http://www.ms.mff.cuni.cz/~dechf7am/). Please register for the experiment [here](https://www.experimenty-labels.cz/public/participant_create.php?s=19). 
 During october you should receive email with details of the experiment and the date.
--->
 
 
 ### Assignment
 
 - Computational analysis homework is [here](https://osf.io/d42v3/).
+
+-->
+
 
 ### Lecture overview and slides
 
