@@ -22,7 +22,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |05.10.22 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Topological analysis of population activity in visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2924880/)| &nbsp;&nbsp;  Charles University |
-|12.10.22 | &nbsp;&nbsp;  Tibor Roszá | &nbsp;&nbsp; [Distinguishing externally from saccade-induced motion in visual cortex](https://www.nature.com/articles/s41586-022-05196-w)  | &nbsp;&nbsp; Charles University  |
+|12.10.22 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [Distinguishing externally from saccade-induced motion in visual cortex](https://www.nature.com/articles/s41586-022-05196-w)  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
