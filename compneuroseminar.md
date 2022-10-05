@@ -21,8 +21,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|05.10.22 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Topological analysis of population activity in visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2924880/)| &nbsp;&nbsp;  Charles University |
 |12.10.22 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [Distinguishing externally from saccade-induced motion in visual cortex](https://www.nature.com/articles/s41586-022-05196-w)  | &nbsp;&nbsp; Charles University  |
+|19.10.22 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [The functional organization of cortical feedback inputs to primary visual cortex](http://petreanulab.org/wp-content/uploads/2018/10/Marques-et-al.-Nature-Neuroscience-2018.pdf)| &nbsp;&nbsp;  Charles University |
 
 #### &nbsp;
 
@@ -31,6 +31,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter |Topic  | Presenter's affiliation |
 |----|---------- |------|-------------------------|
 |21.09.22 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; Closed-loop optogenetic control of neural activity  [(link1,](https://doi.org/10.1088/1741-2552/abb89c) [link2)](https://doi.org/10.1088/1741-2552/aaa506 )  | &nbsp;&nbsp; Charles University  |
+|05.10.22 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Topological analysis of population activity in visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2924880/)| &nbsp;&nbsp;  Charles University |
 
 
 #### &nbsp;
