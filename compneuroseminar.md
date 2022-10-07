@@ -3,9 +3,10 @@ layout: default
 title: Computational neuroscience seminar
 ---
 
+## Computational neuroscience seminar 
 
-## When and Where: 
-#### Each Wednesday at 11am both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268))
+### When and Where: 
+Each Wednesday at 11am both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268))
 
 ### Synopsis
 
@@ -16,7 +17,7 @@ All participants are encouraged to present and actively take part in discussions
 
 To obtain credits, it is required to attend at least 10 seminars, actively participate in the discussion and present one journal article during the course or the semester.
 
-### Upcoming seminars
+### Upcoming talks
 
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
@@ -26,7 +27,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 #### &nbsp;
 
-### Past seminars 
+### Past talks 
 
 |Date| Presenter |Topic  | Presenter's affiliation |
 |----|---------- |------|-------------------------|
@@ -36,4 +37,4 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 #### &nbsp;
 
-### [2021-2022 seminars](./compneuroseminar2021.html)
+### [2021-2022 talks](./compneuroseminar2021.html)
