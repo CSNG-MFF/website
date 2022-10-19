@@ -22,8 +22,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|19.10.22 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [The functional organization of cortical feedback inputs to primary visual cortex](http://petreanulab.org/wp-content/uploads/2018/10/Marques-et-al.-Nature-Neuroscience-2018.pdf)| &nbsp;&nbsp;  Charles University |
-|12.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; [Adapting Brain-Like Neural Networks for Modeling Cortical Visual Prostheses](https://arxiv.org/pdf/2209.13561.pdf)  | &nbsp;&nbsp; Charles University  |
+|26.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; [Adapting Brain-Like Neural Networks for Modeling Cortical Visual Prostheses](https://arxiv.org/pdf/2209.13561.pdf)  | &nbsp;&nbsp; Charles University  |
+|02.11.22 | &nbsp;&nbsp;  Ján Antolík | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1)  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
@@ -34,6 +34,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |21.09.22 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; Closed-loop optogenetic control of neural activity  [(link1,](https://doi.org/10.1088/1741-2552/abb89c) [link2)](https://doi.org/10.1088/1741-2552/aaa506 )  | &nbsp;&nbsp; Charles University  |
 |05.10.22 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Topological analysis of population activity in visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2924880/)| &nbsp;&nbsp;  Charles University |
 |12.10.22 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [Distinguishing externally from saccade-induced motion in visual cortex](https://www.nature.com/articles/s41586-022-05196-w)  | &nbsp;&nbsp; Charles University  |
+|19.10.22 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [The functional organization of cortical feedback inputs to primary visual cortex](http://petreanulab.org/wp-content/uploads/2018/10/Marques-et-al.-Nature-Neuroscience-2018.pdf)| &nbsp;&nbsp;  Charles University |
 
 
 #### &nbsp;
