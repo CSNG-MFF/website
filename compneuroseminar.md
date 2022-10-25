@@ -22,7 +22,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|26.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; [Adapting Brain-Like Neural Networks for Modeling Cortical Visual Prostheses](https://arxiv.org/pdf/2209.13561.pdf)  | &nbsp;&nbsp; Charles University  |
+|26.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; Learning invariance manifolds of visual sensory neurons | &nbsp;&nbsp; Charles University  |
 |02.11.22 | &nbsp;&nbsp;  Ján Antolík | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1)  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
