@@ -24,6 +24,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |-------|---------------------------------|----|----|
 |26.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; Learning invariance manifolds of visual sensory neurons | &nbsp;&nbsp; Charles University  |
 |02.11.22 | &nbsp;&nbsp;  Ján Antolík | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1)  | &nbsp;&nbsp; Charles University  |
+|09.11.22 | &nbsp;&nbsp;  ////////////// | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week  | &nbsp;&nbsp; //////////////////  |
 
 #### &nbsp;
 
