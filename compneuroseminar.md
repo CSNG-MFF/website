@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: seminar
 title: Computational neuroscience seminar
 ---
 
@@ -22,9 +22,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|26.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; Learning invariance manifolds of visual sensory neurons | &nbsp;&nbsp; Charles University  |
-|02.11.22 | &nbsp;&nbsp;  Ján Antolík | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1)  | &nbsp;&nbsp; Charles University  |
-|09.11.22 | &nbsp;&nbsp;  ////////////// | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week  | &nbsp;&nbsp; //////////////////  |
+|09.11.22 | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week   | &nbsp;&nbsp;   | &nbsp;&nbsp;   |
+|06.11.22 | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week   | &nbsp;&nbsp;   | &nbsp;&nbsp;   |
 
 #### &nbsp;
 
@@ -36,6 +35,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |05.10.22 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Topological analysis of population activity in visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2924880/)| &nbsp;&nbsp;  Charles University |
 |12.10.22 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [Distinguishing externally from saccade-induced motion in visual cortex](https://www.nature.com/articles/s41586-022-05196-w)  | &nbsp;&nbsp; Charles University  |
 |19.10.22 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [The functional organization of cortical feedback inputs to primary visual cortex](http://petreanulab.org/wp-content/uploads/2018/10/Marques-et-al.-Nature-Neuroscience-2018.pdf)| &nbsp;&nbsp;  Charles University |
+|26.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; Learning invariance manifolds of visual sensory neurons | &nbsp;&nbsp; Charles University  |
+|02.11.22 | &nbsp;&nbsp;  Ján Antolík | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1)  | &nbsp;&nbsp; Charles University  |
 
 
 #### &nbsp;
