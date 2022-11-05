@@ -43,11 +43,11 @@ During october you should receive email with details of the experiment and the d
 This semster the course is scheduled for Thursday, from 15:40 till 18:50. First 90 minuts are in S9 and second in S1.
 
 |--------|-------------------------------------------|----|
-|6.10. |  &nbsp;&nbsp; Ján Antolík - Introduction ||
-|13.10. |  &nbsp;&nbsp; Ján Antolík - Neurons (Biology) ||
-|20.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) ||
-|27.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neural coding, Cortical Architectures  ||
-|3.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System  ||
+|6.10. |  &nbsp;&nbsp; Ján Antolík - Introduction | |
+|13.10. |  &nbsp;&nbsp; Ján Antolík - Neurons (Biology) |[slides](https://e1.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX)|
+|20.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) | [slides](https://e1.pcloud.link/publink/show?code=XZKq2QZliGNpr88hcRruBPHMrVcEFB1rFsV) |
+|27.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neural coding, Cortical Architectures  |[slides1](https://e1.pcloud.link/publink/show?code=XZuq2QZeC4grQ3LRfhf5fgvkxQbR5BxdLx7) &nbsp; [slides2](https://e1.pcloud.link/publink/show?code=XZLq2QZFLgS1XCsnyXnaHT56GuPxShxgnCV)|
+|3.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System  |[slides](https://e1.pcloud.link/publink/show?code=XZtq2QZEgxH1KcvHGFem1Sl2vLC6Lz6hVVV)|
 |10.11.|  &nbsp;&nbsp;  Ján Antolík - test , Filip Dechterenko - Seminar I  ||
 |24.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I  ||
 |1.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II  ||
