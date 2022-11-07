@@ -23,7 +23,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |09.11.22 | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week   | &nbsp;&nbsp;   | &nbsp;&nbsp;   |
-|06.11.22 | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week   | &nbsp;&nbsp;   | &nbsp;&nbsp;   |
+|16.11.22 | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week   | &nbsp;&nbsp;   | &nbsp;&nbsp;   |
 
 #### &nbsp;
 
