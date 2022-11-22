@@ -22,8 +22,10 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|09.11.22 | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week   | &nbsp;&nbsp;   | &nbsp;&nbsp;   |
-|16.11.22 | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week   | &nbsp;&nbsp;   | &nbsp;&nbsp;   |
+|23.11.22 | &nbsp;&nbsp; | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week  | &nbsp;&nbsp;   |
+|30.11.22 | &nbsp;&nbsp; Karolína Korvasová | &nbsp;&nbsp; Reconstructing imagined letters from V1 reveals tight topographic correspondence between visual mental imagery and perception | &nbsp;&nbsp; Charles University  |
+|07.12.22 | &nbsp;&nbsp;  Anna Agafonova | &nbsp;&nbsp; Visual cortex neurons phase-lock selectively to subsets of LFP oscillations | &nbsp;&nbsp; Charles University  |
+|14.12.22 | &nbsp;&nbsp;  Matej Voldřich | &nbsp;&nbsp; Experience drives the development of novel, reliable cortical sensory representations from endogenously structured networks  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
@@ -37,7 +39,6 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |19.10.22 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [The functional organization of cortical feedback inputs to primary visual cortex](http://petreanulab.org/wp-content/uploads/2018/10/Marques-et-al.-Nature-Neuroscience-2018.pdf)| &nbsp;&nbsp;  Charles University |
 |26.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; Learning invariance manifolds of visual sensory neurons | &nbsp;&nbsp; Charles University  |
 |02.11.22 | &nbsp;&nbsp;  Ján Antolík | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1)  | &nbsp;&nbsp; Charles University  |
-
 
 #### &nbsp;
 
