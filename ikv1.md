@@ -33,7 +33,8 @@ During october you should receive email with details of the experiment and the d
 
 ### Assignment
 
-- Computational analysis homework is [here](https://osf.io/d42v3/).
+* Computational analysis homework is [here](https://osf.io/d42v3/).
+* Visual search experiment homework: [assignment](https://e1.pcloud.link/publink/show?code=XZJYhYZB8hNWYEnHiHi591o3Pxw2uow1KEX)
 
 -->
 
@@ -48,9 +49,9 @@ This semster the course is scheduled for Thursday, from 15:40 till 18:50. First 
 |20.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) | [slides](https://e1.pcloud.link/publink/show?code=XZKq2QZliGNpr88hcRruBPHMrVcEFB1rFsV) |
 |27.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neural coding, Cortical Architectures  |[slides1](https://e1.pcloud.link/publink/show?code=XZuq2QZeC4grQ3LRfhf5fgvkxQbR5BxdLx7) &nbsp; [slides2](https://e1.pcloud.link/publink/show?code=XZLq2QZFLgS1XCsnyXnaHT56GuPxShxgnCV)|
 |3.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System  |[slides](https://e1.pcloud.link/publink/show?code=XZtq2QZEgxH1KcvHGFem1Sl2vLC6Lz6hVVV)|
-|10.11.|  &nbsp;&nbsp;  Ján Antolík - test , Filip Dechterenko - Seminar I  ||
-|24.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I  ||
-|1.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II  ||
+|10.11.|  &nbsp;&nbsp;  Ján Antolík - test , Filip Dechterenko - Seminar I  | [slides](https://e1.pcloud.link/publink/show?code=XZkFyLZyeNDN2HvBMYY0oTy1tnRlQFujGFV)|
+|24.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I  | [slides](https://e1.pcloud.link/publink/show?code=XZrQhYZb75oJ5u31AkOmvYiT8R9qf4GtVXX) |
+|1.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II  | [slides](https://e1.pcloud.link/publink/show?code=XZ5YhYZ55s6lXaFampttdrhiMaqF8aWj1Cy) |
 |8.12.|  &nbsp;&nbsp;  Matej Hoffmann - Motor system  ||
 |15.12.|  &nbsp;&nbsp; Filip Dechterenko - Seminar II  ||
 |5.1.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology III  ||
