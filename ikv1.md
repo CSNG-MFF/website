@@ -24,17 +24,16 @@ running in parallel.
 You will get a grade for each of the three tasks, and the final grade will be calculated as the arhitmetic mean of the three partial grades.
 Specific info on 1 and 2 will appear here later in the semester.
 
+### Assignment
+
+* Data analysis homework is [here](https://github.com/fidadoma/etraChallenge_ICS).
+* Visual search experiment homework: [assignment](https://e1.pcloud.link/publink/show?code=XZJYhYZB8hNWYEnHiHi591o3Pxw2uow1KEX)
+
 <!--
 ### Participation in experiment
 
 The experiment will be run by [Filip Děchtěrenko](http://www.ms.mff.cuni.cz/~dechf7am/). Please register for the experiment [here](https://www.experimenty-labels.cz/public/participant_create.php?s=19). 
 During october you should receive email with details of the experiment and the date.
-
-
-### Assignment
-
-* Computational analysis homework is [here](https://osf.io/d42v3/).
-* Visual search experiment homework: [assignment](https://e1.pcloud.link/publink/show?code=XZJYhYZB8hNWYEnHiHi591o3Pxw2uow1KEX)
 
 -->
 
