@@ -22,10 +22,11 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|23.11.22 | &nbsp;&nbsp; | &nbsp;&nbsp; Group in SFN conference (USA). The seminar is skipped for this week  | &nbsp;&nbsp;   |
-|30.11.22 | &nbsp;&nbsp; Karolína Korvasová | &nbsp;&nbsp; Reconstructing imagined letters from V1 reveals tight topographic correspondence between visual mental imagery and perception | &nbsp;&nbsp; Charles University  |
-|07.12.22 | &nbsp;&nbsp;  Anna Agafonova | &nbsp;&nbsp; Visual cortex neurons phase-lock selectively to subsets of LFP oscillations | &nbsp;&nbsp; Charles University  |
-|14.12.22 | &nbsp;&nbsp;  Matej Voldřich | &nbsp;&nbsp; Experience drives the development of novel, reliable cortical sensory representations from endogenously structured networks  | &nbsp;&nbsp; Charles University  |
+|07.12.22 | &nbsp;&nbsp;  Anna Agafonova | &nbsp;&nbsp; [Visual cortex neurons phase-lock selectively to subsets of LFP oscillations](https://journals.physiology.org/doi/full/10.1152/jn.00496.2018) | &nbsp;&nbsp; Charles University  |
+|14.12.22 | &nbsp;&nbsp;  Matej Voldřich | &nbsp;&nbsp; [Experience drives the development of novel, reliable cortical sensory representations from endogenously structured networks](https://www.biorxiv.org/content/10.1101/2022.11.14.516507v1)  | &nbsp;&nbsp; Charles University  |
+|21.12.22 | &nbsp;&nbsp;  Martin Picek | &nbsp;&nbsp; [Perceptography: unveiling visual perceptual hallucinations induced by optogenetic stimulation of the inferior temporal cortex](https://www.biorxiv.org/content/10.1101/2022.10.24.513337v1)  | &nbsp;&nbsp; Charles University  |
+|04.01.23| &nbsp;&nbsp;  Jakub Kopko | &nbsp;&nbsp; [Quantifying the distribution of feature values over data represented in arbitrary dimensional spaces](https://www.biorxiv.org/content/10.1101/2022.11.23.517657v1) | &nbsp;&nbsp; Charles University  |
+
 
 #### &nbsp;
 
@@ -37,8 +38,9 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |05.10.22 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Topological analysis of population activity in visual cortex](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2924880/)| &nbsp;&nbsp;  Charles University |
 |12.10.22 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [Distinguishing externally from saccade-induced motion in visual cortex](https://www.nature.com/articles/s41586-022-05196-w)  | &nbsp;&nbsp; Charles University  |
 |19.10.22 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [The functional organization of cortical feedback inputs to primary visual cortex](http://petreanulab.org/wp-content/uploads/2018/10/Marques-et-al.-Nature-Neuroscience-2018.pdf)| &nbsp;&nbsp;  Charles University |
-|26.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; Learning invariance manifolds of visual sensory neurons | &nbsp;&nbsp; Charles University  |
+|26.10.22 | &nbsp;&nbsp;  Luca  Baroni | &nbsp;&nbsp; [Learning invariance manifolds of visual sensory neurons](https://openreview.net/forum?id=2dQyENiU330) | &nbsp;&nbsp; Charles University  |
 |02.11.22 | &nbsp;&nbsp;  Ján Antolík | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1)  | &nbsp;&nbsp; Charles University  |
+|30.11.22 | &nbsp;&nbsp; Karolína Korvasová | &nbsp;&nbsp; [Reconstructing imagined letters from V1 reveals tight topographic correspondence between visual mental imagery and perception](https://link.springer.com/article/10.1007/s00429-019-01828-6) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
