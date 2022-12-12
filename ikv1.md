@@ -52,8 +52,8 @@ This semster the course is scheduled for Thursday, from 15:40 till 18:50. First 
 |24.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I  | [slides](https://e1.pcloud.link/publink/show?code=XZrQhYZb75oJ5u31AkOmvYiT8R9qf4GtVXX) |
 |1.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II  | [slides](https://e1.pcloud.link/publink/show?code=XZ5YhYZ55s6lXaFampttdrhiMaqF8aWj1Cy) |
 |8.12.|  &nbsp;&nbsp;  Matej Hoffmann - Motor system  ||
-|15.12.|  &nbsp;&nbsp; Filip Dechterenko - Seminar II  ||
-|5.1.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology III  ||
+|15.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology III  ||
+|5.1.|  &nbsp;&nbsp; Filip Dechterenko - Seminar II  ||
 
 <!--
 |--------|-------------------------------------------|----|
