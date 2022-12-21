@@ -24,13 +24,12 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|21.12.22 | &nbsp;&nbsp;  Martin Picek | &nbsp;&nbsp; [Perception-to-Image: Reconstructing Natural Images from the Brain Activity of Visual Perception](https://link.springer.com/article/10.1007/s10439-020-02502-3)  | &nbsp;&nbsp; Charles University  |
 |04.01.23| &nbsp;&nbsp;  Jakub Kopko | &nbsp;&nbsp; [Quantifying the distribution of feature values over data represented in arbitrary dimensional spaces](https://www.biorxiv.org/content/10.1101/2022.11.23.517657v1) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
 
-### Past talks 
+### Past talks x
 
 |Date| Presenter |Topic  | Presenter's affiliation |
 |----|---------- |------|-------------------------|
@@ -43,6 +42,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |30.11.22 | &nbsp;&nbsp; Karolína Korvasová | &nbsp;&nbsp; [Reconstructing imagined letters from V1 reveals tight topographic correspondence between visual mental imagery and perception](https://link.springer.com/article/10.1007/s00429-019-01828-6) | &nbsp;&nbsp; Charles University  |
 |07.12.22 | &nbsp;&nbsp;  Anna Agafonova | &nbsp;&nbsp; [Visual cortex neurons phase-lock selectively to subsets of LFP oscillations](https://journals.physiology.org/doi/full/10.1152/jn.00496.2018) | &nbsp;&nbsp; Charles University  |
 |14.12.22 | &nbsp;&nbsp;  Matej Voldřich | &nbsp;&nbsp; [Experience drives the development of novel, reliable cortical sensory representations from endogenously structured networks](https://www.biorxiv.org/content/10.1101/2022.11.14.516507v1)  | &nbsp;&nbsp; Charles University  |
+|21.12.22 | &nbsp;&nbsp;  Martin Picek | &nbsp;&nbsp; [Perception-to-Image: Reconstructing Natural Images from the Brain Activity of Visual Perception](https://link.springer.com/article/10.1007/s10439-020-02502-3)  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
