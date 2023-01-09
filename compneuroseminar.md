@@ -23,6 +23,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |11.01.23| &nbsp;&nbsp;  Luca Baroni | &nbsp;&nbsp; [Perceptography: unveiling visual perceptual hallucinations induced by optogenetic stimulation of the inferior temporal cortex](https://www.biorxiv.org/content/10.1101/2022.10.24.513337v1) | &nbsp;&nbsp; Charles University  |
+|18.01.23| &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp; [Evaluating the statistical similarity of neural network activity and connectivity via eigenvector angles](https://www.sciencedirect.com/science/article/pii/S0303264722001940?via%3Dihub) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
