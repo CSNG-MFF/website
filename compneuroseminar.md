@@ -8,7 +8,6 @@ title: Computational neuroscience seminar
 ### When and Where: 
 Each Wednesday at 11am both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268))
 
-
 ### Synopsis
 
 This seminar will focus on familiarizing participants with the latest advances in the field of computational neuroscience. It will be a mixture of invited talks, journal paper reviews and discussion sessions. The seminar is open to all those interested in neuroscience, particularly from the point of view of modelling of the neural systems.
@@ -24,11 +23,12 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |04.01.23| &nbsp;&nbsp;  Jakub Kopko | &nbsp;&nbsp; [Quantifying the distribution of feature values over data represented in arbitrary dimensional spaces](https://www.biorxiv.org/content/10.1101/2022.11.23.517657v1) | &nbsp;&nbsp; Charles University  |
+|11.01.23| &nbsp;&nbsp;  Luca Baroni | &nbsp;&nbsp; [Perceptography: unveiling visual perceptual hallucinations induced by optogenetic stimulation of the inferior temporal cortex](https://www.biorxiv.org/content/10.1101/2022.10.24.513337v1) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
 
-### Past talks x
+### Past talks
 
 |Date| Presenter |Topic  | Presenter's affiliation |
 |----|---------- |------|-------------------------|
