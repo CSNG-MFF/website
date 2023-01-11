@@ -22,8 +22,9 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|11.01.23| &nbsp;&nbsp;  Luca Baroni | &nbsp;&nbsp; [Perceptography: unveiling visual perceptual hallucinations induced by optogenetic stimulation of the inferior temporal cortex](https://www.biorxiv.org/content/10.1101/2022.10.24.513337v1) | &nbsp;&nbsp; Charles University  |
-|18.01.23| &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp; [Evaluating the statistical similarity of neural network activity and connectivity via eigenvector angles](https://www.sciencedirect.com/science/article/pii/S0303264722001940?via%3Dihub) | &nbsp;&nbsp; Charles University  |
+
+
+|18.01.23| &nbsp;&nbsp;  Anna Agafonova | &nbsp;&nbsp; [Hemispherically lateralized rhythmic oscillations in the cingulate-amygdala circuit drive affective empathy in mice](https://www.cell.com/neuron/pdf/S0896-6273(22)01000-5.pdf) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
@@ -43,6 +44,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |14.12.22 | &nbsp;&nbsp;  Matej Voldřich | &nbsp;&nbsp; [Experience drives the development of novel, reliable cortical sensory representations from endogenously structured networks](https://www.biorxiv.org/content/10.1101/2022.11.14.516507v1)  | &nbsp;&nbsp; Charles University  |
 |21.12.22 | &nbsp;&nbsp;  Martin Picek | &nbsp;&nbsp; [Perception-to-Image: Reconstructing Natural Images from the Brain Activity of Visual Perception](https://link.springer.com/article/10.1007/s10439-020-02502-3)  | &nbsp;&nbsp; Charles University  |
 |04.01.23| &nbsp;&nbsp;  Jakub Kopko | &nbsp;&nbsp; [Quantifying the distribution of feature values over data represented in arbitrary dimensional spaces](https://www.biorxiv.org/content/10.1101/2022.11.23.517657v1) | &nbsp;&nbsp; Charles University  |
+|11.01.23| &nbsp;&nbsp;  Luca Baroni | &nbsp;&nbsp; [Perceptography: unveiling visual perceptual hallucinations induced by optogenetic stimulation of the inferior temporal cortex](https://www.biorxiv.org/content/10.1101/2022.10.24.513337v1) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
