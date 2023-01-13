@@ -22,8 +22,6 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-
-
 |18.01.23| &nbsp;&nbsp;  Anna Agafonova | &nbsp;&nbsp; [Hemispherically lateralized rhythmic oscillations in the cingulate-amygdala circuit drive affective empathy in mice](https://www.cell.com/neuron/pdf/S0896-6273(22)01000-5.pdf) | &nbsp;&nbsp; Charles University  |
 |25.01.23| &nbsp;&nbsp;  David Berling | &nbsp;&nbsp; [Data-driven reduction of dendritic morphologies with preserved dendro-somatic responses](https://elifesciences.org/articles/60936) | &nbsp;&nbsp; Charles University  |
 
