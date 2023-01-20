@@ -23,6 +23,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |25.01.23| &nbsp;&nbsp;  David Berling | &nbsp;&nbsp; [Data-driven reduction of dendritic morphologies with preserved dendro-somatic responses](https://elifesciences.org/articles/60936) | &nbsp;&nbsp; Charles University  |
+|01.02.23| &nbsp;&nbsp;  Remy Cagnol | &nbsp;&nbsp; [A Computational Model of Direction Selectivity in Macaque V1 Cortex Based on Dynamic Differences between On and Off Pathways](https://www.jneurosci.org/content/jneuro/42/16/3365.full.pdf) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
