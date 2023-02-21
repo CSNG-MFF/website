@@ -209,8 +209,8 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Software engineering projects
 
-- <a href="javascript:void(0)" onclick="$('#project5').toggle();">Data-store module based on object oriented database for biological neural network simulator.</a>  
-   <small id="project5" class="studentprojectlist" style="display: none;">
+- <a href="javascript:void(0)" onclick="$('#project_software1').toggle();">Data-store module based on object oriented database for biological neural network simulator.</a>  
+   <small id="project_software1" class="studentprojectlist" style="display: none;">
   <a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations,
   with a highly modular architecture. One of the core Mozaik modules is a data-store, in which recordings from simulations richly
   annotated with metadata regarding experimental context are stored. Currently the data-store module is implemented as a
@@ -219,8 +219,8 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   [BerkelyDB](http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html) or [CodernityDB](http://labs.codernity.com/codernitydb/).
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project6').toggle();">A model inspection/visualization tool for biological neural network simulator.</a>  
-   <small id="project6"  class="studentprojectlist" style="display: none;">
+- <a href="javascript:void(0)" onclick="$('#project_software2').toggle();">A model inspection/visualization tool for biological neural network simulator.</a>  
+   <small id="project_software2"  class="studentprojectlist" style="display: none;">
   <a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations.
   The [model of primary visual cortex](/research.html) developed in our lab, and implemented in Mozaik, has a complex connectivity structure.
   Although there are various tests that the connectivity has been realized as expected, currently, there is no easy way to
@@ -228,8 +228,8 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   model inspection and visualization tool, for Mozaik, possibly building on existing tools such as [ConnPlotter](http://arken.umb.no/~plesser/software.html), [Moogli](http://moose.ncbs.res.in/moogli/), and [NeurAnim](http://software.incf.org/software/neuranim).
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project8').toggle();">Sumatra integration with Mozaik.</a>  
-   <small id="project8" class="studentprojectlist" style="display: none;">
+- <a href="javascript:void(0)" onclick="$('#project_software3').toggle();">Sumatra integration with Mozaik.</a>  
+   <small id="project_software3" class="studentprojectlist" style="display: none;">
   <a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations.
   <a href="http://neuralensemble.org/sumatra/">Sumatra</a> is a tool for provenance tracking. Sumatra shares several features with Mozaik, but it also
   posses features that would enhance the Mozaik workflow. The goal of this project is to integrate Sumatra with Mozaik, and
