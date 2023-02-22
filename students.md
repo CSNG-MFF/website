@@ -35,6 +35,7 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Machine Learning in Neuroscience
 
+{% comment %} 
 - <a href="javascript:void(0)" onclick="$('#project_V1power').toggle();">Determining the computational power of detailed spiking models of biological vision.</a>  
    <small id="project_V1power" class="studentprojectlist" style="display: none;">
    Primary visual cortex is a complex recurrent dynamical system that operates quite differently from how modern neural network systems do. It however still remains 
@@ -43,6 +44,7 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
    it to an existing state-of-the-art DNN system as its first stage of processing. You will then train both the original DNN and the new hybrid system
    on an image categorization benchmark and analyze the difference between the performance of the two systems.
    </small>
+{% endcomment %}
 
 
 - <a href="javascript:void(0)" onclick="$('#project_bioconstr').toggle();">Deep recurrent neural network V1 model with biologically constrained architecture.</a>  
@@ -52,7 +54,7 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 - <a href="javascript:void(0)" onclick="$('#project_decoding').toggle();">Novel DNN model for decoding visual stimuli from population recordings in primary visual cortex.</a>  
    <small id="project_decoding" class="studentprojectlist" style="display: none;">
-   Recent years have witnessed a major breakthrough in DNN models ability to predict neural population activity of V1 neurons to novel visual stimuli.The inverse problem of predicting the natural image based on the activity it elicits in population of V1 neurons, however, remains much less studied, and consequently mastered. In this project the student will implement and test a novel DNN architecture designed to predict visual inputs from population activity of V1 neurons. The key aspect of the model is a pre-processing stage that converts population activity of V1 neurons into n-dimansional matrix to which standard CNN architectures can be applied. The idea of the pre-processing stage is following. We will first train a forward model (from images to V1 activities). This will allows us to determine the position, phase and orientation of receptive fields of individual neurons. We will rasterized each of these three dimension (position, phase, orientation), leading to a coordinate system representable as 4D matrix (position has 2 dimension itself). The value at each coordinate (x,y,z,u) in the 3D matrix will be calculated as a weighted sum of the activities of neurons in the population, where  the weights are the distance of the preference vector of the given cell (its postion, orientation and phase preference) from the coodinates (x,y,z,u).
+   Recent years have witnessed a major breakthrough in DNN models ability to predict neural population activity of V1 neurons to novel visual stimuli. The inverse problem of predicting the natural image based on the activity it elicits in population of V1 neurons, however, remains much less studied, and consequently mastered. In this project the student will implement and test a novel DNN architecture designed to predict visual inputs from population activity of V1 neurons. {% comment %}  The key aspect of the model is a pre-processing stage that converts population activity of V1 neurons into n-dimansional matrix to which standard CNN architectures can be applied. The idea of the pre-processing stage is following. We will first train a forward model (from images to V1 activities). This will allows us to determine the position, phase and orientation of receptive fields of individual neurons. We will rasterized each of these three dimension (position, phase, orientation), leading to a coordinate system representable as 4D matrix (position has 2 dimension itself). The value at each coordinate (x,y,z,u) in the 3D matrix will be calculated as a weighted sum of the activities of neurons in the population, where  the weights are the distance of the preference vector of the given cell (its postion, orientation and phase preference) from the coodinates (x,y,z,u). {% endcomment %}
    </small>
 
 #### Spiking Network Models of Visual System
@@ -152,7 +154,7 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Models of neural system development
 
-- <a href="javascript:void(0)" onclick="$('#project_body').toggle();">Biologically plausible model of body representation development (in collaboration with the robotics group of Matej Hoffman, CVUT).</a>  
+- <a href="javascript:void(0)" onclick="$('#project_body').toggle();">Biologically plausible model of body representation development (collaboration with the robotics group of Matej Hoffman, CVUT).</a>  
    <small id="project_body" class="studentprojectlist" style="display: none;">
   This project is performed in tight collaboration with the robotics group of [Matej Hoffman](https://sites.google.com/site/matejhof/home).
   The goal of this project is to explain how body representations can be learned in humanoid robots during
