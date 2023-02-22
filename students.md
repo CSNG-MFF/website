@@ -57,6 +57,11 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Spiking Network Models of Visual System
 
+- <a href="javascript:void(0)" onclick="$('#asymmetric').toggle();">Asymmetric On & Off responses in Retina, LGN and V1.</a>  
+   <small id="asymmetric" class="studentprojectlist" style="display: none;">
+   ON and OFF pathways in the early visual system were long thought of as symmetric in their spatiotemporal properties. However, lately there has been a collection of studies in the retina ([Chichilnisky 2002](https://doi.org/10.1523/JNEUROSCI.22-07-02737.2002), [Ratliff 2010](https://www.pnas.org/doi/10.1073/pnas.1005846107), [Sneha 2018](https://www.jneurosci.org/content/38/45/9728)) and in the visual cortex ([Rahimi-Nasrabadi 2021](https://www.sciencedirect.com/science/article/pii/S221112472100005X)), which show significant differences between the two pathways, mirroring the statistical differences in natural scenes. The goal of the project will be to expand the current Retina/LGN/V1 model used by the CSNG lab to reflect these findings.
+  </small>
+
 - <a href="javascript:void(0)" onclick="$('#project_macaque').toggle();">Model of monkey visual system.</a>  
    <small id="project_macaque" class="studentprojectlist" style="display: none;">
   We have recently constructed a detailed large-scale [model](https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf) of cat primary visual cortex.
@@ -209,6 +214,16 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Software engineering projects
 
+- <a href="javascript:void(0)" onclick="$('#mozaikdocker').toggle();">Mozaik dockerization.</a>  
+   <small id="mozaikdocker" class="studentprojectlist" style="display: none;">
+   [Mozaik](https://github.com/CSNG-MFF/mozaik) is an automated workflow for large-scale neural simulations. At the present moment, it relies on a range of packages, with a multi-step installation process. Being the basis of the majority of CSNG lab projects and publications, we would like to make the installation process easier, for easier replicability and adoption outside the CSNG lab. The project aims to dockerize Mozaik to simplify the installation process. 
+  </small>
+
+- <a href="javascript:void(0)" onclick="$('#mozaikparall').toggle();">Mozaik analysis parallelization.</a>  
+   <small id="mozaikparall" class="studentprojectlist" style="display: none;">
+   [Mozaik](https://github.com/CSNG-MFF/mozaik) is an automated workflow for large-scale neural simulations. At the present moment, it is using MPI parallel execution for running simulations, but not in data analysis, which can thus take a long time. The project aims to parallelize the Mozaik analysis codebase to remedy this issue.
+  </small>
+
 - <a href="javascript:void(0)" onclick="$('#project_software1').toggle();">Data-store module based on object oriented database for biological neural network simulator.</a>  
    <small id="project_software1" class="studentprojectlist" style="display: none;">
   <a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations,
@@ -239,6 +254,11 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   </small>
 
 #### Web development projects
+
+- <a href="javascript:void(0)" onclick="$('#projectArkeia').toggle();">Arkheia update & expansion.</a>  
+   <small id="projectArkeia" class="studentprojectlist" style="display: none;">
+   Arkheia is an Angular-based data visualization tool used by much of the CSNG team to interpret simulation results, with a tech stack that needs updating. The project would consist of updating/rewriting Arkheia such that it would use an up-to-date tech stack, and potential expansion of Arkheia functionality.
+  </small>
 
 - <a href="javascript:void(0)" onclick="$('#project12').toggle();">Open Vision project.</a>  
    <small id="project12" class="studentprojectlist" style="display: none;">
