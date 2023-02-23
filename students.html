@@ -95,16 +95,6 @@ New approaches to sensory prosthetics are being developed, wherby the cortex is 
 
 <ul>
   <li>
-    <p><a href="javascript:void(0)" onclick="$('#project_V1power').toggle();">Determining the computational power of detailed spiking models of biological vision.</a><br />
- <small id="project_V1power" class="studentprojectlist" style="display: none;">
- Primary visual cortex is a complex recurrent dynamical system that operates quite differently from how modern neural network systems do. It however still remains 
- unclear how does a biological V1 compare in its computational power to the state-of-the-art DNN systems for image analysis. In this project you
- will take our <a href="./research.html">large-scale biologically dietailed spiking network model </a> of cat primary visual cortex (V1) and prepend
- it to an existing state-of-the-art DNN system as its first stage of processing. You will then train both the original DNN and the new hybrid system
- on an image categorization benchmark and analyze the difference between the performance of the two systems.
- </small></p>
-  </li>
-  <li>
     <p><a href="javascript:void(0)" onclick="$('#project_bioconstr').toggle();">Deep recurrent neural network V1 model with biologically constrained architecture.</a><br />
  <small id="project_bioconstr" class="studentprojectlist" style="display: none;">
  A common approach for studying the function of early sensory systems is to determine the relationship between sensory inputs and associated (experimentally recorded) neural responses. In the past, mostly linear [<a href="http://www.ncbi.nlm.nih.gov/pubmed/12938771">1</a>], or shallow non-linear techniques were utilized, leading to limited predictive and consequently explanatory power of models fitted in this way. More recently, the popular deep convolutional architectures were successfully tested on the neural data [<a href="https://arxiv.org/abs/1711.02653">2</a>,<a href="https://doi.org/10.1101/201764">3</a>]. These general, machine-learning motivated models, however, ignore the known anatomical and functional architecture of visual system. In this project we will rectify this shortcoming by setting up a recurrent deep neural network whose architecture will be constrained such that it reflects know features of cortical anatomy, including the separation of cortical circuits into layers, exc vs. inh neural types, different physiological properties across neural types and layers, and different later extents of interactions for different neural types and layers. The model will be trained on dynamical activity of V1 neurons respond to naturalistic videos. The goal will be to compare the prediction performance of the novel RNN architecture against state-of-the-art in the field of neural predictions, as well as assess how well will the learned connectivity reflect the real biological connectivity.
@@ -113,7 +103,7 @@ New approaches to sensory prosthetics are being developed, wherby the cortex is 
   <li>
     <p><a href="javascript:void(0)" onclick="$('#project_decoding').toggle();">Novel DNN model for decoding visual stimuli from population recordings in primary visual cortex.</a><br />
  <small id="project_decoding" class="studentprojectlist" style="display: none;">
- Recent years have witnessed a major breakthrough in DNN models ability to predict neural population activity of V1 neurons to novel visual stimuli.The inverse problem of predicting the natural image based on the activity it elicits in population of V1 neurons, however, remains much less studied, and consequently mastered. In this project the student will implement and test a novel DNN architecture designed to predict visual inputs from population activity of V1 neurons. The key aspect of the model is a pre-processing stage that converts population activity of V1 neurons into n-dimansional matrix to which standard CNN architectures can be applied. The idea of the pre-processing stage is following. We will first train a forward model (from images to V1 activities). This will allows us to determine the position, phase and orientation of receptive fields of individual neurons. We will rasterized each of these three dimension (position, phase, orientation), leading to a coordinate system representable as 4D matrix (position has 2 dimension itself). The value at each coordinate (x,y,z,u) in the 3D matrix will be calculated as a weighted sum of the activities of neurons in the population, where  the weights are the distance of the preference vector of the given cell (its postion, orientation and phase preference) from the coodinates (x,y,z,u).
+ Recent years have witnessed a major breakthrough in DNN models ability to predict neural population activity of V1 neurons to novel visual stimuli. The inverse problem of predicting the natural image based on the activity it elicits in population of V1 neurons, however, remains much less studied, and consequently mastered. In this project the student will implement and test a novel DNN architecture designed to predict visual inputs from population activity of V1 neurons. 
  </small></p>
   </li>
 </ul>
@@ -232,7 +222,7 @@ type of signal. Perform experiments in which the waves will be recorded and will
 
 <ul>
   <li>
-    <p><a href="javascript:void(0)" onclick="$('#project_body').toggle();">Biologically plausible model of body representation development (in collaboration with the robotics group of Matej Hoffman, CVUT).</a><br />
+    <p><a href="javascript:void(0)" onclick="$('#project_body').toggle();">Biologically plausible model of body representation development (collaboration with the robotics group of Matej Hoffman, CVUT).</a><br />
  <small id="project_body" class="studentprojectlist" style="display: none;">
 This project is performed in tight collaboration with the robotics group of <a href="https://sites.google.com/site/matejhof/home">Matej Hoffman</a>.
 The goal of this project is to explain how body representations can be learned in humanoid robots during
