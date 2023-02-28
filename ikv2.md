@@ -19,6 +19,7 @@ The first 90 minutes will be lecture followed by 45 minute excercise session.
 | 24.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity           |  |
 | 3.3.   |  &nbsp;&nbsp; Medium-to-high level vision I                      |  | 
 | 10.3.  |  &nbsp;&nbsp; Mean field approaches (Karolína Korvasová)         |  |
+| 17.3.  |  &nbsp;&nbsp; TBD                                                |  |
 | 24.3.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                          |  |
 | 31.3.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                 |  |
 | 7.4.   |  &nbsp;&nbsp; Medium-to-high level vision II                     |  | 
