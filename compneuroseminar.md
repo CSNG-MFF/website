@@ -23,6 +23,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |08.03.23| &nbsp;&nbsp;  Jan Antolik | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1) | &nbsp;&nbsp; Charles University  |
+|15.03.23 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [A Disinhibitory Circuit for Contextual Modulation in Primary Visual Cortex](https://www.sciencedirect.com/science/article/pii/S0896627320308916)| &nbsp;&nbsp;  Charles University |
 
 #### &nbsp;
 
