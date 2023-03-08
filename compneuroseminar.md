@@ -22,7 +22,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|15.03.23 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [A Disinhibitory Circuit for Contextual Modulation in Primary Visual Cortex](https://www.sciencedirect.com/science/article/pii/S0896627320308916)| &nbsp;&nbsp;  Charles University |
+|15.03.23 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [Unifying model for three forms of contextual modulation including feedback input from higher visual areas](https://www.biorxiv.org/content/10.1101/2022.05.27.493753v1.full.pdf)| &nbsp;&nbsp;  Charles University |
 |22.03.23 | &nbsp;&nbsp;  // | &nbsp;&nbsp;  NO SEMINAR | &nbsp;&nbsp;  // |
 
 #### &nbsp;
