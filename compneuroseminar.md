@@ -22,7 +22,6 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|08.03.23| &nbsp;&nbsp;  Jan Antolik | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1) | &nbsp;&nbsp; Charles University  |
 |15.03.23 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [A Disinhibitory Circuit for Contextual Modulation in Primary Visual Cortex](https://www.sciencedirect.com/science/article/pii/S0896627320308916)| &nbsp;&nbsp;  Charles University |
 |22.03.23 | &nbsp;&nbsp;  // | &nbsp;&nbsp;  NO SEMINAR | &nbsp;&nbsp;  // |
 
@@ -49,6 +48,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |25.01.23| &nbsp;&nbsp;  David Berling | &nbsp;&nbsp; [Data-driven reduction of dendritic morphologies with preserved dendro-somatic responses](https://elifesciences.org/articles/60936) | &nbsp;&nbsp; Charles University  |
 |23.02.23| &nbsp;&nbsp;  Karolína Korvasová  | &nbsp;&nbsp; [Long-term stability of cortical population dynamics underlying consistent behavior](https://www.nature.com/articles/s41593-019-0555-4) | &nbsp;&nbsp; Charles University  |
 |01.03.23| &nbsp;&nbsp;  Tibor  Rózsa  | &nbsp;&nbsp; [Stream-specific feedback inputs to the primate primary visual cortex](https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC7801467&blobtype=pdf) | &nbsp;&nbsp; Charles University  |
+|08.03.23| &nbsp;&nbsp;  Jan Antolik | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
