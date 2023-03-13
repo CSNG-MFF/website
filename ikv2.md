@@ -16,16 +16,16 @@ The course will take place every *Friday* at *10:40-13:00* in *S3*.
 The first 90 minutes will be lecture followed by 45 minute excercise session.
 
 |--------|------------------------------------------------------------------|----|
-| 24.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity           |  |
-| 3.3.   |  &nbsp;&nbsp; Medium-to-high level vision I                      |  | 
+| 24.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity           | [slides](https://e.pcloud.link/publink/show?code=XZA5yLZCOlIQQc8kY7cQI6GOiduVmS17y7X)  |
+| 3.3.   |  &nbsp;&nbsp; Medium-to-high level vision I                      | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) | 
 | 10.3.  |  &nbsp;&nbsp; Mean field approaches (Karolína Korvasová)         |  |
-| 17.3.  |  &nbsp;&nbsp; TBD                                                |  |
-| 24.3.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                          |  |
+| 17.3.  |  &nbsp;&nbsp; Medium-to-high level vision II                     | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) |
+| 24.3.  |  &nbsp;&nbsp; Computational modelling: normative models          |  |
 | 31.3.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                 |  |
-| 7.4.   |  &nbsp;&nbsp; Medium-to-high level vision II                     |  | 
-| 14.4.  |  &nbsp;&nbsp; Computational modelling: normative models          |  | 
-| 21.4.  |  &nbsp;&nbsp; Computational modelling: system identification     |  | 
-| 28.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models          |  | 
+| 7.4.   |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                          |  | 
+| 14.4.  |  &nbsp;&nbsp; Computational modelling: system identification     |  | 
+| 21.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models          |  | 
+| 28.4.  |  &nbsp;&nbsp; TBD                                                |  | 
 | 5.5.   |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček)          |  |
 | 12.5.  |  &nbsp;&nbsp; Memory (Kamil Vlček)                               |  | 
 | 19.5.  |  &nbsp;&nbsp; Spatial cognition (Kamil Vlček)                    |  |
