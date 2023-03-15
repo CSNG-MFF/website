@@ -24,6 +24,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |-------|---------------------------------|----|----|
 |15.03.23 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [Unifying model for three forms of contextual modulation including feedback input from higher visual areas](https://www.biorxiv.org/content/10.1101/2022.05.27.493753v1.full.pdf)| &nbsp;&nbsp;  Charles University |
 |22.03.23 | &nbsp;&nbsp;  // | &nbsp;&nbsp;  NO SEMINAR | &nbsp;&nbsp;  // |
+|29 .10.22 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [A model for the development of binocular congruence in primary visual cortex](https://www.nature.com/articles/s41598-022-16739-6)  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
