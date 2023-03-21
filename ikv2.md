@@ -22,10 +22,10 @@ The first 90 minutes will be lecture followed by 45 minute excercise session.
 | 17.3.  |  &nbsp;&nbsp; Medium-to-high level vision II                     | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) |
 | 24.3.  |  &nbsp;&nbsp; Computational modelling: normative models          |  |
 | 31.3.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                 |  |
-| 7.4.   |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                          |  | 
-| 14.4.  |  &nbsp;&nbsp; Computational modelling: system identification     |  | 
-| 21.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models          |  | 
-| 28.4.  |  &nbsp;&nbsp; TBD                                                |  | 
+| 7.4.   |  &nbsp;&nbsp; HOLIDAYS                                           |  | 
+| 14.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                          |  | 
+| 21.4.  |  &nbsp;&nbsp; Computational modelling: system identification     |  | 
+| 28.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models          |  | 
 | 5.5.   |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček)          |  |
 | 12.5.  |  &nbsp;&nbsp; Memory (Kamil Vlček)                               |  | 
 | 19.5.  |  &nbsp;&nbsp; Spatial cognition (Kamil Vlček)                    |  |
