@@ -22,7 +22,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|29 .10.22 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [A model for the development of binocular congruence in primary visual cortex](https://www.nature.com/articles/s41598-022-16739-6)  | &nbsp;&nbsp; Charles University  |
+|29.04.23 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [A model for the development of binocular congruence in primary visual cortex](https://www.nature.com/articles/s41598-022-16739-6)  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
