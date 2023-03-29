@@ -22,8 +22,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|29.03.23 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [A model for the development of binocular congruence in primary visual cortex](https://www.nature.com/articles/s41598-022-16739-6)  | &nbsp;&nbsp; Charles University  |
 |05.04.23 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Pulse trains to percepts: A virtual patient describing the perceptual effects of human visual cortical stimulation](https://doi.org/10.1101/2023.03.18.532424) | &nbsp;&nbsp; Charles University  |
+|12.04.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Towards a foundation model of the mouse visual cortex](https://www.biorxiv.org/content/10.1101/2023.03.21.533548v1) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
@@ -50,7 +50,7 @@ Pulse trains to percepts: A virtual patient describing the perceptual effects of
 |01.03.23| &nbsp;&nbsp;  Tibor  Rózsa  | &nbsp;&nbsp; [Stream-specific feedback inputs to the primate primary visual cortex](https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC7801467&blobtype=pdf) | &nbsp;&nbsp; Charles University  |
 |08.03.23| &nbsp;&nbsp;  Jan Antolik | &nbsp;&nbsp; [Targeted cortical stimulation reveals principles of cortical contextual interactions](https://www.biorxiv.org/content/10.1101/2022.06.22.497254v1) | &nbsp;&nbsp; Charles University  |
 |15.03.23 | &nbsp;&nbsp;  Rémy Cagnol | &nbsp;&nbsp;  [Unifying model for three forms of contextual modulation including feedback input from higher visual areas](https://www.biorxiv.org/content/10.1101/2022.05.27.493753v1.full.pdf)| &nbsp;&nbsp;  Charles University |
-
+|29.03.23 | &nbsp;&nbsp;  Tibor  Rózsa | &nbsp;&nbsp; [A model for the development of binocular congruence in primary visual cortex](https://www.nature.com/articles/s41598-022-16739-6)  | &nbsp;&nbsp; Charles University  |
 #### &nbsp;
 
 ### [2021-2022 talks](./compneuroseminar2021.html)
