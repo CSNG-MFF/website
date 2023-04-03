@@ -20,8 +20,8 @@ The first 90 minutes will be lecture followed by 45 minute excercise session.
 | 3.3.   |  &nbsp;&nbsp; Medium-to-high level vision I                      | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) | 
 | 10.3.  |  &nbsp;&nbsp; Mean field approaches (Karolína Korvasová)         |  |
 | 17.3.  |  &nbsp;&nbsp; Medium-to-high level vision II                     | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) |
-| 24.3.  |  &nbsp;&nbsp; Computational modelling: normative models          |  |
-| 31.3.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                 |  |
+| 24.3.  |  &nbsp;&nbsp; Computational modelling: normative models          | [slides](https://e.pcloud.link/publink/show?code=XZo5yLZuEgnDCUodfSDTkcyASKujf6Pfsey) |
+| 31.3.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                 | [slides](https://e.pcloud.link/publink/show?code=XZPBfSZJCEbAhBzRQF3d7AxI2sjfLkjHik7) |
 | 7.4.   |  &nbsp;&nbsp; HOLIDAYS                                           |  | 
 | 14.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                          |  | 
 | 21.4.  |  &nbsp;&nbsp; Computational modelling: system identification     |  | 
