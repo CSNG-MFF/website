@@ -26,7 +26,6 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 #### &nbsp;
 
-Pulse trains to percepts: A virtual patient describing the perceptual effects of human visual cortical stimulation
 ### Past talks
 
 |Date| Presenter |Topic  | Presenter's affiliation |
