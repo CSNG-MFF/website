@@ -22,7 +22,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|12.04.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; CANCELED | &nbsp;&nbsp; Charles University  |
+|19.04.23 | &nbsp;&nbsp; Jakub Kopko | &nbsp;&nbsp; [Precision dynamical mapping using topological data analysis reveals a hub-like transition state at rest](https://www.nature.com/articles/s41467-022-32381-2) | &nbsp;&nbsp; Charles University  |
+|26.04.23 | &nbsp;&nbsp; Pavel Haman | &nbsp;&nbsp; Review: morphological and functional properties and differences of cells across layers of cat V1 | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
