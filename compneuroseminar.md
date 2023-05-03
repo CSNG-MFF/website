@@ -22,7 +22,6 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|03.05.23 | &nbsp;&nbsp; Yogesh Singh | &nbsp;&nbsp; [A network model of the modulation of gamma oscillations by NMDA receptors in cerebral cortex](https://www.biorxiv.org/content/biorxiv/early/2022/10/04/2021.12.21.473671.full.pdf)  | &nbsp;&nbsp; Charles University  |
 |10.05.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Pattern completion and disruption characterize contextual modulation in mouse visual cortex](https://www.biorxiv.org/content/10.1101/2023.03.13.532473v1.full.pdf)  | &nbsp;&nbsp; Charles University  |
 |24.05.23 | &nbsp;&nbsp; Anna Agafonova | &nbsp;&nbsp; [Layer and rhythm specificity for predictive routing](https://www.pnas.org/doi/10.1073/pnas.2014868117)  | &nbsp;&nbsp; Charles University  |
 
@@ -54,6 +53,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |05.04.23 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Pulse trains to percepts: A virtual patient describing the perceptual effects of human visual cortical stimulation](https://doi.org/10.1101/2023.03.18.532424) | &nbsp;&nbsp; Charles University  |
 |19.04.23 | &nbsp;&nbsp; Jakub Kopko | &nbsp;&nbsp; [Precision dynamical mapping using topological data analysis reveals a hub-like transition state at rest](https://www.nature.com/articles/s41467-022-32381-2) | &nbsp;&nbsp; Charles University  |
 |26.04.23 | &nbsp;&nbsp; Pavel Haman | &nbsp;&nbsp; Review: morphological and functional properties and differences of cells across layers of cat V1 | &nbsp;&nbsp; Charles University  |
+|03.05.23 | &nbsp;&nbsp; Yogesh Singh | &nbsp;&nbsp; [A network model of the modulation of gamma oscillations by NMDA receptors in cerebral cortex](https://www.biorxiv.org/content/biorxiv/early/2022/10/04/2021.12.21.473671.full.pdf)  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
