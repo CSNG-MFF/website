@@ -23,6 +23,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |10.05.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Pattern completion and disruption characterize contextual modulation in mouse visual cortex](https://www.biorxiv.org/content/10.1101/2023.03.13.532473v1.full.pdf)  | &nbsp;&nbsp; Charles University  |
+|17.05.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Biologically plausible phosphene simulation for the differentiable optimization of visual cortical prostheses](https://www.biorxiv.org/content/10.1101/2022.12.23.521749v1)  | &nbsp;&nbsp; Charles University  |
 |24.05.23 | &nbsp;&nbsp; Anna Agafonova | &nbsp;&nbsp; [Layer and rhythm specificity for predictive routing](https://www.pnas.org/doi/10.1073/pnas.2014868117)  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
