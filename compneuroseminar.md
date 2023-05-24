@@ -19,11 +19,12 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 ### Upcoming talks
 
+Seminar of the last week of May is anticipated to Monday 29.05.23 2pm
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|17.05.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Biologically plausible phosphene simulation for the differentiable optimization of visual cortical prostheses](https://www.biorxiv.org/content/10.1101/2022.12.23.521749v1)  | &nbsp;&nbsp; Charles University  |
 |24.05.23 | &nbsp;&nbsp; Anna Agafonova | &nbsp;&nbsp; [Layer and rhythm specificity for predictive routing](https://www.pnas.org/doi/10.1073/pnas.2014868117)  | &nbsp;&nbsp; Charles University  |
+|29.05.23 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Spike-phase coupling patterns reveal laminar identity in primate cortex](https://elifesciences.org/articles/84512#fig3s6)| &nbsp;&nbsp;  Charles University |
 
 #### &nbsp;
 
@@ -55,6 +56,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |26.04.23 | &nbsp;&nbsp; Pavel Haman | &nbsp;&nbsp; Review: morphological and functional properties and differences of cells across layers of cat V1 | &nbsp;&nbsp; Charles University  |
 |03.05.23 | &nbsp;&nbsp; Yogesh Singh | &nbsp;&nbsp; [A network model of the modulation of gamma oscillations by NMDA receptors in cerebral cortex](https://www.biorxiv.org/content/biorxiv/early/2022/10/04/2021.12.21.473671.full.pdf)  | &nbsp;&nbsp; Charles University  |
 |10.05.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Pattern completion and disruption characterize contextual modulation in mouse visual cortex](https://www.biorxiv.org/content/10.1101/2023.03.13.532473v1.full.pdf)  | &nbsp;&nbsp; Charles University  |
+|17.05.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Biologically plausible phosphene simulation for the differentiable optimization of visual cortical prostheses](https://www.biorxiv.org/content/10.1101/2022.12.23.521749v1)  | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
