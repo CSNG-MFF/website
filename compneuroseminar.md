@@ -19,7 +19,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 ### Upcoming talks
 
-Seminar of the last week of May is anticipated to Monday 29.05.23 2pm
+Starting on 29.05.23, weekly seminar will be moved to Monday 1pm
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
