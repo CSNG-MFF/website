@@ -6,9 +6,12 @@ title: Computational neuroscience seminar
 ## Computational neuroscience seminar 
 
 ### When and Where: 
-<b>Monday</b> at 1pm both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268)) 
+
+Seminar is held on <b>Monday</b> at 1pm both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268)) 
 
 <b>NOTE: SEMINAR HAS BEEN MOVED FROM WEDNESDAY TO MONDAY 1pm</b>
+
+
 
 ### Synopsis
 
@@ -24,8 +27,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|06.06.23| &nbsp;&nbsp;  Jan Antolik | &nbsp;&nbsp; internal test talk (Tuesday 9am) | &nbsp;&nbsp; Charles University  |
-|12.06.23| &nbsp;&nbsp; // | &nbsp;&nbsp; CSNG away for group retreat (no seminar) | &nbsp;&nbsp; Charles University  |
+|05.06.23| &nbsp;&nbsp; // | &nbsp;&nbsp;  (no seminar) BCS thesis defence | &nbsp;&nbsp; Charles University  |
+|12.06.23| &nbsp;&nbsp; // | &nbsp;&nbsp;  (no seminar) CSNG away for group retreat | &nbsp;&nbsp; Charles University  |
 |19.06.23| &nbsp;&nbsp;  Pavel Haman | &nbsp;&nbsp; TBD | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
