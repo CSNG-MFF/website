@@ -6,7 +6,9 @@ title: Computational neuroscience seminar
 ## Computational neuroscience seminar 
 
 ### When and Where: 
-Each Wednesday at 2pm both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268))
+<b>Monday</b> at 1pm both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268)) 
+
+<b>NOTE: SEMINAR HAS BEEN MOVED FROM WEDNESDAY TO MONDAY 1pm</b>
 
 ### Synopsis
 
@@ -19,12 +21,12 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 ### Upcoming talks
 
-Starting on 29.05.23, weekly seminar will be moved to Monday 1pm
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|24.05.23 | &nbsp;&nbsp; Anna Agafonova | &nbsp;&nbsp; [Layer and rhythm specificity for predictive routing](https://www.pnas.org/doi/10.1073/pnas.2014868117)  | &nbsp;&nbsp; Charles University  |
-|29.05.23 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Spike-phase coupling patterns reveal laminar identity in primate cortex](https://elifesciences.org/articles/84512#fig3s6)| &nbsp;&nbsp;  Charles University |
+|06.06.23| &nbsp;&nbsp;  Jan Antolik | &nbsp;&nbsp; internal test talk (Tuesday 9am) | &nbsp;&nbsp; Charles University  |
+|12.06.23| &nbsp;&nbsp; // | &nbsp;&nbsp; CSNG away for group retreat (no seminar) | &nbsp;&nbsp; Charles University  |
+|19.06.23| &nbsp;&nbsp;  Pavel Haman | &nbsp;&nbsp; TBD | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
@@ -57,6 +59,8 @@ Starting on 29.05.23, weekly seminar will be moved to Monday 1pm
 |03.05.23 | &nbsp;&nbsp; Yogesh Singh | &nbsp;&nbsp; [A network model of the modulation of gamma oscillations by NMDA receptors in cerebral cortex](https://www.biorxiv.org/content/biorxiv/early/2022/10/04/2021.12.21.473671.full.pdf)  | &nbsp;&nbsp; Charles University  |
 |10.05.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Pattern completion and disruption characterize contextual modulation in mouse visual cortex](https://www.biorxiv.org/content/10.1101/2023.03.13.532473v1.full.pdf)  | &nbsp;&nbsp; Charles University  |
 |17.05.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Biologically plausible phosphene simulation for the differentiable optimization of visual cortical prostheses](https://www.biorxiv.org/content/10.1101/2022.12.23.521749v1)  | &nbsp;&nbsp; Charles University  |
+|24.05.23 | &nbsp;&nbsp; Anna Agafonova | &nbsp;&nbsp; [Layer and rhythm specificity for predictive routing](https://www.pnas.org/doi/10.1073/pnas.2014868117)  | &nbsp;&nbsp; Charles University  |
+|29.05.23 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Spike-phase coupling patterns reveal laminar identity in primate cortex](https://elifesciences.org/articles/84512#fig3s6)| &nbsp;&nbsp;  Charles University |
 
 #### &nbsp;
 
