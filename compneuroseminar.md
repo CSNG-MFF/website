@@ -27,7 +27,6 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|05.06.23| &nbsp;&nbsp; // | &nbsp;&nbsp;  (no seminar) BCS thesis defence | &nbsp;&nbsp; Charles University  |
 |12.06.23| &nbsp;&nbsp; // | &nbsp;&nbsp;  (no seminar) CSNG away for group retreat | &nbsp;&nbsp; Charles University  |
 |19.06.23| &nbsp;&nbsp;  Pavel Haman | &nbsp;&nbsp; TBD | &nbsp;&nbsp; Charles University  |
 
