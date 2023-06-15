@@ -28,7 +28,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |19.06.23| &nbsp;&nbsp;  Pavel Haman | &nbsp;&nbsp; [Biologically Realistic Mean-Field Models of Conductance-Based Networks of Spiking Neurons with Adaptation](https://direct.mit.edu/neco/article-abstract/31/4/653/8461/Biologically-Realistic-Mean-Field-Models-of?redirectedFrom=fulltext) | &nbsp;&nbsp; Charles University  |
-|26.06.23| &nbsp;&nbsp;  Pavel Haman | &nbsp;&nbsp; [Biologically Realistic Mean-Field Models of Conductance-Based Networks of Spiking Neurons with Adaptation](https://direct.mit.edu/neco/article-abstract/31/4/653/8461/Biologically-Realistic-Mean-Field-Models-of?redirectedFrom=fulltext) | &nbsp;&nbsp; Charles University  |
+|26.06.23| &nbsp;&nbsp;   Tibor  Rózsa | &nbsp;&nbsp; TBD | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
