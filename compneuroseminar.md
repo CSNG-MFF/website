@@ -27,8 +27,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|19.06.23| &nbsp;&nbsp;  Pavel Haman | &nbsp;&nbsp; [Biologically Realistic Mean-Field Models of Conductance-Based Networks of Spiking Neurons with Adaptation](https://direct.mit.edu/neco/article-abstract/31/4/653/8461/Biologically-Realistic-Mean-Field-Models-of?redirectedFrom=fulltext) | &nbsp;&nbsp; Charles University  |
-|26.06.23| &nbsp;&nbsp;   Tibor  Rózsa | &nbsp;&nbsp; TBD | &nbsp;&nbsp; Charles University  |
+|26.06.23| &nbsp;&nbsp;   Tibor  Rózsa | &nbsp;&nbsp; [Statistical modeling of adaptive neural networks explains co-existence of avalanches and oscillations in resting human brain](https://www.nature.com/articles/s43588-023-00410-9) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
@@ -63,6 +62,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |17.05.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Biologically plausible phosphene simulation for the differentiable optimization of visual cortical prostheses](https://www.biorxiv.org/content/10.1101/2022.12.23.521749v1)  | &nbsp;&nbsp; Charles University  |
 |24.05.23 | &nbsp;&nbsp; Anna Agafonova | &nbsp;&nbsp; [Layer and rhythm specificity for predictive routing](https://www.pnas.org/doi/10.1073/pnas.2014868117)  | &nbsp;&nbsp; Charles University  |
 |29.05.23 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Spike-phase coupling patterns reveal laminar identity in primate cortex](https://elifesciences.org/articles/84512#fig3s6)| &nbsp;&nbsp;  Charles University |
+|19.06.23| &nbsp;&nbsp;  Pavel Haman | &nbsp;&nbsp; [Biologically Realistic Mean-Field Models of Conductance-Based Networks of Spiking Neurons with Adaptation](https://direct.mit.edu/neco/article-abstract/31/4/653/8461/Biologically-Realistic-Mean-Field-Models-of?redirectedFrom=fulltext) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
