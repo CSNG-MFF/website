@@ -42,31 +42,19 @@ During october you should receive email with details of the experiment and the d
 
 This semster the course is scheduled for Thursday, from 15:40 till 18:50. First 90 minuts are in S9 and second in S1.
 
-|--------|-------------------------------------------|----|
-|6.10. |  &nbsp;&nbsp; Ján Antolík - Introduction | |
-|13.10. |  &nbsp;&nbsp; Ján Antolík - Neurons (Biology) |[slides](https://e1.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX)|
-|20.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) | [slides](https://e1.pcloud.link/publink/show?code=XZKq2QZliGNpr88hcRruBPHMrVcEFB1rFsV) |
-|27.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neural coding, Cortical Architectures  |[slides1](https://e1.pcloud.link/publink/show?code=XZuq2QZeC4grQ3LRfhf5fgvkxQbR5BxdLx7) &nbsp; [slides2](https://e1.pcloud.link/publink/show?code=XZLq2QZFLgS1XCsnyXnaHT56GuPxShxgnCV)|
-|3.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System  |[slides](https://e1.pcloud.link/publink/show?code=XZtq2QZEgxH1KcvHGFem1Sl2vLC6Lz6hVVV)|
-|10.11.|  &nbsp;&nbsp;  Ján Antolík - test , Filip Dechterenko - Seminar I  | [slides](https://e1.pcloud.link/publink/show?code=XZkFyLZyeNDN2HvBMYY0oTy1tnRlQFujGFV)|
-|24.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I  | [slides](https://e1.pcloud.link/publink/show?code=XZrQhYZb75oJ5u31AkOmvYiT8R9qf4GtVXX) |
-|1.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II  | [slides](https://e1.pcloud.link/publink/show?code=XZ5YhYZ55s6lXaFampttdrhiMaqF8aWj1Cy) |
-|8.12.|  &nbsp;&nbsp;  Matej Hoffmann - Motor system  ||
-|15.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology III  ||
-|5.1.|  &nbsp;&nbsp; Filip Dechterenko - Seminar II  ||
-
-<!--
-|--------|-------------------------------------------|----|
-|6.10. |  &nbsp;&nbsp; Ján Antolík - Introduction (S4: 9:00-12:10) | &nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZL596XZq7B2QPb2AwysOosUpxnYL0iwXYIV)  &nbsp; [video](https://u.pcloud.link/publink/show?code=XZw4qJXZkOxVefrj06JPWlvjVOzqXp2zdmoy) |
-|13.10. |  &nbsp;&nbsp; Ján Antolík - Neurons (Biology) (S4: 9:00-12:10) | &nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZEbHEXZkwN6g5BNP5uHxYhs06MBD8xWmKVX) &nbsp; [video](https://u.pcloud.link/publink/show?code=XZ6H2FXZXVRcPgsIAjyJLXmXAln20FvxJbC7) |
-|20.10.|  &nbsp;&nbsp;  Karolína Korvasová - Neurons (Models) (S4: 9:00-12:10) | &nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZhhaFXZPTaHVYu4vt85Ej3PBJ8DhHQDCEHX) &nbsp;&nbsp;    [video](https://u.pcloud.link/publink/show?code=XZaHBpXZD3YRN1pP3phbQ4ROlIBU6zp3wGjX)   |
-|27.10.|  &nbsp;&nbsp;  Ján Antolík - Neural coding (S4: 9:00-10:30), Cortical Architectures (S4: 10:40-12:10),   | &nbsp;  &nbsp;[video1](https://u.pcloud.link/publink/show?code=XZYNCpXZsfSVw2ffemLYwvbBo2U6dXuFU1YV) &nbsp; [video2](https://u.pcloud.link/publink/show?code=XZphNHXZqo33Rb82xe0RNTCiqqG4PbNsKtP7) |
-|3.11.|  &nbsp;&nbsp;  Ján Antolík - test (S4: 9:00-10:30), Filip Dechterenko - Seminar I (S4: 9:00-10:30)  |&nbsp;  &nbsp; [slides](https://u.pcloud.link/publink/show?code=XZ4uvAXZa4TLPIgI42pcFzYmwmotTmzUB5Oy)|
-|5.11.|  &nbsp;&nbsp;  Ján Antolík - Introduction to Visual System (S4: 9:00-12:10) |&nbsp;&nbsp; &nbsp; [video](https://u.pcloud.link/publink/show?code=XZPNezXZJyNoMyF4gT5UyLf7u7jRHzpLFqi7) |
-|10.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology I (S4: 9:00-12:10) |&nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZrz9AXZaruJ0OSvA64Aqd8CmW0rSBUwOozX) &nbsp; [video](https://u.pcloud.link/publink/show?code=XZi2gRXZFLNO1zHvGE0vbXXOs6WU90qGwteV)|
-|17.11.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology II (S4: 9:00-12:10) |&nbsp; &nbsp; [slides](https://u.pcloud.link/publink/show?code=XZHR9AXZ12LbJ4kGVL8NStPBhyDAS0LtVd3V)     &nbsp; [video](https://u.pcloud.link/publink/show?code=XZ7WgRXZqwMd813QDpLjdqlLktPXjH1JOksk) |
-|24.11.|  &nbsp;&nbsp;  Filip Dechterenko - Seminar II (S4: 9:00-12:10) |&nbsp;&nbsp; [slides1](https://u.pcloud.link/publink/show?code=XZguvAXZ7Wia7wtGy6ymUvaeULz2574LsPVX)  &nbsp;&nbsp; [slides2](https://u.pcloud.link/publink/show?code=XZxuvAXZuTuEy2bR5SurPI698qzqCjLVgUvy)|
-|1.12.|  &nbsp;&nbsp;  Matej Hoffmann - Motor system (S4: 9:00-12:10) |&nbsp;&nbsp; |
-|8.12.|  &nbsp;&nbsp;  Jiri Lukavsky - Cognitive psychology III (S4: 9:00-12:10) |&nbsp;&nbsp;[video](https://u.pcloud.link/publink/show?code=XZHf9QXZ5CB42T7xir5qBg0n0ghvd8NjnelX) | 
-|15.12.|  &nbsp;&nbsp; Filip Dechterenko - Seminar III (S4: 9:00-12:10) |&nbsp;&nbsp; [slides](https://u.pcloud.link/publink/show?code=XZILeyVZB4f1lVgpA4X0FoFYb7Sob05HYaL7)|
--->
+|-----------|-------------------------------------------|-------------------------------------------|--------|
+| **Date** | **Lecture session**                           | **Practical session**                      | **Slides** |
+|**5.10.**     | **CANCELLED**  | **CANCELLED**  | |
+|**12.10.** | Introduction (Ján Antolík)  | Introduction (Ján Antolík)           | |
+|**19.10**.|  Neurons biology I (Ján Antolík)  | Neurons biology II (Ján Antolík) | |
+|**26.10.**|  Neurons bmodels I (Pavel Haman)  | Leaky integrate and fire simulations (Karolína Korvasová) | |
+|**2.11.**| **DEANS DAY**   |**DEANS DAY**  | |
+|**9.11.**| Neurons bmodels I (Pavel Haman)  | Leaky integrate and fire simulations (Karolína Korvasová) | |
+|**16.11.**| Neural coding (Pavel Haman)  | Neural coding models (Karolína Korvasová) | |
+|**23.11.**| Cortical architecutre (Pavel Haman)  | Brunel network (Karolína Korvasová) | |
+|**30.11.**| **TEST**   | Network simulations (Karolína Korvasová)  | |
+|**7.12.**|  Visual system 1 (Ján Antolik)  | Semester project (Karolína Korvasová) | |
+|**14.12.**| fMRI and its analysis (Jaroslav Hlinka)  | Semester project (Karolína Korvasová) | |
+|**21.12.**| Machine Learning in Neuroscience (Luca Baroni) | Machine Learning - excercise (Luca Baroni) | |
+|**4.1.**| Motor Cortex (Matej Hoffmann)  | Motor Cortex (Matej Hoffmann) | |
+|**11.1.**| Visual system 2 (Ján Antolik)  | Semester project (Karolína Korvasová)| |

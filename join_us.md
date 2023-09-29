@@ -14,9 +14,25 @@ resarch focus of the group.
 <img class="charles_uni_picture" src="./assets/img/mff_malostranske_namesti_crop.jpg">
 </div> 
 
-Currently, _we do not have fully funded positions available_, however, below is a list of funding possibilities that you could pursue:
+<!-- Currently, _we do not have fully funded positions available_, however -->
+
+<center><h3 style="color:red;"> Open postdoctoral position focusing on modelling electrical stimulation in V1 and neuro-prosthetic system design. </h3></center>
+
+*Requirements:* Strong computational and analytical skills. Experience in computational modeling, spiking neural networks, machine learning
+or understanding of electric field propagation in biological mediums are of great advantage but not strictly required.
+
+*Duration:* 2 years, with possible extension.
+*Funding:* Fully funded for 4.5 years, starting January.
+*Teaching Duties:* None.
+*To apply, send:* Detailed CV and cover letter explaining your interest and how your skills align with our project to: antolikjan@gmail.com.
+
+## Other funding opportunities
+
+Below is a list of additional funding possibilities that you could pursue:
 
 ### PhD funding
+
+
 
 - The PhD program of Faculty of Mathematics and Physics of Charles University. Any student that
   passes the entrance exam can be enrolled in this _funded_ PhD program. A successful candidate can

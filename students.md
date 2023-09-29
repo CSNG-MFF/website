@@ -33,24 +33,32 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   New approaches to sensory prosthetics are being developed, wherby the cortex is stimulated via opto-genetic tools, which are being translated from mice to higher-order mammals including primates. However, it remains unclear how light activates optogenetically transfected neurons. We have recently developed computational simulations of how light propagates through neural tissue and how it activates a detailed morphological model of a V1 pyramidal (excitatory) neuron. It is of great interest to understand such light stimulation effects also in other morphological neural types, particularly in inhibitory neurons. In this project, the student will first learn to use the NEURON simulator and our existing simulation framework. In the following, they will integrate new single neuron models into the simulation framework and use them to simulate and analyze their neural activation through optogenetic stimulation.
 </small>
 
+- <a href="javascript:void(0)" onclick="$('#project10').toggle();">Stimulation protocols for vision restoration using brain-machine-interface.</a>  
+   <small id="project10" class="studentprojectlist" style="display: none;">
+  Recently we have applied the large-scale models developed in our team to the problem of cortical visual prosthesis. New approach to sensory prosthetics is being developed,
+  wherby the the cortex is stimulated via opto-genetic tools, which are being translated from mice to higher-order mammals including primates. While all the technological components
+  of the visual prosthesis are still under development, an important question remains open: how to stimulate the cortex to elicit percepts that are close to those due to the perception
+  of the given stimulus under normal vision. This is where our large-scale modelling approach comes in. Using our V1 model simulations to test potenial stimulation strategies, we are
+  making progress at answering this question. Currently, we have gained insights
+  on how to eleicit simple canonical visual stimuli, specifically sinusoidal gratings. In the next step the student will be responsible for expanding the design and analysis to generic
+  stimulation protocol capable of eliciting arbitrary visual stimuli. The current protocol can be straightforwardly expanded to this general case . The student't responsibility will be
+  to implement this new stimulation protocol in our simulation framework, test the protocol in our model of V1, and implement and perform all the required analysis. Strong programming and
+  analytical skills required. Knowledge of Python, computation neuroscience or neurobiology of visual system a plus.
+  </small>
+
+
 #### Machine Learning in Neuroscience
 
-{% comment %} 
-- <a href="javascript:void(0)" onclick="$('#project_V1power').toggle();">Determining the computational power of detailed spiking models of biological vision.</a>  
-   <small id="project_V1power" class="studentprojectlist" style="display: none;">
-   Primary visual cortex is a complex recurrent dynamical system that operates quite differently from how modern neural network systems do. It however still remains 
-   unclear how does a biological V1 compare in its computational power to the state-of-the-art DNN systems for image analysis. In this project you
-   will take our <a href="./research.html">large-scale biologically dietailed spiking network model </a> of cat primary visual cortex (V1) and prepend
-   it to an existing state-of-the-art DNN system as its first stage of processing. You will then train both the original DNN and the new hybrid system
-   on an image categorization benchmark and analyze the difference between the performance of the two systems.
-   </small>
-{% endcomment %}
+- <a href="javascript:void(0)" onclick="$('#project_pytorchre').toggle();">Reimplement firing rate hebbian-driven development simulation framework in PyTorch</a>  
+   <small id="project_pytorchre" class="studentprojectlist" style="display: none;">
+   In [this paper](https://www.frontiersin.org/articles/10.3389/fncir.2017.00021/full) we have developed a simple [simulation environemnt](https://github.com/antolikjan/rate_model_framework) for simulating hebbian driven development of primary visual cortex. In this project, which is suitable for software project or bachelor thesis, your task will be to re-implement this simulation framework in PyTorch to speed up computations and allow integrating the V1 model with other modern DNN techniques. 
+   </small
 
 
-- <a href="javascript:void(0)" onclick="$('#project_bioconstr').toggle();">Deep recurrent neural network V1 model with biologically constrained architecture.</a>  
+- <a href="javascript:void(0)" onclick="$('#project_bioconstr').toggle();">Capturing V1 spatio-temporal dynamics in deep neuralnetwork model</a>  
    <small id="project_bioconstr" class="studentprojectlist" style="display: none;">
-   A common approach for studying the function of early sensory systems is to determine the relationship between sensory inputs and associated (experimentally recorded) neural responses. In the past, mostly linear [[1](http://www.ncbi.nlm.nih.gov/pubmed/12938771)], or shallow non-linear techniques were utilized, leading to limited predictive and consequently explanatory power of models fitted in this way. More recently, the popular deep convolutional architectures were successfully tested on the neural data [[2](https://arxiv.org/abs/1711.02653),[3](https://doi.org/10.1101/201764)]. These general, machine-learning motivated models, however, ignore the known anatomical and functional architecture of visual system. In this project we will rectify this shortcoming by setting up a recurrent deep neural network whose architecture will be constrained such that it reflects know features of cortical anatomy, including the separation of cortical circuits into layers, exc vs. inh neural types, different physiological properties across neural types and layers, and different later extents of interactions for different neural types and layers. The model will be trained on dynamical activity of V1 neurons respond to naturalistic videos. The goal will be to compare the prediction performance of the novel RNN architecture against state-of-the-art in the field of neural predictions, as well as assess how well will the learned connectivity reflect the real biological connectivity.
-   </small>
+   Application of deep neural networks to large datasets of neural data recorded in response to library of visual stimuly become the dominant method of unraveling the function of neurons in visual cortex. The standard approaches however (i) ignore known anatomical  structure of visual cortex, (ii) use purely feed-forward NN as opposed to the intrinsically recurrent biological networks, (iii) only capture the mean steady state response. To address this, in this project you will build a DNN model composed of multiple recurrent neural network stages, that will be constrained to follow various know anatomical structures, and train the resulting model on fine temporal  recordings of V1 responses to natural images. This project can be further extended to explore the possibility of pretraining the resulting model with contrastive unsupervised learning method recently used by [DiCarlo lab for training DNNs for modeling ventral visual pathway](https://www.biorxiv.org/content/10.1101/2023.05.18.541361v1).    
+   </small
 
 - <a href="javascript:void(0)" onclick="$('#project_decoding').toggle();">Novel DNN model for decoding visual stimuli from population recordings in primary visual cortex.</a>  
    <small id="project_decoding" class="studentprojectlist" style="display: none;">
@@ -99,18 +107,6 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   V1 simulation, focusing on properties influenced by the neuron's geometry.
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project10').toggle();">Stimulation protocols for vision restoration using brain-machine-interface.</a>  
-   <small id="project10" class="studentprojectlist" style="display: none;">
-  Recently we have applied the large-scale models developed in our team to the problem of cortical visual prosthesis. New approach to sensory prosthetics is being developed,
-  wherby the the cortex is stimulated via opto-genetic tools, which are being translated from mice to higher-order mammals including primates. While all the technological components
-  of the visual prosthesis are still under development, an important question remains open: how to stimulate the cortex to elicit percepts that are close to those due to the perception
-  of the given stimulus under normal vision. This is where our large-scale modelling approach comes in. Using our V1 model simulations to test potenial stimulation strategies, we are
-  making progress at answering this question. Currently, we have gained insights
-  on how to eleicit simple canonical visual stimuli, specifically sinusoidal gratings. In the next step the student will be responsible for expanding the design and analysis to generic
-  stimulation protocol capable of eliciting arbitrary visual stimuli. The current protocol can be straightforwardly expanded to this general case . The student't responsibility will be
-  to implement this new stimulation protocol in our simulation framework, test the protocol in our model of V1, and implement and perform all the required analysis. Strong programming and
-  analytical skills required. Knowledge of Python, computation neuroscience or neurobiology of visual system a plus.
-  </small>
 
 - <a href="javascript:void(0)" onclick="$('#project3').toggle();">Local-field potentials (LFP) in a large-scale model of cat primary visual cortex.</a>  
    <small id="project3" class="studentprojectlist" style="display: none;">
