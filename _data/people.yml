@@ -41,6 +41,19 @@
   email: rozsa@ksvi.mff.cuni.cz
   image: Tibor_Rozsa.jpg
 
+- name: Tibor Rózsa
+  role: PhD student
+  github: hamanpa
+  email: haman@ksvi.mff.cuni.cz
+  image: nopic.png
+
+- name: Katarína Studeničová
+  role: PhD student
+  github: studekat
+  email: studenicova.k@gmail.com
+  image: Katarina_Studenicova.jpg
+
+
 - name: Martin Picek
   role: MSc student
   github: mpicek

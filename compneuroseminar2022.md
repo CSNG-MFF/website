@@ -1,34 +1,8 @@
 ---
 layout: seminar
-title: Computational neuroscience seminar
+title: Computational neuroscience seminar 2022
 ---
 
-## Computational neuroscience seminar 
-
-### When and Where: 
-
-Seminar is held  both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Zoom link](https://cuni-cz.zoom.us/j/99670017268)) 
-The exact time slot is always determined in the first week of semester via online poll and will be posted here once determined.
-
-### Synopsis
-
-This seminar will focus on familiarizing participants with the latest advances in the field of computational neuroscience. It will be a mixture of invited talks, journal paper reviews and discussion sessions. The seminar is open to all those interested in neuroscience, particularly from the point of view of modelling of the neural systems.
-All participants are encouraged to present and actively take part in discussions. Order of presenters, as well as seminar topics with be planned during the course of the semester with appropriate time in advance.
-
-### Requirements for students to gain credits
-
-To obtain credits, it is required to attend at least 10 seminars, actively participate in the discussion and present one journal article during the course or the semester.
-
-### Upcoming talks
-
-
-|Date| Presenter | Topic  |  Presenter's affiliation |
-|-------|---------------------------------|----|----|
-
-
-#### &nbsp;
-
-### Past talks
 
 |Date| Presenter |Topic  | Presenter's affiliation |
 |----|---------- |------|-------------------------|
@@ -61,8 +35,3 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |29.05.23 | &nbsp;&nbsp;  Karolína Korvasová | &nbsp;&nbsp;  [Spike-phase coupling patterns reveal laminar identity in primate cortex](https://elifesciences.org/articles/84512#fig3s6)| &nbsp;&nbsp;  Charles University |
 |19.06.23| &nbsp;&nbsp;  Pavel Haman | &nbsp;&nbsp; [Biologically Realistic Mean-Field Models of Conductance-Based Networks of Spiking Neurons with Adaptation](https://direct.mit.edu/neco/article-abstract/31/4/653/8461/Biologically-Realistic-Mean-Field-Models-of?redirectedFrom=fulltext) | &nbsp;&nbsp; Charles University  |
 |26.06.23| &nbsp;&nbsp;   Tibor  Rózsa | &nbsp;&nbsp; [Statistical modeling of adaptive neural networks explains co-existence of avalanches and oscillations in resting human brain](https://www.nature.com/articles/s43588-023-00410-9) | &nbsp;&nbsp; Charles University  |
-
-#### &nbsp;
-
-### [2022-2023 talks](./compneuroseminar2022.html)
-### [2021-2022 talks](./compneuroseminar2021.html)
