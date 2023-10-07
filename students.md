@@ -67,6 +67,11 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Spiking Network Models of Visual System
 
+- <a href="javascript:void(0)" onclick="$('#modelport').toggle();">Porting model of cortico-thalamic loop to latest version of Mozaik</a>  
+   <small id="modelport" class="studentprojectlist" style="display: none;">
+   This is an ideal introductory project to get acquainted with spiking neural networks, models of visual system, and our Mozaik simulation framework, and hence gateway to more advanced modelling projects. It is thus suitable as a volunteer project or bachelor thesis. The goal of the project is to take a model cortico-thalamic loop that was developed by a PhD student a while ago in a very old version of our simulator  environment [Mozaik](https://www.biorxiv.org/content/10.1101/2022.12.19.521069v1) and port it into the current version of the simulator. The main challange of the project will be to get acquinted with the simulator stack, understand the code of the model, and then once the porting is done, which in itself should be straighforwad, to repeat the series of virtual experiments undertaken in the linked original study and verify that all results still hold in the ported model version. 
+   </small>
+
 - <a href="javascript:void(0)" onclick="$('#asymmetric').toggle();">Asymmetric On & Off responses in Retina, LGN and V1.</a>  
    <small id="asymmetric" class="studentprojectlist" style="display: none;">
    ON and OFF pathways in the early visual system were long thought of as symmetric in their spatiotemporal properties. However, lately there has been a collection of studies in the retina ([Chichilnisky 2002](https://doi.org/10.1523/JNEUROSCI.22-07-02737.2002), [Ratliff 2010](https://www.pnas.org/doi/10.1073/pnas.1005846107), [Sneha 2018](https://www.jneurosci.org/content/38/45/9728)) and in the visual cortex ([Rahimi-Nasrabadi 2021](https://www.sciencedirect.com/science/article/pii/S221112472100005X)), which show significant differences between the two pathways, mirroring the statistical differences in natural scenes. The goal of the project will be to expand the current Retina/LGN/V1 model used by the CSNG lab to reflect these findings.
