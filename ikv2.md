@@ -10,6 +10,8 @@ This course gives an introduction into computational neuroscience and cognitive 
 The second term will focus primarily on visual system, computational modelling, memory systems, spatial cognition, motor systems, 
 but neural and behavioral learning will also be covered. This course runs in English. 
 
+
+
 ### Lecture overview and slides
 
 The course will take place every *Friday* at *10:40-13:00* in *S3*. 
