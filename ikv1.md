@@ -24,7 +24,7 @@ running in parallel.
 You will get a grade for each of the three tasks, and the final grade will be calculated as the arhitmetic mean of the three partial grades.
 Specific info on 1 and 2 will appear here later in the semester.
 
-<!-
+<!--
 
 ### Assignment
 
