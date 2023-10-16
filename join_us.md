@@ -16,15 +16,18 @@ resarch focus of the group.
 
 <!-- Currently, _we do not have fully funded positions available_, however -->
 
-<center><h3 style="color:red;"> Open postdoctoral position focusing on modelling electrical stimulation in V1 and neuro-prosthetic system design. </h3></center>
+<center><h2 style="color:red;"> Open postdoctoral position focusing on modelling electrical stimulation in V1 and neuro-prosthetic system design. </h2></center>
 
-*Requirements:* Strong computational and analytical skills. Experience in computational modeling, spiking neural networks, machine learning
-or understanding of electric field propagation in biological mediums are of great advantage but not strictly required.
+|:--|:-- |
+|    **Project goals:**    | Project goals: Develop a large-scale model of electrical stimulation in the primary visual cortex for neuro-prosthetic vision restoration. Create and refine models of the primary visual cortex and its electrical stimulation. Simulate the impact of external stimulation on cortical activity. Develop novel machine learning methods to link simulated cortical activity to expected visual perceptions. Develop stimulation protocols for neuro-prosthetic systems. This project is undertaken as a part of a larger consortium of Czech experimental and theoretical neuroscience teams.|
+|**Requirements:**     | Strong computational and analytical skills. Experience in computational modeling, spiking neural networks, machine learningor understanding of electric field propagation in biological mediums are of great advantage but not strictly required.|
+|**Duration:**         | 2 years, with possible extension.|
+|**Funding:**          | Fully funded for 4.5 years, starting January.|
+|**To apply, send:**   | Detailed CV and cover letter explaining your interest and how your skills align with our project to: antolikjan@gmail.com.|
 
-*Duration:* 2 years, with possible extension.
-*Funding:* Fully funded for 4.5 years, starting January.
-*Teaching Duties:* None.
-*To apply, send:* Detailed CV and cover letter explaining your interest and how your skills align with our project to: antolikjan@gmail.com.
+<br />
+We will be accepting applications until position is filled.
+
 
 ## Other funding opportunities
 
