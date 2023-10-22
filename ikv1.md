@@ -46,8 +46,8 @@ This semster the course is scheduled for Thursday, from 12:20 till 15:30. The co
 |-----------|-------------------------------------------|-------------------------------------------|--------|
 | **Date** | **Lecture session**                           | **Practical session**                      | **Slides** |
 |**5.10.**     | **CANCELLED**  | **CANCELLED**  | |
-|**12.10.** | Introduction (Ján Antolík)  | Introduction (Ján Antolík)           | |
-|**19.10**.|  Neurons biology I (Ján Antolík)  | Neurons biology II (Ján Antolík) | |
+|**12.10.** | Introduction (Ján Antolík)  | Introduction (Ján Antolík)           | [slides](https://e.pcloud.link/publink/show?code=XZrB4sZ9AvpYAtdxIuIbHTgpkJXjSIvo9aV) |
+|**19.10**.|  Neurons biology I (Ján Antolík)  | Neurons biology II (Ján Antolík) | [slides](https://e.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX) |
 |**26.10.**|  Neurons bmodels I (Pavel Haman)  | Leaky integrate and fire simulations (Karolína Korvasová) | |
 |**2.11.**| **DEANS DAY**   |**DEANS DAY**  | |
 |**9.11.**| Neurons bmodels I (Pavel Haman)  | Leaky integrate and fire simulations (Karolína Korvasová) | |
