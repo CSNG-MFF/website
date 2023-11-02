@@ -29,6 +29,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |03.11.23 | &nbsp;&nbsp; Tibor  Rózsa | &nbsp;&nbsp; [Contextual Modulation of Feedforward Inputs to Primary Visual Cortex](https://www.frontiersin.org/articles/10.3389/fnsys.2022.818633/full) | &nbsp;&nbsp; Charles University  |
+|10.11.23 | &nbsp;&nbsp; Matěj Voldřich | &nbsp;&nbsp; [Representations in human primary visual cortex drift over time](https://www.nature.com/articles/s41467-023-40144-w) | &nbsp;&nbsp; Charles University  |
 
 
 
