@@ -28,7 +28,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|27.10.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Bipartite invariance in mouse primary visual cortex](https://www.biorxiv.org/content/10.1101/2023.03.15.532836v1.full.pdf) | &nbsp;&nbsp; Charles University  |
+
 |03.11.23 | &nbsp;&nbsp; Tibor  Rózsa | &nbsp;&nbsp; [Contextual Modulation of Feedforward Inputs to Primary Visual Cortex](https://www.frontiersin.org/articles/10.3389/fnsys.2022.818633/full) | &nbsp;&nbsp; Charles University  |
 
 
@@ -41,6 +41,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |----|---------- |------|-------------------------|
 |13.10.23 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Cortical layer–specific critical dynamics triggering perception](https://doi.org/10.1126/science.aaw5202) | &nbsp;&nbsp; Charles University  |
 |20.10.23 | &nbsp;&nbsp; Remy Cagnol | &nbsp;&nbsp; [Cascaded normalizations for spatial integration in the primary visual cortex of primates](https://www.sciencedirect.com/science/article/pii/S2211124722010385) | &nbsp;&nbsp; Charles University  |
+|27.10.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Bipartite invariance in mouse primary visual cortex](https://www.biorxiv.org/content/10.1101/2023.03.15.532836v1.full.pdf) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
