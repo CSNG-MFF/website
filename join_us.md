@@ -57,6 +57,10 @@ Below is a list of additional funding possibilities that you could pursue:
 As Czech Republic is one of the Widening Countries, there are additional Widening Fellowships available within the MSCA-PF calls, as well as Czech national funding of the 
 applications with high evaluation but no funding. This significantly increase the chance of the application being funded.
 
+- Likewise, we can help you write a project for the [EMBO Postdoctoral Fellowship](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/).
+Extra fellowships for Czech Republic also exist withing this funding scheme, further increasing the chances of success.
+
+
 ### Bilateral funding
 
 - For students from France: [Barrande Funding Scheme](https://studium.ifp.cz/en/doctorants/barrande-fellowship-program/?fbclid=IwAR3r-ISWEpvANAmC5b5wdR7S4HKg54JphDiTXnJ1sL6C22REYRs8bnbwE7A)
