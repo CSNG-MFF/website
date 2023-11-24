@@ -9,6 +9,8 @@ title: Computational neuroscience seminar
 
 Seminar is held  both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Remote meeting link](meet.google.com/yve-yqog-qst)) every *Friday at 14:00*.
 
+#### 24/11/23 seminar is postpone by a week due to speaker illness
+
 <!--The exact time slot is always determined in the first week of semester via online poll and will be posted here once determined.-->
 
 
