@@ -29,7 +29,6 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|01.12.23 | &nbsp;&nbsp; Jan Antolik | &nbsp;&nbsp; [What can 1.8 billion regressions tell us about the pressures shaping high-level visual representation in brains and machines?](https://www.biorxiv.org/content/10.1101/2022.03.28.485868v2.full.pdf) | &nbsp;&nbsp; Charles University  |
 |08.12.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [The feature landscape of visual cortex](https://www.biorxiv.org/content/10.1101/2023.11.03.565500v1) | &nbsp;&nbsp; Charles University  |
 
 
@@ -44,6 +43,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |27.10.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Bipartite invariance in mouse primary visual cortex](https://www.biorxiv.org/content/10.1101/2023.03.15.532836v1.full.pdf) | &nbsp;&nbsp; Charles University  |
 |03.11.23 | &nbsp;&nbsp; Tibor  Rózsa | &nbsp;&nbsp; [Contextual Modulation of Feedforward Inputs to Primary Visual Cortex](https://www.frontiersin.org/articles/10.3389/fnsys.2022.818633/full) | &nbsp;&nbsp; Charles University  |
 |10.11.23 | &nbsp;&nbsp; Matěj Voldřich | &nbsp;&nbsp; [Representations in human primary visual cortex drift over time](https://www.nature.com/articles/s41467-023-40144-w) | &nbsp;&nbsp; Charles University  |
+|01.12.23 | &nbsp;&nbsp; Jan Antolik | &nbsp;&nbsp; [What can 1.8 billion regressions tell us about the pressures shaping high-level visual representation in brains and machines?](https://www.biorxiv.org/content/10.1101/2022.03.28.485868v2.full.pdf) | &nbsp;&nbsp; Charles University  |
 
 
 #### &nbsp;
