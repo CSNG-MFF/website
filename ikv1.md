@@ -24,21 +24,6 @@ running in parallel.
 You will get a grade for each of the three tasks, and the final grade will be calculated as the arhitmetic mean of the three partial grades.
 Specific info on 1 and 2 will appear here later in the semester.
 
-<!--
-
-### Assignment
-
-* Data analysis homework is [here](https://github.com/fidadoma/etraChallenge_ICS).
-* Visual search experiment homework: [assignment](https://e1.pcloud.link/publink/show?code=XZJYhYZB8hNWYEnHiHi591o3Pxw2uow1KEX)
-
--
-### Participation in experiment
-
-The experiment will be run by [Filip Děchtěrenko](http://www.ms.mff.cuni.cz/~dechf7am/). Please register for the experiment [here](https://www.experimenty-labels.cz/public/participant_create.php?s=19). 
-During october you should receive email with details of the experiment and the date.
-
--->
-
 ### Lecture overview and slides
 
 This semster the course is scheduled for Thursday, from 12:20 till 15:30. The course will take place in S8.
@@ -48,11 +33,11 @@ This semster the course is scheduled for Thursday, from 12:20 till 15:30. The co
 |**5.10.**     | **CANCELLED**  | **CANCELLED**  | |
 |**12.10.** | Introduction (Ján Antolík)  | Introduction (Ján Antolík)           | [slides](https://e.pcloud.link/publink/show?code=XZrB4sZ9AvpYAtdxIuIbHTgpkJXjSIvo9aV) |
 |**19.10**.|  Neurons biology I (Ján Antolík)  | Neurons biology II (Ján Antolík) | [slides](https://e.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX) |
-|**26.10.**|  Neurons bmodels I (Pavel Haman)  | Leaky integrate and fire simulations (Karolína Korvasová) | |
+|**26.10.**|  Neurons models I (Pavel Haman)  | Leaky integrate and fire simulations (Karolína Korvasová) | |
 |**2.11.**| **DEANS DAY**   |**DEANS DAY**  | |
-|**9.11.**| Neurons bmodels I (Pavel Haman)  | Leaky integrate and fire simulations (Karolína Korvasová) | |
-|**16.11.**| Neural coding (Pavel Haman)  | Neural coding models (Karolína Korvasová) | |
-|**23.11.**| Cortical architecutre (Pavel Haman)  | Brunel network (Karolína Korvasová) | |
+|**9.11.**| Neurons models II (Pavel Haman) [slides](https://e.pcloud.link/publink/show?code=XZHqGDZRKyStMspuVp3EAX9HqqM08rGFBnX)  | Leaky integrate and fire simulations (Karolína Korvasová) | |
+|**16.11.**| Neural coding (Pavel Haman) [slides](https://e.pcloud.link/publink/show?code=XZJqGDZWW1oQPfPXqJBcLUog3oIvVFPvuyk) | Neural coding models (Karolína Korvasová) | |
+|**23.11.**| Cortical architecutre (Pavel Haman) [slides](https://e.pcloud.link/publink/show?code=XZVqGDZpaR6zN4nes0gFGPrW1RR6LOXpkbk)  | Brunel network (Karolína Korvasová) | |
 |**30.11.**| **TEST**   | Network simulations (Karolína Korvasová)  | |
 |**7.12.**|  Visual system 1 (Ján Antolik)  | Semester project (Karolína Korvasová) | |
 |**14.12.**| fMRI and its analysis (Jaroslav Hlinka)  | Semester project (Karolína Korvasová) | |

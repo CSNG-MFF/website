@@ -35,15 +35,12 @@ Below is a list of additional funding possibilities that you could pursue:
 
 ### PhD funding
 
-
-
 - The PhD program of Faculty of Mathematics and Physics of Charles University. Any student that
   passes the entrance exam can be enrolled in this _funded_ PhD program. A successful candidate can
   expect an equivalent of gross income of 28000 Czk, which at the time of writing (10.10.2020) is
-  approximatly 1050 euros per month. Once living costs in Prague are taken into account, this
-  allows for comfortable living arrangements. For more details contact
-  [Ján Antolík](https://Antolik.net). Additional funding schemes, such as teaching, mobility grants,
-  or intra-university project grants allow for further increases of the salary.
+  approximatly 1050 euros per month. For more details contact [Ján Antolík](https://Antolik.net). 
+  Additional funding schemes, such as teaching, mobility grants, or intra-university project grants 
+  allow for further increases of the salary.
 
 ### Post-doctoral fellow funding
 
@@ -60,6 +57,8 @@ applications with high evaluation but no funding. This significantly increase th
 - Likewise, we can help you write a project for the [EMBO Postdoctoral Fellowship](https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/).
 Extra fellowships for Czech Republic also exist withing this funding scheme, further increasing the chances of success.
 
+- Finally, we can help you write a grant for the Czech Granting Agency (GACR) [Incoming Post-doc grant](https://gacr.cz/en/types-of-grant-projects/) that funds 2 year post-doc 
+stays at Czech institutions.
 
 ### Bilateral funding
 
