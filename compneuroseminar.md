@@ -30,7 +30,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |08.12.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [The feature landscape of visual cortex](https://www.biorxiv.org/content/10.1101/2023.11.03.565500v1) | &nbsp;&nbsp; Charles University  |
-
+|15.12.23 | &nbsp;&nbsp; Katarína Studeničová | &nbsp;&nbsp; [Robust dynamic community detection with applications to human brain functional networks](https://www.nature.com/articles/s41467-020-16285-7) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
