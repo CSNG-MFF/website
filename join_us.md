@@ -31,8 +31,6 @@ We will be accepting applications until position is filled.
 
 ## Other funding opportunities
 
-Below is a list of additional funding possibilities that you could pursue:
-
 ### PhD funding
 
 - The PhD program of Faculty of Mathematics and Physics of Charles University. Any student that

@@ -65,6 +65,18 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
    Recent years have witnessed a major breakthrough in DNN models ability to predict neural population activity of V1 neurons to novel visual stimuli. The inverse problem of predicting the natural image based on the activity it elicits in population of V1 neurons, however, remains much less studied, and consequently mastered. In this project the student will implement and test a novel DNN architecture designed to predict visual inputs from population activity of V1 neurons. {% comment %}  The key aspect of the model is a pre-processing stage that converts population activity of V1 neurons into n-dimansional matrix to which standard CNN architectures can be applied. The idea of the pre-processing stage is following. We will first train a forward model (from images to V1 activities). This will allows us to determine the position, phase and orientation of receptive fields of individual neurons. We will rasterized each of these three dimension (position, phase, orientation), leading to a coordinate system representable as 4D matrix (position has 2 dimension itself). The value at each coordinate (x,y,z,u) in the 3D matrix will be calculated as a weighted sum of the activities of neurons in the population, where  the weights are the distance of the preference vector of the given cell (its postion, orientation and phase preference) from the coodinates (x,y,z,u). {% endcomment %}
    </small>
 
+- <a href="javascript:void(0)" onclick="$('#project_surr_mei').toggle();">Determining maximally exciting and suppressive surround stimuli in a spiking model of primary visual cortex.</a>  
+   <small id="project_surr_mei" class="studentprojectlist" style="display: none;">
+   Recently a novel method of  studying coding properties of neurons in the visual system has been developed [ref](https://www.nature.com/articles/s41593-019-0517-x).
+   It is based on two steps. First a forward deep neural network model - a model that predicts responses on neurons to images - is trained on neural recordings. Next
+   by applying backpropagation to the model while keeping its weights fixed, a maximally exciting image is determined. Even more recdntly, this methods has been extended
+   to identify the maximally exciting and maximally inhibiting modulatory surround stimuli [ref](https://www.biorxiv.org/content/10.1101/2023.03.13.532473v1.full.pdf).
+   We have recently constructed a detailed large-scale [model](https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf) of cat primary visual cortex (V1).
+   In this project student will apply this new method to synthetic responses of neurons from our large-scale model of V1 to (a) determine wether our model conforms 
+   to the aforemntioned recent experimental findings and (b) to obtain a mechanistic understanding how the discovered surround modulation effects emerge in cortical network.
+   </small>
+
+
 #### Spiking Network Models of Visual System
 
 - <a href="javascript:void(0)" onclick="$('#modelport').toggle();">Porting model of cortico-thalamic loop to latest version of Mozaik</a>  
