@@ -11,19 +11,26 @@ We also welcome students with their own project ideas, as long as they are align
 resarch focus of the group.
 
 <div >
-<img class="charles_uni_picture" src="./assets/img/mff_malostranske_namesti_crop.jpg">
+<img class="charles_uni_picture" src="./assets/img/mff_malostranske_namesti_crop_with_arrow.png">
 </div> 
 
 <!-- Currently, _we do not have fully funded positions available_, however -->
 
-<center><h2 style="color:red;"> Open postdoctoral position focusing on modelling electrical stimulation in V1 and neuro-prosthetic system design. </h2></center>
+<center><h2 style="color:red;"> Open postdoctoral position focusing on computational modelling of early visual system and neuro-prosthetic system design. </h2></center>
+
+**Multiple projects possible:**
+* Modeling electrical stimulation in a spiking model of the primary visual cortex. The goal of this project is to understand how intra-cortical stimulation can be used to restore vision in blind subjects.
+* Deep-neural networks in visual neuroscience, especially applications for understanding of visual perception under artificial cortical stimulation.
+* Study of cortical dynamics of spontaneous or artificially evoked activity in the visual cortex.  
+* Biologically detailed spiking large-scale models of early visual cortical pathway - from Retina to V4.
+
 
 |:--|:-- |
-|    **Project goals:**    | Project goals: Develop a large-scale model of electrical stimulation in the primary visual cortex for neuro-prosthetic vision restoration. Create and refine models of the primary visual cortex and its electrical stimulation. Simulate the impact of external stimulation on cortical activity. Develop novel machine learning methods to link simulated cortical activity to expected visual perceptions. Develop stimulation protocols for neuro-prosthetic systems. This project is undertaken as a part of a larger consortium of Czech experimental and theoretical neuroscience teams.|
-|**Requirements:**     | Strong computational and analytical skills. Experience in computational modeling, spiking neural networks, machine learningor understanding of electric field propagation in biological mediums are of great advantage but not strictly required.|
-|**Duration:**         | 2 years, with possible extension.|
-|**Funding:**          | Fully funded for 4.5 years, starting January.|
-|**To apply, send:**   | Detailed CV and cover letter explaining your interest and how your skills align with our project to: antolikjan@gmail.com.|
+|**Requirements:**     | Strong computational and analytical skills. Experience in computational modeling, spiking neural networks, machine learning or understanding of electric field propagation in biological mediums are of great advantage but not strictly required.|
+|**Duration:**         | 2 years, with possible extension|
+|**Funding:**          | Fully funded for 4 years|
+|**Starting date:**    | Now
+|**To apply, send:**   | Detailed CV and cover letter explaining your interests and how your skills align with our project to: antolikjan@gmail.com|
 
 <br />
 We will be accepting applications until position is filled.
