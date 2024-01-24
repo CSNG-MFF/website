@@ -29,8 +29,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|19.01.24| &nbsp;&nbsp; Jan Antolik | &nbsp;&nbsp; NO SEMINAR | &nbsp;&nbsp; Charles University  |
 |26.01.24| &nbsp;&nbsp; Jan Antolik | &nbsp;&nbsp; [Layerwise complexity-matched learning yields an improved model of cortical area V2](https://arxiv.org/pdf/2312.11436.pdf) | &nbsp;&nbsp; Charles University  |
+|02.02.24| &nbsp;&nbsp; Remy Cagnol | &nbsp;&nbsp; [The logic of recurrent circuits in the primary visual cortex](https://www.nature.com/articles/s41593-023-01510-5) | &nbsp;&nbsp; Charles University  |
 
 #### &nbsp;
 
