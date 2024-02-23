@@ -7,31 +7,41 @@ title: Informatics and Cognitive Science 2
 ### Synopsis
 
 This course gives an introduction into computational neuroscience and cognitive psychology. 
-The second term will focus primarily on visual system, computational modelling, memory systems, spatial cognition, motor systems, 
-but neural and behavioral learning will also be covered. This course runs in English. 
+The second term will focus primarily on visual system, computational modelling, spatial cognition. 
+This course runs in English. 
 
+### Course work
 
+Passing of the course requires three components:
+* Active participation
+* Computational neuroscience paper presentation
+* Term project (in the form of report)
+
+The term project will be an assignment, which will involve delivering a report on analysis of a model of mouse primary visual cortex.
 
 ### Lecture overview and slides
 
-The course will take place every *Friday* at *10:40-13:00* in *S3*. 
-The first 90 minutes will be lecture followed by 45 minute excercise session.
+The course will take place every *Monday* at *14:00-17:10* in room *510*. 
+The first 90 minutes will be a lecture followed by 90 minute exercise session.
+The following schedule is provisional, it can change depending on availability of visiting lecturers. 
 
-|--------|------------------------------------------------------------------|----|
-| 24.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity           | [slides](https://e.pcloud.link/publink/show?code=XZA5yLZCOlIQQc8kY7cQI6GOiduVmS17y7X)  |
-| 3.3.   |  &nbsp;&nbsp; Medium-to-high level vision I                      | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) | 
-| 10.3.  |  &nbsp;&nbsp; Mean field approaches (Karolína Korvasová)         |  |
-| 17.3.  |  &nbsp;&nbsp; Medium-to-high level vision II                     | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) |
-| 24.3.  |  &nbsp;&nbsp; Computational modelling: normative models          | [slides](https://e.pcloud.link/publink/show?code=XZo5yLZuEgnDCUodfSDTkcyASKujf6Pfsey) |
-| 31.3.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                 | [slides](https://e.pcloud.link/publink/show?code=XZPBfSZJCEbAhBzRQF3d7AxI2sjfLkjHik7) |
-| 7.4.   |  &nbsp;&nbsp; HOLIDAYS                                           |  | 
-| 14.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                          |  | 
-| 21.4.  |  &nbsp;&nbsp; Computational modelling: system identification     |  | 
-| 28.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models          |  | 
-| 5.5.   |  &nbsp;&nbsp; Methodology of neurobiology (Kamil Vlček)          |  |
-| 12.5.  |  &nbsp;&nbsp; Memory (Kamil Vlček)                               |  | 
-| 19.5.  |  &nbsp;&nbsp; Spatial cognition (Kamil Vlček)                    |  |
 
+
+| Date   |  Lecture                                                                 | Exercise | Slides |
+|--------|--------------------------------------------------------------------------|-----------|--------|
+| 26.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity                   | NONE      | [slides](https://e.pcloud.link/publink/show?code=XZA5yLZCOlIQQc8kY7cQI6GOiduVmS17y7X) |
+| 4.3.   |  &nbsp;&nbsp; Medium-to-high level vision I                              | Mouse V1 DNN models | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) | 
+| 11.3.  |  &nbsp;&nbsp; Medium-to-high level vision II                             | Measuring orientation tuning in mouse V1 | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) |
+| 18.3.  |  &nbsp;&nbsp; Computational modelling: machine learning                  | Term project introduction          |         |
+| 25.3.  |  &nbsp;&nbsp; Computational modelling: normative models                  | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZo5yLZuEgnDCUodfSDTkcyASKujf6Pfsey) |
+| 1.4.   |  &nbsp;&nbsp; HOLIDAYS                                                   | Term project work          |        |
+| 8.4.   |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                         | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZPBfSZJCEbAhBzRQF3d7AxI2sjfLkjHik7) |
+| 15.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                                  | Term project work          |        |
+| 22.4.  |  &nbsp;&nbsp; Computational modelling: development                       | Topographica demo      |        |
+| 29.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models    (Pavel Haman) | Term project work          |        |
+| 6.5.   |  &nbsp;&nbsp; Computational modelling: dynamical models II (Pavel Haman) | Term project work          |        |
+| 13.5.  |  &nbsp;&nbsp; Paper presentations I                                      | Presentations          |        |
+| 20.5.  |  &nbsp;&nbsp; Paper presentations II                                     | Presentations          |        |
 
 
 
