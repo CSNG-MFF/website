@@ -22,6 +22,9 @@ The term project will be an assignment, which will involve delivering a report o
 ### Lecture overview and slides
 
 The course will take place every *Monday* at *14:00-17:10* in room *510*. 
+
+For remote access to the lecture join [this Zoom sessoion](https://cesnet.zoom.us/j/98578446456).
+
 The first 90 minutes will be a lecture followed by 90 minute exercise session.
 The following schedule is provisional, it can change depending on availability of visiting lecturers. 
 
