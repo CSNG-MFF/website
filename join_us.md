@@ -14,8 +14,10 @@ resarch focus of the group.
 <img class="charles_uni_picture" src="./assets/img/mff_malostranske_namesti_crop_with_arrow.png">
 </div> 
 
-<!-- Currently, _we do not have fully funded positions available_, however -->
+Currently, _we do not have fully funded positions available_ , however see for alternative funding schemes below.
 
+
+<!--
 <center><h2 style="color:red;"> Open postdoctoral position focusing on computational modelling of early visual system and neuro-prosthetic system design. </h2></center>
 
 **Multiple projects possible:**
@@ -34,6 +36,8 @@ resarch focus of the group.
 
 <br />
 We will be accepting applications until position is filled.
+-->
+
 
 
 ## Other funding opportunities
