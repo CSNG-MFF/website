@@ -27,6 +27,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |-------|---------------------------------|----|----|
 |15.03.24 | &nbsp;&nbsp; Tibor  Rózsa | &nbsp;&nbsp; [Self-organization of modular activity in immature cortical networks](https://www.biorxiv.org/content/10.1101/2024.03.02.583133v1.full.pdf) | &nbsp;&nbsp; Charles University  |
 |22.03.24 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Integration of cortical population signals for visual perception](https://doi.org/10.1038/s41467-019-11736-2) | &nbsp;&nbsp; Charles University  |
+
 #### &nbsp;
 
 ### Past talks
