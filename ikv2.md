@@ -39,12 +39,12 @@ The following schedule is provisional, it can change depending on availability o
 | 25.3.  |  &nbsp;&nbsp; Computational modelling: normative models                  | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZo5yLZuEgnDCUodfSDTkcyASKujf6Pfsey) |
 | 1.4.   |  &nbsp;&nbsp; HOLIDAYS                                                   | Term project work          |        |
 | 8.4.   |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                         | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZPBfSZJCEbAhBzRQF3d7AxI2sjfLkjHik7) |
-| 15.4.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                                  | Term project work          |        |
-| 22.4.  |  &nbsp;&nbsp; Computational modelling: development                       | Topographica demo      |        |
-| 29.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models    (Pavel Haman) | Term project work          |        |
-| 6.5.   |  &nbsp;&nbsp; Computational modelling: dynamical models II (Pavel Haman) | Term project work          |        |
-| 13.5.  |  &nbsp;&nbsp; Paper presentations I                                      | Presentations          |        |
-| 20.5.  |  &nbsp;&nbsp; Paper presentations II                                     | Presentations          |        |
+| 15.4.  |  &nbsp;&nbsp; Computational modelling: development                       | Topographica demo      |        |
+| 22.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models    (Pavel Haman) | Term project work          |        |
+| 29.4.   |  &nbsp;&nbsp; Computational modelling: dynamical models II (Pavel Haman) | Term project work          |        |
+| 6.5.  |  &nbsp;&nbsp; Paper presentations I                                      | Presentations          |        |
+| 13.5.  |  &nbsp;&nbsp; Paper presentations II                                     | Presentations          |        |
+| 20.5.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                                  | Term project work          |        |
 
 
 

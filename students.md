@@ -148,7 +148,17 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   </small>
 
 
-#### Mathematical methods for analyzing experimental and simulated neural data
+#### Methods for analyzing experimental and simulated neural data
+
+- <a href="javascript:void(0)" onclick="$('#project_s1').toggle();">Impact of traveling waves on decoding of functional cortical organisation from spontaneous activity.</a>  
+   <small id="project_s1" class="studentprojectlist" style="display: none;">
+   We have recently developed a method for decoding functional organisation, specifically orientation maps, from spontaneous population activity in primary visual cortex.
+   Apart from teaching us about the nature of spontaneous activity in cortex, this is a crucial step for developing future visual neuro-prosthetic devices for vision restoration.
+   In this method we used a PCA method to identify a low-dimensional subspace of the spontaneous population activity in which the orientation maps reside. Interestingly, these 
+   were not the first 2 PCA components but components 3-5. But what do the first two components correspond to? Our hypothesis is that they correspond to large-scale, perhaps
+   whole brain, spontaneous waves, that are know to be present. In this project you will test this hypothesis by analysing a unique state-of-the-art data from 10 Utah electrode
+   arrays implanted accross V1,V2 and V4 of 2 macaque monkeys.
+  </small>
 
 - <a href="javascript:void(0)" onclick="$('#project5').toggle();">Relationship of traveling waves and oscillations in the cat primary visual cortex.</a>  
    <small id="project5" class="studentprojectlist" style="display: none;">
