@@ -1,4 +1,13 @@
 
+- name: Karolína Korvasová
+  role: Post-doc
+  github: kkorvasova
+  email: karolina.korvasova@mff.cuni.cz
+  image: Karolina_Korvasova.jpg
+  twitter: KKorvasova
+  # google_scholar: https://scholar.google.com/citations?user=UPz8zo0AAAAJ&hl=en
+  website: https://kkorvasova.github.io/kkorvasova.github.io.html
+
 - name: Petr Houška
   website: https://github.com/petrroll
   github: petrroll
