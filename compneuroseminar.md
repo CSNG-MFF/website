@@ -7,16 +7,7 @@ title: Computational neuroscience seminar
 
 ### When and Where: 
 
-<<<<<<< HEAD
-Seminar is held  both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Remote meeting link](https://cuni-cz.zoom.us/meeting/tJEtc-6trT8iHdO7jnvtSQT09Rd0RyigBJTp/ics?icsToken=98tyKuCtrj8tH9eRuB6ARowMAo-gKO_ztilHgqdyyxXrFTRgUzemb9BGYoBmGd_y)) every *Friday at 14:00*.
-
-#### 24/11/23 seminar is postpone by a week due to speaker illness
-
-<!--The exact time slot is always determined in the first week of semester via online poll and will be posted here once determined.-->
-=======
 Seminar is held  both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Remote meeting link](https://cuni-cz.zoom.us/j/95047534877)) every *Friday at 14:00*.
->>>>>>> bdc3ae2bd05e8723b95d336db41af4c19bbe8f56
-
 
 
 ### Synopsis
@@ -33,8 +24,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|15.03.24 | &nbsp;&nbsp; Tibor  Rózsa | &nbsp;&nbsp; [Self-organization of modular activity in immature cortical networks](https://www.biorxiv.org/content/10.1101/2024.03.02.583133v1.full.pdf) | &nbsp;&nbsp; Charles University  |
-|22.03.24 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Integration of cortical population signals for visual perception](https://doi.org/10.1038/s41467-019-11736-2) | &nbsp;&nbsp; Charles University  |
+|05.04.24 | &nbsp;&nbsp; Mathys Delattre | &nbsp;&nbsp; [Beyond Sight: Probing Alignment Between Image Models and Blind V1](https://openreview.net/forum?id=FG7XQbcDuZ) | &nbsp;&nbsp; Charles University / Sorbonne Université |
+
 
 #### &nbsp;
 
@@ -53,6 +44,9 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |12.01.24 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Electrical Compartmentalization in Neurons](https://doi.org/10.1016/j.celrep.2019.01.074) | &nbsp;&nbsp; Charles University  |
 |26.01.24| &nbsp;&nbsp; Jan Antolik | &nbsp;&nbsp; [Layerwise complexity-matched learning yields an improved model of cortical area V2](https://arxiv.org/pdf/2312.11436.pdf) | &nbsp;&nbsp; Charles University  |
 |02.02.24| &nbsp;&nbsp; Remy Cagnol | &nbsp;&nbsp; [The logic of recurrent circuits in the primary visual cortex](https://www.nature.com/articles/s41593-023-01510-5) | &nbsp;&nbsp; Charles University  |
+|15.03.24 | &nbsp;&nbsp; Tibor  Rózsa | &nbsp;&nbsp; [Self-organization of modular activity in immature cortical networks](https://www.biorxiv.org/content/10.1101/2024.03.02.583133v1.full.pdf) | &nbsp;&nbsp; Charles University  |
+|22.03.24 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Integration of cortical population signals for visual perception](https://doi.org/10.1038/s41467-019-11736-2) | &nbsp;&nbsp; Charles University  |
+
 
 #### &nbsp;
 
