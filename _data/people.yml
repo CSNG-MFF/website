@@ -7,15 +7,6 @@
   google_scholar: https://scholar.google.com/citations?user=tlR3lH0AAAAJ&hl=en
   website: http://antolik.net/
 
-- name: Karolína Korvasová
-  role: Post-doc
-  github: kkorvasova
-  email: karolina.korvasova@mff.cuni.cz
-  image: Karolina_Korvasova.jpg
-  twitter: KKorvasova
-  google_scholar: https://scholar.google.com/citations?user=UPz8zo0AAAAJ&hl=en
-  website: https://kkorvasova.github.io/kkorvasova.github.io.html
-
 - name: David Berling
   role: PhD student
   github: dberling
@@ -46,12 +37,6 @@
   github: hamanpa
   email: haman@ksvi.mff.cuni.cz
   image: Pavel_Haman.jpg
-
-- name: Katarína Studeničová
-  role: PhD student
-  github: studekat
-  email: studenicova.k@gmail.com
-  image: Katarina_Studenicova.jpg
 
 - name: Mathys Delattre
   role: intern
