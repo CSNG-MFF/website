@@ -25,6 +25,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |05.04.24 | &nbsp;&nbsp; Mathys Delattre | &nbsp;&nbsp; [Beyond Sight: Probing Alignment Between Image Models and Blind V1](https://openreview.net/forum?id=FG7XQbcDuZ) | &nbsp;&nbsp; Charles University / Sorbonne Université |
+|12.04.24 | &nbsp;&nbsp; Katarína Studeničová | &nbsp;&nbsp; [Visual evoked feedforward–feedback traveling waves organize neural activity across the cortical hierarchy in mice](https://doi.org/10.1038/s41467-022-32378-x) | &nbsp;&nbsp; Charles University |
 
 
 #### &nbsp;
