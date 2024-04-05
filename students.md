@@ -259,13 +259,13 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   [BerkelyDB](http://www.oracle.com/technetwork/database/database-technologies/berkeleydb/overview/index.html) or [CodernityDB](http://labs.codernity.com/codernitydb/).
   </small>
 
-- <a href="javascript:void(0)" onclick="$('#project_software2').toggle();">A model inspection/visualization tool for biological neural network simulator.</a>  
+- <a href="javascript:void(0)" onclick="$('#project_software2').toggle();">A 3D model visualization of detailed spiking neural network models.</a>  
    <small id="project_software2"  class="studentprojectlist" style="display: none;">
   <a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations.
   The [model of primary visual cortex](/research.html) developed in our lab, and implemented in Mozaik, has a complex connectivity structure.
   Although there are various tests that the connectivity has been realized as expected, currently, there is no easy way to
   visualize the network spatial structure and connectivity in [Mozaik](https://github.com/antolikjan/mozaik). The aim of this project is to develop a
-  model inspection and visualization tool, for Mozaik, possibly building on existing tools such as [ConnPlotter](http://arken.umb.no/~plesser/software.html), [Moogli](http://moose.ncbs.res.in/moogli/), and [NeurAnim](http://software.incf.org/software/neuranim).
+  3D model visualization tool, for Mozaik, possibly building on existing tools such as [Moogli](http://moose.ncbs.res.in/moogli/), and [NeurAnim](http://software.incf.org/software/neuranim).
   </small>
 
 - <a href="javascript:void(0)" onclick="$('#project_software3').toggle();">Sumatra integration with Mozaik.</a>  
@@ -277,6 +277,14 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   as much functionality from Mozaik to dedicated tools. This project is suitable for students with interest in Neuroinformatics
   and moderate skills in Python and versioning systems.
   </small>
+
+- <a href="javascript:void(0)" onclick="$('#project_software4').toggle();">Parameter searches in Mozaik</a>  
+   <small id="project_software4" class="studentprojectlist" style="display: none;">
+  <a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations. A common need in computational modeling is the need to
+perform a parameter search of model paramaters to assess how it behaves under different parametrisations. The Mozaik framework currently possess a module for automating 
+such parameter searches, but with number of important limitations. The goal of this project will be to improve the implementation of this module to surprass these limitations.
+  </small>
+
 
 #### Web development projects
 

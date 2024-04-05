@@ -15,7 +15,7 @@ This course runs in English.
 Passing of the course requires three components:
 * Active participation
 * Computational neuroscience paper presentation
-* Term project (in the form of report)
+* Term project (in the form of report): [the assignment](https://e.pcloud.link/publink/show?code=XZwig9Zmegk2qg2tnQex3RaNKYcYpJ0Y3BX)
 
 The term project will be an assignment, which will involve delivering a report on analysis of a model of mouse primary visual cortex.
 
@@ -38,12 +38,12 @@ The following schedule is provisional, it can change depending on availability o
 | 18.3.  |  &nbsp;&nbsp; Computational modelling: machine learning                  | Term project introduction          |         |
 | 25.3.  |  &nbsp;&nbsp; Computational modelling: normative models                  | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZo5yLZuEgnDCUodfSDTkcyASKujf6Pfsey) |
 | 1.4.   |  &nbsp;&nbsp; HOLIDAYS                                                   | Term project work          |        |
-| 8.4.   |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                         | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZPBfSZJCEbAhBzRQF3d7AxI2sjfLkjHik7) |
-| 15.4.  |  &nbsp;&nbsp; Computational modelling: development                       | Topographica demo      |        |
-| 22.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models    (Pavel Haman) | Term project work          |        |
-| 29.4.   |  &nbsp;&nbsp; Computational modelling: dynamical models II (Pavel Haman) | Term project work          |        |
-| 6.5.  |  &nbsp;&nbsp; Paper presentations I                                      | Presentations          |        |
-| 13.5.  |  &nbsp;&nbsp; Paper presentations II                                     | Presentations          |        |
+| 8.4.   |  &nbsp;&nbsp; Computational modelling: development                       | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZPBfSZJCEbAhBzRQF3d7AxI2sjfLkjHik7) |
+| 15.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models    (Pavel Haman) | Topographica demo          |        |
+| 22.4.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                         | Term project work          |        |
+| 29.4.  |  &nbsp;&nbsp; CANCELLED                                                   | Term project work         |        |
+| 6.5.   |  &nbsp;&nbsp; Paper presentations I                                      | Paper presentations I      |        |
+| 13.5.  |  &nbsp;&nbsp; Computational modelling: dynamical models II (Pavel Haman) | Paper presentations II     |        |
 | 20.5.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                                  | Term project work          |        |
 
 
