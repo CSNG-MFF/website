@@ -11,7 +11,7 @@ We also welcome students with their own project ideas, as long as they are align
 resarch focus of the group.
 
 <div >
-<img class="charles_uni_picture" src="./assets/img/mff_malostranske_namesti_crop_with_arrow.png">
+<img class="charles_uni_picture" src="./assets/img/mff_malostranske_namesti_crop.jpg">
 </div> 
 
 Currently, _we do not have fully funded positions available_ , however see for alternative funding schemes below.
