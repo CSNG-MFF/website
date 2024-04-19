@@ -24,9 +24,9 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 |Date| Presenter | Topic  |  Presenter's affiliation |
 |-------|---------------------------------|----|----|
-|12.04.24 | &nbsp;&nbsp; Katarína Studeničová | &nbsp;&nbsp; [Visual evoked feedforward–feedback traveling waves organize neural activity across the cortical hierarchy in mice](https://doi.org/10.1038/s41467-022-32378-x) | &nbsp;&nbsp; Charles University |
-|19.04.24 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Most discriminative stimuli for functional cell type clustering](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10980086/) | &nbsp;&nbsp; Charles University |
+|19.04.24 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; <b>CANCELED<b> | &nbsp;&nbsp; Charles University |
 
+ <!-- <s>[Most discriminative stimuli for functional cell type clustering](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10980086/) <s> -->
 #### &nbsp;
 
 ### Past talks
@@ -47,6 +47,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |15.03.24 | &nbsp;&nbsp; Tibor  Rózsa | &nbsp;&nbsp; [Self-organization of modular activity in immature cortical networks](https://www.biorxiv.org/content/10.1101/2024.03.02.583133v1.full.pdf) | &nbsp;&nbsp; Charles University  |
 |22.03.24 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Integration of cortical population signals for visual perception](https://doi.org/10.1038/s41467-019-11736-2) | &nbsp;&nbsp; Charles University  |
 |05.04.24 | &nbsp;&nbsp; Mathys Delattre | &nbsp;&nbsp; [Beyond Sight: Probing Alignment Between Image Models and Blind V1](https://openreview.net/forum?id=FG7XQbcDuZ) | &nbsp;&nbsp; Charles University / Sorbonne Université |
+|12.04.24 | &nbsp;&nbsp; Katarína Studeničová | &nbsp;&nbsp; [Visual evoked feedforward–feedback traveling waves organize neural activity across the cortical hierarchy in mice](https://doi.org/10.1038/s41467-022-32378-x) | &nbsp;&nbsp; Charles University |
 
 
 #### &nbsp;
