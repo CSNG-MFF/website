@@ -1,6 +1,6 @@
 title: CSNG
 
-description: Homepage of Computational System Neuroscience Group of Charles University
+# description: Homepage of Computational System Neuroscience Group of Charles University
 
 plugin_dirs: ['jekyll/scholar']
 

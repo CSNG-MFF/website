@@ -23,6 +23,15 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 #### Simulation of cortical implants for vision restoration
 
+
+- <a href="javascript:void(0)" onclick="$('#project_electric_stim_paolo').toggle();">Using DNNs to predicting perception from electrode stimulation data in macaque primary visual cortex.</a>  
+   <small id="project_electric_stim_paolo" class="studentprojectlist" style="display: none;">
+   We have access to massive multi-electrode parallel recordings to tens of thousands visual stimuli from primary visual cortex (V1) of macaque.
+   We have developed techniques DNN techniques for decoding visual stimulus from the responses of neurons in V1.
+   In this project you will apply this model to decode responses from the massive multi-electrode recordings from macaque V1.
+   We will then simulate electrode stimulation in this decoding DNN model and study what perecpetion the model predicts to this artificial stimulation.
+   </small>
+
 - <a href="javascript:void(0)" onclick="$('#project_electric_stim').toggle();">Modeling electrical stimulation in the visual cortex for visual prosthetic (brain-computer interface) applications</a>  
    <small id="project_electric_stim" class="studentprojectlist" style="display: none;">
    Intracortical microstimulation (ICMS) describes the local stimulation of neurons in the cortex with penetrating electrodes. The technique enabled several breakthroughs in interfacing with the brain, among them the control of a cursor through neural activity in the motor cortex of a human patient and the visual perception of shapes in non-human primates. Only recently, a computational study presented a model unifying experimental observations how ICMS directly activates neurons in the close surrounding of the electrode: ICMS activates a sparse set of neurons around the electrode with the number of activated neurons in the sphere around the electrode tip decreasing over distance to the electrode. Yet, the way the brain responds to the direct activation of a set of neurons around the electrode with network activity (e.g. neural firing rates) remains poorly understood. The goal of this project is to implement an abstract model of ICMS for the our group's large-scale model of cat primary visual cortex. Utilizing this model to simulate ICMS in cat primary visual cortex, the spatial extent of the network response to the stimulation shall be compared to the one reported in experimental recordings from monkey and human cortex.
@@ -30,8 +39,7 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 - <a href="javascript:void(0)" onclick="$('#project_opto_inh_stim').toggle();">Characterizing the spatiotemporal activation profile of different neuron types for optogenetic stimulation</a>  
    <small id="project_opto_inh_stim" class="studentprojectlist" style="display: none;">
-  New approaches to sensory prosthetics are being developed, wherby the cortex is stimulated via opto-genetic tools, which are being translated from mice to higher-order mammals including primates. However, it remains unclear how light activates optogenetically transfected neurons. We have recently developed computational simulations of how light propagates through neural tissue and how it activates a detailed morphological model of a V1 pyramidal (excitatory) neuron. It is of great interest to understand such light stimulation effects also in other morphological neural types, particularly in inhibitory neurons. In this project, the student will first learn to use the NEURON simulator and our existing simulation framework. In the following, they will integrate new single neuron models into the simulation framework and use them to simulate and analyze their neural activation through optogenetic stimulation.
-</small>
+  New approaches to sensory prosthetics are being developed, wherby the cortex is stimulated via opto-genetic tools, which are being translated from mice to higher-order mammals including primates. However, it remains unclear how light activates optogenetically transfected neurons. We have recently developed computational simulations of how light propagates through neural tissue and how it activates a detailed morphological model of a V1 pyramidal (excitatory) neuron. It is of great interest to understand such light stimulation effects also in other morphological neural types, particularly in inhibitory neurons. In this project, the student will first learn to use the NEURON simulator and our existing simulation framework. In the following, they will integrate new single neuron models into the simulation framework and use them to simulate and analyze their neural activation through optogenetic stimulation.</small>
 
 - <a href="javascript:void(0)" onclick="$('#project10').toggle();">Stimulation protocols for vision restoration using brain-machine-interface.</a>  
    <small id="project10" class="studentprojectlist" style="display: none;">
@@ -43,8 +51,7 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   on how to eleicit simple canonical visual stimuli, specifically sinusoidal gratings. In the next step the student will be responsible for expanding the design and analysis to generic
   stimulation protocol capable of eliciting arbitrary visual stimuli. The current protocol can be straightforwardly expanded to this general case . The student't responsibility will be
   to implement this new stimulation protocol in our simulation framework, test the protocol in our model of V1, and implement and perform all the required analysis. Strong programming and
-  analytical skills required. Knowledge of Python, computation neuroscience or neurobiology of visual system a plus.
-  </small>
+  analytical skills required. Knowledge of Python, computation neuroscience or neurobiology of visual system a plus.</small>
 
 
 #### Machine Learning in Neuroscience
@@ -57,22 +64,23 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
    from V1 neurons, greatly improves the prediction power of the resulting DNN model on biological data. In this project you will take a state-of-the-art DNN model for predicting response of V1
    neurons, pretrain it on our synthethic spiking model data, and then fine-tune it on recordings of macaque V1 neurons. You will analyse how the performance improves, or not, via the transfer 
    learning, and characterise what ratio of synthetic and real data is optimal.
-   </small
-
-- <a href="javascript:void(0)" onclick="$('#project_pytorchre').toggle();">Reimplement firing rate hebbian-driven development simulation framework in PyTorch</a>  
-   <small id="project_pytorchre" class="studentprojectlist" style="display: none;">
-   In [this paper](https://www.frontiersin.org/articles/10.3389/fncir.2017.00021/full) we have developed a simple [simulation environemnt](https://github.com/antolikjan/rate_model_framework) for simulating hebbian driven development of primary visual cortex. In this project, which is suitable for software project or bachelor thesis, your task will be to re-implement this simulation framework in PyTorch to speed up computations and allow integrating the V1 model with other modern DNN techniques. 
-   </small
-
-- <a href="javascript:void(0)" onclick="$('#project_bioconstr').toggle();">Capturing V1 spatio-temporal dynamics in deep neuralnetwork model</a>  
-   <small id="project_bioconstr" class="studentprojectlist" style="display: none;">
-   Application of deep neural networks to large datasets of neural data recorded in response to library of visual stimuly become the dominant method of unraveling the function of neurons in visual cortex. The standard approaches however (i) ignore known anatomical  structure of visual cortex, (ii) use purely feed-forward NN as opposed to the intrinsically recurrent biological networks, (iii) only capture the mean steady state response. To address this, in this project you will build a DNN model composed of multiple recurrent neural network stages, that will be constrained to follow various know anatomical structures, and train the resulting model on fine temporal  recordings of V1 responses to natural images. This project can be further extended to explore the possibility of pretraining the resulting model with contrastive unsupervised learning method recently used by [DiCarlo lab for training DNNs for modeling ventral visual pathway](https://www.biorxiv.org/content/10.1101/2023.05.18.541361v1).    
-   </small
-
-- <a href="javascript:void(0)" onclick="$('#project_decoding').toggle();">Novel DNN model for decoding visual stimuli from population recordings in primary visual cortex.</a>  
-   <small id="project_decoding" class="studentprojectlist" style="display: none;">
-   Recent years have witnessed a major breakthrough in DNN models ability to predict neural population activity of V1 neurons to novel visual stimuli. The inverse problem of predicting the natural image based on the activity it elicits in population of V1 neurons, however, remains much less studied, and consequently mastered. In this project the student will implement and test a novel DNN architecture designed to predict visual inputs from population activity of V1 neurons. {% comment %}  The key aspect of the model is a pre-processing stage that converts population activity of V1 neurons into n-dimansional matrix to which standard CNN architectures can be applied. The idea of the pre-processing stage is following. We will first train a forward model (from images to V1 activities). This will allows us to determine the position, phase and orientation of receptive fields of individual neurons. We will rasterized each of these three dimension (position, phase, orientation), leading to a coordinate system representable as 4D matrix (position has 2 dimension itself). The value at each coordinate (x,y,z,u) in the 3D matrix will be calculated as a weighted sum of the activities of neurons in the population, where  the weights are the distance of the preference vector of the given cell (its postion, orientation and phase preference) from the coodinates (x,y,z,u). {% endcomment %}
    </small>
+
+- <a href="javascript:void(0)" onclick="$('#project_bioconstr').toggle();">Capturing spatio-temporal dynamics in primary visual cortex using  deep neural network model using synthetic and macaque data.</a>  
+   <small id="project_bioconstr" class="studentprojectlist" style="display: none;">
+   Application of deep neural networks to large datasets of neural data recorded in response to library of visual stimuly become the dominant method of unraveling the function of neurons in visual cortex. 
+   The standard approaches however (i) ignore known anatomical  structure of visual cortex, (ii) use purely feed-forward NN as opposed to the intrinsically recurrent biological networks, 
+   (iii) only capture the mean steady state response. To address this, in this project you will build a DNN model composed of multiple recurrent neural network stages, that will be constrained 
+   to follow various know anatomical structures, and train the resulting model on fine temporal  recordings of V1 responses to natural images.
+   You will use combination of massive parallel multielectrode array recordings from macaque V1 to tens of thousands of images, and even more large-scale synthetic  data from our spiking V1 modle to develop the new DNN models.
+   {% comment %}    This project can be further extended to explore the possibility of pretraining the resulting model with contrastive unsupervised learning method recently used by [DiCarlo lab for training DNNs for modeling ventral visual pathway](https://www.biorxiv.org/content/10.1101/2023.05.18.541361v1). {% endcomment %}</small>
+
+- <a href="javascript:void(0)" onclick="$('#project_decoding').toggle();">Novel DNN model for decoding visual stimuli from population recordings in primary visual cortex of macaque data.</a>  
+   <small id="project_decoding" class="studentprojectlist" style="display: none;">
+   Recent years have witnessed a major breakthrough in DNN models ability to predict neural population activity of V1 neurons to novel visual stimuli. 
+   The inverse problem of predicting the natural image based on the activity it elicits in population of V1 neurons, however, remains much less studied, and consequently mastered. 
+   In this project you will implement and test a novel DNN architecture designed to predict visual inputs from population activity of V1 neurons. 
+   {% comment %}  The key aspect of the model is a pre-processing stage that converts population activity of V1 neurons into n-dimansional matrix to which standard CNN architectures can be applied. The idea of the pre-processing stage is following. We will first train a forward model (from images to V1 activities). This will allows us to determine the position, phase and orientation of receptive fields of individual neurons. We will rasterized each of these three dimension (position, phase, orientation), leading to a coordinate system representable as 4D matrix (position has 2 dimension itself). The value at each coordinate (x,y,z,u) in the 3D matrix will be calculated as a weighted sum of the activities of neurons in the population, where  the weights are the distance of the preference vector of the given cell (its postion, orientation and phase preference) from the coodinates (x,y,z,u). {% endcomment %}</small>
 
 - <a href="javascript:void(0)" onclick="$('#project_surr_mei').toggle();">Determining maximally exciting and suppressive surround stimuli in a spiking model of primary visual cortex.</a>  
    <small id="project_surr_mei" class="studentprojectlist" style="display: none;">
@@ -84,6 +92,23 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
    In this project student will apply this new method to synthetic responses of neurons from our large-scale model of V1 to (a) determine wether our model conforms 
    to the aforemntioned recent experimental findings and (b) to obtain a mechanistic understanding how the discovered surround modulation effects emerge in cortical network.
    </small>
+
+- <a href="javascript:void(0)" onclick="$('#project_mlforormap').toggle();">Machine learning from macaque and synthetic data to predict orientation preference maps.</a>  
+   <small id="project_mlforormap" class="studentprojectlist" style="display: none;">
+   Being able to decode functional representations, specifically orientation maps, from spontaneous activity recorded in primary visual cortex (V1) is an essential prerequisit 
+   for developing effective stimulation protocols for visual prosthetic devices. In this project you will combine macaque V1 data with synthetic data from our V1 model to develop a DNN 
+   based approach for decoding these maps.
+   </small
+
+#### Disease
+
+- <a href="javascript:void(0)" onclick="$('#project_schyzophrenia').toggle();">Modelling dopaminergicaly and visualy driven theory of schyzophrenia development.</a>  
+   <small id="project_schyzophrenia" class="studentprojectlist" style="display: none;">
+   Our clinical collaborators developed a new theory that postulates that schyzophrenia is driven by dopaminergicaly driven failure of developement of predictive signalling along the visual pathway.
+   In this project you will take our detailed model of primary visual cortex (V1) to simulate the normal and diseased condition. In the diseased condition, the assumption is that the disruption of dompaminergic system
+   cause changes of receptive field size in retina over time. Subsequently, you will use DNN techniques developed in our group to decode visual stimuli from the responses of the control and disease model. The prediction of the hypothesis is that the disruption of the dopaminergic system should 
+   to reduce ability to appropriately decode visual stimuli from the V1 neural response.</small>
+
 
 
 #### Spiking Network Models of Visual System
