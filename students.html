@@ -158,9 +158,8 @@ analytical skills required. Knowledge of Python, computation neuroscience or neu
   <li>
     <p><a href="javascript:void(0)" onclick="$('#project_mlforormap').toggle();">Machine learning from macaque and synthetic data to predict orientation preference maps.</a><br />
  <small id="project_mlforormap" class="studentprojectlist" style="display: none;">
- Being able to decode functional representations, specifically orientation maps, from spontaneous activity recorded in primary visual cortex (V1) is an essential prerequisit 
- for developing effective stimulation protocols for visual prosthetic devices. In this project you will combine macaque V1 data with synthetic data from our V1 model to develop a DNN 
- based approach for decoding these maps.
+ Being able to decode functional representations, specifically orientation maps, from spontaneous activity recorded in primary visual cortex (V1) is an essential prerequisite for developing effective stimulation protocols for visual prosthetic devices. In this project you will combine macaque V1 data with synthetic data from our V1 model to develop a ANN based approach for decoding these maps. You’ll first create a dataset by combining events obtained from multiple Utah arrays and augment it by shuffling electrode position. This step will be crucial to make the method work for a novel array/orientation maps. Each event will be labelled according to the orientation map that it resembles the most. Then you’ll use a ANN to find  metric that returns distance between the labels of events. This ANN takes as input the every event from a given array and return the pairwise distance between events.
+ Then you’ll develop a contrastive learning and ANN based mapping to a lower dimensional space where events are data points, and positive and negative samples decided according to the developed metrics (inspired by CEBRA). From this low dimensional space it should be possible to decode orientation of events and of electrodes (up to a global orientation shift per Utah array).
  &lt;/small</small></p>
   </li>
 </ul>
