@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Informatics and Cognitive Science 2
+title: Introduction to Computational Neuroscience 2
 ---
-## NAIL088: Informatics and Cognitive Science 2
+## NAIL088: Introduction to Computational Neuroscience 2
 
 ### Synopsis
 
