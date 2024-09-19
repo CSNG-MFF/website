@@ -73,6 +73,8 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
    (iii) only capture the mean steady state response. To address this, in this project you will build a DNN model composed of multiple recurrent neural network stages, that will be constrained 
    to follow various know anatomical structures, and train the resulting model on fine temporal  recordings of V1 responses to natural images.
    You will use combination of massive parallel multielectrode array recordings from macaque V1 to tens of thousands of images, and even more large-scale synthetic  data from our spiking V1 modle to develop the new DNN models.
+   We can also explore if replacing each neuron of the RNNs with one small DNN network (shared accross all neurons of the given type) that will model the transfer faction represented by the more 
+   complex non-linear spiking neurons will improve the performance of the RNN model.
    {% comment %}    This project can be further extended to explore the possibility of pretraining the resulting model with contrastive unsupervised learning method recently used by [DiCarlo lab for training DNNs for modeling ventral visual pathway](https://www.biorxiv.org/content/10.1101/2023.05.18.541361v1). {% endcomment %}</small>
 
 - <a href="javascript:void(0)" onclick="$('#project_decoding').toggle();">Novel DNN model for decoding visual stimuli from population recordings in primary visual cortex of macaque data.</a>  
@@ -111,6 +113,14 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 
 #### Spiking Network Models of Visual System
+
+- <a href="javascript:void(0)" onclick="$('#modelcontrastinvariancesize').toggle();">Model of size dependent contrast invariance.</a>  
+   <small id="modelcontrastinvariancesize" class="studentprojectlist" style="display: none;">
+   Unlike the classical results that say that V1 neurons have tuning width invariant to the contrast of the stimulus, our collaborators show that this contrast invariance falls apart when the stimuli are small.
+   You will use our large-scale spiking model of V1 to explain how this happens. We hypothesize that this is due to the insufficient lateral interactions that small stimuli recruit. You will simulate the same
+   experimental conditions as those used by our collaborators, demonstrate that our model exhibits the same behaviour, and ivestigate the mechanisms in the model that lead to this phenomenon through analysis and
+   inactivation experiments that disable parts of the model.
+   </small>
 
 - <a href="javascript:void(0)" onclick="$('#modelsom').toggle();">Modeling different inhibitory neural types in large-scale spiking model of V1.</a>  
    <small id="modelsom" class="studentprojectlist" style="display: none;">
@@ -153,7 +163,6 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   into the model, and then analyze the impact of this more specfific connectivity on the functional properties of the model.
   </small>
 
-
 - <a href="javascript:void(0)" onclick="$('#project2').toggle();">Embedding of detailed compartmental neuron models into large-scale model of primary visual cortex.</a>  
    <small id="project2" class="studentprojectlist" style="display: none;">
   One of the ongoing projects in our group is development of <a href="./research.html">large-scale integrative model </a> of cat primary visual cortex (V1).
@@ -163,7 +172,6 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   simulation available in the group, and investigate the behavior of the added detailed neuron under the influence of the input coming from the large scale
   V1 simulation, focusing on properties influenced by the neuron's geometry.
   </small>
-
 
 - <a href="javascript:void(0)" onclick="$('#project3').toggle();">Local-field potentials (LFP) in a large-scale model of cat primary visual cortex.</a>  
    <small id="project3" class="studentprojectlist" style="display: none;">
@@ -186,6 +194,15 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   of cat primary visual cortex. He/she will expand the <a href="https://github.com/antolikjan/mozaik">Mozaik</a> framework with the ability to record Local Field Potential
   type of signal. Perform experiments in which the waves will be recorded and will compare such in-silico generated data to in-vivo data from our international collaborators.
   </small>
+
+- <a href="javascript:void(0)" onclick="$('#project_sono').toggle();">Modeling sonogenetic stimulation in spiking model of V1.</a>  
+   <small id="project_sono" class="studentprojectlist" style="display: none;">
+   Brain machine interfaces hold promise for wide range of clinical applications including remediation of lost vision through direct stimulation in visual cortex.
+   The current BMI techniques, dominated by direct electrical stimulation, face major limitation due to the inability to spatially precisely stimulate cortical tissue.
+   Sono-genetics is a exciting new technique which allows activating of transfected neurons in neural tissue using ultrasound, which can be shaped in 3D space. 
+   In this project you will simulate how could such sono-genetic stimulation activate primary visual cortex. You will identify the potential but also limitations of this technique
+   in facilitating effective interface with visual cortex. 
+</small>
 
 
 #### Methods for analyzing experimental and simulated neural data

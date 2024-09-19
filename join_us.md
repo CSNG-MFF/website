@@ -56,6 +56,8 @@ We will be accepting applications until position is filled.
 - Charles University is making yearly calls for [visting post-doctoral fellows](https://cuni.cz/UKEN-178.html),
   that come with 2 year contracts and attractive salary.
 
+- Charles University [CHARLESTON](https://cuni.cz/UKEN-2035.html) program provides similar conditions to MSCA post-doc awards for selected applicants in selection process similar to MSCA post-doc.
+
 - The Faculty of Mathematics and Physics makes calls for visiting post-doctoral fellows with similar conditions. These calls are irregular, contact
   me for the current status.
 
@@ -68,6 +70,7 @@ Extra fellowships for Czech Republic also exist withing this funding scheme, fur
 
 - Finally, we can help you write a grant for the Czech Granting Agency (GACR) [Incoming Post-doc grant](https://gacr.cz/en/types-of-grant-projects/) that funds 2 year post-doc 
 stays at Czech institutions.
+
 
 ### Bilateral funding
 

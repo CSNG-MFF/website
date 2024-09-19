@@ -16,8 +16,8 @@ Computational Neuroscience Seiminar [NAIL128](./compneuroseminar.html) running i
 
 ### Requirements for passing the course
 
-1) A computational modelling task.
-2) Written test: Required reading: [Bear book](https://www.amazon.com/Neuroscience-Exploring-Mark-F-Bear/dp/0781760038), available in library, chapters 1-5.
+1. A computational modelling task.
+2. Written test: Required reading: [Bear book](https://www.amazon.com/Neuroscience-Exploring-Mark-F-Bear/dp/0781760038), available in library, chapters 1-5.
 
 You will get a grade for each of the two tasks, and the final grade will be calculated as the arhitmetic mean of the three partial grades.
 Specific info on 1 and 2 will appear here later in the semester.
@@ -27,17 +27,17 @@ Specific info on 1 and 2 will appear here later in the semester.
 This semster the course is scheduled for Monday, from 15:40 till 18:50. The course will take place in S9.
 
 |----------|------------------------------------------------|----------------------------------------------------------------|------------|
-| **Date** | ** Lecture session **                          | ** Practical session **                                        | **Slides** |
+| **Date** | **Lecture session**                            | **Practical session**                                          | **Slides** |
 |**1.10.** | Introduction (Ján Antolík)                     | Introduction (Ján Antolík)                                     |            |
-|**8.10.** | ** CANCELLED **                                | ** CANCELLED **                                                |            |
+|**8.10.** | **CANCELLED**                                  | **CANCELLED**                                                  |            |
 |**15.10**.| Neurons biology I (Ján Antolík)                | Neurons biology II (Ján Antolík)                               |            |
 |**22.10.**| Neurons models I (Ján Antolík)                 | Leaky integrate and fire simulations (Karolína Korvasová)      |            |
 |**29.10.**| Neurons models II (Ján Antolík)                | Leaky integrate and fire simulations (Karolína Korvasová)      |            |
-|**5.11.** | ** CANCELLED - DEANS DAY**                     | **  CANCELLED -DEANS DAY **                                    |            |
+|**5.11.** | **CANCELLED - DEANS DAY**                      | **CANCELLED -DEANS DAY**                                       |            |
 |**12.11.**| Neural coding (Ján Antolík)                    | Neural coding models (Karolína Korvasová)                      |            |
 |**19.11.**| Cortical architecutre (Ján Antolík)            | Brunel network (Karolína Korvasová)                            |            |
 |**26.11.**| **TEST**                                       | Network simulations (Karolína Korvasová)                       |            |
 |**3.12.** | Visual system 1 (Ján Antolik)                  | Semester project (Karolína Korvasová)                          |            |
 |**10.12.**| Visual system 2 (Ján Antolik)                  | Semester project (Karolína Korvasová)                          |            |
-|**17.2.** | Invited Lecture TBD                            | Semester project (Karolína Korvasová)                          |            |
+|**17.12.** | Invited Lecture TBD                            | Semester project (Karolína Korvasová)                          |            |
 |**7.1.**  | Invited Lecture TBD                            | Semester project (Karolína Korvasová)                          |            |
