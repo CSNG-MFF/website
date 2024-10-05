@@ -133,6 +133,8 @@ analytical skills required. Knowledge of Python, computation neuroscience or neu
  (iii) only capture the mean steady state response. To address this, in this project you will build a DNN model composed of multiple recurrent neural network stages, that will be constrained 
  to follow various know anatomical structures, and train the resulting model on fine temporal  recordings of V1 responses to natural images.
  You will use combination of massive parallel multielectrode array recordings from macaque V1 to tens of thousands of images, and even more large-scale synthetic  data from our spiking V1 modle to develop the new DNN models.
+ We can also explore if replacing each neuron of the RNNs with one small DNN network (shared accross all neurons of the given type) that will model the transfer faction represented by the more 
+ complex non-linear spiking neurons will improve the performance of the RNN model.
  </small></p>
   </li>
   <li>
@@ -158,9 +160,8 @@ analytical skills required. Knowledge of Python, computation neuroscience or neu
   <li>
     <p><a href="javascript:void(0)" onclick="$('#project_mlforormap').toggle();">Machine learning from macaque and synthetic data to predict orientation preference maps.</a><br />
  <small id="project_mlforormap" class="studentprojectlist" style="display: none;">
- Being able to decode functional representations, specifically orientation maps, from spontaneous activity recorded in primary visual cortex (V1) is an essential prerequisit 
- for developing effective stimulation protocols for visual prosthetic devices. In this project you will combine macaque V1 data with synthetic data from our V1 model to develop a DNN 
- based approach for decoding these maps.
+ Being able to decode functional representations, specifically orientation maps, from spontaneous activity recorded in primary visual cortex (V1) is an essential prerequisite for developing effective stimulation protocols for visual prosthetic devices. In this project you will combine macaque V1 data with synthetic data from our V1 model to develop a ANN based approach for decoding these maps. You’ll first create a dataset by combining events obtained from multiple Utah arrays and augment it by shuffling electrode position. This step will be crucial to make the method work for a novel array/orientation maps. Each event will be labelled according to the orientation map that it resembles the most. Then you’ll use a ANN to find  metric that returns distance between the labels of events. This ANN takes as input the every event from a given array and return the pairwise distance between events.
+ Then you’ll develop a contrastive learning and ANN based mapping to a lower dimensional space where events are data points, and positive and negative samples decided according to the developed metrics (inspired by CEBRA). From this low dimensional space it should be possible to decode orientation of events and of electrodes (up to a global orientation shift per Utah array).
  &lt;/small</small></p>
   </li>
 </ul>
@@ -179,6 +180,15 @@ analytical skills required. Knowledge of Python, computation neuroscience or neu
 <h4 id="spiking-network-models-of-visual-system">Spiking Network Models of Visual System</h4>
 
 <ul>
+  <li>
+    <p><a href="javascript:void(0)" onclick="$('#modelcontrastinvariancesize').toggle();">Model of size dependent contrast invariance.</a><br />
+ <small id="modelcontrastinvariancesize" class="studentprojectlist" style="display: none;">
+ Unlike the classical results that say that V1 neurons have tuning width invariant to the contrast of the stimulus, our collaborators show that this contrast invariance falls apart when the stimuli are small.
+ You will use our large-scale spiking model of V1 to explain how this happens. We hypothesize that this is due to the insufficient lateral interactions that small stimuli recruit. You will simulate the same
+ experimental conditions as those used by our collaborators, demonstrate that our model exhibits the same behaviour, and ivestigate the mechanisms in the model that lead to this phenomenon through analysis and
+ inactivation experiments that disable parts of the model.
+ </small></p>
+  </li>
   <li>
     <p><a href="javascript:void(0)" onclick="$('#modelsom').toggle();">Modeling different inhibitory neural types in large-scale spiking model of V1.</a><br />
  <small id="modelsom" class="studentprojectlist" style="display: none;">
@@ -259,6 +269,16 @@ activity, present even in low-level sensory cortical areas, has been hypothesize
 of long-term memory and other high-level cognitive phenomena. In this project student will explore the presence of such spontaneos waves in our comprehensive model
 of cat primary visual cortex. He/she will expand the <a href="https://github.com/antolikjan/mozaik">Mozaik</a> framework with the ability to record Local Field Potential
 type of signal. Perform experiments in which the waves will be recorded and will compare such in-silico generated data to in-vivo data from our international collaborators.
+</small></p>
+  </li>
+  <li>
+    <p><a href="javascript:void(0)" onclick="$('#project_sono').toggle();">Modeling sonogenetic stimulation in spiking model of V1.</a><br />
+ <small id="project_sono" class="studentprojectlist" style="display: none;">
+ Brain machine interfaces hold promise for wide range of clinical applications including remediation of lost vision through direct stimulation in visual cortex.
+ The current BMI techniques, dominated by direct electrical stimulation, face major limitation due to the inability to spatially precisely stimulate cortical tissue.
+ Sono-genetics is a exciting new technique which allows activating of transfected neurons in neural tissue using ultrasound, which can be shaped in 3D space. 
+ In this project you will simulate how could such sono-genetic stimulation activate primary visual cortex. You will identify the potential but also limitations of this technique
+ in facilitating effective interface with visual cortex. 
 </small></p>
   </li>
 </ul>
