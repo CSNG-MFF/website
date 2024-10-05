@@ -28,7 +28,7 @@ This semster the course is scheduled for Monday, from 15:40 till 18:50. The cour
 
 |----------|------------------------------------------------|----------------------------------------------------------------|------------|
 | **Date** | **Lecture session**                            | **Practical session**                                          | **Slides** |
-|**1.10.** | Introduction (Ján Antolík)                     | Introduction (Ján Antolík)                                     |            |
+|**1.10.** | Introduction (Ján Antolík)                     | Introduction (Ján Antolík)                                     | [slides](https://e.pcloud.link/publink/show?code=XZrB4sZ9AvpYAtdxIuIbHTgpkJXjSIvo9aV)           |
 |**8.10.** | **CANCELLED**                                  | **CANCELLED**                                                  |            |
 |**15.10**.| Neurons biology I (Ján Antolík)                | Neurons biology II (Ján Antolík)                               |            |
 |**22.10.**| Neurons models I (Ján Antolík)                 | Leaky integrate and fire simulations (Karolína Korvasová)      |            |
@@ -39,5 +39,5 @@ This semster the course is scheduled for Monday, from 15:40 till 18:50. The cour
 |**26.11.**| **TEST**                                       | Network simulations (Karolína Korvasová)                       |            |
 |**3.12.** | Visual system 1 (Ján Antolik)                  | Semester project (Karolína Korvasová)                          |            |
 |**10.12.**| Visual system 2 (Ján Antolik)                  | Semester project (Karolína Korvasová)                          |            |
-|**17.12.** | Invited Lecture TBD                            | Semester project (Karolína Korvasová)                          |            |
-|**7.1.**  | Invited Lecture TBD                            | Semester project (Karolína Korvasová)                          |            |
+|**17.12.**| Neuromorphic computing (Giulia D'Angelo)       | Semester project (Karolína Korvasová)                          |            |
+|**7.1.**  | Mototr cortex (Matej Hoffmann                  | Semester project (Karolína Korvasová)                          |            |
