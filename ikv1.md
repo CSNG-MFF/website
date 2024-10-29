@@ -28,13 +28,13 @@ This semster the course is scheduled for Monday, from 15:40 till 18:50. The cour
 
 |----------|------------------------------------------------|----------------------------------------------------------------|------------|
 | **Date** | **Lecture session**                            | **Practical session**                                          | **Slides** |
-|**1.10.** | Introduction (Ján Antolík)                     | Introduction (Ján Antolík)                                     | [slides](https://e.pcloud.link/publink/show?code=XZrB4sZ9AvpYAtdxIuIbHTgpkJXjSIvo9aV)           |
+|**1.10.** | Introduction (Ján Antolík)                     | Introduction (Ján Antolík)                                     | [slides](https://e.pcloud.link/publink/show?code=XZrB4sZ9AvpYAtdxIuIbHTgpkJXjSIvo9aV)|
 |**8.10.** | **CANCELLED**                                  | **CANCELLED**                                                  |            |
-|**15.10**.| Neurons biology I (Ján Antolík)                | Neurons biology II (Ján Antolík)                               | [slides](https://e.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX)           |
+|**15.10**.| Neurons biology I (Ján Antolík)                | Neurons biology II (Ján Antolík)                               | [slides](https://e.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX)|
 |**22.10.**| Neurons models I (Ján Antolík)                 | Leaky integrate and fire simulations (Karolína Korvasová)      |            |
-|**29.10.**| Neurons models II (Ján Antolík)                | Leaky integrate and fire simulations (Karolína Korvasová)      |            |
+|**29.10.**| Neurons models II (Ján Antolík)                | Neural coding (Ján Antolík)                                    |            |
 |**5.11.** | **CANCELLED - DEANS DAY**                      | **CANCELLED -DEANS DAY**                                       |            |
-|**12.11.**| Neural coding (Ján Antolík)                    | Neural coding models (Karolína Korvasová)                      |            |
+|**12.11.**| LIF simulations (Karolína Korvasová)           | Neural coding models (Karolína Korvasová)                      |            |
 |**19.11.**| Cortical architecutre (Ján Antolík)            | Brunel network (Karolína Korvasová)                            |            |
 |**26.11.**| **TEST**                                       | Network simulations (Karolína Korvasová)                       |            |
 |**3.12.** | Visual system 1 (Ján Antolik)                  | Semester project (Karolína Korvasová)                          |            |
