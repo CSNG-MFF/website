@@ -1,8 +1,0 @@
-prune drafts
-recursive-include doc *
-prune doc/build
-recursive-include examples *
-include LICENSE
-include AUTHORS
-include changelog
-include README.rst

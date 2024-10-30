@@ -1,3 +1,0 @@
-{
-    'num_samples' : PyNNDistribution(name='uniform',low=25,high=65)
-}

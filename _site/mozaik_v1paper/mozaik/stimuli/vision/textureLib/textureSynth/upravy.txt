@@ -1,3 +1,0 @@
-textureSynth:
-ln 224 %, ln 225-228 pridano
-ln 440 %, ln 445 pridano
