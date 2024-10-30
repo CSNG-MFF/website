@@ -1,0 +1,45 @@
+[tool.pytest.ini_options]
+markers = [
+    "model: tests that need to run a full mozaik model to execute. Can be extremely slow.",
+    "VogelsAbbott2005: tests that need to run the VogelsAbbott2005 mozaik model to execute.",
+    "LSV1M: tests that need to run the LSV1M model to execute. Will be very very slow (1+ hour).",
+    "LSV1M_tiny: tests that need to run a tiny version of the LSV1M model to execute. Should be ",
+    "merge: tests for the datastore merging",
+    "mpi: tests using mpi to run the model",
+    "not_github: tests using mpi to run the model",
+    "stepcurrentmodule: tests using the nest stepcurrent module to run the model",
+]
+
+[tool.black]
+exclude = '''
+
+(
+# Remove progressively as unit tests get added
+# We do not want to refactor without checking functionality
+ setup.py
+ | mozaik/core.py
+ | mozaik/cli.py
+ | mozaik/space.py
+ | mozaik/controller.py
+ | mozaik/__init__.py
+ | mozaik/meta_workflow
+ | mozaik/connectors
+ | mozaik/tools
+ | mozaik/experiments/__init__.py
+ | mozaik/experiments/direct_stimulations_mixins.py
+ | mozaik/experiments/vision.py
+ | mozaik/visualization
+ | mozaik/models
+ | mozaik/storage
+ | mozaik/analysis
+ | mozaik/sheets
+ | mozaik/stimuli
+ | examples/VogelsAbbott2005
+ | examples/TextureModel
+| build
+| doc
+| imagen
+| nest-simulator-2.20.1
+| \.git
+)
+'''

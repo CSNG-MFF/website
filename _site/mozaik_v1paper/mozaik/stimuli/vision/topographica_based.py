@@ -1,0 +1,1474 @@
+# -*- coding: utf-8 -*-
+# TODO: Remove this once we switch to Python 3
+"""
+The file contains stimuli that use topographica to generate the stimulus
+
+"""
+
+from mozaik.stimuli.vision.visual_stimulus import VisualStimulus
+import imagen
+import imagen.random
+from imagen.transferfn import TransferFn
+import param
+from imagen.image import BoundingBox
+import pickle
+import numpy
+import numpy as np
+from mozaik.tools.mozaik_parametrized import SNumber, SString, SParameterSet
+from mozaik.tools.distribution_parametrization import MozaikExtendedParameterSet
+from mozaik.tools.units import cpd
+from numpy import pi
+from quantities import Hz, rad, degrees, ms, dimensionless
+
+
+class TopographicaBasedVisualStimulus(VisualStimulus):
+    """
+    As we do not handle transparency in the Topographica stimuli (i.e. all pixels of all stimuli difned here will have 0% transparancy)
+    in this abstract class we disable the transparent flag defined by the :class:`mozaik.stimuli.visual_stimulus.VisualStimulus`, to improve efficiency.
+    """
+    def __init__(self,**params):
+        VisualStimulus.__init__(self,**params)
+        self.transparent = False # We will not handle transparency anywhere here for now so let's make it fast
+
+class SparseNoise(TopographicaBasedVisualStimulus):
+    """
+    Sparse noise stimulus.
+    
+    Produces a matrix filled with 0.5 values and one random entry with 0 or 1.
+    The output is then transformed with the following rule:
+    output = output * scale  + offset.
+    """
+    
+    experiment_seed = SNumber(dimensionless, doc="The seed of a given experiment")
+    duration = SNumber(ms, doc="Total duration of the frames")
+    time_per_image = SNumber(ms, doc ="Duration of one image")
+    blank_time = SNumber(ms, doc ="Duration of blank screen between image presentations")
+    grid_size = SNumber(dimensionless, doc = "Grid Size ")
+    grid = SNumber(dimensionless, doc = "Boolean string to decide whether there is grid or not")
+    extra_params = SParameterSet(doc="Extra stimulus parameters to save in the stimulus description")
+
+    def __init__(self,**params):
+        TopographicaBasedVisualStimulus.__init__(self, **params)
+        assert (self.time_per_image/self.frame_duration) % 1.0 == 0.0, "The duration of image presentation should be multiple of frame duration."
+                
+        if self.extra_params == None:
+            self.extra_params = MozaikExtendedParameterSet({})
+        self.extra_params.x_positions = []
+        self.extra_params.y_positions = []
+        self.extra_params.polarities = []
+
+    def frames(self):
+  
+        aux = imagen.random.SparseNoise(
+                                      grid_density = self.grid_size * 1.0 / self.size_x,
+                                      grid = self.grid,
+                                      offset= 0,
+                                      scale= 2 * self.background_luminance,
+                                      bounds=BoundingBox(radius=self.size_x/2),
+                                      xdensity=self.density,
+                                      ydensity=self.density,
+                                      random_generator=numpy.random.RandomState(seed=self.experiment_seed))
+
+
+        while True:
+            aux2 = aux()
+            blank = aux2*0+self.background_luminance
+            pos = np.where(aux2 != self.background_luminance)
+            x = int(pos[0].min())
+            y = int(pos[1].min())
+            polarity = aux2[int(x),int(y)] / self.background_luminance - 1
+            self.extra_params.x_positions.append(x)
+            self.extra_params.y_positions.append(y)
+            self.extra_params.polarities.append(polarity)
+            for i in range(int(self.time_per_image/self.frame_duration)):
+                yield (aux2,[x,y,polarity])
+            for i in range(int(self.blank_time/self.frame_duration)):
+                yield (blank,[0,0,0])
+            
+
+class DenseNoise(TopographicaBasedVisualStimulus):
+    """
+    Dense Noise 
+
+
+    Produces a matrix with the values 0, 0.5 and 1 allocated at random
+    and then scaled and translated by scale and offset with the next
+    transformation rule:  result*scale + offset
+    """
+    
+    experiment_seed = SNumber(dimensionless, doc="The seed of a given experiment") 
+    duration = SNumber(ms, doc='Total duration of the frames')
+    time_per_image = SNumber(ms, doc ='Duration of one image')
+    grid_size = SNumber(dimensionless, doc = "Grid Size ")
+       
+    def __init__(self,**params):
+        TopographicaBasedVisualStimulus.__init__(self, **params)
+        assert (self.time_per_image/self.frame_duration) % 1.0 == 0.0
+  
+    def frames(self):
+        aux = imagen.random.DenseNoise(
+                                       grid_density = self.grid_size * 1.0 / self.size_x,
+                                       offset = 0,
+                                       scale = 2 * self.background_luminance, 
+                                       bounds = BoundingBox(radius=self.size_x/2),
+                                       xdensity = self.density,
+                                       ydensity = self.density,
+                                       random_generator=numpy.random.RandomState(seed=self.experiment_seed))
+        
+        while True:
+            aux2 = aux()
+            for i in range(int(self.time_per_image/self.frame_duration)):
+                yield (aux2,[0])
+
+
+                    
+class FullfieldDriftingSinusoidalGrating(TopographicaBasedVisualStimulus):
+    """
+    A full field sinusoidal grating stimulus. 
+     
+    A movies in which luminance is modulated as a sinusoid along one 
+    axis and is constant in the perpendicular axis. The phase of 
+    the sinusoid is increasing with time leading to a drifting pattern. 
+
+    Notes
+    -----
+    `max_luminance` is interpreted as scale and `size_x/2` as the bounding box radius.
+    """
+
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Grating orientation")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of grating")
+    temporal_frequency = SNumber(Hz, doc="Temporal frequency of grating")
+    contrast = SNumber(dimensionless,bounds=[0,100.0],doc="Contrast of the stimulus")
+
+    def frames(self):
+        self.current_phase=0
+        i = 0
+        while True:
+            i += 1
+            yield (imagen.SineGrating(orientation=self.orientation,
+                                      frequency=self.spatial_frequency,
+                                      phase=self.current_phase,
+                                      bounds=BoundingBox(radius=self.size_x/2),
+                                      offset = self.background_luminance*(100.0 - self.contrast)/100.0,
+                                      scale=2*self.background_luminance*self.contrast/100.0,
+                                      xdensity=self.density,
+                                      ydensity=self.density)(),
+                   [self.current_phase])
+            self.current_phase += 2*pi * (self.frame_duration/1000.0) * self.temporal_frequency
+
+
+class FullfieldDriftingSquareGrating(TopographicaBasedVisualStimulus):
+    """
+    A full field square grating stimulus.
+
+    A movies composed of interlaced dark and bright bars spanning the width  
+    the visual space. The bars are moving a direction perpendicular to their
+    long axis. The speed is dictated by the *temporal_freuquency* parameter
+    the width of the bars by *spatial_frequency* parameter.
+    """
+
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Grating orientation")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of grating")
+    temporal_frequency = SNumber(Hz, doc="Temporal frequency of grating")
+    contrast = SNumber(dimensionless,bounds=[0,100.0],doc="Contrast of the stimulus")
+
+    def frames(self):
+        self.current_phase=0
+        i = 0
+        while True:
+            i += 1
+            yield (imagen.SquareGrating(
+                    orientation = self.orientation,
+                    frequency = self.spatial_frequency,
+                    phase = self.current_phase,
+                    bounds = BoundingBox( radius=self.size_x/2 ),
+                    offset = self.background_luminance*(100.0 - self.contrast)/100.0,
+                    scale = 2*self.background_luminance*self.contrast/100.0,
+                    xdensity = self.density,
+                    ydensity = self.density)(),
+                [self.current_phase])
+            self.current_phase += 2*pi * (self.frame_duration/1000.0) * self.temporal_frequency
+
+class FullfieldDriftingSinusoidalGratingA(TopographicaBasedVisualStimulus):
+    """
+    A full field square grating stimulus.
+
+    A movies composed of interlaced dark and bright bars spanning the width  
+    the visual space. The bars are moving a direction perpendicular to their
+    long axis. The speed is dictated by the *temporal_freuquency* parameter
+    the width of the bars by *spatial_frequency* parameter.
+    """
+
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Grating orientation")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of grating")
+    temporal_frequency = SNumber(Hz, doc="Temporal frequency of grating")
+    contrast = SNumber(dimensionless,bounds=[0,100.0],doc="Contrast of the stimulus")
+    offset_time = SNumber(dimensionless,bounds=[0,None],doc="")
+    onset_time = SNumber(dimensionless,bounds=[0,None],doc="")
+
+    def frames(self):
+        self.current_phase=0
+        i = 0
+        t = 0
+        while True:
+            i += 1
+            st = imagen.SineGrating(
+                    orientation = self.orientation,
+                    frequency = self.spatial_frequency,
+                    phase = self.current_phase,
+                    bounds = BoundingBox( radius=self.size_x/2 ),
+                    offset = self.background_luminance*(100.0 - self.contrast)/100.0,
+                    scale = 2*self.background_luminance*self.contrast/100.0,
+                    xdensity = self.density,
+                    ydensity = self.density)()
+            if t > self.offset_time:
+                st = st * 0 + self.background_luminance
+            if t < self.onset_time:
+                st = st * 0 + self.background_luminance
+            
+            yield (st,[self.current_phase])
+            self.current_phase += 2*pi * (self.frame_duration/1000.0) * self.temporal_frequency
+            t=t+self.frame_duration
+
+ 
+
+class FlashingSquares(TopographicaBasedVisualStimulus):
+    """
+    A pair of displaced flashing squares. 
+
+    A pair of squares separated by a constant distance of dimensions dictated by provided *spatial_frequency* parameter
+    and flashing at frequency provided by the *temporal_frequency* parameter. 
+    """
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Orientation of the square axis")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency created by the squares and the gap between them")
+    separation = SNumber(degrees, doc="The separation between the two squares")
+    temporal_frequency = SNumber(Hz, doc="Temporal frequency of the flashing")
+    contrast = SNumber(dimensionless,bounds=[0,100.0],doc="Contrast of the stimulus")
+    separated = SNumber(dimensionless, doc = "Boolean string to decide whether the separation is specified or not")
+
+    def frames(self):
+        # the size length of square edge is given by half the period
+        size = 1./(2*self.spatial_frequency)
+        # if a separation size is provided we use it, otherwise we use the same as size
+        if self.separated:
+            halfseparation = self.separation/2.
+        else:
+            halfseparation = size
+        # if the separation is less than the size of a square, the two squares will overlap and the luminance will be too much
+        if halfseparation < size/2.:
+            halfseparation = size/2.
+        # flashing squares with a temporal frequency of 6Hz are happening every 1000/6=167ms
+        time = self.duration/self.frame_duration
+        stim_period = time/self.temporal_frequency
+        t = 0
+        t0 = 0
+        # total time of the stimulus
+        while t <= time:
+            # frequency tick
+            if (t-t0) >= stim_period:
+                t0 = t
+            # Squares presence on screen is half of the period.
+            # Since the two patterns will be added together, 
+            # the offset level is half it should be, to sum into the required level, 
+            # and the scale level is twice as much, in order to overcome the presence of the other pattern
+            if t <= t0+(stim_period/2):
+                a = imagen.RawRectangle(
+                        x = -halfseparation, 
+                        y = 0,
+                        orientation = self.orientation,
+                        bounds = BoundingBox( radius=self.size_x/2 ),
+                        offset = 0.5*self.background_luminance*(100.0 - self.contrast)/100.0, 
+                        scale = 2*self.background_luminance*self.contrast/100.0,
+                        xdensity = self.density,
+                        ydensity = self.density,
+                        size = size)()
+                b = imagen.RawRectangle(
+                        x = halfseparation, 
+                        y = 0,
+                        orientation = self.orientation,
+                        bounds = BoundingBox( radius=self.size_x/2 ),
+                        offset = 0.5*self.background_luminance*(100.0 - self.contrast)/100.0,
+                        scale = 2*self.background_luminance*self.contrast/100.0,
+                        xdensity = self.density,
+                        ydensity = self.density,
+                        size = size)()
+                yield (numpy.add(a,b),[t])
+            else:
+                yield (imagen.Constant(
+                        scale=self.background_luminance*(100.0 - self.contrast)/100.0,
+                        bounds=BoundingBox(radius=self.size_x/2),
+                        xdensity=self.density,
+                        ydensity=self.density)(),
+                    [t])
+            # time
+            t += 1
+
+
+class Null(TopographicaBasedVisualStimulus):
+    """
+    Blank stimulus.
+
+    All pixels of the visual field are set to background luminance.
+    """
+    def frames(self):
+        while True:
+            yield (imagen.Constant(scale=self.background_luminance,
+                              bounds=BoundingBox(radius=self.size_x/2),
+                              xdensity=self.density,
+                              ydensity=self.density)(),
+                   [self.frame_duration])
+
+
+class PixelImpulse(TopographicaBasedVisualStimulus):
+    """
+    A visual stimulus that sets the luminance of a single pixel with
+    coordinates (*x*,*y*) to *relative_luminance* times the background
+    luminance. All other pixels are set to background luminance.
+    """
+
+    relative_luminance = SNumber(dimensionless, doc="Ratio of the selected pixel luminance to the background luminance")
+    x = SNumber(dimensionless, doc="x coordinate of selected pixel")
+    y = SNumber(dimensionless, doc="y coordinate of selected pixel")
+
+    def frames(self):
+        blank = imagen.Constant(
+            scale=self.background_luminance,
+            bounds=imagen.image.BoundingBox(radius=self.size_x / 2),
+            xdensity=self.density,
+            ydensity=self.density,
+        )()
+        impulse = blank.copy()
+        impulse[self.x, self.y] *= self.relative_luminance
+        yield (impulse, [self.frame_duration])
+        while True:
+            yield (impulse, [self.frame_duration])
+
+class MaximumDynamicRange(TransferFn):
+    """
+    It linearly maps 0 to the minimum of the image and 1.0 to the maximum in the image.
+    """
+    norm_value = param.Number(default=1.0)
+    
+    def __call__(self,x):
+        mi = numpy.min(x)
+        ma = numpy.max(x)
+
+        if ma-mi != 0:
+                x -= mi
+                x *= 1/(ma-mi)
+
+class NaturalImageWithEyeMovement(TopographicaBasedVisualStimulus):
+    """
+    A visual stimulus that simulates an eye movement over a static image.
+
+    This is a movie that is generated by translating a 
+    static image along a pre-specified path (presumably containing path
+    that corresponds to eye-movements).
+    
+    """
+    size = SNumber(degrees, doc="The length of the longer axis of the image in visual degrees")
+    eye_movement_period = SNumber(ms, doc="The time between two consequitve eye movements recorded in the eye_path file")
+    image_location = SString(doc="Location of the image")
+    eye_path_location = SString(doc="Location of file containing the eye path (two columns of numbers)")
+
+    def frames(self):
+        self.time = 0
+        f = open(self.eye_path_location, 'rb')
+        self.eye_path = pickle.load(f, encoding="latin1")
+        self.pattern_sampler = imagen.image.PatternSampler(
+                                    size_normalization='fit_longest',
+                                    whole_pattern_output_fns=[MaximumDynamicRange()])
+
+        image = imagen.image.FileImage(         
+                                    filename=self.image_location,
+                                    x=0,
+                                    y=0,
+                                    orientation=0,
+                                    xdensity=self.density,
+                                    ydensity=self.density,
+                                    size=self.size,
+                                    bounds=BoundingBox(points=((-self.size_x/2, -self.size_y/2),
+                                                               (self.size_x/2, self.size_y/2))),
+                                    scale=2*self.background_luminance,
+                                    pattern_sampler=self.pattern_sampler)
+
+        while True:
+            location = self.eye_path[int(numpy.floor(self.frame_duration * self.time / self.eye_movement_period))]
+            image.x = location[0]
+            image.y = location[1]
+            yield (image(), [self.time])
+            self.time += 1
+
+
+class DriftingGratingWithEyeMovement(TopographicaBasedVisualStimulus):
+    """
+    A visual stimulus that simulates an eye movement over a drifting  gratings.
+
+    This is a movie that is generated by translating a 
+    full-field drifting sinusoidal gratings along a pre-specified path 
+    (presumably containing path that corresponds to eye-movements).
+    """
+
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Grating orientation")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of grating")
+    temporal_frequency = SNumber(Hz, doc="Temporal frequency of grating")
+    contrast = SNumber(dimensionless,bounds=[0,100.0],doc="Contrast of the stimulus")
+    eye_movement_period = SNumber(ms, doc="The time between two consequitve eye movements recorded in the eye_path file")
+    eye_path_location = SString(doc="Location of file containing the eye path (two columns of numbers)")
+
+    def frames(self):
+        
+        f = open(self.eye_path_location, 'r')
+        self.eye_path = pickle.load(f, encoding="latin1")
+        self.time = 0
+        self.current_phase = 0
+        while True:
+            location = self.eye_path[int(numpy.floor(self.frame_duration * self.time / self.eye_movement_period))]
+
+            image = imagen.SineGrating(orientation=self.orientation,
+                                       x=location[0],
+                                       y=location[1],
+                                       frequency=self.spatial_frequency,
+                                       phase=self.current_phase,
+                                       bounds=BoundingBox(points=((-self.size_x/2, -self.size_y/2),
+                                                                  (self.size_x/2, self.size_y/2))),
+                                       offset = self.background_luminance*(100.0 - self.contrast)/100.0,
+                                       scale=2*self.background_luminance*self.contrast/100.0,
+                                       xdensity=self.density,
+                                       ydensity=self.density)()
+            self.current_phase += 2*pi * (self.frame_duration/1000.0) * self.temporal_frequency
+            yield (image, [self.time])
+            self.time = self.time + 1
+
+
+class DriftingSinusoidalGratingDisk(TopographicaBasedVisualStimulus):
+    """
+    A drifting sinusoidal grating confined to a aperture of specified radius.
+
+    A movies in which luminance is modulated as a sinusoid along one 
+    axis and is constant in the perpendicular axis. The phase of 
+    the sinusoid is advancing with time leading to a drifting pattern.
+    The whole stimulus is confined to an aperture of  
+
+    Notes
+    -----
+    size_x/2 is interpreted as the bounding box radius.
+    """
+    contrast = SNumber(dimensionless,bounds=[0,100.0],doc="Contrast of the stimulus")
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Grating orientation")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of the grating")
+    temporal_frequency = SNumber(Hz, doc="Temporal frequency of the grating")
+    radius = SNumber(degrees, doc="The radius of the grating disk - in degrees of visual field")
+
+    def frames(self):
+        self.current_phase=0
+        while True:
+            a = imagen.SineGrating(orientation=self.orientation,
+                                   frequency=self.spatial_frequency,
+                                   phase=self.current_phase,
+                                   bounds=BoundingBox(radius=self.size_x/2),
+                                   offset = self.background_luminance*(100.0 - self.contrast)/100.0,
+                                   scale=2*self.background_luminance*self.contrast/100.0,
+                                   xdensity=self.density,
+                                   ydensity=self.density)()
+            
+            b = imagen.Constant(scale=self.background_luminance,
+                            bounds=BoundingBox(radius=self.size_x/2),
+                            xdensity=self.density,
+                            ydensity=self.density)()
+            c = imagen.Disk(smoothing=0.0,
+                            size=self.radius*2,
+                            scale=1.0,
+                            bounds=BoundingBox(radius=self.size_x/2),
+                            xdensity=self.density,
+                            ydensity=self.density)()    
+            d1 = numpy.multiply(a,c)
+            d2 = numpy.multiply(b,-(c-1.0))
+            d =  numpy.add.reduce([d1,d2])
+            yield (d,[self.current_phase])
+            self.current_phase += 2*pi * (self.frame_duration/1000.0) * self.temporal_frequency
+
+
+class FlatDisk(TopographicaBasedVisualStimulus):
+    """
+    A flat luminance aperture of specified radius.
+
+    This stimulus corresponds to a disk of constant luminance of 
+    pre-specified *radius* flashed for the *duration* of milliseconds
+    on a constant background of *background_luminance* luminance.
+    The luminance of the disk is specified by the *contrast* parameter,
+    and is thus *background_luminance* + *background_luminance* \* (*self.contrast*/100.0).
+
+    Notes
+    -----
+    size_x/2 is interpreted as the bounding box.
+    """
+    contrast = SNumber(dimensionless,bounds=[0,100.0],doc="Contrast of the stimulus")
+    radius = SNumber(degrees, doc="The radius of the disk - in degrees of visual field")
+
+    def frames(self):
+        self.current_phase=0
+        while True:  
+            d = imagen.Disk(smoothing=0.0,
+                            size=self.radius*2,
+                            offset = self.background_luminance,
+                            scale = self.background_luminance*(self.contrast/100.0),
+                            bounds=BoundingBox(radius=self.size_x/2),
+                            xdensity=self.density,
+                            ydensity=self.density)()  
+         
+            yield (d,[self.current_phase])
+
+class FlashedBar(TopographicaBasedVisualStimulus):
+    """
+    A flashed bar.
+
+    This stimulus corresponds to flashing a bar of specific *orientation*,
+    *width* and *length* at pre-specified position for *flash_duration* of milliseconds. 
+    For the remaining time, until the *duration* of the stimulus, constant *background_luminance* 
+    is displayed.
+    """
+    relative_luminance = SNumber(dimensionless,bounds=[0,1.0],doc="The scale of the stimulus. 0 is dark, 1.0 is double the background luminance")
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Grating orientation")
+    width = SNumber(cpd, doc="Spatial frequency of the grating")
+    length = SNumber(Hz, doc="Temporal frequency of the grating")
+    flash_duration = SNumber(ms, doc="The duration of the bar presentation.")
+    x = SNumber(degrees, doc="The x location of the center of the bar.")
+    y = SNumber(degrees, doc="The y location of the center of the bar.")
+    
+    def frames(self):
+        num_frames = 0
+        while True:
+    
+            d = imagen.RawRectangle(offset = self.background_luminance,
+                                    scale = self.background_luminance*(self.relative_luminance-0.5),
+                                    bounds=BoundingBox(radius=self.size_x/2),
+                                    xdensity=self.density,
+                                    ydensity=self.density,
+                                    x = self.x,
+                                    y = self.y,
+                                    orientation=self.orientation,
+                                    size = self.width,
+                                    aspect_ratio = self.length/ self.width)()  
+
+                                    
+            b = imagen.Constant(scale=self.background_luminance,
+                    bounds=BoundingBox(radius=self.size_x/2),
+                    xdensity=self.density,
+                    ydensity=self.density)()
+                    
+            num_frames += 1;
+            if (num_frames-1) * self.frame_duration < self.flash_duration: 
+                yield (d,[1])
+            else:
+                yield (b,[0])
+            
+            
+class DriftingSinusoidalGratingCenterSurroundStimulus(TopographicaBasedVisualStimulus):
+    """
+    Orientation-contrast surround stimulus.
+
+    This is a standard stimulus to probe orientation specific surround modulation:
+    a drifting sinusoidal grating in the center surrounded by a drifting grating 
+    in the surround. Orientations of both center (*center_orientation* parameter) 
+    and surround gratings (*surround_orientation* parameter) can be varied independently, 
+    but they have common *spatial_frequency* and *temporal_frequency*. Gap of *gap* degrees
+    of visual field can be placed between the center and surround stimulus.
+
+
+    Notes
+    -----
+    max_luminance is interpreted as scale and size_x/2 as the bounding box radius.
+    """
+    
+    center_orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Center grating orientation")
+    surround_orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Surround grating orientation")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of the grating (same for center and surround)")
+    temporal_frequency = SNumber(Hz, doc="Temporal frequency of the grating (same for center and surround)")
+    gap = SNumber(degrees, doc="The gap between center and surround grating - in degrees of visual field")
+    center_radius = SNumber(degrees, doc="The (outside) radius of the center grating disk - in degrees of visual field")
+    surround_radius = SNumber(degrees, doc="The (outside) radius of the surround grating disk - in degrees of visual field")
+    contrast = SNumber(dimensionless,bounds=[0,100.0],doc="Contrast of the stimulus")
+
+    def frames(self):
+        self.current_phase = 0
+        while True:
+            center = imagen.SineGrating(mask_shape=imagen.Disk(smoothing=0.0, size=self.center_radius*2.0),
+                                        orientation=self.center_orientation,
+                                        frequency=self.spatial_frequency,
+                                        phase=self.current_phase,
+                                        bounds=BoundingBox(radius=self.size_x/2.0),
+                                        offset = 0,
+                                        scale=2*self.background_luminance*self.contrast/100.0,  
+                                        xdensity=self.density,
+                                        ydensity=self.density)()
+            r = (self.center_radius + self.surround_radius + self.gap)/2.0
+            t = (self.surround_radius - self.center_radius - self.gap)/2.0
+            surround = imagen.SineGrating(mask_shape=imagen.Ring(thickness=t*2.0, smoothing=0.0, size=r*2.0),
+                                          orientation=self.surround_orientation,
+                                          frequency=self.spatial_frequency,
+                                          phase=self.current_phase,
+                                          bounds=BoundingBox(radius=self.size_x/2.0),
+                                          offset = 0,
+                                          scale=2*self.background_luminance*self.contrast/100.0,   
+                                          xdensity=self.density,
+                                          ydensity=self.density)()
+            
+            offset = imagen.Constant(mask_shape=imagen.Disk(smoothing=0.0, size=self.surround_radius*2.0),
+                                 bounds=BoundingBox(radius=self.size_x/2.0),
+                                 scale=self.background_luminance*(100.0 - self.contrast)/100.0,
+                                 xdensity=self.density,
+                                 ydensity=self.density)()
+
+            background = (imagen.Disk(smoothing=0.0,
+                                     size=self.surround_radius*2.0, 
+                                     bounds=BoundingBox(radius=self.size_x/2.0),
+                                     xdensity=self.density,
+                                     ydensity=self.density)()-1)*-self.background_luminance
+            
+            yield (numpy.add.reduce([numpy.maximum(center, surround),offset,background]), [self.current_phase])
+            self.current_phase += 2*pi * (self.frame_duration/1000.0) * self.temporal_frequency
+
+class DriftingSinusoidalGratingRing(TopographicaBasedVisualStimulus):
+    """
+    A standard stimulus to probe orientation specific surround modulation:
+    A drifting grating in center surrounded by a drifting grating in the surround.
+    Orientations of both center and surround gratings can be varied independently.
+
+    Notes
+    -----
+    max_luminance is interpreted as scale and size_x/2 as the bounding box radius.
+    """
+    
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Center grating orientation")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of the grating ")
+    temporal_frequency = SNumber(Hz, doc="Temporal frequency of the grating ")
+    outer_aperture_radius = SNumber(degrees, doc="The outside radius of the grating ring - in degrees of visual field")
+    inner_aperture_radius = SNumber(degrees, doc="The inside radius of the  grating ring - in degrees of visual field")
+    contrast = SNumber(dimensionless,bounds=[0,100.0],doc="Contrast of the stimulus")
+
+    def frames(self):
+        self.current_phase = 0
+        while True:
+            r = (self.inner_aperture_radius + self.outer_aperture_radius)/2.0
+            t = (self.outer_aperture_radius - self.inner_aperture_radius)/2.0
+            ring = imagen.SineGrating(mask_shape=imagen.Ring(thickness=t*2.0, smoothing=0.0, size=r*2.0),
+                                          orientation=self.orientation,
+                                          frequency=self.spatial_frequency,
+                                          phase=self.current_phase,
+                                          bounds=BoundingBox(radius=self.size_x/2.0),
+                                          offset = 0,
+                                          scale=2*self.background_luminance*self.contrast/100.0,   
+                                          xdensity=self.density,
+                                          ydensity=self.density)()
+            
+            bg = imagen.Constant(bounds=BoundingBox(radius=self.size_x/2.0),
+                                 scale=self.background_luminance,
+                                 xdensity=self.density,
+                                 ydensity=self.density)()
+
+            correction = imagen.Ring(smoothing=0.0,
+                                     thickness=t*2.0, 
+                                     size=r*2.0,
+                                     scale=-self.background_luminance,
+                                     bounds=BoundingBox(radius=self.size_x/2.0),
+                                     xdensity=self.density,
+                                     ydensity=self.density)()
+            
+            yield (numpy.add.reduce([ring,bg,correction]), [self.current_phase])
+            self.current_phase += 2*pi * (self.frame_duration/1000.0) * self.temporal_frequency
+
+
+class FlashedInterruptedBar(TopographicaBasedVisualStimulus):
+    """
+    A flashed bar.
+
+    This stimulus corresponds to flashing a bar of specific *orientation*,
+    *width* and *length* at pre-specified position for *flash_duration* of milliseconds. 
+    For the remaining time, until the *duration* of the stimulus, constant *background_luminance* 
+    is displayed.
+    """
+    relative_luminance = SNumber(dimensionless,bounds=[0,1.0],doc="The scale of the stimulus. 0 is dark, 1.0 is double the background luminance.")
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Grating orientation.")
+    disalignment = SNumber(rad, period=pi, bounds=[-pi/2,pi/2], doc="The orientation by which the flanking bars are rotated away from the principal orientation axis.")
+    width = SNumber(cpd, doc="Width of the bar")
+    length = SNumber(Hz, doc="Length of the bar`")
+    flash_duration = SNumber(ms, doc="The duration of the bar presentation.")
+    x = SNumber(degrees, doc="The x location of the center of the bar (where the gap will appear).")
+    y = SNumber(degrees, doc="The y location of the center of the bar (where the gap will appear).")
+    gap_length = SNumber(Hz, doc="Length of the gap in the center of the bar")
+    
+    def frames(self):
+        num_frames = 0
+        while True:
+            
+            z = self.gap_length/4.0 + self.length/4.0 
+
+            d1 = imagen.RawRectangle(offset = self.background_luminance,
+                                    scale = 2*self.background_luminance*(self.relative_luminance-0.5),
+                                    bounds=BoundingBox(radius=self.size_x/2),
+                                    xdensity=self.density,
+                                    ydensity=self.density,
+                                    x = self.x + numpy.cos(self.orientation) * (z),
+                                    y = self.y + numpy.sin(self.orientation) * (z),
+                                    orientation=self.orientation+self.disalignment,
+                                    size = self.width,
+                                    aspect_ratio = (self.length-self.gap_length)/2/self.width)()  
+
+            d2 = imagen.RawRectangle(offset = self.background_luminance,
+                                    scale = 2*self.background_luminance*(self.relative_luminance-0.5),
+                                    bounds=BoundingBox(radius=self.size_x/2),
+                                    xdensity=self.density,
+                                    ydensity=self.density,
+                                    x = self.x + numpy.cos(self.orientation) * (-z),
+                                    y = self.y + numpy.sin(self.orientation) * (-z),
+                                    orientation=self.orientation+self.disalignment,
+                                    size = self.width,
+                                    aspect_ratio = (self.length-self.gap_length)/2/self.width)()  
+
+                                    
+            b = imagen.Constant(scale=self.background_luminance,
+                    bounds=BoundingBox(radius=self.size_x/2),
+                    xdensity=self.density,
+                    ydensity=self.density)()
+                    
+            num_frames += 1;
+            if (num_frames-1) * self.frame_duration < self.flash_duration: 
+                if self.relative_luminance > 0.5: 
+                   yield (numpy.maximum(d1,d2),[1])
+                else:
+                   yield (numpy.minimum(d1,d2),[1]) 
+            else:
+                yield (b,[0])
+
+
+
+class FlashedInterruptedCorner(TopographicaBasedVisualStimulus):
+    """
+    A flashed bar.
+
+    This stimulus corresponds to flashing a bar of specific *orientation*,
+    *width* and *length* at pre-specified position for *flash_duration* of milliseconds. 
+    For the remaining time, until the *duration* of the stimulus, constant *background_luminance* 
+    is displayed.
+    """
+    relative_luminance = SNumber(dimensionless,bounds=[0,1.0],doc="The scale of the stimulus. 0 is dark, 1.0 is double the background luminance")
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Orientation of the corner")
+    width = SNumber(degrees, doc="width of lines forming the corner")
+    length = SNumber(Hz, doc="length of the corner if it were colinear")
+    flash_duration = SNumber(ms, doc="The duration of the corner presentation.")
+    x = SNumber(degrees, doc="The x location of the center of the bar (where the gap will appear).")
+    y = SNumber(degrees, doc="The y location of the center of the bar (where the gap will appear).")
+    left_angle = SNumber(rad, period=pi, bounds=[0,pi], doc="orientation of the left arm")
+    right_angle = SNumber(rad, period=pi, bounds=[0,pi], doc="orientation of the right arm")
+    gap_length = SNumber(Hz, doc="Length of the gap in the center of the bar")
+
+    def frames(self):
+        num_frames = 0
+    
+        while True:            
+            length = self.length/2-self.gap_length/2.0
+            shift = length/2.0+self.gap_length/2.0
+
+            r1=imagen.Rectangle(x= shift*numpy.cos(self.right_angle),
+            		            y= shift*numpy.sin(right_angle),
+            		            offset = self.background_luminance,
+                                scale = 2*self.background_luminance*(self.relative_luminance-0.5),
+                			    orientation=numpy.pi/2+self.right_angle,
+                			    smoothing=0,
+                			    aspect_ratio=self.width/length,
+                			    size=length,
+                			    bounds=BoundingBox(radius=self.size_x/2),
+                			    )
+
+
+            r2=imagen.Rectangle(x=shift*numpy.cos(self.left_angle),
+                			    y=shift*numpy.sin(left_angle),
+                			    offset = self.background_luminance,
+                                scale = 2*self.background_luminance*(self.relative_luminance-0.5),
+                			    orientation=numpy.pi/2+self.left_angle,
+                			    smoothing=0,
+                			    aspect_ratio=self.width/length,
+                			    size=length,
+                			    bounds=BoundingBox(radius=self.size_x/2),
+                 			    )
+            	
+            r=imagen.Composite(generators=[r1,r2],x=self.x,y=self.y,bounds=BoundingBox(radius=self.size_x/2),orientation=self.orientation,xdensity=self.density,ydensity=self.density)
+
+            b = imagen.Constant(scale=self.background_luminance,
+                    bounds=BoundingBox(radius=self.size_x/2),
+                    xdensity=self.density,
+                    ydensity=self.density)()
+
+            num_frames += 1;
+            if (num_frames-1) * self.frame_duration < self.flash_duration: 
+                    yield (r(),[1])
+            else:
+                    yield (b,[0])
+
+
+class VonDerHeydtIllusoryBar(TopographicaBasedVisualStimulus):
+    """
+    An illusory bar from Von Der Heydt et al. 1989.
+
+    Von Der Heydt, R., & Peterhans, E. (1989). Mechanisms of contour perception in monkey visual cortex. I. Lines of pattern discontinuity. Journal of Neuroscience, 9(5), 1731–1748. Retrieved from https://www.jneurosci.org/content/jneuro/9/5/1731.full.pdf
+    """
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Grating orientation")
+    background_bar_width = SNumber(degrees, doc="Width of the background bar")
+    occlusion_bar_width = SNumber(degrees, doc="Width of the occlusion bar")
+    bar_width = SNumber(degrees, doc="Width of the bar")
+    length = SNumber(Hz, doc="Length of the background bar")
+    flash_duration = SNumber(ms, doc="The duration of the bar presentation.")
+    x = SNumber(degrees, doc="The x location of the center of the bar (where the gap will appear).")
+    y = SNumber(degrees, doc="The y location of the center of the bar (where the gap will appear).")
+    
+    def frames(self):
+        num_frames = 0
+        while True:
+            
+
+            d1 = imagen.RawRectangle(offset = 0,
+                                    scale = 2*self.background_luminance,
+                                    bounds=BoundingBox(radius=self.size_x/2),
+                                    xdensity=self.density,
+                                    ydensity=self.density,
+                                    x = self.x-(self.occlusion_bar_width/2)-(self.length-self.occlusion_bar_width)/4,
+                                    y = self.y,
+                                    orientation=self.orientation,
+                                    size = self.background_bar_width,
+                                    aspect_ratio = (self.length-self.occlusion_bar_width)/2/self.background_bar_width)()  
+
+            d2 = imagen.RawRectangle(offset = 0,
+                                    scale = 2*self.background_luminance,
+                                    bounds=BoundingBox(radius=self.size_x/2),
+                                    xdensity=self.density,
+                                    ydensity=self.density,
+                                    x = self.x+(self.occlusion_bar_width/2)+(self.length-self.occlusion_bar_width)/4,
+                                    y = self.y,
+                                    orientation=self.orientation,
+                                    size = self.background_bar_width,
+                                    aspect_ratio = (self.length-self.occlusion_bar_width)/2/self.background_bar_width)()  
+
+                                    
+            b = imagen.Constant(scale=0,
+                    bounds=BoundingBox(radius=self.size_x/2),
+                    xdensity=self.density,
+                    ydensity=self.density)()
+                    
+            num_frames += 1;
+            if (num_frames-1) * self.frame_duration < self.flash_duration: 
+                yield (numpy.add(d1,d2),[1])
+            else:
+                yield (b,[0])
+
+
+class SimpleGaborPatch(TopographicaBasedVisualStimulus):
+    """A flash of a Gabor patch
+
+    This stimulus corresponds to flashing a Gabor patch of a specific
+    *orientation*, *size*, *phase*, *spatial_frequency* at a defined position
+    *x* and *y* for *flash_duration* milliseconds. For the remaining time, 
+    until the *duration* of the stimulus, constant *background_luminance* 
+    is displayed.
+    """
+
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Gabor patch orientation")
+    phase = SNumber(rad, period=2*pi, bounds=[0,2*pi], doc="Gabor patch phase")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of the grating")
+    size = SNumber(degrees, doc="Size of the Gabor patch")
+    flash_duration = SNumber(ms, doc="The duration of the bar presentation.")
+    relative_luminance = SNumber(dimensionless,bounds=[0,1.0],doc="The scale of the stimulus. 0 is dark, 1.0 is double the background luminance")
+    x = SNumber(degrees, doc="The x location of the center of the Gabor patch.")
+    y = SNumber(degrees, doc="The y location of the center of the Gabor patch.")
+    grid = SNumber(dimensionless, doc = "Boolean string to decide whether there is grid or not")
+    n_sigmas = SNumber(dimensionless, default = 3., doc="Number of standard deviations to sample the Gabor function for.")
+
+
+    def frames(self):
+        num_frames = 0
+        if self.grid:
+            grid_pattern = hex_grid()
+        while True:
+            gabor = imagen.Gabor(
+                        aspect_ratio = 1, # Ratio of pattern width to height.
+                                          # Set since the patch has to be round
+                        mask_shape=imagen.Disk(smoothing=0, size=self.n_sigmas),
+                            # Gabor patch should fit inside tide/circle
+                            # the size is rescalled according to the size
+                            # of Gabor patch
+                        frequency = self.spatial_frequency,
+                        phase = self.phase, # Initial phase of the sinusoid
+                        bounds = BoundingBox(radius=self.size_x/2.), 
+                            # BoundingBox of the
+                            # area in which the pattern is generated,
+                            # radius=1: box with side length 2!
+                        size = self.size/self.n_sigmas, # size = 2*standard_deviation
+                            # => on the radius r=size, the intensity is ~0.14
+                        orientation=self.orientation, # In radians
+                        x = self.x,  # x-coordinate of Gabor patch center
+                        y = self.y,  # y-coordinate of Gabor patch center
+                        xdensity=self.density, # Number of points in one unit of length in x direction
+                        ydensity=self.density, # Number of points in one unit of length in y direction
+                        scale=2*self.background_luminance*self.relative_luminance, 
+                                # Difference between maximal and minimal value 
+                                # => min value = -scale/2, max value = scale/2
+                                )()
+            gabor = gabor+self.background_luminance # rescalling
+            blank = imagen.Constant(scale=self.background_luminance,
+                                    bounds=BoundingBox(radius=self.size_x/2),
+                                    xdensity=self.density,
+                                    ydensity=self.density)()
+            if self.grid:
+                gabor = gabor*grid_pattern
+                blank = blank*grid_pattern
+            num_frames += 1
+            if (num_frames-1) * self.frame_duration < self.flash_duration: 
+                yield (gabor, [1])
+            else:
+                yield (blank, [0])
+
+    def hex_grid(self):
+        """Creates an 2D array representing hexagonal grid based on given parameters
+
+        Algorithm:
+            First, it creates a tide containing two lines looking like: ___/
+                the height of the tide is size/2
+                the width of the tide is sqrt(3)/2*size
+                NOTE: one of the parameters is not an integer -> therefore rounding
+                    is present and for big grids it can be off by several pixels
+                    the oddness can be derived from the ratio of width and height
+                    the more close to sqrt(3) the better
+
+            Second, it replicates the the tide to create hexagonal tiding of the 
+            following form              ___ 
+                                    ___/   \
+                                       \___/
+            Third, it replicates the hexagonal tide and rotates it
+
+            Fourth, it computes shifts based on parameters size, size_x, size_y
+                    and cuts out the relevant part of the array
+
+        Returns:
+            array with values 1 or 0, 0 representing the hexagonal grid
+        """
+        # imagen is used to create the slant line /
+        ln = imagen.Line(bounds = BoundingBox(radius=self.size/4.), 
+                    orientation = pi/3, smoothing=0,
+                    xdensity = self.density, ydensity = self.density,  
+                    thickness=1./self.density)()
+        # cutting the relevant part of the created line
+        idx = ln.argmax(axis=0).argmax()
+        line = ln[:,idx:-idx]
+        # Creating the horizontal line _
+        hline = numpy.zeros((line.shape[0], line.shape[1]*2))
+        hline[-1,:] = 1
+        # Creating hexagonal tide
+        tide = numpy.hstack((hline,line))  # joins horizontal line and slant line
+        tide = numpy.hstack((tide, tide[::-1,:]))  # mirrors the tide in horizontal direction
+        tide = numpy.vstack((tide, tide[::-1,:]))  # mirrors the tide in vertical direction
+        d, k = tide.shape
+        k = k/3
+        # Creating hex
+        x_reps = int(self.size_x/self.size) + 2
+        y_reps = int(self.size_y/self.size) + 2
+        # pixel sizes
+        x_size = int(self.size_x*self.density)
+        y_size = int(self.size_y*self.density)
+        grid = numpy.hstack((numpy.vstack((tide,)*y_reps),)*x_reps)
+        # starting indices in each dimension
+        i = int((0.5+int(self.size_y/self.size)*1.5)*k)-int(self.density*self.size_y/2)
+        j = d - int(self.size_x%self.size*self.density/2.)
+        grid = grid[j:j+x_size,i:i+y_size]
+        center = grid.shape[0]/2
+        return 1-grid.T
+
+
+class TwoStrokeGaborPatch(TopographicaBasedVisualStimulus):
+    """A flash of two consecutive Gabor patches next to each other
+
+    This stimulus corresponds to flashing a Gabor patch of a specific
+    *orientation*, *size*, *phase*, *spatial_frequency* starting at a defined
+    position *x* and *y* for *stroke_time* milliseconds. After that time
+    Gabor patch is moved in the *x_direction* and *y_direction* to new place,
+    where is presented until the *flash_duration* milliseconds from start of
+    the experiment passes. For the remaining time,  until the *duration* of the
+    stimulus, constant *background_luminance* is displayed.
+    """
+
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Gabor patch orientation")
+    phase = SNumber(rad, period=2*pi, bounds=[0,2*pi], doc="Gabor patch phase")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of the grating")
+    size = SNumber(degrees, doc="Size of the Gabor patch")
+    flash_duration = SNumber(ms, doc="The duration of the bar presentation.")
+    first_relative_luminance = SNumber(dimensionless,bounds=[0,1.0], doc="The scale of the stimulus. 0 is dark, 1.0 is double the background luminance")
+    second_relative_luminance = SNumber(dimensionless,bounds=[0,1.0],doc="The scale of the stimulus. 0 is dark, 1.0 is double the background luminance")
+    x = SNumber(degrees, doc="The x location of the center of the Gabor patch.")
+    y = SNumber(degrees, doc="The y location of the center of the Gabor patch.")
+    stroke_time = SNumber(ms, doc="Duration of the first stroke.")
+    x_direction = SNumber(degrees, doc="The x direction for the second stroke.")
+    y_direction = SNumber(degrees, doc="The y direction for the second stroke.")
+    grid = SNumber(dimensionless, doc = "Boolean string to decide whether there is grid or not")
+    n_sigmas = SNumber(dimensionless, default = 3., doc="Number of standard deviations to sample the Gabor function for.")
+
+
+    def frames(self):
+        num_frames = 0
+        # relative luminance of a current stroke
+        current_luminance = self.first_relative_luminance
+        if self.grid:
+            grid_pattern = self.hex_grid()
+        while True:
+            gabor = imagen.Gabor(
+                        aspect_ratio = 1, # Ratio of pattern width to height.
+                                          # Set since the patch has to be round
+                        mask_shape=imagen.Disk(smoothing=0, size=self.n_sigmas),
+                            # Gabor patch should fit inside tide/circle
+                            # the size is rescalled according to the size
+                            # of Gabor patch
+                        frequency = self.spatial_frequency,
+                        phase = self.phase, # Initial phase of the sinusoid
+                        bounds = BoundingBox(radius=self.size_x/2), 
+                            # BoundingBox of the area in which the pattern is
+                            # generated, radius=1: box with side length 2!
+                        size = self.size/self.n_sigmas, # size = 2*standard_deviation
+                            # => on the radius r=size, the intensity is ~0.14
+                        orientation=self.orientation, # In radians
+                        x = self.x,  # x-coordinate of Gabor patch center
+                        y = self.y,  # y-coordinate of Gabor patch center
+                        xdensity=self.density, # Number of points in one unit 
+                                               # of length in x direction
+                        ydensity=self.density, # Number of points in one unit 
+                                               # of length in y direction
+                        scale=2*self.background_luminance*current_luminance,
+                                # Difference between maximal and minimal value 
+                                # => min value = -scale/2, max value = scale/2
+                                )()                
+            gabor = gabor+self.background_luminance # rescalling
+            blank = imagen.Constant(scale=self.background_luminance,
+                                    bounds=BoundingBox(radius=self.size_x/2),
+                                    xdensity=self.density,
+                                    ydensity=self.density)()
+            if self.grid:
+                gabor = gabor*grid_pattern
+                blank = blank*grid_pattern
+            num_frames += 1
+            if (num_frames-1) * self.frame_duration < self.stroke_time: 
+                # First stroke
+                yield (gabor, [1])
+                if num_frames * self.frame_duration >= self.stroke_time:
+                    # If next move is the second stroke -> change position 
+                    # and luminance
+                    self.x = self.x + self.x_direction 
+                    self.y = self.y + self.y_direction 
+                    current_luminance = self.second_relative_luminance
+            elif (num_frames-1) * self.frame_duration < self.flash_duration: 
+                # Second stroke
+                yield (gabor, [1])
+            else:
+                yield (blank, [0])
+    
+    def hex_grid(self):
+        """Creates an 2D array representing hexagonal grid based on the parameters
+
+        Algorithm:
+            First, it creates a tide containing two lines looking like: ___/
+                the height of the tide is size/2
+                the width of the tide is sqrt(3)/2*size
+                NOTE: one of the parameters is not an integer -> therefore rounding
+                    is present and for big grids it can be off by several pixels
+                    the oddness can be derived from the ratio of width and height
+                    the more close to sqrt(3) the better
+
+            Second, it replicates the the tide to create hexagonal tiding of the 
+            following form              ___ 
+                                    ___/   \
+                                       \___/
+            Third, it replicates the hexagonal tide and rotates it
+
+            Fourth, it computes shifts based on parameters size, size_x, size_y
+                    and cuts out the relevant part of the array
+
+        Returns:
+            array with values 1 or 0, 0 representing the hexagonal grid
+        """
+        # imagen is used to create the slant line /
+        ln = imagen.Line(bounds = BoundingBox(radius=self.size/4.), 
+                    orientation = pi/3, smoothing=0,
+                    xdensity = self.density, ydensity = self.density,  
+                    thickness=1./self.density)()
+        # cutting the relevant part of the created line
+        idx = ln.argmax(axis=0).argmax()
+        line = ln[:,idx:-idx]
+        # Creating the horizontal line _
+        hline = numpy.zeros((line.shape[0], line.shape[1]*2))
+        hline[-1,:] = 1
+        # Creating hexagonal tide
+        tide = numpy.hstack((hline,line))  # joins horizontal line and slant line
+        tide = numpy.hstack((tide, tide[::-1,:]))  # mirrors the tide in horizontal direction
+        tide = numpy.vstack((tide, tide[::-1,:]))  # mirrors the tide in vertical direction
+        d, k = tide.shape
+        k = k/3
+        # Creating hex
+        x_reps = int(self.size_x/self.size) + 2
+        y_reps = int(self.size_y/self.size) + 2
+        # pixel sizes
+        x_size = int(self.size_x*self.density)
+        y_size = int(self.size_y*self.density)
+        grid = numpy.hstack((numpy.vstack((tide,)*y_reps),)*x_reps)
+        # starting indices in each dimension
+        i = int((0.5+int(self.size_y/self.size)*1.5)*k)-int(self.density*self.size_y/2)
+        j = d - int(self.size_x%self.size*self.density/2.)
+        grid = grid[j:j+x_size,i:i+y_size]
+        center = grid.shape[0]/2
+        return 1-grid.T
+
+
+class GaborStimulus(TopographicaBasedVisualStimulus):
+    """
+    Parent class for Gabor stimuli.
+    """
+
+    def get_gabor(
+        self,
+        x=None,
+        y=None,
+        orientation=None,
+        phase=None,
+        spatial_frequency=None,
+        sigma=None,
+        n_sigmas=3,
+        background_luminance=None,
+        relative_luminance=None,
+        density=None,
+        size_x=None
+    ):
+        """
+        Returns a frame with a Gabor function with the specified parameters.
+        If some parameters are not supplied, tries to get them from the calling class.
+        """
+        # Set function arguments from self if possible
+        loc = locals()
+        params = loc
+        for var_name in loc:
+            if var_name is "self":
+                continue
+            if loc[var_name] is None and hasattr(self,var_name):
+                params[var_name] = getattr(self,var_name)
+
+        gabor = imagen.Gabor(
+            aspect_ratio=1,  # Ratio of pattern width to height.
+                             # Set since the patch has to be round
+            mask_shape=imagen.Disk(smoothing=0, size=params["n_sigmas"]),
+            # Gabor patch should fit inside tide/circle
+            # the size is rescalled according to the size
+            # of Gabor patch
+            frequency=params["spatial_frequency"],
+            phase=params["phase"],  # Initial phase of the sinusoid
+            bounds=BoundingBox(radius=params["size_x"] / 2.0),
+            # BoundingBox of the area in which the pattern is
+            # generated, radius=1: box with side length 2!
+            size=params["sigma"] * 2.0,  # size = 2*standard_deviation
+            # => on the radius r=size, the intensity is ~0.14
+            orientation=params["orientation"],  # In radians
+            x=params["x"],  # x-coordinate of Gabor patch center
+            y=params["y"],  # y-coordinate of Gabor patch center
+            xdensity=params["density"],  # Number of points in one unit
+                                         # of length in x direction
+            ydensity=params["density"],  # Number of points in one unit
+                                         # of length in y direction
+            scale=2.0 * params["background_luminance"] * params["relative_luminance"]
+            # Difference between maximal and minimal value
+            # => min value = -scale/2, max value = scale/2
+        )()
+        gabor = gabor + params["background_luminance"]
+        return gabor
+
+
+class ContinuousGaborMovementAndJump(GaborStimulus):
+    """
+    Continuously move a Gabor patch towards a specified center position, then jump into
+    the center position once the moving gabor would overlap with the Gabor patch in the
+    center position. The *size*, *phase*, *spatial_frequency* of the moving and center
+    patches are the same, their relative luminances can be specified separately. The
+    orientation of the center patch is set by *orientation*; the orientation of the
+    moving Gabor can be radial or tangential (set by *moving_gabor_orientation_radial*)
+
+    The speed of movement is simply given by *movement_length* / *movement_duration*.
+    The continuous movement is made up of *movement_duration* / *frame_duration* Gabor
+    positions, evenly spaced along the movement line.
+
+    After the movement and flash are finished, until the *duration* of the
+    stimulus, constant *background_luminance* is displayed.
+    """
+
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Gabor patch orientation")
+    phase = SNumber(rad, period=2*pi, bounds=[0,2*pi], doc="Gabor patch phase")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of Gabor patches")
+    sigma = SNumber(degrees, doc="Standard deviation of the Gaussian in the Gabor patch")
+    n_sigmas = SNumber(degrees, default = 3, doc="Number of standard deviations to sample the Gabor function for.")
+    center_relative_luminance = SNumber(dimensionless,bounds=[0,1.0], doc="The scale of the center stimulus. 0 is dark, 1.0 is double the background luminance")
+    moving_relative_luminance = SNumber(dimensionless,bounds=[0,1.0], doc="The scale of the moving stimulus. 0 is dark, 1.0 is double the background luminance")
+    x = SNumber(degrees, doc="x coordinate of center patch")
+    y = SNumber(degrees, doc="y coordinate of center patch")
+    movement_duration = SNumber(ms, doc="Duration of the Gabor patch movement.")
+    movement_length = SNumber(degrees, bounds=[0,np.inf], doc="Length of the Gabor patch movement")
+    movement_angle = SNumber(rad, period=2*pi, bounds=[0,2*pi], doc="Incidence angle of the moving patch to the center patch.")
+    moving_gabor_orientation_radial = SNumber(dimensionless, doc = "Boolean string, radial or cross patch")
+    center_flash_duration = SNumber(ms, doc="Duration of flashing the Gabor patch in the center.")
+    neuron_id = SNumber(dimensionless, default=0, doc="ID of measured neuron. Required to pair recordings to stimuli.")
+
+    def frames(self):
+        assert self.movement_duration >= 2*self.frame_duration, "Movement must be at least 2 frames long"
+        assert self.center_flash_duration >= self.frame_duration, "Flash in center must be at least 1 frame long"
+
+        gabor_diameter = 2 * self.sigma * self.n_sigmas
+        x_start = self.x + (gabor_diameter + self.movement_length) * np.cos(self.movement_angle)
+        y_start = self.y + (gabor_diameter + self.movement_length) * np.sin(self.movement_angle)
+        x_end = self.x + gabor_diameter * np.cos(self.movement_angle)
+        y_end = self.y + gabor_diameter * np.sin(self.movement_angle)
+
+        n_pos = int(self.movement_duration / self.frame_duration)
+        x_pos = np.linspace(x_start,x_end,n_pos)
+        y_pos = np.linspace(y_start,y_end,n_pos)
+
+        blank = imagen.Constant(scale=self.background_luminance,
+                                bounds=BoundingBox(radius=self.size_x/2),
+                                xdensity=self.density,
+                                ydensity=self.density)()
+
+        for x,y in zip(x_pos,y_pos):
+            angle = self.movement_angle if self.moving_gabor_orientation_radial else self.movement_angle + np.pi/2
+            yield (self.get_gabor(x=x,y=y,orientation=angle,relative_luminance=self.moving_relative_luminance),[1])
+
+        for i in range(int(self.center_flash_duration / self.frame_duration)):
+            yield (self.get_gabor(relative_luminance=self.center_relative_luminance),[1])
+
+        while True:
+            yield (blank, [0])
+
+
+class RadialGaborApparentMotion(GaborStimulus):
+    """
+    Multiple Gabor patches moving in flashes of apparent motion, either radially inward
+    or outward. The number of radially moving Gabor patches is set with *n_gabors*
+    and their angular spread is set with *start_angle* and *end_angle*. The distance
+    between the eccentricities of flashes is equal to the diameter of the gabor patch,
+    which is *sigma* x *n_sigmas*.
+
+    If the *random* option is turned on, the locations and times of Gabor flashes
+    are shuffled, such that the overall number and duration of flashes is kept the
+    same, every location is flashed exactly once.
+
+    If during drawing two Gabors would overlap, only the one on the orientation axis or
+    the axis perpendicular remains. If neither are one those axes, neither are drawn.
+    """
+    x = SNumber(degrees, doc="x coordinate of the center Gabor patch")
+    y = SNumber(degrees, doc="y coordinate of the center Gabor patch")
+    orientation = SNumber(rad, period=pi, bounds=[0,pi], doc="Orientation of the center Gabor patch")
+    phase = SNumber(rad, period=2*pi, bounds=[0,2*pi], doc="Phase of Gabor patches")
+    spatial_frequency = SNumber(cpd, doc="Spatial frequency of Gabor patches")
+    sigma = SNumber(degrees, doc="Standard deviation of the Gaussian in the Gabor patch")
+    n_sigmas = SNumber(degrees, default = 3, doc="Number of standard deviations to which we sample the Gabor function.")
+    center_relative_luminance = SNumber(dimensionless,bounds=[0,1.0], doc="The scale of the center stimulus. 0 is dark, 1.0 is double the background luminance.")
+    surround_relative_luminance = SNumber(dimensionless,bounds=[0,1.0], doc="The scale of the stimuli around the center stimulus (at nonzero eccentricity). 0 is dark, 1.0 is double the background luminance.")
+    flash_duration = SNumber(ms, doc="Apparent motion flash duration")
+    start_angle = SNumber(degrees, period=2*pi, doc="Starting angle between which the Gabor patches are equally spaced.")
+    end_angle = SNumber(degrees, period=2*pi, doc="Ending angle between which the Gabor patches are equally spaced.")
+    n_gabors = SNumber(dimensionless, doc="Number of Gabors in the previously specified angle range.")
+    n_circles = SNumber(degrees, doc="Number of eccentricities at which Gabor patches are flashed.")
+    symmetric = SNumber(dimensionless, doc = "Boolean string - if True, draw a centrally symmetric pair for each patch.")
+    surround_gabor_orientation_radial = SNumber(dimensionless, doc = "Boolean string - if True, the orientation of surround Gabor patches is radial, otherwise tangential.")
+    random = SNumber(dimensionless, default=False, doc = "Boolean string - if True, random shuffle the locations and flash times of Gabor patches.")
+    flash_center = SNumber(dimensionless, doc = "Boolean string, flash in center or not")
+    centrifugal = SNumber(dimensionless, default=False, doc = "Boolean string - if True, patches move out from the center, rather than towards it.")
+    identifier = SString(default="", doc="Stimulus identifier, can be used for grouping stimuli at the analysis stage.")
+    neuron_id = SNumber(dimensionless, default=0, doc="ID of measured neuron. Required to pair recordings to stimuli.")
+
+    def is_overlapping(self,x0, y0, x1, y1, diameter):
+        return (x0-x1)**2 + (y0-y1)**2 < diameter**2
+
+    def set_overlap_to_nan(self, x_pos, y_pos, angles, gabor_diameter, allowed_orientation_axes):
+        """
+        Sets positions of overlapping Gabors to NaN, except ones
+        """
+        # If start_angle == end_angle, it will overlap, but we don't want to delete it
+        if x_pos.shape[1] == 1:
+            return x_pos, y_pos
+
+        # Test overlap of patches on same eccentricity
+        for i in range(x_pos.shape[0]):
+            for j in range(x_pos.shape[1]):
+                # Check if overlapping from one side
+                overlap_0 = self.is_overlapping(
+                    x_pos[i, j],
+                    y_pos[i, j],
+                    x_pos[i, (j + 1) % x_pos.shape[1]],
+                    y_pos[i, (j + 1) % x_pos.shape[1]],
+                    gabor_diameter,
+                )
+                # Check if overlapping from the other side
+                overlap_1 = self.is_overlapping(
+                    x_pos[i, j],
+                    y_pos[i, j],
+                    x_pos[i, (j - 1) % x_pos.shape[1]],
+                    y_pos[i, (j - 1) % x_pos.shape[1]],
+                    gabor_diameter,
+                )
+                allowed_orientation = np.any(
+                    np.isclose(angles[j] % np.pi, allowed_orientation_axes)
+                )
+                if (overlap_0 or overlap_1) and not allowed_orientation:
+                    print("Removing (%.2f,%.2f)" % (x_pos[i,j],y_pos[i,j]))
+                    x_pos[i, j] = np.nan
+                    y_pos[i, j] = np.nan
+        return x_pos, y_pos
+
+    def frames(self):
+        # Generate angles
+        angles = np.linspace(self.start_angle, self.end_angle, self.n_gabors)
+        if self.symmetric:
+            angles = np.append(angles, angles + np.pi)
+
+        # Calculate Gabor positions, create an array with an angle for each
+        # This angle array is useful for randomizing locations
+        radii = range(self.n_circles, 0, -1)
+        gabor_diameter = 2 * self.sigma * self.n_sigmas
+        x_pos = self.x + gabor_diameter * np.outer(radii, np.cos(angles))
+        y_pos = self.y + gabor_diameter * np.outer(radii, np.sin(angles))
+        n_radii, n_angles = x_pos.shape
+        if self.n_circles > 0:
+            angles_mat = np.vstack([angles] * n_radii)
+
+        # Set overlapping Gabor locations to NaN, except the ones we allow,
+        # which are the ones with same or perpendicular orientation as the center
+        # NaN positions are excluded from drawing
+        allowed_orientation_axes = [self.orientation, self.orientation + np.pi / 2]
+        x_pos, y_pos = self.set_overlap_to_nan(x_pos, y_pos, angles, gabor_diameter, allowed_orientation_axes)
+
+        if self.random:
+            # Shuffle x, y, angles arrays identically
+            rng_state = np.random.get_state()
+            np.random.shuffle(x_pos.flat)
+            np.random.set_state(rng_state)
+            np.random.shuffle(y_pos.flat)
+            np.random.set_state(rng_state)
+            np.random.shuffle(angles_mat.flat)
+
+        if self.centrifugal:
+            # Reverse order of positions
+            x_pos = np.flip(x_pos)
+            y_pos = np.flip(y_pos)
+            angles_mat = np.flip(angles_mat)
+            # Flash center in the beginning
+            if self.flash_center:
+                for i in range(int(self.flash_duration / self.frame_duration)):
+                    yield (self.get_gabor(relative_luminance=self.center_relative_luminance), [1])
+
+        # Draw Gabor patches from x,y position and angles matrix
+        for i in range(n_radii):
+            for t in range(int(self.flash_duration / self.frame_duration)):
+                # Start with empty frame
+                frame = imagen.Constant(
+                    scale=0,
+                    bounds=BoundingBox(radius=self.size_x / 2),
+                    xdensity=self.density,
+                    ydensity=self.density,
+                )()
+                for j in range(n_angles):
+                    # Exclude NaN locations
+                    if np.isnan(x_pos[i, j]):
+                        continue
+
+                    # Set radial or tangential orientation
+                    if self.surround_gabor_orientation_radial:
+                        gabor_angle = angles_mat[i, j]
+                    else:
+                        gabor_angle = angles_mat[i, j] + np.pi / 2
+                    # We subtract background luminance so we can combine Gabor frames
+                    frame = (
+                        frame - self.background_luminance
+                        + self.get_gabor(
+                            x=x_pos[i, j],
+                            y=y_pos[i, j],
+                            orientation=gabor_angle,
+                            relative_luminance=self.surround_relative_luminance)
+                    )
+                yield (frame + self.background_luminance, [1])
+
+        # Flash in center if not centrifugal or explicitly disallowed
+        if not self.centrifugal and self.flash_center:
+            for i in range(int(self.flash_duration / self.frame_duration)):
+                yield (self.get_gabor(relative_luminance=self.center_relative_luminance), [1])
+
+        # Return blank frames after stimulus end
+        blank = imagen.Constant(
+            scale=self.background_luminance,
+            bounds=BoundingBox(radius=self.size_x / 2),
+            xdensity=self.density,
+            ydensity=self.density,
+        )()
+
+        while True:
+            yield (blank, [0])
+
+
+class NaturalImage(TopographicaBasedVisualStimulus):
+    """
+    A visual stimulus consisting of a static image, followed by a blank screen
+    with background luminance.
+    """
+
+    size = SNumber(
+        degrees, doc="The length of the longer axis of the image in visual degrees"
+    )
+    image_path = SString(doc="Path to the image file.")
+    image_duration = SNumber(ms, doc="Duration of the image display.")
+    blank_duration = SNumber(ms, doc="Duration of the blank screen display.")
+    duration = SNumber(ms, doc="Image + blank screen display duration.")
+
+    def __init__(self, **params):
+        TopographicaBasedVisualStimulus.__init__(self, **params)
+        assert (
+            self.image_duration / self.frame_duration
+        ) % 1.0 == 0.0, (
+            "The duration of image presentation should be multiple of frame duration."
+        )
+        assert (
+            (self.duration - self.image_duration) / self.frame_duration
+        ) % 1.0 == 0.0, (
+            "The duration of blank presentation should be multiple of frame duration."
+        )
+
+    def frames(self):
+        self.pattern_sampler = imagen.image.PatternSampler(
+            size_normalization="fit_longest",
+            whole_pattern_output_fns=[MaximumDynamicRange()],
+        )
+
+        img = imagen.image.FileImage(
+            filename=self.image_path,
+            x=0,
+            y=0,
+            orientation=0,
+            xdensity=self.density,
+            ydensity=self.density,
+            size=self.size,
+            bounds=BoundingBox(
+                points=(
+                    (-self.size_x / 2, -self.size_y / 2),
+                    (self.size_x / 2, self.size_y / 2),
+                )
+            ),
+            scale=2 * self.background_luminance,
+            pattern_sampler=self.pattern_sampler,
+        )
+
+        image = img()
+        blank = image * 0 + self.background_luminance
+        for i in range(int(self.image_duration / self.frame_duration)):
+            yield (image, [i])
+
+        for i in range(
+            int((self.duration - self.image_duration) / self.frame_duration)
+        ):
+            yield (blank, [i])

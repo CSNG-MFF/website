@@ -1,0 +1,772 @@
+/*
+ * Global / base styles
+ * ==================================================
+ */
+
+html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #e2e2e2;
+  color: #333;
+  font-family: 'Lato', 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited {
+  color: #25a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active,
+a:focus,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 50px;
+  margin: 25px 0;
+  padding: 0;
+}
+
+h2,
+h3 {
+  line-height: 25px;
+  margin: 0 0 25px;
+  padding: 0;
+}
+
+p {
+  line-height: 25px;
+  margin: 0 0 25px;
+  padding: 0;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+dd {
+  margin-left: 25px;
+}
+
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+  background-color: #eeeeee;
+  border: #000000;
+}
+
+/**
+ * Layout
+ * ==================================================
+ */
+
+.container {
+  margin: 0 auto 50px;
+  width: 1100px;
+}
+
+.container-seminar {
+  margin: 0 auto 50px;
+  width: 1500px;
+}
+
+header {
+  text-align: center;
+}
+
+.navigation-header {
+  color: #bbb;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-radius: 0px 0px 0 65px;
+  margin: 0;
+  padding: 18px;
+  padding-left: 25px;
+  padding-bottom: 9px;
+  padding-right: 50px;
+  text-align: right;
+  position: relative;
+}
+
+.navigation-menu {
+  font-size: 18px;
+  margin-top: -12px;
+}
+
+.navigation-menu a:last-child {
+  margin-right: 0;
+}
+
+.navigation-menu .icon {
+  display: none;
+}
+
+.cuni-logo {
+  background-image: url(./../img/charles_uni_side.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 126px;
+  width: 35%;
+  /* margin-left: 20px; */
+  /* margin-top: 10px; */
+}
+
+.csng-full-text {
+  position: absolute;
+  font-family: 'Major Mono Display', monospace;
+  top: 45px;
+  right: 50px;
+  width: 500px;
+  text-align: right;
+  color: #050505;
+  font-size: 30px;
+}
+
+.csng-short-text {
+  position: absolute;
+  font-family: 'Major Mono Display', monospace;
+  top: 22px;
+  right: 22px;
+  width: 250px;
+  text-align: right;
+  color: #050505;
+  font-size: 20px;
+  display: none
+}
+
+@media (max-width: 910px) {
+  .cuni-logo {
+    background-image: url(./../img/charles_uni_side_crop.jpg);
+  }
+}
+
+
+@media (max-width: 700px) {
+  .csng-short-text {
+    display: inline-block;
+  }
+
+  .csng-full-text {
+    display: none;
+  }
+}
+
+.content {
+  background-color: #fff;
+  min-height: 250px;
+  padding: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px
+}
+
+footer {
+  background-color: #fff;
+  border-top: 1px solid #e2e2e2;
+  border-radius: 0 25px 25px 25px;
+  padding: 25px;
+  text-align: center;
+}
+
+
+
+/**
+ * Header
+ * ==================================================
+ */
+
+h1>a,
+h1>a:visited {
+  color: #333;
+  display: inline-block;
+  font-weight: 700;
+  line-height: 50px;
+  padding: 25px 15px;
+  transition: color 0.5s ease-in-out;
+}
+
+h1>a:hover {
+  color: #999;
+  text-decoration: none;
+}
+
+@-webkit-keyframes wobble {
+
+  0%,
+  50%,
+  100% {
+    -webkit-transform: rotate(0deg);
+    -webkit-animation-timing-function: ease-out;
+  }
+
+  25% {
+    -webkit-transform: rotate(30deg);
+    -webkit-animation-timing-function: ease-in;
+  }
+
+  75% {
+    -webkit-transform: rotate(-30deg);
+    -webkit-animation-timing-function: ease-in;
+  }
+}
+
+@keyframes wobble {
+
+  0%,
+  50%,
+  100% {
+    transform: rotate(0deg);
+    animation-timing-function: ease-out;
+  }
+
+  25% {
+    transform: rotate(30deg);
+    animation-timing-function: ease-in;
+  }
+
+  75% {
+    transform: rotate(-30deg);
+    animation-timing-function: ease-in;
+  }
+}
+
+/**
+ * Navigation
+ * ==================================================
+ */
+
+
+.navigation-menu a {
+  color: #999;
+  font-weight: 700;
+  transition: color 0.1s ease-in-out;
+  margin-right: 21px;
+}
+
+
+.navigation-menu a:hover {
+  color: #25a;
+  text-decoration: none;
+}
+
+@media (max-width:900px) {
+  .navigation-menu a {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+
+
+
+/**
+ * Content
+ * ==================================================
+ */
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+.flex-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.introduction {
+  flex: 40%;
+  margin: 25px 50px 25px 0px;
+  text-align: justify;
+}
+
+.group_logo {
+  flex: 30%;
+  margin: 25px 25px 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brain_logo {
+  width: 100%;
+}
+
+.map {
+  flex: 60%;
+  margin-right: 25px;
+}
+
+.contacts {
+  flex: 25%;
+  margin: 25px 25px 25px 25px;
+}
+
+
+@media (max-width: 750px) {
+  .intro {
+    margin-top: 25px;
+  }
+
+  .introduction {
+    margin-right: 0px;
+  }
+
+  .group_logo {
+    display: none;
+  }
+
+  .map {
+    flex: 100%;
+    margin: -25px 0 0 0;
+  }
+
+  .contacts {
+    flex: 100%;
+    margin: 15px 0 0 0;
+  }
+
+  .navigation-header {
+    padding-right: 25px;
+  }
+
+  .navigation-menu {
+    padding: 0px;
+    padding-top: -20px;
+    height: 30px;
+    -webkit-transition: height, 0.25s ease-in-out;
+    -moz-transition: height, 0.25s ease-in-out;
+    -ms-transition: height, 0.25s ease-in-out;
+    -o-transition: height, 0.25s ease-in-out;
+    transition: height, 0.25s ease-in-out;
+  }
+
+  .navigation-menu a {
+    display: none;
+    height: 0;
+
+    opacity: 0;
+    -webkit-transition: height 0.25s ease-out, opacity 2s ease;
+    -moz-transition: height 0.25s ease-out, opacity 2s ease;
+    -ms-transition: height 0.25s ease-out, opacity 2s ease;
+    -o-transition: height 0.25s ease-out, opacity 2s ease;
+    transition: height 0.25s ease-out, opacity 2s ease;
+  }
+
+  .navigation-menu.responsive {
+    padding: 0px;
+    height: 280px;
+    -webkit-transition: height, 0.25s ease-out;
+    -moz-transition: height, 0.25s ease-out;
+    -ms-transition: height, 0.25s ease-out;
+    -o-transition: height, 0.25s ease-out;
+    transition: height, 0.25s ease-out;
+  }
+
+  .navigation-menu a.icon {
+    display: block;
+    opacity: 1;
+    padding-right: 0px;
+  }
+
+  .navigation-menu.responsive a {
+    display: block;
+    height: 25px;
+    opacity: 1;
+    -webkit-transition: height 0.25s ease-out, opacity 2s ease;
+    -moz-transition: height 0.25s ease-out, opacity 2s ease;
+    -ms-transition: height 0.25s ease-out, opacity 2s ease;
+    -o-transition: height 0.25s ease-out, opacity 2s ease;
+    transition: height 0.25s ease-out, opacity 2s ease;
+
+    font-size: 16px;
+    margin: 7px;
+    /* margin-right: 45px; */
+    margin-right: -2px;
+  }
+
+  .navigation-menu.responsive a:first-child {
+    margin-top: 0px;
+  }
+}
+
+
+.charles_uni_picture {
+  max-width: 1000px;
+  width: 100%;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  object-fit: cover;
+  object-position: 20% 10%;
+}
+
+@media (max-width: 750px) {
+  .charles_uni_picture {
+    margin-bottom: 25px;
+  }
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+}
+
+.gravatar {
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  display: inline-block;
+  height: 200px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 5px;
+  width: 200px;
+  vertical-align: top;
+}
+
+.alumni-box {
+  display: inline-block;
+  width: 49%;
+}
+
+.alumni {
+  background-size: 120px 120px;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 5px;
+  vertical-align: top;
+}
+
+.info-person {
+  height: 115px;
+  width: 205px;
+  margin-left: 35px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  text-align: left;
+  vertical-align: center;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.info-alumni {
+  width: 1000px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+  vertical-align: bottom;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+@media (max-width:600px) {
+  .alumni-box {
+    display: block;
+    width: auto;
+  }
+
+  .gravatar,
+  .alumni {
+    background-size: 110px 110px;
+    height: 110px;
+    width: 110px;
+    margin: 0px;
+    margin-bottom: 15px;
+  }
+
+  .info-person,
+  .info-alumni {
+    height: 110px;
+    width: 185px;
+    margin-bottom: 50px;
+    margin-right: 0;
+    margin-left: 25px;
+    margin-top: 0;
+  }
+
+  .alumni,
+  .info-alumni {
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+}
+
+.social {
+  font-size: 36px;
+  line-height: 50px;
+  text-align: left;
+}
+
+.social [class^="icon-"]:before,
+.social [class*=" icon-"]:before {
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.social .icon-github-circled:before {
+  color: #333;
+}
+
+.social .icon-twitter:before {
+  color: #5e9fca;
+}
+
+.social .icon-linkedin-squared:before {
+  color: #0071a1;
+}
+
+.social .icon-stackoverflow:before {
+  background: -webkit-linear-gradient(#f90, #86868a);
+  color: #86868a;
+  margin-right: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social .icon-foursquare:before {
+  color: #00aeef;
+}
+
+.social .icon-gmail:before {
+  color: #e93e30;
+  font-size: 0.9em;
+  margin-right: 0.3em;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found h2 {
+  margin-bottom: 50px;
+}
+
+.not-found img {
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 451px;
+  width: 100%;
+}
+
+table {
+  border-spacing: 10px 0px;
+}
+
+@media (max-width: 800px) {
+  table {
+    border-spacing: 0px 0px;
+  }
+}
+
+.img-container {
+  width: 180px;
+}
+
+
+@media (max-width: 800px) {
+  .img-container {
+    width: 80px;
+  }
+}
+
+
+.project-img {
+  float: left;
+  width: 180px;
+}
+
+@media (max-width: 800px) {
+  .project-img {
+    width: 65px;
+  }
+}
+
+
+
+.projectrow {
+  vertical-align: center;
+  border-spacing: 30px;
+  margin-bottom: 100px;
+  padding-bottom: 3em;
+}
+
+.titlerow {
+  font-size: 20px;
+}
+
+small.studentprojectlist {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/**
+ * Footer
+ * ==================================================
+ */
+
+footer {
+  color: #999;
+}
+
+footer>p {
+  margin-bottom: 15px;
+}
+
+footer>p:last-child {
+  margin-bottom: 0;
+}
+
+a.creative-commons,
+a.creative-commons:visited,
+a.creative-commons:hover {
+  color: #999;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/**
+ * Styles for retina displays
+ * ==================================================
+ */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-resolution: "144dpi") {
+  .gravatar {
+    background-image: url("/assets/img/Jan_Antolik.jpg");
+  }
+}
+
+/**
+ * Responsiveness
+ * ==================================================
+ */
+
+
+
+
+@media screen and (max-width: 800px) {
+  .contacts {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .map {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-bottom: 0px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .container-seminar {
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    margin-bottom: 0px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .social [class^="icon-"]:before,
+  .social [class*=" icon-"]:before {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .social .icon-gmail:before {
+    margin-right: 0.3em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .navigation-header,
+  .content,
+  footer {
+    border-left-width: 0;
+    border-radius: 0;
+    border-right-width: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h1>a>.dot-head {
+    background-size: 26px 26px;
+    height: 26px;
+    width: 26px;
+  }
+
+  .navigation-header {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .content {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .social {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
