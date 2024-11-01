@@ -19,13 +19,9 @@ All participants are encouraged to present and actively take part in discussions
 To obtain credits, it is required to attend at least 10 seminars, actively participate in the discussion and present one journal article during the course or the semester.
 
 ### Upcoming talks
-
-<!-- 
 |Date| Presenter | Topic  |  Presenter's affiliation |
-|-------|---------------------------------|----|----| -->
-
- <!-- <s>[Most discriminative stimuli for functional cell type clustering](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10980086/) <s> -->
-#### &nbsp;
+|-------|---------------------------------|----|----| 
+|1.11   | Luca Baroni | [Most discriminative stimuli for functional cell type clustering](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10980086/) | Charles University |
 
 ### Past talks
 <!-- 
