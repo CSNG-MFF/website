@@ -26,14 +26,14 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |15.11   | David Berling | [Modeling apical and basal tree contribution to orientation selectivity in a mouse primary visual cortex layer 2/3 pyramidal cell](https://elifesciences.org/articles/91627) | Charles University |
 |22.11   | Remy Cagnol | [Horizontal cortical connections shape intrinsic traveling waves into feature-selective motifs that regulate perceptual sensitivity](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01058-1) | Charles University |
 |29.11   | Aitor Morales-Gregorio | [Neural manifolds in V1 change with top-down signals from V4 targeting the foveal region](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00699-5) | Charles University |
-|6.12   | Pavel Haman | Yet to specified | Charles University |
-|13.12   | Karolína Korvascová | Yet to specified | Charles University |
-|20.12  | Matěj Voldřich | Yet to specified | Charles University |
-|3.1   | Ján Antolík| Yet to specified | Charles University |
-|10.1   | Tibor Rózsa | Yet to specified | Charles University |
-|17.1  | Jonáš Prokop | Yet to specified | Charles University |
-|24.1   | Tanguy Damart | Yet to specified | Charles University |
-|31.1   | Tomáš Čížek | Yet to specified | Charles University |
+|6.12   | Pavel Haman | Yet to be specified | Charles University |
+|13.12   | Karolína Korvascová | Yet to be specified | Charles University |
+|20.12  | Matěj Voldřich | Yet to be specified | Charles University |
+|3.1   | Ján Antolík| Yet to be specified | Charles University |
+|10.1   | Tibor Rózsa | Yet to be specified | Charles University |
+|17.1  | Jonáš Prokop | Yet to be specified | Charles University |
+|24.1   | Tanguy Damart | Yet to be specified | Charles University |
+|31.1   | Tomáš Čížek | Yet to be specified | Charles University |
 
 
 
