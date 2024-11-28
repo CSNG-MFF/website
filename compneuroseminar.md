@@ -27,7 +27,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |22.11   | Remy Cagnol | [Horizontal cortical connections shape intrinsic traveling waves into feature-selective motifs that regulate perceptual sensitivity](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01058-1) | Charles University |
 |29.11   | Aitor Morales-Gregorio | [Neural manifolds in V1 change with top-down signals from V4 targeting the foveal region](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00699-5) | Charles University |
 |6.12   | Pavel Haman | Yet to be specified | Charles University |
-|13.12   | Karolína Korvascová | Yet to be specified | Charles University |
+|13.12   | Karolína Korvascová |[Long-range phase synchronization of high-frequency oscillations in human cortex](https://www.nature.com/articles/s41467-020-18975-8) | Charles University |
 |20.12  | Daria Morozova | [Optogenetic stimulation of the primary visual cortex drives activity in the visual association cortex](https://pubmed.ncbi.nlm.nih.gov/37397814/) | Charles University |
 |3.1   | Ján Antolík| Yet to be specified | Charles University |
 |10.1   | Tibor Rózsa | Yet to be specified | Charles University |
