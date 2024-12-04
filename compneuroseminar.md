@@ -26,7 +26,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |15.11   | David Berling | [Modeling apical and basal tree contribution to orientation selectivity in a mouse primary visual cortex layer 2/3 pyramidal cell](https://elifesciences.org/articles/91627) | Charles University |
 |22.11   | Remy Cagnol | [Horizontal cortical connections shape intrinsic traveling waves into feature-selective motifs that regulate perceptual sensitivity](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01058-1) | Charles University |
 |29.11   | Aitor Morales-Gregorio | [Neural manifolds in V1 change with top-down signals from V4 targeting the foveal region](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00699-5) | Charles University |
-|6.12   | Pavel Haman | Yet to be specified | Charles University |
+|6.12   | Pavel Haman | [Cell-type specific projection patterns promote balanced activity in cortical microcircuits](https://doi.org/10.1101/2024.10.03.616539) | Charles University |
 |13.12   | Karolína Korvascová |[Long-range phase synchronization of high-frequency oscillations in human cortex](https://www.nature.com/articles/s41467-020-18975-8) | Charles University |
 |20.12  | Daria Morozova | [Optogenetic stimulation of the primary visual cortex drives activity in the visual association cortex](https://pubmed.ncbi.nlm.nih.gov/37397814/) | Charles University |
 |3.1   | Ján Antolík| Yet to be specified | Charles University |
