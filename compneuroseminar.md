@@ -28,14 +28,13 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |29.11   | Aitor Morales-Gregorio | [Neural manifolds in V1 change with top-down signals from V4 targeting the foveal region](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00699-5) | Charles University |
 |6.12   | Pavel Haman | [Cell-type specific projection patterns promote balanced activity in cortical microcircuits](https://doi.org/10.1101/2024.10.03.616539) | Charles University |
 |13.12   | Karolína Korvascová |[Long-range phase synchronization of high-frequency oscillations in human cortex](https://www.nature.com/articles/s41467-020-18975-8) | Charles University |
-|20.12  | Daria Morozova | [Optogenetic stimulation of the primary visual cortex drives activity in the visual association cortex](https://pubmed.ncbi.nlm.nih.gov/37397814/) | Charles University |
-|3.1   | Ján Antolík| Yet to be specified | Charles University |
+|3.1  | Daria Morozova | [Optogenetic stimulation of the primary visual cortex drives activity in the visual association cortex](https://pubmed.ncbi.nlm.nih.gov/37397814/) | Charles University |
 |10.1   | Tibor Rózsa | Yet to be specified | Charles University |
 |17.1  | Jonáš Prokop | Yet to be specified | Charles University |
 |24.1   | Tanguy Damart | Yet to be specified | Charles University |
 |31.1   | Tomáš Čížek | Yet to be specified | Charles University |
 |7.2  | Matěj Voldřich | Yet to be specified | Charles University |
-
+|14.2   | Ján Antolík| Yet to be specified | Charles University |
 
 
 ### Past talks
