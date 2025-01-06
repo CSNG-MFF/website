@@ -298,34 +298,44 @@ h1>a:hover {
 }
 
 .introduction {
-  flex: 40%;
+  flex: 50%;
   margin: 25px 50px 25px 0px;
   text-align: justify;
 }
 
 .group_logo {
-  flex: 30%;
-  margin: 25px 25px 25px 0px;
+  flex: 25%; 
+  margin: 25px 25x 25px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .brain_logo {
   width: 100%;
 }
-
+.intro-text {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 30px;
+}
+.info-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: stretch; 
+  width: 100%; 
+}
+.collaboration, .contacts {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  min-width: 200px; 
+  width: 50%; 
+  position: relative;
+}
 .map {
-  flex: 60%;
+  flex: 80%;
   margin-right: 25px;
 }
-
-.contacts {
-  flex: 25%;
-  margin: 25px 25px 25px 25px;
-}
-
-
 @media (max-width: 750px) {
   .intro {
     margin-top: 25px;
@@ -347,6 +357,15 @@ h1>a:hover {
   .contacts {
     flex: 100%;
     margin: 15px 0 0 0;
+  }
+
+  .info-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .collaboration, .contacts {
+    width: 100%; 
   }
 
   .navigation-header {
