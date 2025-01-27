@@ -32,7 +32,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |10.1   | Tanguy Damart | [Single-neuron perturbations reveal feature-specific competition in V1](https://www.nature.com/articles/s41586-019-0997-6)| Charles University |
 |17.1  | Jonáš Prokop | [MonkeySee: Space-time-resolved reconstructions of natural images from macaque multi-unit activity](https://openreview.net/pdf?id=OWwdlxwnFN) | Charles University |
 |24.1   | Martin Gráf | [Exploring neural architectures for simultaneously recognizing multiple visual attributes](https://www.nature.com/articles/s41598-024-80679-6#Sec13) | Charles University |
-|31.1   | Tomáš Čížek | Yet to be specified | Charles University |
+|31.1   | Tomáš Čížek | [BrainBits: How Much of the Brain are Generative Reconstruction Methods Using?](https://arxiv.org/abs/2411.02783) | Charles University |
 |7.2  | Matěj Voldřich | Yet to be specified | Charles University |
 |14.2   | Ján Antolík| Yet to be specified | Charles University |
 |21.2   | Tibor Rózsa | Yet to be specified | Charles University |
