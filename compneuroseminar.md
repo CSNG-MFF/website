@@ -34,8 +34,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |24.1   | Martin Gráf | [Exploring neural architectures for simultaneously recognizing multiple visual attributes](https://www.nature.com/articles/s41598-024-80679-6#Sec13) | Charles University |
 |31.1   | Tomáš Čížek | [BrainBits: How Much of the Brain are Generative Reconstruction Methods Using?](https://arxiv.org/abs/2411.02783) | Charles University |
 |7.2  | Matěj Voldřich | [Cortical reactivation of spatial and non-spatial features coordinates with hippocampus to form a memory dialogue](https://www.nature.com/articles/s41467-023-43254-7) | Charles University |
-|14.2   | Ján Antolík| Yet to be specified | Charles University |
-|21.2   | Tibor Rózsa | Yet to be specified | Charles University |
+|21.2   | Tibor Rózsa | [The developmental emergence of reliable cortical representations](https://www.nature.com/articles/s41593-024-01857-3) | Charles University |
 
 
 ### Past talks
