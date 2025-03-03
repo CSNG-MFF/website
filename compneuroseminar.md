@@ -35,6 +35,14 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |31.1   | Tomáš Čížek | [BrainBits: How Much of the Brain are Generative Reconstruction Methods Using?](https://arxiv.org/abs/2411.02783) | Charles University |
 |7.2  | Matěj Voldřich | [Cortical reactivation of spatial and non-spatial features coordinates with hippocampus to form a memory dialogue](https://www.nature.com/articles/s41467-023-43254-7) | Charles University |
 |21.2   | Tibor Rózsa | [The developmental emergence of reliable cortical representations](https://www.nature.com/articles/s41593-024-01857-3) | Charles University |
+|14.3   | Aitor Morales-Gregorio | TBA | Charles University |
+|21.3  | Tibor Rózsa | TBA | Charles University |
+|28.3   | Katarína Studeničová | TBA | Charles University |
+|4.4  | Pavel Haman | TBA | Charles University |
+|11.4  | Tanguy Damart | TBA | Charles University |
+|25.4  | Karolína Korvascová | TBA | Charles University |
+|2.5   | Jonáš Prokop | TBA | Charles University |
+|23.5  | Tomáš Čížek  | TBA | Charles University |
 
 
 ### Past talks
