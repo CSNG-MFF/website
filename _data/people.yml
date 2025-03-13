@@ -46,14 +46,14 @@
   email: haman@ksvi.mff.cuni.cz
   image: Pavel_Haman.jpg
 
-- name: Mathys Delattre
-  role: Internship student
-  github: MathysHub
-  email: mathys.delattre@sfr.fr
-  image: Mathys_Delattre2.JPG
+- name: Jonáš Prokop
+  role: PhD student
+  github: jonasprokop
+  email: jprokop@ksvi.mff.cuni.cz
+  image: jonas_prokop.jpeg
 
-- name: Martin Picek
-  role: MSc student
-  github: mpicek
-  email: martinpicek4@gmail.com
-  image: Martin_Picek.jpg
+- name: Tomáš Čížek
+  role: PhD student
+  github: Ciza12
+  email: cizek@kam.mff.cuni.cz
+  image: tomas_cizek.jpg

@@ -7,8 +7,7 @@ title: Computational neuroscience seminar
 
 ### When and Where: 
 
-Seminar is held  both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Remote meeting link](https://cuni-cz.zoom.us/j/95047534877)) every *Friday at 14:00*.
-
+Seminar is held  both in-person (Prague, Malostranské náměstí 25, room 510) and remotely ([Remote meeting link](https://cuni-cz.zoom.us/j/95047534877)).
 
 ### Synopsis
 
@@ -21,38 +20,37 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 ### Upcoming talks
 
-
 |Date| Presenter | Topic  |  Presenter's affiliation |
-|-------|---------------------------------|----|----|
-|23.05.24 | &nbsp;&nbsp; Remy Cagnol | &nbsp;&nbsp; [Foundations of visual form selectivity for neurons in macaque V1 and V2](https://www.biorxiv.org/content/10.1101/2024.03.04.583307v1.abstract)  | &nbsp;&nbsp; Charles University |
+|-------|---------------------------------|----|----| 
+|1.11   | Luca Baroni | [Most discriminative stimuli for functional cell type clustering](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10980086/) | Charles University |
+|15.11   | David Berling | [Modeling apical and basal tree contribution to orientation selectivity in a mouse primary visual cortex layer 2/3 pyramidal cell](https://elifesciences.org/articles/91627) | Charles University |
+|22.11   | Remy Cagnol | [Horizontal cortical connections shape intrinsic traveling waves into feature-selective motifs that regulate perceptual sensitivity](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)01058-1) | Charles University |
+|29.11   | Aitor Morales-Gregorio | [Neural manifolds in V1 change with top-down signals from V4 targeting the foveal region](https://www.cell.com/cell-reports/fulltext/S2211-1247(24)00699-5) | Charles University |
+|6.12   | Pavel Haman | [Cell-type specific projection patterns promote balanced activity in cortical microcircuits](https://doi.org/10.1101/2024.10.03.616539) | Charles University |
+|13.12   | Karolína Korvascová |[Long-range phase synchronization of high-frequency oscillations in human cortex](https://www.nature.com/articles/s41467-020-18975-8) | Charles University |
+|3.1  | Daria Morozova | [Optogenetic stimulation of the primary visual cortex drives activity in the visual association cortex](https://pubmed.ncbi.nlm.nih.gov/37397814/) | Charles University |
+|10.1   | Tanguy Damart | [Single-neuron perturbations reveal feature-specific competition in V1](https://www.nature.com/articles/s41586-019-0997-6)| Charles University |
+|17.1  | Jonáš Prokop | [MonkeySee: Space-time-resolved reconstructions of natural images from macaque multi-unit activity](https://openreview.net/pdf?id=OWwdlxwnFN) | Charles University |
+|24.1   | Martin Gráf | [Exploring neural architectures for simultaneously recognizing multiple visual attributes](https://www.nature.com/articles/s41598-024-80679-6#Sec13) | Charles University |
+|31.1   | Tomáš Čížek | [BrainBits: How Much of the Brain are Generative Reconstruction Methods Using?](https://arxiv.org/abs/2411.02783) | Charles University |
+|7.2  | Matěj Voldřich | [Cortical reactivation of spatial and non-spatial features coordinates with hippocampus to form a memory dialogue](https://www.nature.com/articles/s41467-023-43254-7) | Charles University |
+|21.2   | Tibor Rózsa | [The developmental emergence of reliable cortical representations](https://www.nature.com/articles/s41593-024-01857-3) | Charles University |
+|14.3   | Aitor Morales-Gregorio | TBA | Charles University |
+|21.3  | Tibor Rózsa | TBA | Charles University |
+|28.3   | Katarína Studeničová | TBA | Charles University |
+|4.4  | Pavel Haman | TBA | Charles University |
+|11.4  | Tanguy Damart | TBA | Charles University |
+|25.4  | Karolína Korvascová | TBA | Charles University |
+|2.5   | Jonáš Prokop | TBA | Charles University |
+|23.5  | Tomáš Čížek  | TBA | Charles University |
 
- <!-- <s>[Most discriminative stimuli for functional cell type clustering](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10980086/) <s> -->
-#### &nbsp;
 
 ### Past talks
-
+<!-- 
 |Date| Presenter |Topic  | Presenter's affiliation |
-|----|---------- |------|-------------------------|
-|13.10.23 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Cortical layer–specific critical dynamics triggering perception](https://doi.org/10.1126/science.aaw5202) | &nbsp;&nbsp; Charles University  |
-|20.10.23 | &nbsp;&nbsp; Remy Cagnol | &nbsp;&nbsp; [Cascaded normalizations for spatial integration in the primary visual cortex of primates](https://www.sciencedirect.com/science/article/pii/S2211124722010385) | &nbsp;&nbsp; Charles University  |
-|27.10.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [Bipartite invariance in mouse primary visual cortex](https://www.biorxiv.org/content/10.1101/2023.03.15.532836v1.full.pdf) | &nbsp;&nbsp; Charles University  |
-|03.11.23 | &nbsp;&nbsp; Tibor  Rózsa | &nbsp;&nbsp; [Contextual Modulation of Feedforward Inputs to Primary Visual Cortex](https://www.frontiersin.org/articles/10.3389/fnsys.2022.818633/full) | &nbsp;&nbsp; Charles University  |
-|10.11.23 | &nbsp;&nbsp; Matěj Voldřich | &nbsp;&nbsp; [Representations in human primary visual cortex drift over time](https://www.nature.com/articles/s41467-023-40144-w) | &nbsp;&nbsp; Charles University  |
-|01.12.23 | &nbsp;&nbsp; Jan Antolik | &nbsp;&nbsp; [What can 1.8 billion regressions tell us about the pressures shaping high-level visual representation in brains and machines?](https://www.biorxiv.org/content/10.1101/2022.03.28.485868v2.full.pdf) | &nbsp;&nbsp; Charles University  |
-|08.12.23 | &nbsp;&nbsp; Luca Baroni | &nbsp;&nbsp; [The feature landscape of visual cortex](https://www.biorxiv.org/content/10.1101/2023.11.03.565500v1) | &nbsp;&nbsp; Charles University  |
-|15.12.23 | &nbsp;&nbsp; Katarína Studeničová | &nbsp;&nbsp; [Robust dynamic community detection with applications to human brain functional networks](https://www.nature.com/articles/s41467-020-16285-7) | &nbsp;&nbsp; Charles University  |
-|12.01.24 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Electrical Compartmentalization in Neurons](https://doi.org/10.1016/j.celrep.2019.01.074) | &nbsp;&nbsp; Charles University  |
-|26.01.24| &nbsp;&nbsp; Jan Antolik | &nbsp;&nbsp; [Layerwise complexity-matched learning yields an improved model of cortical area V2](https://arxiv.org/pdf/2312.11436.pdf) | &nbsp;&nbsp; Charles University  |
-|02.02.24| &nbsp;&nbsp; Remy Cagnol | &nbsp;&nbsp; [The logic of recurrent circuits in the primary visual cortex](https://www.nature.com/articles/s41593-023-01510-5) | &nbsp;&nbsp; Charles University  |
-|15.03.24 | &nbsp;&nbsp; Tibor  Rózsa | &nbsp;&nbsp; [Self-organization of modular activity in immature cortical networks](https://www.biorxiv.org/content/10.1101/2024.03.02.583133v1.full.pdf) | &nbsp;&nbsp; Charles University  |
-|22.03.24 | &nbsp;&nbsp; David Berling | &nbsp;&nbsp; [Integration of cortical population signals for visual perception](https://doi.org/10.1038/s41467-019-11736-2) | &nbsp;&nbsp; Charles University  |
-|05.04.24 | &nbsp;&nbsp; Mathys Delattre | &nbsp;&nbsp; [Beyond Sight: Probing Alignment Between Image Models and Blind V1](https://openreview.net/forum?id=FG7XQbcDuZ) | &nbsp;&nbsp; Charles University / Sorbonne Université |
-|12.04.24 | &nbsp;&nbsp; Katarína Studeničová | &nbsp;&nbsp; [Visual evoked feedforward–feedback traveling waves organize neural activity across the cortical hierarchy in mice](https://doi.org/10.1038/s41467-022-32378-x) | &nbsp;&nbsp; Charles University |
-|10.05.24 | &nbsp;&nbsp; Jan Antolik | &nbsp;&nbsp; [Compact deep neural network models of visual cortex](https://pubmed.ncbi.nlm.nih.gov/38045255/) | &nbsp;&nbsp; Charles University |
-|17.05.24 | &nbsp;&nbsp; Tanguy Damart | &nbsp;&nbsp; Review on findings on intracortical electrical microstimulation  | &nbsp;&nbsp; Charles University |
-
+|----|---------- |------|-------------------------| -->
 
 #### &nbsp;
-
+### [2023-2024 talks](./compneuroseminar2023.html)
 ### [2022-2023 talks](./compneuroseminar2022.html)
 ### [2021-2022 talks](./compneuroseminar2021.html)
