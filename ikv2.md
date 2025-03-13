@@ -31,17 +31,17 @@ The following schedule is provisional, it can change depending on availability o
 | Date   |  Lecture                                                                 | Exercise | Slides |
 |--------|--------------------------------------------------------------------------|-----------|--------|
 | 26.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity                   | NONE      | [slides](https://e.pcloud.link/publink/show?code=XZA5yLZCOlIQQc8kY7cQI6GOiduVmS17y7X) |
-| 4.3.   |  &nbsp;&nbsp; Medium-to-high level vision I                              | Mouse V1 DNN models | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) | 
-| 11.3.  |  &nbsp;&nbsp; Medium-to-high level vision II                             | Measuring orientation tuning in mouse V1 | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) |
-| 18.3.  |  &nbsp;&nbsp; Computational modelling: machine learning                  | Term project introduction          |         |
-| 25.3.  |  &nbsp;&nbsp; Computational modelling: normative models                  | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZo5yLZuEgnDCUodfSDTkcyASKujf6Pfsey) |
+| 4.3.   |  &nbsp;&nbsp; CANCELLED                                                  | CANCELLED |  | 
+| 11.3.  |  &nbsp;&nbsp; Medium-to-high level vision                                | Medium-to-high lelvel vision | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) |
+| 18.3.  |  &nbsp;&nbsp; Computational modelling: machine learning                  | DNN models of mouse V1     |         |
+| 25.3.  |  &nbsp;&nbsp; Computational modelling: normative models                  | Introduction to term projet   | [slides](https://e.pcloud.link/publink/show?code=XZo5yLZuEgnDCUodfSDTkcyASKujf6Pfsey) |
 | 1.4.   |  &nbsp;&nbsp; HOLIDAYS                                                   | Term project work          |        |
-| 8.4.   |  &nbsp;&nbsp; Computational modelling: development                       | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZPBfSZJCEbAhBzRQF3d7AxI2sjfLkjHik7) |
-| 15.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models                  | Topographica demo          |        |
-| 22.4.  |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                         | Term project work          |        |
+| 8.4.   |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                         | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZPBfSZJCEbAhBzRQF3d7AxI2sjfLkjHik7) |
+| 15.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models I (Pavel Haman)  | Topographica demo          |        |
+| 22.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models II (Pavel Haman) | Term project work          |        |
 | 29.4.  |  &nbsp;&nbsp; CANCELLED                                                  | Term project work          |        |
-| 6.5.   |  &nbsp;&nbsp; Paper presentations I                                      | Paper presentations I      |        |
-| 13.5.  |  &nbsp;&nbsp; Computational modelling: dynamical models II (Pavel Haman) | Paper presentations II     |        |
+| 6.5.   |  &nbsp;&nbsp; Computational modelling: development  | Paper presentations II     |        |
+| 13.5.  |  &nbsp;&nbsp; Paper presentations I                                      | Paper presentations I      |        |
 | 20.5.  |  &nbsp;&nbsp; Hippocampus (Karel Ježek)                                  | Term project work          |        |
 
 
