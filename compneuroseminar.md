@@ -37,7 +37,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |21.2   | Tibor Rózsa | [The developmental emergence of reliable cortical representations](https://www.nature.com/articles/s41593-024-01857-3) | Charles University |
 |14.3   | Aitor Morales-Gregorio | [Neuronal travelling waves explain rotational dynamics in experimental datasets and modelling](https://www.nature.com/articles/s41598-024-53907-2) | Charles University |
 |21.3  | Tibor Rózsa | TBA | Charles University |
-|28.3   | Katarína Studeničová | TBA | Charles University |
+|28.3   | Katarína Studeničová | [Coordinating brain-distributed network activities in memory resistant to extinction](https://doi.org/10.1016/j.cell.2023.12.018) | Charles University |
 |4.4  | Pavel Haman | TBA | Charles University |
 |11.4  | Tanguy Damart | TBA | Charles University |
 |25.4  | Karolína Korvascová | TBA | Charles University |
