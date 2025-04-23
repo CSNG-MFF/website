@@ -40,7 +40,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |28.3   | Katarína Studeničová | [Coordinating brain-distributed network activities in memory resistant to extinction](https://doi.org/10.1016/j.cell.2023.12.018) | Charles University |
 |4.4  | Pavel Haman | TBA | Charles University |
 |11.4  | Tanguy Damart | [Functional organization of excitatory synaptic strength in primary visual cortex](https://www.nature.com/articles/nature14182) | Charles University |
-|25.4  | Karolína Korvasová | TBA | Charles University |
+|25.4  | Karolína Korvasová | [Phase of firing does not reflect temporal order in sequence memory of humans and recurrent neural networks](https://www.nature.com/articles/s41593-025-01893-7) | Charles University |
 |2.5   | Jonáš Prokop | TBA | Charles University |
 |23.5  | Tomáš Čížek  | TBA | Charles University |
 
