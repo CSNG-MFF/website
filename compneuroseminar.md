@@ -42,9 +42,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |11.4  | Tanguy Damart | [Functional organization of excitatory synaptic strength in primary visual cortex](https://www.nature.com/articles/nature14182) | Charles University |
 |25.4  | Karolína Korvasová | [Phase of firing does not reflect temporal order in sequence memory of humans and recurrent neural networks](https://www.nature.com/articles/s41593-025-01893-7) | Charles University |
 |16.5   | Jonáš Prokop | TBA | Charles University |
-|3.6   | David Beinhauer | Biologically realistic RNNs capture fine-scale dynamics in primary visual cortex. |
 |3.6   | Radoslav Jochman | Decoding Functional Representations from Population Activity in V1 Recorded During Sleep |
-
+|10.6   | David Beinhauer | Biologically realistic RNNs capture fine-scale dynamics in primary visual cortex. |
 
 
 
