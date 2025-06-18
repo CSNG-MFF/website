@@ -1,3 +1,15 @@
+@article{Bashiri2025,
+  title     = {Learning and Aligning Single-Neuron Invariance Manifolds in Visual Cortex},
+  url = {https://doi.org/10.1523/JNEUROSCI.0928-20.2021},
+  author    = {Mohammad Bashiri and Luca Baroni and Jan Antolik and Fabian H. Sinz},
+  booktitle = {International Conference on Learning Representations (ICLR), Oral presentation; <1.8\% acceptance (oral); 34th overall; 1st in neuroscience; Equal contribution: Mohammad Bashiri and Luca Baroni},
+  year      = {2025},
+  month = may,
+  abstract= {Understanding how sensory neurons exhibit selectivity to certain features and invariance to others is central to uncovering the computational principles underlying robustness and generalization in visual perception. Most existing methods for characterizing selectivity and invariance identify single or finite discrete sets of stimuli. Since these are only isolated measurements from an underlying continuous manifold, characterizing invariance properties accurately and comparing them across neurons with varying receptive field size, position, and orientation, becomes challenging. Consequently, a systematic analysis of invariance types at the population level remains under-explored. Building on recent advances in learning continuous invariance manifolds, we introduce a novel method to accurately identify and align invariance manifolds of visual sensory neurons, overcoming these challenges. Our approach first learns the continuous invariance manifold of stimuli that maximally excite a neuron modeled by a response-predicting deep neural network. It then learns an affine transformation on the pixel coordinates such that the same manifold activates another neuron as strongly as possible, effectively aligning their invariance manifolds spatially. This alignment provides a principled way to quantify and compare neuronal invariances irrespective of receptive field differences. Using simulated neurons, we demonstrate that our method accurately learns and aligns known invariance manifolds, robustly identifying functional clusters. When applied to macaque V1 neurons, it reveals functional clusters of neurons, including simple and complex cells. Overall, our method enables systematic, quantitative exploration of the neural invariance landscape, to gain new insights into the functionalproperties of visual sensory neurons.},
+  file = {https://openreview.net/pdf?id=kbjJ9ZOakb},
+
+}
+
 @article{Rozsa2024,
   title = {Iso-orientation bias of layer 2/3 connections: the unifying mechanism of spontaneous, visually and optogenetically driven V1 dynamics},
   url = {https://www.biorxiv.org/content/10.1101/2024.11.19.624284v1},
@@ -17,13 +29,18 @@
   publisher = {Cold Spring Harbor Laboratory},
   author = {Berling,  David and Baroni,  Luca and Chaffiol,  Antoine and Gauvain,  Gregory and Picaud,  Serge and Antolik,  Jan},
   year = {2024},
-  month = mar 
+  abstract={Optogenetic stimulation has recently proven effective for vision restoration in the human eye, underlining its clinical potential. Its application in sensory cortices could exploit the spatial organization of stimulus feature encoding along the cortical surface to induce artificial perception for restoring a lost sense. However, engaging sensory neuronal populations requires high stimulation precision, which is potentially limited by spatially extending neuronal morphology. Here, we characterize how morphology impacts spatial stimulation precision using an experimentally validated computational model. We show that morphology limits precision at a scale of several hundred micrometers and that the spatial distribution of direct neuronal activation is non-linearly dependent on the stimulation intensity. We compare precision in pyramidal neurons from layers 2/3 and 5 and explore the potential of improving precision through preferentially somatic opsin expression and stimulator design, revealing complex relationships. Our findings have important implications for interpreting existing experimental data and for optimizing future optogenetic interventions.},
+  month = mar,
+  file = {https://www.jneurosci.org/content/early/2021/07/28/JNEUROSCI.0928-20.2021},
+  eprint = {https://openreview.net/pdf?id=kbjJ9ZOakb},
 }
 
 @inproceedings{baroni2023learning,
   title={Learning invariance manifolds of visual sensory neurons},
   author={Baroni, Luca and Bashiri, Mohammad and Willeke, Konstantin F and Antol{\'\i}k, J{\'a}n and Sinz, Fabian H},
   booktitle={NeurIPS Workshop on Symmetry and Geometry in Neural Representations},
+  file = {https://proceedings.mlr.press/v197/baroni23a/baroni23a.pdf},
+  abstract = {Robust object recognition is thought to rely on neural mechanisms that are selective to complex stimulus features while being invariant to others (e.g., spatial location or orientation). To better understand biological vision, it is thus crucial to characterize which features neurons in different visual areas are selective or invariant to. In the past, invariances have commonly been identified by presenting carefully selected hypothesis-driven stimuli which rely on the intuition of the researcher. One example is the discovery of phase invariance in V1 complex cells. However, to identify novel invariances, a data-driven approach is more desirable. Here, we present a method that, combined with a predictive model of neural responses, learns a manifold in the stimulus space along which a target neuron’s response is invariant. Our approach is fully data-driven, allowing the discovery of novel neural invariances, and enables scientists to generate and experiment with novel stimuli along the invariance manifold. We test our method on Gabor-based neuron models as well as on a neural network fitted on macaque V1 responses and show that 1) it successfully identifies neural invariances, and 2) disentangles invariant directions in the stimulus space.},
   pages={301--326},
   year={2023},
   organization={PMLR}
@@ -74,6 +91,7 @@
     month = {08},
     volume = {20},
     url = {https://doi.org/10.1371/journal.pcbi.1012342},
+    file = {https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012342},
     pages = {1-42},
     abstract = {Knowledge integration based on the relationship between structure and function of the neural substrate is one of the main targets of neuroinformatics and data-driven computational modeling. However, the multiplicity of data sources, the diversity of benchmarks, the mixing of observables of different natures, and the necessity of a long-term, systematic approach make such a task challenging. Here we present a first snapshot of a long-term integrative modeling program designed to address this issue in the domain of the visual system: a comprehensive spiking model of cat primary visual cortex. The presented model satisfies an extensive range of anatomical, statistical and functional constraints under a wide range of visual input statistics. In the presence of physiological levels of tonic stochastic bombardment by spontaneous thalamic activity, the modeled cortical reverberations self-generate a sparse asynchronous ongoing activity that quantitatively matches a range of experimentally measured statistics. When integrating feed-forward drive elicited by a high diversity of visual contexts, the simulated network produces a realistic, quantitatively accurate interplay between visually evoked excitatory and inhibitory conductances; contrast-invariant orientation-tuning width; center surround interactions; and stimulus-dependent changes in the precision of the neural code. This integrative model offers insights into how the studied properties interact, contributing to a better understanding of visual cortical dynamics. It provides a basis for future development towards a comprehensive model of low-level perception.},
     number = {8},
