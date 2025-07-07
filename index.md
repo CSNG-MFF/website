@@ -33,15 +33,15 @@ description: This is the homepage of the Computational System Neuroscience Group
   <div class="collaboration">
     <p class="intro-text">Collaborators</p>
     <ul>
-      <li>Karolína Korvasová   (<a href="https://neam.mff.cuni.cz/">Charles University</a>) </li>
-      <li>Diego Contreras (University of Pennsylvania)</li>
-      <li>Andreas Tolias (Stanford)</li>
-      <li>Serge Picaud lab (Institut de la Vision)</li>
-      <li>Patric Degenae (University of Newcastle)</li>
-      <li>Fabian Sinz (University Göttingen)</li>
-      <li>Eduardo Fernandez (Miguel Hernandez University)</li>
-      <li>Xing Chen (University of Pittsburgh)</li>
-      <li>Alain Destexhe (NeuroPSI CNRS)</li>
+      <li>Karolína Korvasová (<a href="https://neam.mff.cuni.cz/">Charles University</a>) </li>
+      <li>Diego Contreras (<a href="https://www.med.upenn.edu/apps/faculty/index.php/g275/p16954">University of Pennsylvania</a>) </li>
+      <li>Andreas Tolias (<a href="https://toliaslab.org/">Stanford</a>)</li>
+      <li>Serge Picaud lab (<a href="https://www.institut-vision.org/index.php/en/researchers/serge-picaud">Institut de la Vision</a>)</li>
+      <li>Patric Degenae (<a href="https://www.ncl.ac.uk/engineering/staff/profile/patrickdegenaar.html">University of Newcastle</a>)</li>
+      <li>Fabian Sinz (<a href="https://sinzlab.org/">University of Göttingen</a>)</li>
+      <li>Eduardo Fernandez (<a href="https://nbio.umh.es/perfil-del-grupo/personal/eduardo-fernandez-jover/">Miguel Hernandez University</a>)</li>
+      <li>Xing Chen (<a href="https://ophthalmology.pitt.edu/people/xing-chen-phd">University of Pittsburgh</a>)</li>
+      <li>Alain Destexhe (<a href="https://neuropsi.cnrs.fr/en/departments/icn/group-leader-alain-destexhe/">NeuroPSI CNRS</a>)</li>
     </ul>
   </div>
   <div class="contacts">
