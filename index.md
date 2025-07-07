@@ -33,6 +33,7 @@ description: This is the homepage of the Computational System Neuroscience Group
   <div class="collaboration">
     <p class="intro-text">Collaborators</p>
     <ul>
+      <li>Karolína Korvasová   (<a href="https://neam.mff.cuni.cz/">Charles University</a>) </li>
       <li>Diego Contreras (University of Pennsylvania)</li>
       <li>Andreas Tolias (Stanford)</li>
       <li>Serge Picaud lab (Institut de la Vision)</li>
