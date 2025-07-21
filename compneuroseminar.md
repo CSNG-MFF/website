@@ -40,10 +40,16 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |28.3   | Katarína Studeničová | [Coordinating brain-distributed network activities in memory resistant to extinction](https://doi.org/10.1016/j.cell.2023.12.018) | Charles University |
 |11.4  | Tanguy Damart | [Functional organization of excitatory synaptic strength in primary visual cortex](https://www.nature.com/articles/nature14182) | Charles University |
 |25.4  | Karolína Korvasová | [Phase of firing does not reflect temporal order in sequence memory of humans and recurrent neural networks](https://www.nature.com/articles/s41593-025-01893-7) | Charles University |
-|16.5   | Jonáš Prokop | MICrONS | Charles University |
-|23.5   | Tanguy Damart | MICrONS | Charles University |
+|16.5   | Jonáš Prokop | [MICrONS](https://www.microns-explorer.org/vortex) | Charles University |
+|23.5   | Tanguy Damart | [MICrONS](https://www.microns-explorer.org/vortex) | Charles University |
 |3.6   | Radoslav Jochman | Decoding Functional Representations from Population Activity in V1 Recorded During Sleep |
-|10.6   | David Beinhauer | Biologically realistic RNNs capture fine-scale dynamics in primary visual cortex. |
+|10.6   | David Beinhauer | Biologically realistic RNNs capture fine-scale dynamics in primary visual cortex | Charles University |
+|17.6   | Katarína Studeničová | Cortical riples analysis | Charles University |
+|24.6   | Aitor Morales-Gregorio  | Hierarchy of spiking statistics in the macaque cortex | Charles University |
+|1.7   | Jonáš Prokop | [End-to-end topographic networks as models of cortical map formation and human visual behaviour](https://www.nature.com/articles/s41562-025-02220-7)| Charles University |
+|15.7   | Tanguy Damart | Modeling intracortical microstimulation in V1 | Charles University |
+|22.7 - 1.9 | Summer Pause |
+
 
 
 
