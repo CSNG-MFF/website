@@ -19,10 +19,6 @@ description: This is the homepage of the Computational System Neuroscience Group
     <p>
       To help us with this endeavor, we also develop <a href="/software.html">Mozaik</a>, an open-source framework for rapid prototyping of large-scale neural simulations of sensory systems and automation of the virtual experimental workflow.
     </p>
-    <p>
-    📢 🧠 We are seeking a highly motivated 𝗽𝗼𝘀𝘁-𝗱𝗼𝗰 to join our team to work on 𝗯𝗶𝗼-𝗶𝗻𝘀𝗽𝗶𝗿𝗲𝗱 𝗿𝗲𝗰𝘂𝗿𝗿𝗲𝗻𝘁 𝗻𝗲𝘂𝗿𝗮𝗹 𝗻𝗲𝘁𝘄𝗼𝗿𝗸 𝗮𝗿𝗰𝗵𝗶𝘁𝗲𝗰𝘁𝘂𝗿𝗲𝘀. Funded by the JUNIOR Post-Doc Fund, this position offers an exciting opportunity to conduct cutting-edge research at the intersection of systems neuroscience, computational modeling and AI. The position is fully funded for 2 years, and comes with a salary equivalent to ~2400 EUR/month. We offer a dynamic international working environment and collaborations with world-leading experimental labs (Stanford, University of Pennsylvania, Institute de la Vision Paris etc.).
-        <p>
-        </p>
     More information is available in the "Join us!" section or at jan.antolik@mff.cuni.cz.
     </p>
     </div>
