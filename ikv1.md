@@ -1,4 +1,4 @@
----|
+---
 layout: default
 title: Informatics and Cognitive Science 
 ---
@@ -41,5 +41,3 @@ This semster the course is scheduled for Monday, from 15:40 till 18:50. The cour
 |**11.12.**| Visual system 2 (Ján Antolik)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
 |**18.12.**| Neuromorphic computing (Giulia D'Angelo)       | Semester project (Aitor Morales + Katka Studeničová)           |            |
 |**8.1.**  | Mototr cortex (Matej Hoffmann                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
-
-Leaky integrate and fire simulations (Karolína Korvasová)
