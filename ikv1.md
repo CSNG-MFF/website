@@ -1,4 +1,4 @@
----
+---|
 layout: default
 title: Informatics and Cognitive Science 
 ---
@@ -28,16 +28,18 @@ This semster the course is scheduled for Monday, from 15:40 till 18:50. The cour
 
 |----------|------------------------------------------------|----------------------------------------------------------------|------------|
 | **Date** | **Lecture session**                            | **Practical session**                                          | **Slides** |
-|**1.10.** | Introduction (Ján Antolík)                     | Introduction (Ján Antolík)                                     | [slides](https://e.pcloud.link/publink/show?code=XZrB4sZ9AvpYAtdxIuIbHTgpkJXjSIvo9aV)|
-|**8.10.** | **CANCELLED**                                  | **CANCELLED**                                                  |            |
-|**15.10**.| Neurons biology I (Ján Antolík)                | Neurons biology II (Ján Antolík)                               | [slides](https://e.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX)|
-|**22.10.**| Neurons models I (Ján Antolík)                 | Leaky integrate and fire simulations (Karolína Korvasová)      |            |
-|**29.10.**| Neurons models II (Ján Antolík)                | Neural coding (Ján Antolík)                                    |            |
-|**5.11.** | **CANCELLED - DEANS DAY**                      | **CANCELLED -DEANS DAY**                                       |            |
-|**12.11.**| LIF simulations (Karolína Korvasová)           | Neural coding models (Karolína Korvasová)                      |            |
-|**19.11.**| Cortical architecutre (Ján Antolík)            | Brunel network (Karolína Korvasová)                            |            |
-|**26.11.**| **TEST**                                       | Network simulations (Karolína Korvasová)                       |            |
-|**3.12.** | Visual system 1 (Ján Antolik)                  | Semester project (Karolína Korvasová)                          |            |
-|**10.12.**| Visual system 2 (Ján Antolik)                  | Semester project (Karolína Korvasová)                          |            |
-|**17.12.**| Neuromorphic computing (Giulia D'Angelo)       | Semester project (Karolína Korvasová)                          |            |
-|**7.1.**  | Mototr cortex (Matej Hoffmann                  | Semester project (Karolína Korvasová)                          |            |
+|**2.10.** | **CANCELLED**                                  | **CANCELLED**                                                  |            |
+|**9.10.** | Introduction (Ján Antolík)                     | Introduction (Ján Antolík)                                     |            |
+|**16.10**.| Neurons biology I (Ján Antolík)                | Neurons biology II (Ján Antolík)                               |            |
+|**23.10.**| Neurons models I (Ján Antolík)                 | Neurons models II (Ján Antolík)                                |            |
+|**30.10** | Signal processing (python) (Aitor Morales)     | Signal processing (spikes) (Aitor Morales)                     |            |
+|**6.11.** | Neural coding (Ján Antolík)                    | Cortical architecutre (Ján Antolík)                            |            |
+|**13.11.**| LIF simulations (Karolína Korvasová)           | Brunel Network (Karolína Korvasová)                            |            |
+|**20.11.**| Graph theory (Aitor Morales)                   | Graph theory (Aitor Morales)                                   |            |
+|**27.11.**| **TEST**                                       | Introduction to project (Aitor Morales + Katka Studeničová)    |            |
+|**4.12.** | Visual system 1 (Ján Antolik)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
+|**11.12.**| Visual system 2 (Ján Antolik)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
+|**18.12.**| Neuromorphic computing (Giulia D'Angelo)       | Semester project (Aitor Morales + Katka Studeničová)           |            |
+|**8.1.**  | Mototr cortex (Matej Hoffmann                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
+
+Leaky integrate and fire simulations (Karolína Korvasová)
