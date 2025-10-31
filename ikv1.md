@@ -19,12 +19,12 @@ Computational Neuroscience Seiminar [NAIL128](./compneuroseminar.html) running i
 1. A computational modelling task.
 2. Written test: Required reading: [Bear book](https://www.amazon.com/Neuroscience-Exploring-Mark-F-Bear/dp/0781760038), available in library, chapters 1-5.
 
-You will get a grade for each of the two tasks, and the final grade will be calculated as the arhitmetic mean of the three partial grades.
+You will get a grade for each of the two tasks, and the final grade will be calculated as the arhitmetic mean of the two partial grades.
 Specific info on 1 and 2 will appear here later in the semester.
 
 ### Lecture overview and slides
 
-This semster the course is scheduled for Monday, from 15:40 till 18:50. The course will take place in S9.
+This semster the course is scheduled for Thursday, from 9:00 till 12:10. The course will take place in S4.
 
 |----------|------------------------------------------------|----------------------------------------------------------------|------------|
 | **Date** | **Lecture session**                            | **Practical session**                                          | **Slides** |
@@ -32,7 +32,7 @@ This semster the course is scheduled for Monday, from 15:40 till 18:50. The cour
 |**9.10.** | Introduction (Ján Antolík)                     | Introduction (Ján Antolík)                                     |            |
 |**16.10**.| Neurons biology I (Ján Antolík)                | Neurons biology II (Ján Antolík)                               |            |
 |**23.10.**| Neurons models I (Ján Antolík)                 | Neurons models II (Ján Antolík)                                |            |
-|**30.10** | Signal processing (python) (Aitor Morales)     | Signal processing (spikes) (Aitor Morales)                     |            |
+|**30.10** | Signal processing (python) (Aitor Morales)     | Signal processing (spikes) (Aitor Morales)                     | [Slides](https://drive.ebrains.eu/f/77f8ffab1ae44b40a847/?dl=1), [Ex1](https://drive.ebrains.eu/d/f2ecc41c46a941deafbc/), [Ex2](https://drive.ebrains.eu/d/afd018d58c644af0a90c/), [Ex3](https://drive.ebrains.eu/d/6a4edd97e37942e4b8e0/)  |
 |**6.11.** | Neural coding (Ján Antolík)                    | Cortical architecutre (Ján Antolík)                            |            |
 |**13.11.**| LIF simulations (Karolína Korvasová)           | Brunel Network (Karolína Korvasová)                            |            |
 |**20.11.**| Graph theory (Aitor Morales)                   | Graph theory (Aitor Morales)                                   |            |
@@ -40,4 +40,4 @@ This semster the course is scheduled for Monday, from 15:40 till 18:50. The cour
 |**4.12.** | Visual system 1 (Ján Antolik)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
 |**11.12.**| Visual system 2 (Ján Antolik)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
 |**18.12.**| Neuromorphic computing (Giulia D'Angelo)       | Semester project (Aitor Morales + Katka Studeničová)           |            |
-|**8.1.**  | Mototr cortex (Matej Hoffmann                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
+|**8.1.**  | Motor cortex (Matej Hoffmann                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
