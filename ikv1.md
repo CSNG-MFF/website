@@ -40,4 +40,4 @@ This semster the course is scheduled for Thursday, from 9:00 till 12:10. The cou
 |**4.12.** | Visual system 1 (Ján Antolik)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
 |**11.12.**| Visual system 2 (Ján Antolik)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
 |**18.12.**| Neuromorphic computing (Giulia D'Angelo)       | Semester project (Aitor Morales + Katka Studeničová)           |            |
-|**8.1.**  | Motor cortex (Matej Hoffmann                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
+|**8.1.**  | Motor cortex (Matej Hoffmann)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
