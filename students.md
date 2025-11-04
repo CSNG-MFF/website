@@ -7,8 +7,8 @@ title: Research
 
 - <a href="./programovani1.html"><span>NPRG030: Cvičení z Programování I</span></a>
 - <a href="./programovani2.html"><span>NPRG031: Cvičení z Programování II</span></a>
-- <a href="./ikv1.html"><span>NAIL087: Informatics and Cognitive Science I</span></a>
-- <a href="./ikv2.html"><span>NAIL088: Informatics and Cognitive Science II</span></a>
+- <a href="./ikv1.html"><span>NAIL087: Introduction to Computational Neuroscience I</span></a>
+- <a href="./ikv2.html"><span>NAIL088: Introduction to Computational Neuroscience II</span></a>
 - <a href="./compneuroseminar.html"><span>NAIL128: Computational neuroscience seminar</span></a>
 <br>
 
