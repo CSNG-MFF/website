@@ -14,7 +14,7 @@
   note: "Oral presentation; equal contribution: Bashiri and Baroni"
   pdf: "https://openreview.net/pdf?id=kbjJ9ZOakb"
   video: "https://youtu.be/psCQ65zjqPc?si=HqqUXukQv4_wC642"
-  code: "https://github.com/sinzlab/invariance-manifolds"   # example; optional
+  code: "https://github.com/sinzlab/laminr"   # example; optional
   keywords:
     - visual cortex
     - invariance manifold
@@ -423,8 +423,8 @@
   pages: "1789–1790"
   publisher: "ACM Press"
   doi: "10.1145/1068009.1068312"
-  url: "https://portal.acm.org/citation.cfm?doid=1068009.1068312"
-  pdf: ""
+  url: "https://dl.acm.org/doi/pdf/10.1145/1068009.1068312"
+  pdf: "https://dl.acm.org/doi/pdf/10.1145/1068009.1068312"
   keywords:
     - genetic programming
     - evolutionary algorithms
