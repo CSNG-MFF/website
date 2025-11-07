@@ -1,0 +1,439 @@
+# ============================================================
+# 2025
+# ============================================================
+
+- title: "Learning and Aligning Single-Neuron Invariance Manifolds in Visual Cortex"
+  authors:
+    - "Bashiri, Mohammad"
+    - "Baroni, Luca"
+    - "Antolík, Ján"
+    - "Sinz, Fabian H."
+  year: 2025
+  venue: "International Conference on Learning Representations (ICLR)"
+  type: "conference"                      # explicit, helps filtering
+  note: "Oral presentation; equal contribution: Bashiri and Baroni"
+  pdf: "https://openreview.net/pdf?id=kbjJ9ZOakb"
+  video: "https://youtu.be/psCQ65zjqPc?si=HqqUXukQv4_wC642"
+  code: "https://github.com/sinzlab/invariance-manifolds"   # example; optional
+  keywords:
+    - visual cortex
+    - invariance manifold
+    - neural modelling
+  abstract: >
+    Understanding how sensory neurons exhibit selectivity to certain features and invariance to others is central to uncovering the computational principles underlying
+    robustness and generalization in visual perception. Most existing methods for characterizing selectivity and invariance identify single or finite discrete sets of stimuli.
+    Since these are only isolated measurements from an underlying continuous manifold, characterizing invariance properties accurately and comparing them across
+    neurons with varying receptive field size, position, and orientation, becomes challenging. Consequently, a systematic analysis of invariance types at the population
+    level remains under-explored. Building on recent advances in learning continuous
+    invariance manifolds, we introduce a novel method to accurately identify and align
+    invariance manifolds of visual sensory neurons, overcoming these challenges. Our
+    approach first learns the continuous invariance manifold of stimuli that maximally
+    excite a neuron modeled by a response-predicting deep neural network. It then
+    learns an affine transformation on the pixel coordinates such that the same manifold
+    activates another neuron as strongly as possible, effectively aligning their invariance manifolds spatially. This alignment provides a principled way to quantify
+    and compare neuronal invariances irrespective of receptive field differences. Using
+    simulated neurons, we demonstrate that our method accurately learns and aligns
+    known invariance manifolds, robustly identifying functional clusters. When applied
+    to macaque V1 neurons, it reveals functional clusters of neurons, including simple
+    and complex cells. Overall, our method enables systematic, quantitative exploration of the neural invariance landscape, to gain new insights into the functional
+    properties of visual sensory neurons.
+
+  cite: >
+    Bashiri M, Baroni L, Antolík J, Sinz FH (2025).
+    Learning and Aligning Single-Neuron Invariance Manifolds in Visual Cortex.
+    International Conference on Learning Representations (ICLR).
+
+# ============================================================
+# 2024
+# ============================================================
+
+- title: "Iso-orientation bias of layer 2/3 connections: the unifying mechanism of spontaneous, visually and optogenetically driven V1 dynamics"
+  authors:
+    - "Rózsa, Tibor"
+    - "Cagnol, Rémy"
+    - "Antolík, Ján"
+  year: 2024
+  venue: "bioRxiv"
+  type: "preprint"                        # forces correct badge
+  publisher: "Cold Spring Harbor Laboratory"
+  doi: "10.1101/2024.11.19.624284"
+  url: "https://www.biorxiv.org/content/10.1101/2024.11.19.624284v1"
+  pdf: "https://www.biorxiv.org/content/10.1101/2024.11.19.624284v1.full.pdf"
+  keywords:
+    - visual cortex
+    - long-range connectivity
+    - cortical dynamics
+  abstract: >
+    Functionally specific long-range lateral connectivity in layer 2/3 of the primary visual cortex (V1) supports the integration of visual information across visual space and shapes spontaneous, visual and optogenetically driven V1 activity. However, a comprehensive understanding of how these diverse cortical regimes emerge from this underlying cortical circuitry remains elusive. Here we address this gap by showing how the same model assuming moderately iso-orientation biassed long-range cortical connectivity architecture explains diverse phenomena, including (i) range of visually driven phenomena, (ii) modular spontaneous activity, (iii) the propagation of spontaneous cortical waves, and (iv) neural responses to patterned optogenetic stimulation. The model offers testable predictions, including presence of slower and iso-tropic spontaneous wave propagation in layer 4 and non-monotonicity of optogenetically driven cortical response to increasingly larger disk of illumination. We thus offer a holistic framework for studying how cortical circuitry governs information integration across multiple operating regimes.
+  cite: >
+    Rózsa T, Cagnol R, Antolík J (2024).
+    Iso-orientation bias of layer 2/3 connections: the unifying mechanism of spontaneous,
+    visually and optogenetically driven V1 dynamics.
+    bioRxiv. https://doi.org/10.1101/2024.11.19.624284
+
+- title: "Optogenetic Stimulation Recruits Cortical Neurons in a Morphology-Dependent Manner"
+  authors:
+    - "Berling, David"
+    - "Baroni, Luca"
+    - "Chaffiol, Antoine"
+    - "Gauvain, Gregory"
+    - "Picaud, Serge"
+    - "Antolík, Ján"
+  year: 2024
+  venue: "Journal of Neuroscience"
+  type: "journal"
+  volume: 44
+  number: 49
+  pages: "e1215242024"
+  month: December
+  doi: "10.1523/JNEUROSCI.1215-24.2024"
+  url: "https://www.jneurosci.org/content/44/49/e1215242024"
+  pdf: "https://www.jneurosci.org/content/44/49/e1215242024.full.pdf"
+  keywords:
+    - optogenetics
+    - cortical neurons
+    - morphology
+    - neural simulation
+  abstract: >
+    Single-photon optogenetics enables precise, cell-type–specific modulation of neuronal circuits, making it a crucial tool in neuroscience.
+    Its miniaturization in the form of fully implantable wide-field stimulator arrays enables long-term interrogation of cortical circuits and
+    bears promise for brain–machine interfaces for sensory and motor function restoration. However, achieving selective activation of
+    functional cortical representations poses a challenge, as studies show that targeted optogenetic stimulation results in activity spread
+    beyond one functional domain. While recurrent network mechanisms contribute to activity spread, here we demonstrate with detailed
+    simulations of isolated pyramidal neurons from cats of unknown sex that already neuron morphology causes a complex spread of
+    optogenetic activity at the scale of one cortical column. Since the shape of a neuron impacts its optogenetic response, we find that
+    a single stimulator at the cortical surface recruits a complex spatial distribution of neurons that can be inhomogeneous and vary
+    with stimulation intensity and neuronal morphology across layers. We explore strategies to enhance stimulation precision, finding
+    that optimizing stimulator optics may offer more significant improvements than the preferentially somatic expression of the opsin
+    through genetic targeting. Our results indicate that, with the right optical setup, single-photon optogenetics can precisely activate
+    isolated neurons at the scale of functional cortical domains spanning several hundred micrometers.
+  cite: >
+    Berling D, Baroni L, Chaffiol A, Gauvain G, Picaud S, Antolík J (2024).
+    Optogenetic Stimulation Recruits Cortical Neurons in a Morphology-Dependent Manner.
+    Journal of Neuroscience, 44(49): e1215242024. https://doi.org/10.1523/JNEUROSCI.1215-24.2024
+
+# ============================================================
+# 2023
+# ============================================================
+- title: "Learning invariance manifolds of visual sensory neurons"
+  authors:
+    - "Baroni, Luca"
+    - "Bashiri, Mohammad"
+    - "Willeke, Konstantin F."
+    - "Antolík, Ján"
+    - "Sinz, Fabian H."
+  year: 2023
+  venue: "Proceedings of the 1st NeurIPS Workshop on Symmetry and Geometry in Neural Representations"
+  type: "conference"
+  publisher: "PMLR"
+  pages: "301–326"
+  pdf: "https://proceedings.mlr.press/v197/baroni23a/baroni23a.pdf"
+  keywords:
+    - invariance
+    - visual cortex
+    - representation geometry
+  abstract: >
+    Robust object recognition is thought to rely on neural mechanisms that are selective to
+    complex stimulus features while being invariant to others (e.g., spatial location or orientation). To better understand biological vision, it is thus crucial to characterize which features
+    neurons in different visual areas are selective or invariant to. In the past, invariances have
+    commonly been identified by presenting carefully selected hypothesis-driven stimuli which
+    rely on the intuition of the researcher. One example is the discovery of phase invariance in
+    V1 complex cells. However, to identify novel invariances, a data-driven approach is more
+    desirable. Here, we present a method that, combined with a predictive model of neural
+    responses, learns a manifold in the stimulus space along which a target neuron’s response
+    is invariant. Our approach is fully data-driven, allowing the discovery of novel neural invariances, and enables scientists to generate and experiment with novel stimuli along the
+    invariance manifold. We test our method on Gabor-based neuron models as well as on a
+    neural network fitted on macaque V1 responses and show that 1) it successfully identifies
+    neural invariances, and 2) disentangles invariant directions in the stimulus space.
+  cite: >
+    Baroni L, Bashiri M, Willeke KF, Antolík J, Sinz FH (2023).
+    Learning invariance manifolds of visual sensory neurons.
+    In: Proceedings of the 1st NeurIPS Workshop on Symmetry and Geometry in Neural Representations.
+    PMLR, pp. 301–326.
+
+# ============================================================
+# 2021
+# ============================================================
+- title: "An anatomically constrained model of V1 simple cells predicts the coexistence of push-pull and broad inhibition"
+  authors:
+    - "Taylor, M. Morgan"
+    - "Contreras, Diego"
+    - "Destexhe, Alain"
+    - "Frégnac, Yves"
+    - "Antolík, Ján"
+  year: 2021
+  venue: "Journal of Neuroscience"
+  type: "journal"
+  volume: 41
+  number: 37
+  pages: "7797–7812"
+  doi: "10.1523/JNEUROSCI.0928-20.2021"
+  url: "https://www.jneurosci.org/content/41/37/7797"
+  pdf: "https://www.jneurosci.org/content/41/37/7797.full.pdf"
+  keywords:
+    - V1
+    - inhibition
+    - cortical modeling
+    - simple cells
+  abstract: >
+    The spatial organization and dynamic interactions between excitatory and inhibitory synaptic inputs that define the receptive field (RF) of simple cells in the cat primary visual cortex (V1) still raise the following paradoxical issues: (1) stimulation of simple cells in V1 with drifting gratings supports a wiring schema of spatially segregated sets of excitatory and inhibitory inputs activated in an opponent way by stimulus contrast polarity and (2) in contrast, intracellular studies using flashed bars suggest that although ON and OFF excitatory inputs are indeed segregated, inhibitory inputs span the entire RF regardless of input contrast polarity. Here, we propose a biologically detailed computational model of simple cells embedded in a V1-like network that resolves this seeming contradiction. We varied parametrically the RF-correlation-based bias for excitatory and inhibitory synapses and found that a moderate bias of excitatory neurons to synapse onto other neurons with correlated receptive fields and a weaker bias of inhibitory neurons to synapse onto other neurons with anticorrelated receptive fields can explain the conductance input, the postsynaptic membrane potential, and the spike train dynamics under both stimulation paradigms. This computational study shows that the same structural model can reproduce the functional diversity of visual processing observed during different visual contexts.
+  cite: >
+    Taylor MM, Contreras D, Destexhe A, Frégnac Y, Antolík J (2021).
+    An anatomically constrained model of V1 simple cells predicts the coexistence of push-pull and broad inhibition.
+    Journal of Neuroscience, 41(37): 7797–7812. https://doi.org/10.1523/JNEUROSCI.0928-20.2021
+
+
+- title: "Assessment of optogenetically-driven strategies for prosthetic restoration of cortical vision in large-scale neural simulation of V1"
+  authors:
+    - "Antolík, Ján"
+    - "Sabatier, Quentin"
+    - "Galle, Charlie"
+    - "Frégnac, Yves"
+    - "Benosman, Ryad"
+  year: 2021
+  venue: "Scientific Reports"
+  type: "journal"
+  volume: 11
+  number: 1
+  pages: "10783"
+  doi: "10.1038/s41598-021-88960-8"
+  url: "https://www.nature.com/articles/s41598-021-88960-8"
+  pdf: "https://www.nature.com/articles/s41598-021-88960-8.pdf"
+  keywords:
+    - optogenetics
+    - cortical prosthesis
+    - visual cortex
+    - large-scale modeling
+  abstract: >
+    The neural encoding of visual features in primary visual cortex (V1) is well understood, with strong correlates to low-level perception, making V1 a strong candidate for vision restoration through neuroprosthetics. However, the functional relevance of neural dynamics evoked through external stimulation directly imposed at the cortical level is poorly understood. Furthermore, protocols for designing cortical stimulation patterns that would induce a naturalistic perception of the encoded stimuli have not yet been established. Here, we demonstrate a proof of concept by solving these issues through a computational model, combining (1) a large-scale spiking neural network model of cat V1 and (2) a virtual prosthetic system transcoding the visual input into tailored light-stimulation patterns which drive in situ the optogenetically modified cortical tissue. Using such virtual experiments, we design a protocol for translating simple Fourier contrasted stimuli (gratings) into activation patterns of the optogenetic matrix stimulator. We then quantify the relationship between spatial configuration of the imposed light pattern and the induced cortical activity. Our simulations in the absence of visual drive (simulated blindness) show that optogenetic stimulation with a spatial resolution as low as 100 
+    μm, and light intensity as weak as 10 ^ 16 photons/s/cm is sufficient to evoke activity patterns in V1 close to those evoked by normal vision.
+  cite: >
+    Antolík J, Sabatier Q, Galle C, Frégnac Y, Benosman R (2021).
+    Assessment of optogenetically-driven strategies for prosthetic restoration of cortical vision in large-scale neural simulation of V1.
+    Scientific Reports, 11(1): 10783. https://doi.org/10.1038/s41598-021-88960-8
+
+
+
+# ============================================================
+# 2017
+# ============================================================
+
+- title: "Rapid long-range disynaptic inhibition explains the formation of cortical orientation maps"
+  authors:
+    - "Antolík, Ján"
+  year: 2017
+  venue: "Frontiers in Neural Circuits"
+  type: "journal"
+  volume: 11
+  pages: "21"
+  doi: "10.3389/fncir.2017.00021"
+  url: "https://www.frontiersin.org/articles/10.3389/fncir.2017.00021/full"
+  pdf: "https://www.frontiersin.org/articles/10.3389/fncir.2017.00021/pdf"
+  keywords:
+    - orientation maps
+    - cortical inhibition
+    - visual cortex
+    - V1 modeling
+  abstract: >
+    Competitive interactions are believed to underlie many types of cortical processing, ranging from memory formation, attention and development of cortical functional organization (e.g., development of orientation maps in primary visual cortex). In the latter case, the competitive interactions happen along the cortical surface, with local populations of neurons reinforcing each other, while competing with those displaced more distally. This specific configuration of lateral interactions is however in stark contrast with the known properties of the anatomical substrate, i.e., excitatory connections (mediating reinforcement) having longer reach than inhibitory ones (mediating competition). No satisfactory biologically plausible resolution of this conflict between anatomical measures, and assumed cortical function has been proposed. Recently a specific pattern of delays between different types of neurons in cat cortex has been discovered, where direct mono-synaptic excitation has approximately the same delay, as the combined delays of the disynaptic inhibitory interactions between excitatory neurons (i.e., the sum of delays from excitatory to inhibitory and from inhibitory to excitatory neurons). Here we show that this specific pattern of delays represents a biologically plausible explanation for how short-range inhibition can support competitive interactions that underlie the development of orientation maps in primary visual cortex. We demonstrate this statement analytically under simplifying conditions, and subsequently show using network simulations that development of orientation maps is preserved when long-range excitation, direct inhibitory to inhibitory interactions, and moderate inequality in the delays between excitatory and inhibitory pathways is added.
+  cite: >
+    Antolík J (2017).
+    Rapid long-range disynaptic inhibition explains the formation of cortical orientation maps.
+    Frontiers in Neural Circuits, 11: 21. https://doi.org/10.3389/fncir.2017.00021
+
+# ============================================================
+# 2016
+# ============================================================
+- title: "Model constrained by visual hierarchy improves prediction of neural responses to natural scenes"
+  authors:
+    - "Antolík, Ján"
+    - "Hofer, Sonja B."
+    - "Bednar, James A."
+    - "Mrsic-Flogel, Thomas D."
+  year: 2016
+  venue: "PLOS Computational Biology"
+  type: "journal"
+  volume: 12
+  number: 6
+  pages: "e1004927"
+  doi: "10.1371/journal.pcbi.1004927"
+  url: "https://doi.org/10.1371/journal.pcbi.1004927"
+  pdf: "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1004927&type=printable"
+  keywords:
+    - visual cortex
+    - predictive modeling
+    - receptive fields
+    - hierarchical structure
+  abstract: >
+    Accurate estimation of neuronal receptive fields is essential for understanding sensory processing in the early visual system. Yet a full characterization of receptive fields is still incomplete, especially with regard to natural visual stimuli and in complete populations of cortical neurons. While previous work has incorporated known structural properties of the early visual system, such as lateral connectivity, or imposing simple-cell-like receptive field structure, no study has exploited the fact that nearby V1 neurons share common feed-forward input from thalamus and other upstream cortical neurons. We introduce a new method for estimating receptive fields simultaneously for a population of V1 neurons, using a model-based analysis incorporating knowledge of the feed-forward visual hierarchy. We assume that a population of V1 neurons shares a common pool of thalamic inputs, and consists of two layers of simple and complex-like V1 neurons. When fit to recordings of a local population of mouse layer 2/3 V1 neurons, our model offers an accurate description of their response to natural images and significant improvement of prediction power over the current state-of-the-art methods. We show that the responses of a large local population of V1 neurons with locally diverse receptive fields can be described with surprisingly limited number of thalamic inputs, consistent with recent experimental findings. Our structural model not only offers an improved functional characterization of V1 neurons, but also provides a framework for studying the relationship between connectivity and function in visual cortical areas.
+  cite: >
+    Antolík J, Hofer SB, Bednar JA, Mrsic-Flogel TD (2016).
+    Model constrained by visual hierarchy improves prediction of neural responses to natural scenes.
+    PLOS Computational Biology, 12(6): e1004927. https://doi.org/10.1371/journal.pcbi.1004927
+
+
+# ============================================================
+# 2013
+# ============================================================
+- title: "Integrated workflows for spiking neuronal network simulations"
+  authors:
+    - "Antolík, Ján"
+    - "Davison, Andrew P."
+  year: 2013
+  venue: "Frontiers in Neuroinformatics"
+  type: "journal"
+  volume: 7
+  pages: "34"
+  doi: "10.3389/fninf.2013.00034"
+  url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3857637/"
+  pdf: "https://www.frontiersin.org/articles/10.3389/fninf.2013.00034/pdf"
+  keywords:
+    - Mozaik
+    - spiking networks
+    - simulation workflows
+    - neural modeling
+  abstract: >
+    The increasing availability of computational resources is enabling more detailed, realistic modeling in computational neuroscience, resulting in a shift toward more heterogeneous models of neuronal circuits, and employment of complex experimental protocols. This poses a challenge for existing tool chains, as the set of tools involved in a typical modeler's workflow is expanding concomitantly, with growing complexity in the metadata flowing between them. For many parts of the workflow, a range of tools is available; however, numerous areas lack dedicated tools, while integration of existing tools is limited. This forces modelers to either handle the workflow manually, leading to errors, or to write substantial amounts of code to automate parts of the workflow, in both cases reducing their productivity. To address these issues, we have developed Mozaik: a workflow system for spiking neuronal network simulations written in Python. Mozaik integrates model, experiment and stimulation specification, simulation execution, data storage, data analysis and visualization into a single automated workflow, ensuring that all relevant metadata are available to all workflow components. It is based on several existing tools, including PyNN, Neo, and Matplotlib. It offers a declarative way to specify models and recording configurations using hierarchically organized configuration files. Mozaik automatically records all data together with all relevant metadata about the experimental context, allowing automation of the analysis and visualization stages. Mozaik has a modular architecture, and the existing modules are designed to be extensible with minimal programming effort. Mozaik increases the productivity of running virtual experiments on highly structured neuronal networks by automating the entire experimental cycle, while increasing the reliability of modeling studies by relieving the user from manual handling of the flow of metadata between the individual workflow stages.
+  cite: >
+    Antolík J, Davison AP (2013).
+    Integrated workflows for spiking neuronal network simulations.
+    Frontiers in Neuroinformatics, 7: 34. https://doi.org/10.3389/fninf.2013.00034
+
+
+- title: "The emergence of functional microcircuits in visual cortex"
+  authors:
+    - "Ko, Ho"
+    - "Cossell, Lee"
+    - "Baragli, Chiara"
+    - "Antolík, Ján"
+    - "Clopath, Claudia"
+    - "Hofer, Sonja B."
+    - "Mrsic-Flogel, Thomas D."
+  year: 2013
+  venue: "Nature"
+  type: "journal"
+  volume: 496
+  number: 7443
+  pages: "96–100"
+  doi: "10.1038/nature12015"
+  url: "https://www.ncbi.nlm.nih.gov/pubmed/23552948"
+  pdf: "https://www.nature.com/articles/nature12015.pdf"
+  keywords:
+    - microcircuits
+    - visual cortex
+    - cortical connectivity
+    - development
+  abstract: >
+    Sensory processing occurs in neocortical microcircuits in which synaptic connectivity is highly structured and excitatory neurons form subnetworks that process related sensory information. However, the developmental mechanisms underlying the formation of functionally organized connectivity in cortical microcircuits remain unknown. Here we directly relate patterns of excitatory synaptic connectivity to visual response properties of neighbouring layer 2/3 pyramidal neurons in mouse visual cortex at different postnatal ages, using two-photon calcium imaging in vivo and multiple whole-cell recordings in vitro. Although neural responses were already highly selective for visual stimuli at eye opening, neurons responding to similar visual features were not yet preferentially connected, indicating that the emergence of feature selectivity does not depend on the precise arrangement of local synaptic connections. After eye opening, local connectivity reorganized extensively: more connections formed selectively between neurons with similar visual responses and connections were eliminated between visually unresponsive neurons, but the overall connectivity rate did not change. We propose a sequential model of cortical microcircuit development based on activity-dependent mechanisms of plasticity whereby neurons first acquire feature preference by selecting feedforward inputs before the onset of sensory experience--a process that may be facilitated by early electrical coupling between neuronal subsets--and then patterned input drives the formation of functional subnetworks through a redistribution of recurrent synaptic connections.
+  cite: >
+    Ko H, Cossell L, Baragli C, Antolík J, Clopath C, Hofer SB, Mrsic-Flogel TD (2013).
+    The emergence of functional microcircuits in visual cortex.
+    Nature, 496(7443): 96–100. https://doi.org/10.1038/nature12015
+
+- title: "Mechanisms for stable, robust, and adaptive development of orientation maps in the primary visual cortex"
+  authors:
+    - "Stevens, Jean-Luc R."
+    - "Law, Judith S."
+    - "Antolík, Ján"
+    - "Bednar, James A."
+  year: 2013
+  venue: "Journal of Neuroscience"
+  type: "journal"
+  volume: 33
+  number: 40
+  pages: "15747–15766"
+  doi: "10.1523/JNEUROSCI.1037-13.2013"
+  url: "https://pubmed.ncbi.nlm.nih.gov/24089483/"
+  pdf: "https://www.jneurosci.org/content/jneuro/33/40/15747.full.pdf"
+  keywords:
+    - orientation maps
+    - cortical development
+    - homeostatic plasticity
+    - visual cortex
+  abstract: >
+    Development of orientation maps in ferret and cat primary visual cortex (V1) has been shown to be stable, in that the earliest measurable maps are similar in form to the eventual adult map, robust, in that similar maps develop in both dark rearing and in a variety of normal visual environments, and yet adaptive, in that the final map pattern reflects the statistics of the specific visual environment. How can these three properties be reconciled? Using mechanistic models of the development of neural connectivity in V1, we show for the first time that realistic stable, robust, and adaptive map development can be achieved by including two low-level mechanisms originally motivated from single-neuron results. Specifically, contrast-gain control in the retinal ganglion cells and the lateral geniculate nucleus reduces variation in the presynaptic drive due to differences in input patterns, while homeostatic plasticity of V1 neuron excitability reduces the postsynaptic variability in firing rates. Together these two mechanisms, thought to be applicable across sensory systems in general, lead to biological maps that develop stably and robustly, yet adapt to the visual environment. The modeling results suggest that topographic map stability is a natural outcome of low-level processes of adaptation and normalization. The resulting model is more realistic, simpler, and far more robust, and is thus a good starting point for future studies of cortical map development.
+  cite: >
+    Stevens JLR, Law JS, Antolík J, Bednar JA (2013).
+    Mechanisms for stable, robust, and adaptive development of orientation maps in the primary visual cortex.
+    Journal of Neuroscience, 33(40): 15747–15766. https://doi.org/10.1523/JNEUROSCI.1037-13.2013
+
+
+# ============================================================
+# 2011
+# ============================================================
+- title: "Development of maps of simple and complex cells in the primary visual cortex"
+  authors:
+    - "Antolík, Ján"
+    - "Bednar, James A."
+  year: 2011
+  venue: "Frontiers in Computational Neuroscience"
+  type: "journal"
+  volume: 5
+  pages: "17"
+  doi: "10.3389/fncom.2011.00017"
+  url: "https://www.frontiersin.org/articles/10.3389/fncom.2011.00017/full"
+  pdf: "https://www.frontiersin.org/articles/10.3389/fncom.2011.00017/pdf"
+  keywords:
+    - simple cells
+    - complex cells
+    - visual cortex
+    - map development
+    - computational modeling
+  abstract: >
+    Hubel and Wiesel (1962) classified primary visual cortex (V1) neurons as either simple, with responses modulated by the spatial phase of a sine grating, or complex, i.e., largely phase invariant. Much progress has been made in understanding how simple-cells develop, and there are now detailed computational models establishing how they can form topographic maps ordered by orientation preference. There are also models of how complex cells can develop using outputs from simple cells with different phase preferences, but no model of how a topographic orientation map of complex cells could be formed based on the actual connectivity patterns found in V1. Addressing this question is important, because the majority of existing developmental models of simple-cell maps group neurons selective to similar spatial phases together, which is contrary to experimental evidence, and makes it difficult to construct complex cells. Overcoming this limitation is not trivial, because mechanisms responsible for map development drive receptive fields (RF) of nearby neurons to be highly correlated, while co-oriented RFs of opposite phases are anti-correlated. In this work, we model V1 as two topographically organized sheets representing cortical layer 4 and 2/3. Only layer 4 receives direct thalamic input. Both sheets are connected with narrow feed-forward and feedback connectivity. Only layer 2/3 contains strong long-range lateral connectivity, in line with current anatomical findings. Initially all weights in the model are random, and each is modified via a Hebbian learning rule. The model develops smooth, matching, orientation preference maps in both sheets. Layer 4 units become simple cells, with phase preference arranged randomly, while those in layer 2/3 are primarily complex cells. To our knowledge this model is the first explaining how simple cells can develop with random phase preference, and how maps of complex cells can develop, using only realistic patterns of connectivity.
+  cite: >
+    Antolík J, Bednar JA (2011).
+    Development of maps of simple and complex cells in the primary visual cortex.
+    Frontiers in Computational Neuroscience, 5: 17. https://doi.org/10.3389/fncom.2011.00017
+
+
+# ============================================================
+# 2005
+# ============================================================
+
+- title: "Automatic annotation of medical records"
+  authors:
+    - "Antolík, Ján"
+  year: 2005
+  venue: "Studies in Health Technology and Informatics"
+  type: "journal"
+  volume: 116
+  pages: "817–822"
+  url: "https://pubmed.ncbi.nlm.nih.gov/16160359/"
+  pdf: ""
+  keywords:
+    - medical informatics
+    - natural language processing
+    - electronic health records
+  abstract: >
+    One of the research projects running at the medical informatics department of the Institute of Computer Science AS CR explores the problem of medical information representation and development of electronic health record (EHR). With respect to this effort an interesting problem arises: how to transfer knowledge from a medical record written in a free text form into a structured electronic format represented by the EHR. Currently, this task was solved by writing extraction rules (regular expressions) for every element of information that is to be extracted from the medical record. However, such approach is very time consuming and requires supervision of a skilled programmer whenever the target area of medicine is changed. In this article we explore the possibility to mechanize this process by automatically generating the extraction rules from a pre-annotated corpus of medical records. Since we are currently in the phase of data acquisition and preliminary tests we will not present any final results, rather we will sketch the technologies we intend to use and describe the tools that were developed so far as a part of this project.
+  cite: >
+    Antolík J (2005).
+    Automatic annotation of medical records.
+    Studies in Health Technology and Informatics, 116: 817–822. https://pubmed.ncbi.nlm.nih.gov/16160359/
+
+
+- title: "Evolutionary tree genetic programming"
+  authors:
+    - "Antolík, Ján"
+    - "Hsu, William H."
+  year: 2005
+  venue: "Proceedings of the 2005 Genetic and Evolutionary Computation Conference (GECCO '05)"
+  type: "conference"
+  pages: "1789–1790"
+  publisher: "ACM Press"
+  doi: "10.1145/1068009.1068312"
+  url: "https://portal.acm.org/citation.cfm?doid=1068009.1068312"
+  pdf: ""
+  keywords:
+    - genetic programming
+    - evolutionary algorithms
+    - clustering
+    - machine learning
+  abstract: >
+    We introduce a clustering-based method of subpopulation management in genetic programming (GP) called Evolutionary Tree Genetic Programming (ETGP). The biological motivation behind this work is the observation that the natural evolution follows a tree-like phylogenetic pattern. Our goal is to simulate similar behavior in artificial evolutionary systems such as GP. To test our model we use three common GP benchmarks: the Ant Algorithm, 11-Multiplexer, and Parity problems.The performance of the ETGP system is empirically compared to those of the GP system. Code size and variance are consistently reduced by a small but statistically significant percentage, resulting in a slight speedup in the Ant and 11-Multiplexer problems, while the same comparisons on the Parity problem are inconclusive.
+  cite: >
+    Antolík J, Hsu WH (2005).
+    Evolutionary tree genetic programming.
+    In: Proceedings of the 2005 Genetic and Evolutionary Computation Conference (GECCO '05).
+    ACM Press, pp. 1789–1790. https://doi.org/10.1145/1068009.1068312

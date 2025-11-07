@@ -1,0 +1,152 @@
+/* ---------- Controls ---------- */
+.pub-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0 1.5rem;
+  }
+  
+  #pub-search {
+    flex: 1 1 260px;
+    padding: .6rem .8rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: .95rem;
+  }
+  
+  .pub-filters label {
+    margin-right: .8rem;
+    font-size: .9rem;
+    color: #333;
+    user-select: none;
+  }
+  
+  /* ---------- Year headings ---------- */
+  .pub-year-heading {
+    margin: 2.5rem 0 .75rem;
+    border-bottom: 1px solid #eee;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #222;
+  }
+  
+  /* ---------- Cards ---------- */
+  .pub-year-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .pub-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 1rem 1.25rem;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+    transition: box-shadow .15s ease, transform .1s ease;
+  }
+  .pub-card:hover {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    transform: translateY(-1px);
+  }
+  
+  /* ---------- Header ---------- */
+  .pub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: .6rem 1rem;
+  }
+  
+  .pub-title {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+  .pub-title a {
+    color: #111;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .pub-title a:hover {
+    border-color: #ccc;
+  }
+  
+  .pub-type-badge {
+    font-size: .75rem;
+    text-transform: capitalize;
+    padding: .15rem .5rem;
+    border-radius: 999px;
+    border: 1px solid #ddd;
+    color: #555;
+    background: #fafafa;
+  }
+  
+  /* ---------- Text blocks ---------- */
+  .pub-authors {
+    margin: .3rem 0;
+    color: #222;
+    font-size: .9rem;
+  }
+  
+  .pub-venue {
+    color: #555;
+    font-size: .9rem;
+    margin: 0 0 .4rem;
+  }
+  
+  .csng-author {
+    font-weight: 600;
+  }
+  
+  /* ---------- Links ---------- */
+  .pub-links {
+    list-style: none;
+    margin: .4rem 0 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem;
+  }
+  
+  .badge {
+    display: inline-block;
+    font-size: .85rem;
+    padding: .25rem .6rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #f8f8f8;
+    text-decoration: none;
+    color: #333;
+    transition: background .15s;
+  }
+  .badge:hover {
+    background: #efefef;
+  }
+  
+  .badge-ghost {
+    background: transparent;
+    border-style: dashed;
+    cursor: pointer;
+  }
+  
+  /* ---------- Abstract ---------- */
+  .pub-abstract summary {
+    cursor: pointer;
+    font-weight: 500;
+    color: #444;
+    margin-top: .4rem;
+  }
+  .pub-abstract p {
+    margin-top: .5rem;
+    color: #333;
+    font-size: .9rem;
+    line-height: 1.45;
+  }
+
+/* Normalize all publication text to the left */
+#publications, .pub-card, .pub-year-group, .pub-title, .pub-authors, .pub-venue, .pub-abstract {
+    text-align: left;
+  }
