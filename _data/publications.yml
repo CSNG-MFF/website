@@ -37,11 +37,69 @@
     to macaque V1 neurons, it reveals functional clusters of neurons, including simple
     and complex cells. Overall, our method enables systematic, quantitative exploration of the neural invariance landscape, to gain new insights into the functional
     properties of visual sensory neurons.
-
   cite: >
     Bashiri M, Baroni L, Antolík J, Sinz FH (2025).
     Learning and Aligning Single-Neuron Invariance Manifolds in Visual Cortex.
     International Conference on Learning Representations (ICLR).
+
+
+- title: "An open-source replication for fast and accessible light propagation modeling in brain tissue"
+  authors:
+    - "Berling, David"
+    - "Střeleček Jan"
+    - "Iser, Tomáš"
+    - "Antolík, Ján"
+  year: 2025
+  venue: "PLOS One"
+  type: "journal"               # explicit, helps filtering
+  doi: "10.1371/journal.pone.0330681"
+  pdf: "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330681"
+  keywords:
+    - cortex
+    - optogenetics
+    - stimulation
+  abstract: >
+    Light simulations hold great potential for advancing optical techniques in neuroscience. They facilitate the in-silico refinement of optical stimulator designs 
+    and enable simulations of optical recordings from computational brain models, aiding neuroscience in forming a mechanistic understanding of brain circuitry. 
+    However, many published light models are inaccessible due to unavailable source code and documentation or are impractical due to excessive computational demands. 
+    To address these challenges, we replicate and enhance the efficient and accurate light simulation model by Yona et al. [1], which was previously available only in 
+    compiled form accompanied by sparse documentation. In this work, we resolve ambiguities in the original model, correct errors that caused discrepancies between 
+    simulations and published results, improve computational efficiency by an order of magnitude, and open-source all the resulting code and detailed documentation. 
+    These enhancements enable simulations of cortical volumes exceeding  to run in seconds on standard laptop hardware. Our model software provides an accessible, 
+    adaptable, and rapid light simulation tool, which adheres to FAIR principles to ensure future-proof and broad utility for the neuroscience community.
+  cite: >
+    Berling D, Střeleček J, Iser T, Antolík J (2025).
+    An open-source replication for fast and accessible light propagation modeling in brain tissue.
+    PLOS One 20(9): e0330681. https://doi.org/10.1371/journal.pone.0330681
+
+- title: "MEIcoder: Decoding Visual Stimuli from Neural Activity by Leveraging Most Exciting Inputs"
+  authors:
+    - "Sobotka, Jan"
+    - "Baroni, Luca"
+    - "Antolík, Ján"
+  year: 2025
+  venue: "Neural Information Processing Systems (NeurIPS)"
+  type: "conference"                      # explicit, helps filtering
+  pdf: "https://openreview.net/pdf?id=V3WQoshcZe"
+  code: "https://github.com/Johnny1188/meicoder"   # example; optional
+  keywords:
+    - visual cortex
+    - decoding
+    - neural modelling
+  abstract: >
+    Decoding visual stimuli from neural population activity is crucial for understanding the brain and for applications in brain-machine interfaces. However, such 
+    biological data is often scarce, particularly in primates or humans, where high-throughput recording techniques, such as two-photon imaging, remain challenging or 
+    impossible to apply. This, in turn, poses a challenge for deep learning decoding techniques. To overcome this, we introduce MEIcoder, a biologically informed decoding 
+    method that leverages neuron-specific most exciting inputs (MEIs), a structural similarity index measure loss, and adversarial training. MEIcoder achieves 
+    state-of-the-art performance in reconstructing visual stimuli from single-cell activity in primary visual cortex (V1), especially excelling on small datasets with fewer 
+    recorded neurons. Using ablation studies, we demonstrate that MEIs are the main drivers of the performance, and in scaling experiments, we show that MEIcoder can 
+    reconstruct high-fidelity natural-looking images from as few as 1,000-2,500 neurons and less than 1,000 training data points. We also propose a unified benchmark with 
+    over 160,000 samples to foster future research. Our results demonstrate the feasibility of reliable decoding in early visual system and provide practical insights for 
+    neuroscience and neuroengineering applications.
+  cite: >
+    Sobotka J, Baroni L, Antolík J (2025).
+    MEIcoder: Decoding Visual Stimuli from Neural Activity by Leveraging Most Exciting Inputs.
+    Neural Information Processing Systems (NeurIPS).
 
 # ============================================================
 # 2024
@@ -111,6 +169,47 @@
     Berling D, Baroni L, Chaffiol A, Gauvain G, Picaud S, Antolík J (2024).
     Optogenetic Stimulation Recruits Cortical Neurons in a Morphology-Dependent Manner.
     Journal of Neuroscience, 44(49): e1215242024. https://doi.org/10.1523/JNEUROSCI.1215-24.2024
+
+- title: "A comprehensive data-driven model of cat primary visual cortex"
+  authors:
+    - "Antolík, Jan"
+    - "Cagnol, Remy"
+    - "Rózsa, Tibor"
+    - "Monier, Monier"
+    - "Frégnac, Yves"
+    - "Davison, Andrew P."
+  year: 2024
+  venue: "PLOS Computational Biology"
+  type: "journal"
+  volume: 20
+  number: 8
+  pages: "e1012342"
+  month: August
+  doi: "10.1371/journal.pcbi.1012342"
+  url: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012342"
+  pdf: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012342"
+  keywords:
+    - v1 
+    - visual cortex
+    - model
+  abstract: >
+    Knowledge integration based on the relationship between structure and function of the neural substrate is one of the main targets 
+    of neuroinformatics and data-driven computational modeling. However, the multiplicity of data sources, the diversity of benchmarks, 
+    the mixing of observables of different natures, and the necessity of a long-term, systematic approach make such a task challenging. 
+    Here we present a first snapshot of a long-term integrative modeling program designed to address this issue in the domain of the 
+    visual system: a comprehensive spiking model of cat primary visual cortex. The presented model satisfies an extensive range of 
+    anatomical, statistical and functional constraints under a wide range of visual input statistics. In the presence of physiological 
+    levels of tonic stochastic bombardment by spontaneous thalamic activity, the modeled cortical reverberations self-generate a sparse 
+    asynchronous ongoing activity that quantitatively matches a range of experimentally measured statistics. When integrating feed-forward 
+    drive elicited by a high diversity of visual contexts, the simulated network produces a realistic, quantitatively accurate interplay 
+    between visually evoked excitatory and inhibitory conductances; contrast-invariant orientation-tuning width; center surround interactions; 
+    and stimulus-dependent changes in the precision of the neural code. This integrative model offers insights into how the studied properties 
+    interact, contributing to a better understanding of visual cortical dynamics. It provides a basis for future development towards a 
+    comprehensive model of low-level perception.
+ cite: >
+   Antolík J, Cagnol R, Rózsa T, Monier C, Frégnac Y, Davison AP (2024).
+   A comprehensive data-driven model of cat primary visual cortex.
+   PLOS Computational Biology, 20(8): e1012342 https://doi.org/10.1371/journal.pcbi.1012342
 
 # ============================================================
 # 2023
