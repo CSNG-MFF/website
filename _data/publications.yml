@@ -37,7 +37,6 @@
     to macaque V1 neurons, it reveals functional clusters of neurons, including simple
     and complex cells. Overall, our method enables systematic, quantitative exploration of the neural invariance landscape, to gain new insights into the functional
     properties of visual sensory neurons.
-
   cite: >
     Bashiri M, Baroni L, Antolík J, Sinz FH (2025).
     Learning and Aligning Single-Neuron Invariance Manifolds in Visual Cortex.
