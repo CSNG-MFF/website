@@ -65,10 +65,12 @@ Normalize list, infer type if missing, then group by year.
       {% assign rendered_authors = '' %}
       {% for a in entry.authors %}
         {% assign fullname = a %}
-        {% if csng_names contains fullname %}
-          {% assign name_html = '<strong class="csng-author">' | append: fullname | append: '</strong>' %}
+        {% assign norm_name = fullname | replace: ',', '' | strip %}
+        {% assign csng_norm = csng_names | join: ',' | replace: ',', '' %}
+        {% if csng_norm contains norm_name %}
+        {% assign name_html = '<strong class="csng-author">' | append: fullname | append: '</strong>' %}
         {% else %}
-          {% assign name_html = fullname %}
+        {% assign name_html = fullname %}
         {% endif %}
         {% if forloop.first %}
           {% assign rendered_authors = name_html %}
