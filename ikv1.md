@@ -35,7 +35,7 @@ This semster the course is scheduled for Thursday, from 9:00 till 12:10. The cou
 |**30.10** | Signal processing (python) (Aitor Morales)     | Signal processing (spikes) (Aitor Morales)                     | [Slides](https://drive.ebrains.eu/f/77f8ffab1ae44b40a847/?dl=1), [Ex1](https://drive.ebrains.eu/d/f2ecc41c46a941deafbc/), [Ex2](https://drive.ebrains.eu/d/afd018d58c644af0a90c/), [Ex3](https://drive.ebrains.eu/d/6a4edd97e37942e4b8e0/)  |
 |**6.11.** | Neural coding (Ján Antolík)                    | Cortical architecutre (Ján Antolík)                            | [Slides1](https://e.pcloud.link/publink/show?code=XZJqGDZWW1oQPfPXqJBcLUog3oIvVFPvuyk)  [Slides2](https://e.pcloud.link/publink/show?code=XZVqGDZpaR6zN4nes0gFGPrW1RR6LOXpkbk)         |
 |**13.11.**| LIF simulations (Karolína Korvasová)           | Brunel Network (Karolína Korvasová)                            |            |
-|**20.11.**| Graph theory (Aitor Morales)                   | Graph theory (Aitor Morales)                                   |            |
+|**20.11.**| Graph theory (Aitor Morales)                   | Graph theory (Aitor Morales)                                   | [Slides](https://drive.ebrains.eu/f/938e1227291144988ade/?dl=1) [Ex5](https://drive.ebrains.eu/d/f747f5c507b640c598cc)          |
 |**27.11.**| **TEST**                                       | Introduction to project (Aitor Morales + Katka Studeničová)    |            |
 |**4.12.** | Visual system 1 (Ján Antolik)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
 |**11.12.**| Visual system 2 (Ján Antolik)                  | Semester project (Aitor Morales + Katka Studeničová)           |            |
