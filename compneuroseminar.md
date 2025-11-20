@@ -26,7 +26,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |24.10   | Tibor Rózsa | [Sound Induces Change in Orientation Preference of V1 Neurons: Audio-Visual Cross-Influence](https://www.sciencedirect.com/science/article/abs/pii/S0306452219300594) | Charles University |
 |7.11  | Jonáš Prokop | [Temporal integration in human auditory cortex is predominantly yoked to absolute time](https://www.nature.com/articles/s41593-025-02060-8) | Charles University |
 |14.11  | Ali Aftab | [EEG waveform analysis by means of dynamic time-warping](https://www.sciencedirect.com/science/article/abs/pii/0020710185900844?via%3Dihub) | Charles University |
-|21.11  | Aitor Morales-Gregorio | | Charles University |
+|21.11  | Aitor Morales-Gregorio | [Heavy-tailed neuronal connectivity arises from Hebbian self-organization](https://www.nature.com/articles/s41567-023-02332-9) | Charles University |
 |28.11  | Tanguy Pierre Louis Damart | | Charles University |
 |5.12  | Karolína Korvasová | | Charles University |
 |12.12  | Katarína Studeničová | | Charles University |
