@@ -15,6 +15,13 @@
   image: Tanguy_Damart.png
   google_scholar: https://scholar.google.com/citations?user=UAiver8AAAAJ&hl=en
 
+- name: Debapriya Sengupta
+  role: Post Doc
+  github: DebapriyaSG
+  email:  debapriya.sengupta@matfyz.cuni.cz
+  image: debapriya_sengupta.jpg
+  google_scholar: https://scholar.google.com/citations?user=PsCRlFkAAAAJ&hl=en
+
 - name: David Berling
   role: PhD student
   github: dberling
@@ -53,11 +60,4 @@
   email: jprokop@ksvi.mff.cuni.cz
   image: jonas_prokop.jpeg
 
-
-- name: Debapriya Sengupta
-  role: Post Doc
-  github: DebapriyaSG
-  email:  debapriya.sengupta@matfyz.cuni.cz
-  image: debapriya_sengupta.jpg
-  google_scholar: https://scholar.google.com/citations?user=PsCRlFkAAAAJ&hl=en
 
