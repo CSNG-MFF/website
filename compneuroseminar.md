@@ -30,7 +30,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |28.11  | Tanguy Pierre Louis Damart | [Modular arrangement of synaptic and intrinsic homeostatic plasticity within visual cortical circuits](https://www.pnas.org/doi/10.1073/pnas.2504775122) | Charles University |
 |5.12  | Karolína Korvasová | | Charles University |
 |12.12  | Katarína Studeničová | | Charles University |
-
+|19.12  | Debapriya Sengupta | | Charles University |
 
 
 ### Past talks
