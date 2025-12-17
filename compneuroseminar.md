@@ -29,8 +29,8 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |21.11  | Aitor Morales-Gregorio | [Heavy-tailed neuronal connectivity arises from Hebbian self-organization](https://www.nature.com/articles/s41567-023-02332-9) | Charles University |
 |28.11  | Tanguy Pierre Louis Damart | [Modular arrangement of synaptic and intrinsic homeostatic plasticity within visual cortical circuits](https://www.pnas.org/doi/10.1073/pnas.2504775122) | Charles University |
 |5.12  | Karolína Korvasová | EEG microstates | Charles University |
-|12.12  | Katarína Studeničová | | Charles University |
-|19.12  | Debapriya Sengupta | | Charles University |
+|12.12  | Katarína Studeničová | [Cat receptive fields analysis with respect to classified waveforms ](https://physoc.onlinelibrary.wiley.com/doi/10.1113/JP280844) | Charles University |
+|9.1  | Debapriya Sengupta | | Charles University |
 
 
 ### Past talks
