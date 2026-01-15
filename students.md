@@ -184,6 +184,20 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   This will be followed by thourough analysis of the resulting LFPs and results compared to previous findings, including recent data recorded at <a href="http://www.unic.cnrs-gif.fr/teams.html">UNIC</a> by the
   <a href="https://www.unic.cnrs-gif.fr/teams/Research%20group%20of%20Yves%20Fr%C3%A9gnac">Yves Frégnac group</a>.
   </small>
+  
+#### Mathematical methods for analyzing experimental and simulated neural data
+
+- <a href="javascript:void(0)" onclick="$('#project_body').toggle();">Relationship of traveling waves and oscillations in the cat primary visual cortex. </a> 
+   <small id="project_body" class="studentprojectlist" style="display: none;">
+   Both traveling waves and oscillations have been observed in the primary visual cortex, but their relationship is unclear. The aim of the project is to   first detect traveling waves in electro-corticographic recordings from the primary visual cortex of a cat and subsequently to analyze the spectral properties of the signal during the ocurrence of traveling waves. The question whether traveling waves lead to an increase of power in the gamma frequency band is of particular interest.
+   
+- <a href="javascript:void(0)" onclick="$('#project_body').toggle();">Topological analysis of population activity in a large-scale V1 model. </a> 
+   <small id="project_body" class="studentprojectlist" style="display: none;">
+      Topological methods offer a promissing new direction in the analysis of neural data [[Saggar 2018](https://www.nature.com/articles/s41467-018-03664-4)]. It was previously reported that population activity in the primary visual cortex (V1) of macaque monkeys occupies a sphere [[Singh 2008](https://jov.arvojournals.org/article.aspx?articleid=2193262)]. The aim of this thesis is to replicate the study by Singh et al 2010 for population activity generated synthetically by a large-scale model of a cat V1 [[Antolík 2019](https://www.biorxiv.org/content/10.1101/416156v4)] and investigate robustness of the topological structure of the activity to parameter changes.
+      
+- <a href="javascript:void(0)" onclick="$('#project_body').toggle();">Fractal dimension of population activity in a large-scale V1 model. </a> 
+   <small id="project_body" class="studentprojectlist" style="display: none;">
+      The activity elicited in the primary visual cortex (V1) by a visual stimulus may directly reflect its spatial properties such as the frequency of spatially periodic structure. The aim of this thesis is to measure the fractal dimension of activity patterns elicited in a large-scale V1 model [[Antolík 2019](https://www.biorxiv.org/content/10.1101/416156v4)] as a function of the stimulus. It would be particularly interesting to compare the topological properties of activity triggered by natural vs artificial stimuli such as drifting gratings typically used in experiments.
 
 - <a href="javascript:void(0)" onclick="$('#project_tw').toggle();">Travelling waves.</a>  
    <small id="project_tw" class="studentprojectlist" style="display: none;">
