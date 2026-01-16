@@ -16,11 +16,7 @@ description: This is the homepage of the Computational System Neuroscience Group
     <p>
       The main goal of our group is to identify computations implemented in the neural system that underlie our sensory perception, as well as applying this knowledge to the design of stimulation protocols for visual prosthetic systems. To that end, we build models of visual systems at various levels of abstraction using a variety of computational techniques including, but not limited to, machine learning and large-scale biologically plausible spiking neural network simulations.
     </p>
-    <p>
       To help us with this endeavor, we also develop <a href="/software.html">Mozaik</a>, an open-source framework for rapid prototyping of large-scale neural simulations of sensory systems and automation of the virtual experimental workflow.
-    </p>
-    More information is available in the "Join us!" section or at jan.antolik@mff.cuni.cz.
-    </p>
     </div>
       <div class="group_logo">
     <img class="brain_logo" src="./assets/img/blue2255A.png" alt="CSNG Brain Logo">
