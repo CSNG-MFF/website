@@ -59,46 +59,117 @@
                 <br>
 <table>
 
+
    <tr class="titlerow">
       <td></td>
-      <td><strong>Stimulus-evoked gamma oscillations in the V1. </strong></td>
+      <td><strong>"Glass-box" digital twins of the visual cortex</strong></td>
    </tr>
    <tr>
-      <td class="projectrow" valign="center">
-         <div class="img-container">
-            <img class="project-img" src="./assets/img/sketch_gamma.png"></img>
-         </div>
+      <td class="projectrow" valign="center"><img class="project-img" src="./assets/img/bioRNN.png"></img>
       </td>
       <td class="projectrow" valign="center">
          <p>
-            The gamma oscillation (30-80 Hz) is a prominent feature of stimulus-evoked activity in the primary visual
-            cortex (V1).
-            Several hypotheses were formulated regarding the mechanisms of its generation and its functional relevance,
-            yet no
-            definitive consensus has been reached. In this project, we aim at a unifying explanation of the
-            experimentally observed
-            dependence of the frequency and power of the gamma oscillation on properties of the visual stimulus. To this
-            end,
-            we need to identify cellular and network properties that support the generation of gamma oscillation,
-            compatible with other characteristics of the visual system.
+            We are developing biologically constrained recurrent neural network (RNN) architectures as 
+            “glass-box” digital twins of cortical visual circuits. Today’s deep-learning models can 
+            predict neural responses, but their internal elements rarely map onto identifiable biology, 
+            limiting mechanistic understanding and the ability to guide interventions. Our approach 
+            starts from known cortical structure—cell types, excitation–inhibition balance, laminar 
+            organisation, and circuit dynamics—and builds these constraints directly into learnable 
+            recurrent models. We can train these models using multiple experimental observables (not 
+            just input–output behaviour) so that fitted components directly correspond to biological counterparts. 
+            Using the early visual system as a testbed, we aim to deliver accurate, interpretable circuit 
+            models and novel neuroscience-inspired RNN designs.
+         </p>
+      </td>
+   </tr>
+
+
+   <tr class="titlerow">
+      <td></td>
+      <td><strong>Role of neural morphology and network effects in optogenetic cortical stimulation.</strong></td>
+   </tr>
+   <tr>
+      <td class="projectrow" valign="center"><img class="project-img" src="./assets/img/opto_morpho.png"></img>
+      </td>
+      <td class="projectrow" valign="center">
+         <p>
+             Optogenetics is a powerful tool for manipulating neural activity, yet its spatial precision is 
+             often limited by light scattering and the expansive neural morphology. This project utilizes morphology-aware, 
+             large-scale simulations to investigate how neuronal structure influences stimulation outcomes under 
+             realistic illumination conditions. We discovered a paradoxical "sharpening" effect where apical dendrites, by 
+             sampling less scattered light from the superficial cortex, counteract the dispersion of light at deeper levels. 
+             While synaptic transmission naturally spreads activity, incorporating these dendritic properties 
+             paradoxically enhances the spatial focus of stimulation. These findings provide critical insights 
+             for designing more precise optogenetic protocols and improving the resolution of future cortical neuroprostheses.
          </p>
       </td>
    </tr>
 
    <tr class="titlerow">
       <td></td>
-      <td><strong>Facets of illusory contour sensitivity in early visual system. </strong></td>
+      <td><strong>MEIcoder: the visual system decoding framework</strong></td>
    </tr>
    <tr>
-      <td class="projectrow" valign="center"><img class="project-img" src="./assets/img/illusory_contours.png"></img>
+      <td class="projectrow" valign="center"><img class="project-img" src="./assets/img/MEIcoder.png"></img>
       </td>
       <td class="projectrow" valign="center">
          <p>
-            Sensitivity to illusory contours is a key signature of higher-level visual processing, and increasing number
-            of neurons sensitive to illusory contours along the ventral visual pathway has been identified in
-            experiments. In this project we will utilize our detailed models of cat V1 (and later V2) to study how such
-            sensitivity to illusory contours emerges along the visual hierarchy, and how is it implemented in the neural
-            substrate.  
+              Understanding how the brain represents the world requires the ability to reconstruct visual stimuli 
+              from observed neural activity. This project develops MEIcoder, a novel decoding framework that leverages 
+              "Most Exciting Inputs" (MEIs)—the visual patterns that most effectively drive specific neurons—to improve 
+              reconstruction accuracy. By integrating these functional priors into a deep learning architecture, MEIcoder 
+              translates high-dimensional neural signals back into representative images. This approach not only enhances 
+              our ability to decode what an animal is seeing but we are also using this decoding framework to understand
+              how visual percepts are evoked by artificial stimulation of visual cortex.
+         </p>
+      </td>
+   </tr>
+
+
+
+
+
+   <tr class="titlerow">
+      <td></td>
+      <td><strong>Talking to the visual cortex in its own language</strong></td>
+   </tr>
+   <tr>
+      <td class="projectrow" valign="center"><img class="project-img" src="./assets/img/BRCNN.png"></img>
+      </td>
+      <td class="projectrow" valign="center">
+         <p>
+             Traditional cortical prostheses rely solely on retinotopic maps, often failing to recreate complex visual percepts. 
+             This project introduces a breakthrough stimulation protocol that incorporates native orientation selectivity into 
+             the neural interface. Leveraging a Bottlenecked Rotation-Equivariant CNN (BRCNN), we can predict neural responses 
+             solely based on position and orientation preference of activated neurons. We can turn this response predicitve 
+             model into model that predicts stimulation strength given input image and knowledge of retinotopic and orientation
+             preference map under the implant. Validated in a large-scale visual system simulation framework, this dual-encoding 
+             strategy elicits neural activity patterns that more closely resemble natural vision compared to current approaches. 
+             This research paves the way for advanced neuroprostheses capable of restoring more meaningful and high-fidelity 
+             visual experiences for the blind.
+         </p>
+      </td>
+   </tr>
+
+
+
+   <tr class="titlerow">
+      <td></td>
+      <td><strong>Closed loop cortical neural control </strong></td>
+   </tr>
+   <tr>
+      <td class="projectrow" valign="center"><img class="project-img" src="./assets/img/closed_loop.png"></img>
+      </td>
+      <td class="projectrow" valign="center">
+         <p>
+		State-dependent excitability and spontaneous cortical activity can make neuroprosthetic stimulation unreliable: 
+                the same input may produce very different neural responses and percepts, especially in blindness. In this project, 
+                we develop a biophysically grounded, closed-loop optogenetic control framework that compensates for cortical “noise” 
+                and reliably drives activity in a targeted V1 cortical column along a desired time course. We combine a large-scale 
+                spiking model of mammalian primary visual cortex with a detailed model of optogenetic stimulation that includes 
+                light dispersion in tissue and channelrhodopsin dynamics. We benchmark multiple feedback controllers (PID, LMS, and LQR) 
+                against open-loop stimulation and show that closed-loop control reduces tracking error, response variability, and 
+                response latency. The result is a practical pathway toward more consistent, higher-contrast percepts for future visual prostheses.
          </p>
       </td>
    </tr>
