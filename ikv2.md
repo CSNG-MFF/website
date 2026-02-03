@@ -19,7 +19,7 @@ Passing of the course requires three components:
 
 The term project will be an assignment, which will involve delivering a report on analysis of a model of mouse primary visual cortex.
 
-### Lecture overview and slides
+### Lecture overview and slides (year 2025)
 
 The course will take place every *Tuesday* at *8:00-11:00*
 
@@ -30,13 +30,13 @@ The following schedule is provisional, it can change depending on availability o
 
 | Date   |  Lecture                                                                 | Exercise | Slides |
 |--------|--------------------------------------------------------------------------|-----------|--------|
-| 18.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity                   | NONE      | [slides](https://e.pcloud.link/publink/show?code=XZA5yLZCOlIQQc8kY7cQI6GOiduVmS17y7X) |
+| 18.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity                   | NONE      |  |
 | 25.2.   |  &nbsp;&nbsp; CANCELLED                                                  | CANCELLED |  |
 | 4.3.    |  &nbsp;&nbsp; CANCELLED                                                  | CANCELLED |  |
-| 11.3.  |  &nbsp;&nbsp; Medium-to-high level vision                                | Medium-to-high lelvel vision | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV) |
+| 11.3.  |  &nbsp;&nbsp; Medium-to-high level vision                                | Medium-to-high lelvel vision |  |
 | 18.3.  |  &nbsp;&nbsp; Computational modelling: machine learning                  | DNN models of mouse V1     |         |
-| 25.3.  |  &nbsp;&nbsp; Computational modelling: normative models                  | Introduction to term projet   | [slides](https://e.pcloud.link/publink/show?code=XZo5yLZuEgnDCUodfSDTkcyASKujf6Pfsey) |
-| 1.4.   |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                         | Term project work          | [slides](https://e.pcloud.link/publink/show?code=XZPBfSZJCEbAhBzRQF3d7AxI2sjfLkjHik7) |
+| 25.3.  |  &nbsp;&nbsp; Computational modelling: normative models                  | Introduction to term projet   | |
+| 1.4.   |  &nbsp;&nbsp; Synaptic plasticity (Daniel Novák)                         | Term project work          | |
 | 8.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models I (Pavel Haman)  | Term prokect work          |        |
 | 15.4.  |  &nbsp;&nbsp; Computational modelling: dynamical models II (Pavel Haman) | Term project work          |        |
 | 22.4.  |  &nbsp;&nbsp; Computational modelling: development                       | Topographica demo           |        |
