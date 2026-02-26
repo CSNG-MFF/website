@@ -37,8 +37,8 @@ The following schedule is provisional, it will be changed depending on availabil
 | 24.3.  |  &nbsp;&nbsp; Computational modelling: dynamical models I                | Term prokect work                        |        |
 | 31.3.  |  &nbsp;&nbsp; Computational modelling: dynamical models II               | Term project work                        |        |
 | 7.4.   |  &nbsp;&nbsp; Computational modelling: development                       | Topographica demo                        |        |
-| 14.4.  |  &nbsp;&nbsp; Guest Lecture (TBA)                                        | Term project work                        |        |
-| 21.4.  |  &nbsp;&nbsp; Guest Lecture (TBA)                                        | Term project work                        |        |
+| 14.4.  |  &nbsp;&nbsp; Synaptic Plasticity (Daniel Novák)                         | Term project work                        |        |
+| 21.4.  |  &nbsp;&nbsp; RESERVED                                                   | Term project work                        |        |
 | 28.4.  |  &nbsp;&nbsp; Guest Lecture (TBA)                                        | Term project work                        |        |
 | 5.5.   |  &nbsp;&nbsp; Guest Lecture (TBA)                                        | Term project work                        |        |
 | 12.5.  |  &nbsp;&nbsp; Paper presentations                                        | Paper presentations                      |        |
