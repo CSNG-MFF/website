@@ -30,8 +30,8 @@ The following schedule is provisional, it will be changed depending on availabil
 
 | Date   |  Lecture                                                                 | Exercise                                 | Slides |
 |--------|--------------------------------------------------------------------------|------------------------------------------|--------|
-| 24.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity                   | Sub-cortical vision, color, binocularity |        |
-| 3.3.   |  &nbsp;&nbsp; Medium-to-high level vision                                | Medium-to-high lelvel vision             |        |
+| 24.2.  |  &nbsp;&nbsp; Sub-cortical vision, color, binocularity                   | Sub-cortical vision, color, binocularity | [slides](https://e.pcloud.link/publink/show?code=XZA5yLZCOlIQQc8kY7cQI6GOiduVmS17y7X)       |
+| 3.3.   |  &nbsp;&nbsp; Medium-to-high level vision                                | Medium-to-high lelvel vision             | [slides](https://e.pcloud.link/publink/show?code=XZi5yLZImemeQm6DYXUeWxAwBdjBSleUQkV)       |
 | 10.3.  |  &nbsp;&nbsp; Computational modelling: machine learning                  | DNN models of mouse V1                   |        |
 | 17.3.  |  &nbsp;&nbsp; Computational modelling: normative models                  | Introduction to term projet              |        |
 | 24.3.  |  &nbsp;&nbsp; Computational modelling: dynamical models I                | Term prokect work                        |        |
