@@ -23,26 +23,14 @@
   google_scholar: https://scholar.google.com/citations?user=PsCRlFkAAAAJ&hl=en
   linkedin: debapriya-sengupta
 
-- name: David Berling
-  role: PhD student
-  github: dberling
-  email: berling@ksvi.mff.cuni.cz
-  image: David_Berling.jpg
-  
-- name: Luca Baroni
-  role: PhD student
-  github: lucabaroni
-  twitter: LuchinoBaroni
-  email: baroni@ksvi.mff.cuni.cz
-  image: Luca_Baroni.jpg
-  website: https://lucabaroni.github.io/
- 
-- name: Rémy Cagnol
-  role: PhD student
-  github: RCagnol
-  email: cagnol@ksvi.mff.cuni.cz
-  image: Remy_Cagnol.jpg
-  
+- name: Jorge Martinez Armas
+  role: Post Doc
+  github: mrtnzrm2
+  email: jmrtnza@ksvi.mff.cuni.cz
+  image: jorge_martinez_armas.png
+  google_scholar: https://scholar.google.com/citations?hl=en&user=UzeB40gAAAAJ&view_op=list_works&authuser=1&gmla=ACrTK9XvEmfvoQgbz-U7lRqZh02tonhDtbh6JJkWIoR1vZs9sRGyJY_8I78YUc_rJDI2NUWOY-tTftYY540WK7NkLWHjayQpLg0iRLq32S6xkYKmiDdci-mE-5OC2yU_8Lg3CCcYg1Aa8_w--4UjdByuKPYbBTU
+  linkedin: jmrtnza
+
 - name: Tibor Rózsa
   role: PhD student
   github: rozsatib

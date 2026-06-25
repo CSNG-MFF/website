@@ -43,3 +43,24 @@
   github: mpicek
   email: martinpicek4@gmail.com
   image: Martin_Picek.jpg
+
+- name: Luca Baroni
+  role: PhD student
+  github: lucabaroni
+  twitter: LuchinoBaroni
+  email: baroni@ksvi.mff.cuni.cz
+  image: Luca_Baroni.jpg
+  website: https://lucabaroni.github.io/
+ 
+- name: Rémy Cagnol
+  role: PhD student
+  github: RCagnol
+  email: cagnol@ksvi.mff.cuni.cz
+  image: Remy_Cagnol.jpg
+
+- name: David Berling
+  role: PhD student
+  github: dberling
+  email: berling@ksvi.mff.cuni.cz
+  image: David_Berling.jpg
+  
