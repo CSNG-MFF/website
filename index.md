@@ -45,7 +45,7 @@ description: This is the homepage of the Computational System Neuroscience Group
       Malostranské nám. 25<br>
       118 00 Prague<br>
       Czechia<br>
-      email: <a href="mailto:antolikjan@gmail.com">antolikjan@gmail.com</a>
+      email: <a href="mailto:antolikjan@gmail.com">antolik@ksvi.mff.cuni.cz</a>
     </p>
   </div>
 </div>
