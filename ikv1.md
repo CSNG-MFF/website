@@ -31,13 +31,13 @@ This semster the course is scheduled for Thursday, from 9:00 till 12:10. The cou
 |**1.10.** | Introduction (Ján Antolík)                     | Neurons biology I (Ján Antolík)                                |            |
 |**8.10.** | Neurons biology II (Ján Antolík)               | Neuron models I (Pavel Haman)                                  |            |
 |**15.10**.| Neuron models II (Pavel Haman)                 | Neurons models III (Pavel Haman)                               |            |
-|**22.10.**| Neural coding (Ján Antolík)                    | Cortical architecutre (Ján Antolík)                            |            |
+|**22.10.**| Neural coding (Pavel Haman)                    | Cortical architecutre (Ján Antolík)                            |            |
 |**29.10** | TBD                                            | TBD                                                            |            |
-|**5.11.** | TBD                                            | TBD                                                            |            |
-|**12.11.**| LIF simulations (Karolína Korvasová)           | Brunel Network (Karolína Korvasová)                            |            |
-|**19.11.**| TBD                                            | TBD                                                            |            |
-|**26.11.**| **TEST**                                       | Introduction to project (Jan Antolik  + Katka Studeničová)     |            |
+|**5.11.** | LIF simulations (Karolína Korvasová)           | Brunel Network (Karolína Korvasová)                            |            |
+|**12.11.**| TBD                                            | Introduction to project (Katka Studeničová)                    |            |
+|**19.11.**| Neuromorphic computing (Giulia D'Angelo)       | Introduction to project (Jan Antolik)                          |            |
+|**26.11.**| **TEST**                                       | Semester project (Jan Antolik   + Katka Studeničová)           |            |
 |**3.12.** | Visual system 1 (Ján Antolik)                  | Semester project (Jan Antolik   + Katka Studeničová)           |            |
 |**10.12.**| Visual system 2 (Ján Antolik)                  | Semester project (Jan Antolik   + Katka Studeničová)           |            |
-|**17.12.**| Neuromorphic computing (Giulia D'Angelo)       | Semester project (Jan Antolik   + Katka Studeničová)           |            |
+|**17.12.**| TBD                                            | Semester project (Jan Antolik   + Katka Studeničová)           |            |
 |**7.1.**  | Motor cortex (Matej Hoffmann)                  | Semester project (Jan Antolik   + Katka Studeničová)           |            |
