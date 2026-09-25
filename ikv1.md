@@ -37,7 +37,7 @@ This semster the course is scheduled for Thursday, from 9:00 till 12:10. The cou
 |**12.11.**| TBD                                            | Introduction to project (Katka Studeničová)                    |            |
 |**19.11.**| Neuromorphic computing (Giulia D'Angelo)       | Introduction to project (Jan Antolik)                          |            |
 |**26.11.**| **TEST**                                       | Semester project (Jan Antolik   + Katka Studeničová)           |            |
-|**3.12.** | TBD                                            | Semester project (Jan Antolik   + Katka Studeničová)           |            |
+|**3.12.** | Whole brain modeling (Gorka Zamora-López)      | Semester project (Jan Antolik   + Katka Studeničová)           |            |
 |**10.12.**| TBD                                            | Semester project (Jan Antolik   + Katka Studeničová)           |            |
 |**17.12.**| Motor cortex (Matej Hoffmann)                  | Semester project (Jan Antolik   + Katka Studeničová)           |            |
-|**7.1.**  | TBD                                            | Semester project (Jan Antolik   + Katka Studeničová)           |            |
+|**7.1.**  | Semester project (J. Antolik + K. Studeničová) | Semester project (Jan Antolik   + Katka Studeničová)           |            |
