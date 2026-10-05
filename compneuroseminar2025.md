@@ -20,16 +20,16 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 
 ### Upcoming talks
 
-
 |Date| Presenter | Topic | Presenter's affiliation |
-|-------|---------------------------------|----|----|
+|---|---|---|---|
 |6.10 | Jonáš Prokop | [Neuropixels reveal laminar microcircuit organization in monkey V1 in vivo](https://www.pnas.org/doi/10.1073/pnas.2521556123) | Charles University |
 |13.10 | Jorge Martinez Armas | | Charles University |
 |20.10 | Tibor Rózsa | | Charles University |
 |27.10 | Pavel Haman | | Charles University |
-|3.11 | To be specified | | |
+|3.11 | free | | |
 |10.11 | Ján Antolík | | Charles University |
 |24.11 | Debapriya Sengupta | | Charles University |
+{: .seminar-table}
 
 
 ### Past talks
@@ -38,7 +38,6 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |----|---------- |------|-------------------------| -->
 
 #### &nbsp;
-### [2025-2026 talks](./compneuroseminar2025.html)
 ### [2024-2025 talks](./compneuroseminar2024.html)
 ### [2023-2024 talks](./compneuroseminar2023.html)
 ### [2022-2023 talks](./compneuroseminar2022.html)

@@ -440,6 +440,42 @@ h1>a:hover {
   }
 }
 
+.seminar-table {
+  width: 100%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  margin: 1rem 0 2rem;
+}
+
+.seminar-table th,
+.seminar-table td {
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+
+.seminar-table th {
+  font-weight: 600;
+  border-bottom: 2px solid #aaa;
+}
+
+.seminar-table th:nth-child(1),
+.seminar-table td:nth-child(1) {
+  width: 70px;
+  white-space: nowrap;
+}
+
+.seminar-table th:nth-child(2),
+.seminar-table td:nth-child(2) {
+  width: 180px;
+}
+
+.seminar-table th:nth-child(4),
+.seminar-table td:nth-child(4) {
+  width: 170px;
+}
+
 
 .charles_uni_picture {
   max-width: 1000px;
