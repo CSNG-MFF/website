@@ -24,7 +24,7 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |Date| Presenter | Topic | Presenter's affiliation |
 |-------|---------------------------------|----|----|
 |6.10 | Jonáš Prokop | [Neuropixels reveal laminar microcircuit organization in monkey V1 in vivo](https://www.pnas.org/doi/10.1073/pnas.2521556123) | Charles University |
-|13.10 | Jorge Martinez Armas | | Charles University |
+|13.10 | Jorge Martinez Armas | [Hierarchical community detection via maximum entropy partitions and the renormalization group](https://arxiv.org/abs/2508.04034) | Charles University |
 |20.10 | Tibor Rózsa | | Charles University |
 |27.10 | Pavel Haman | | Charles University |
 |3.11 | To be specified | | |
