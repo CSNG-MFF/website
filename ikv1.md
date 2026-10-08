@@ -28,8 +28,8 @@ This semster the course is scheduled for Thursday, from 9:00 till 12:10. The cou
 
 |----------|-------------------------------------------------|----------------------------------------------------------------|------------|
 | **Date** | **Session 1 (90 min)**                          | **Session 2 (90 min)**                                         | **Slides** |
-|**1.10.** | Introduction & Neural biology  (Ján Antolík)    | Neurons biology    (Ján Antolík)                               |            |
-|**8.10.** | Neuron models I (Pavel Haman)                   | Neuron models II (Pavel Haman)                                 |            |
+|**1.10.** | Introduction & Neural biology  (Ján Antolík)    | Neurons biology    (Ján Antolík)                               | [1](https://e.pcloud.link/publink/show?code=XZrB4sZ9AvpYAtdxIuIbHTgpkJXjSIvo9aV) [2](https://e.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX)           |
+|**8.10.** | Neuron models I (Pavel Haman)                   | Neuron models II (Pavel Haman)                                 | [1](https://e.pcloud.link/publink/show?code=XZHqGDZRKyStMspuVp3EAX9HqqM08rGFBnX)           |
 |**15.10**.| Neural coding (Pavel Haman)                     | Cortical Architecture (Pavel Haman)                            |            |
 |**22.10.**| Neural Manifold (Aitor)                         | Neural Manifolds (Aitor)                                       |            |
 |**29.10** | Synaptic transmition & plasticity (Ján Antolik) | Visual system 1 (Ján Antolik)                                  |            |
