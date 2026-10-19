@@ -25,9 +25,9 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |-------|---------------------------------|----|----|
 |6.10 | Jonáš Prokop | [Neuropixels reveal laminar microcircuit organization in monkey V1 in vivo](https://www.pnas.org/doi/10.1073/pnas.2521556123) | Charles University |
 |13.10 | Jorge Martinez Armas | [Hierarchical community detection via maximum entropy partitions and the renormalization group](https://arxiv.org/abs/2508.04034) | Charles University |
-|20.10 | Tibor Rózsa | | Charles University |
+|20.10 | Tibor Rózsa | [Surround modulation is predominantly orientation-unspecific in macaque V1](https://www.sciencedirect.com/science/article/pii/S030100822500036X)| Charles University |
 |27.10 | Pavel Haman | | Charles University |
-|3.11 | To be specified | | |
+|3.11 | Arnaud Hubert | | Charles University |
 |10.11 | Ján Antolík | | Charles University |
 |24.11 | Debapriya Sengupta | | Charles University |
 
