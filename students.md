@@ -24,7 +24,15 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 <!-- janctx:student-projects:start -->
 
 <style>
-.janctx-project { margin: 0.6em 0; }
+.janctx-project-category {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #243b53;
+  margin: 1.5em 0 0.5em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #dce3ea;
+}
+.janctx-project { margin: 0.15em 0; }
 .janctx-project > summary {
   display: list-item;
   cursor: pointer;
@@ -32,7 +40,7 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
   text-decoration: underline;
   text-underline-offset: 0.15em;
   font-weight: 600;
-  padding: 0.35em 0;
+  padding: 0.12em 0;
 }
 .janctx-project > summary:hover { color: #003b6a; }
 .janctx-project > summary:focus-visible {
@@ -43,7 +51,7 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 Select a project title to show or hide its description.
 
-#### Simulation of cortical implants for vision restoration
+<h4 class="janctx-project-category">Simulation of cortical implants for vision restoration</h4>
 
 <details class="janctx-project" id="project-3e7305947349214bc1a6">
 <summary>Characterizing the spatiotemporal activation profile of different neuron types for optogenetic stimulation</summary>
@@ -69,7 +77,7 @@ We will then simulate electrode stimulation in this decoding DNN model and study
 
 </details>
 
-#### Machine Learning in Neuroscience
+<h4 class="janctx-project-category">Machine Learning in Neuroscience</h4>
 
 <details class="janctx-project" id="project-144af71050eef1e4d5c3">
 <summary>Determining maximally exciting and suppressive surround stimuli in a spiking model of primary visual cortex</summary>
@@ -84,7 +92,7 @@ to the aforemntioned recent experimental findings and (b) to obtain a mechanisti
 
 </details>
 
-#### Disease
+<h4 class="janctx-project-category">Disease</h4>
 
 <details class="janctx-project" id="project-31df22431590f569b078">
 <summary>Schizomorphic — visual sensory noise in schizophrenia</summary>
@@ -96,7 +104,7 @@ to reduce ability to appropriately decode visual stimuli from the V1 neural resp
 
 </details>
 
-#### Spiking Network Models of Visual System
+<h4 class="janctx-project-category">Spiking Network Models of Visual System</h4>
 
 <details class="janctx-project" id="project-5a2e966829fdbefed5ba">
 <summary>Asymmetric On &amp; Off responses in Retina, LGN and V1</summary>
@@ -153,7 +161,7 @@ The goal of this project is to unify the existing models into single model insta
 
 </details>
 
-#### Models of neural system development
+<h4 class="janctx-project-category">Models of neural system development</h4>
 
 <details class="janctx-project" id="project-862815c78d08761f3f3c">
 <summary>Biologically plausible model of body representation development (collaboration with the robotics group of Matej Hoffman, CVUT)</summary>
@@ -190,7 +198,7 @@ cannot explain this specific organization of thalamo-cortical afferents. The goa
 
 </details>
 
-#### Software engineering projects
+<h4 class="janctx-project-category">Software engineering projects</h4>
 
 <details class="janctx-project" id="project-aeaddc0e6c8eff66b747">
 <summary>A 3D model visualization of detailed spiking neural network models</summary>
