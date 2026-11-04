@@ -96,7 +96,7 @@ into the model, and then analyze the impact of this more specfific connectivity 
 </details>
 
 <details id="project-d81ec843dfe33463c0e8">
-<summary>Cortico-thalamic loop port to current Mozaik (Domenico model)</summary>
+<summary>Cortico-thalamic loop port to current Mozaik</summary>
 
 <p>This is an ideal introductory project to get acquainted with spiking neural networks, models of visual system, and our Mozaik simulation framework, and hence gateway to more advanced modelling projects. It is thus suitable as a volunteer project or bachelor thesis. The goal of the project is to take a model cortico-thalamic loop that was developed by a PhD student a while ago in a very old version of our simulator  environment <a href="https://www.biorxiv.org/content/10.1101/2022.12.19.521069v1">Mozaik</a> and port it into the current version of the simulator. The main challange of the project will be to get acquinted with the simulator stack, understand the code of the model, and then once the porting is done, which in itself should be straighforwad, to repeat the series of virtual experiments undertaken in the linked original study and verify that all results still hold in the ported model version.</p>
 
