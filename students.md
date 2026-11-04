@@ -23,23 +23,43 @@ If you want to get to know us, stop by at the Computational neuroscience seminar
 
 <!-- janctx:student-projects:start -->
 
+<style>
+.janctx-project { margin: 0.6em 0; }
+.janctx-project > summary {
+  display: list-item;
+  cursor: pointer;
+  color: #005ea8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  font-weight: 600;
+  padding: 0.35em 0;
+}
+.janctx-project > summary:hover { color: #003b6a; }
+.janctx-project > summary:focus-visible {
+  outline: 2px solid #005ea8;
+  outline-offset: 3px;
+}
+</style>
+
+Select a project title to show or hide its description.
+
 #### Simulation of cortical implants for vision restoration
 
-<details id="project-3e7305947349214bc1a6">
+<details class="janctx-project" id="project-3e7305947349214bc1a6">
 <summary>Characterizing the spatiotemporal activation profile of different neuron types for optogenetic stimulation</summary>
 
 <p>New approaches to sensory prosthetics are being developed, wherby the cortex is stimulated via opto-genetic tools, which are being translated from mice to higher-order mammals including primates. However, it remains unclear how light activates optogenetically transfected neurons. We have recently developed computational simulations of how light propagates through neural tissue and how it activates a detailed morphological model of a V1 pyramidal (excitatory) neuron. It is of great interest to understand such light stimulation effects also in other morphological neural types, particularly in inhibitory neurons. In this project, the student will first learn to use the NEURON simulator and our existing simulation framework. In the following, they will integrate new single neuron models into the simulation framework and use them to simulate and analyze their neural activation through optogenetic stimulation.</p>
 
 </details>
 
-<details id="project-4a96124c99980705ef5e">
+<details class="janctx-project" id="project-4a96124c99980705ef5e">
 <summary>Learning stimulation protocols for V1 surface optogenetic stimulation through syntehtic data driven AI.</summary>
 
 <p>How can cortical stimulation produce activity resembling natural vision? Building on our simulations of optogenetic visual prostheses and earlier protocols for simple stimuli such as gratings, this project will develop stimulation strategies for more complex visual scenes. The student will use a detailed spiking model of primary visual cortex to generate synthetic pairs of surface LED stimulation patterns and cortical responses. A deep neural network will learn this relationship and support the inverse problem: finding stimulation patterns that approximate a desired visually evoked response. Candidate patterns will then be tested in the spiking simulation, comparing predicted and actual responses and measuring how well they generalize to unseen targets. The work will explicitly assess the limits imposed by light spread, available stimulation patterns and the network dynamics; it does not assume independent control of every neuron or demonstrate restored vision. Strong programming and analytical skills are useful; experience with Python, machine learning or computational neuroscience is an advantage.</p>
 
 </details>
 
-<details id="project-d9ffbb2fc912975549ab">
+<details class="janctx-project" id="project-d9ffbb2fc912975549ab">
 <summary>Simulation of phosphenes using our decoding model</summary>
 
 <p>We have access to massive multi-electrode parallel recordings to tens of thousands visual stimuli from primary visual cortex (V1) of macaque.
@@ -51,7 +71,7 @@ We will then simulate electrode stimulation in this decoding DNN model and study
 
 #### Machine Learning in Neuroscience
 
-<details id="project-144af71050eef1e4d5c3">
+<details class="janctx-project" id="project-144af71050eef1e4d5c3">
 <summary>Determining maximally exciting and suppressive surround stimuli in a spiking model of primary visual cortex</summary>
 
 <p>Recently a novel method of  studying coding properties of neurons in the visual system has been developed <a href="https://www.nature.com/articles/s41593-019-0517-x">ref</a>.
@@ -66,7 +86,7 @@ to the aforemntioned recent experimental findings and (b) to obtain a mechanisti
 
 #### Disease
 
-<details id="project-31df22431590f569b078">
+<details class="janctx-project" id="project-31df22431590f569b078">
 <summary>Schizomorphic — visual sensory noise in schizophrenia</summary>
 
 <p>Our clinical collaborators developed a new theory that postulates that schyzophrenia is driven by dopaminergicaly driven failure of developement of predictive signalling along the visual pathway.
@@ -78,14 +98,14 @@ to reduce ability to appropriately decode visual stimuli from the V1 neural resp
 
 #### Spiking Network Models of Visual System
 
-<details id="project-5a2e966829fdbefed5ba">
+<details class="janctx-project" id="project-5a2e966829fdbefed5ba">
 <summary>Asymmetric On &amp; Off responses in Retina, LGN and V1</summary>
 
 <p>ON and OFF pathways in the early visual system were long thought of as symmetric in their spatiotemporal properties. However, lately there has been a collection of studies in the retina (<a href="https://doi.org/10.1523/JNEUROSCI.22-07-02737.2002">Chichilnisky 2002</a>, <a href="https://www.pnas.org/doi/10.1073/pnas.1005846107">Ratliff 2010</a>, <a href="https://www.jneurosci.org/content/38/45/9728">Sneha 2018</a>) and in the visual cortex (<a href="https://www.sciencedirect.com/science/article/pii/S221112472100005X">Rahimi-Nasrabadi 2021</a>), which show significant differences between the two pathways, mirroring the statistical differences in natural scenes. The goal of the project will be to expand the current Retina/LGN/V1 model used by the CSNG lab to reflect these findings.</p>
 
 </details>
 
-<details id="project-484c8decbccf8035bb5d">
+<details class="janctx-project" id="project-484c8decbccf8035bb5d">
 <summary>Columnar organization of spatial phase in V1 (Alonso)</summary>
 
 <p>Recent <a href="https://www.nature.com/articles/nature17936">work</a> by Alonso Lab has shown that thalamic ON and OFF afferents converging onto neurons in primary visual cortex
@@ -95,14 +115,14 @@ into the model, and then analyze the impact of this more specfific connectivity 
 
 </details>
 
-<details id="project-d81ec843dfe33463c0e8">
+<details class="janctx-project" id="project-d81ec843dfe33463c0e8">
 <summary>Cortico-thalamic loop port to current Mozaik</summary>
 
 <p>This is an ideal introductory project to get acquainted with spiking neural networks, models of visual system, and our Mozaik simulation framework, and hence gateway to more advanced modelling projects. It is thus suitable as a volunteer project or bachelor thesis. The goal of the project is to take a model cortico-thalamic loop that was developed by a PhD student a while ago in a very old version of our simulator  environment <a href="https://www.biorxiv.org/content/10.1101/2022.12.19.521069v1">Mozaik</a> and port it into the current version of the simulator. The main challange of the project will be to get acquinted with the simulator stack, understand the code of the model, and then once the porting is done, which in itself should be straighforwad, to repeat the series of virtual experiments undertaken in the linked original study and verify that all results still hold in the ported model version.</p>
 
 </details>
 
-<details id="project-360f2d5113d7f05f9042">
+<details class="janctx-project" id="project-360f2d5113d7f05f9042">
 <summary>Embedding of detailed compartmental neuron models into large-scale model of primary visual cortex</summary>
 
 <p>One of the ongoing projects in our group is development of <a href="./research.html">large-scale integrative model </a> of cat primary visual cortex (V1).
@@ -114,7 +134,7 @@ V1 simulation, focusing on properties influenced by the neuron's geometry.</p>
 
 </details>
 
-<details id="project-35c8c5ed14ccc04c0e5b">
+<details class="janctx-project" id="project-35c8c5ed14ccc04c0e5b">
 <summary>Model of size dependent contrast invariance</summary>
 
 <p>Unlike the classical results that say that V1 neurons have tuning width invariant to the contrast of the stimulus, our collaborators show that this contrast invariance falls apart when the stimuli are small.
@@ -124,7 +144,7 @@ inactivation experiments that disable parts of the model.</p>
 
 </details>
 
-<details id="project-bddf873fb77a95f8bec2">
+<details class="janctx-project" id="project-bddf873fb77a95f8bec2">
 <summary>Unifying V1 model branches</summary>
 
 <p>We have recently constructed a detailed large-scale <a href="https://www.biorxiv.org/content/biorxiv/early/2019/02/20/416156.full.pdf">model</a> of cat primary visual cortex.
@@ -135,7 +155,7 @@ The goal of this project is to unify the existing models into single model insta
 
 #### Models of neural system development
 
-<details id="project-862815c78d08761f3f3c">
+<details class="janctx-project" id="project-862815c78d08761f3f3c">
 <summary>Biologically plausible model of body representation development (collaboration with the robotics group of Matej Hoffman, CVUT)</summary>
 
 <p>This project is performed in tight collaboration with the robotics group of <a href="https://sites.google.com/site/matejhof/home">Matej Hoffman</a>.
@@ -157,7 +177,7 @@ correlates in the resulting behavior.</p>
 
 </details>
 
-<details id="project-daca2f0c4eff1a27ca43">
+<details class="janctx-project" id="project-daca2f0c4eff1a27ca43">
 <summary>Reconciling activity driven development of orientation maps with ON-OFF V1 convergence</summary>
 
 <p>During post-natal development, primary visual cortex undergoes remarkable functional organization resulting in expression
@@ -172,7 +192,7 @@ cannot explain this specific organization of thalamo-cortical afferents. The goa
 
 #### Software engineering projects
 
-<details id="project-aeaddc0e6c8eff66b747">
+<details class="janctx-project" id="project-aeaddc0e6c8eff66b747">
 <summary>A 3D model visualization of detailed spiking neural network models</summary>
 
 <p><a href="https://github.com/antolikjan/mozaik">Mozaik</a> is a an automated workflow for large-scale neural simulations.
@@ -183,7 +203,7 @@ visualize the network spatial structure and connectivity in <a href="https://git
 
 </details>
 
-<details id="project-a8703649677d76e50075">
+<details class="janctx-project" id="project-a8703649677d76e50075">
 <summary>Mozaik analysis parallelization</summary>
 
 <p><a href="https://github.com/CSNG-MFF/mozaik">Mozaik</a> is an automated workflow for large-scale neural simulations. At the present moment, it is using MPI parallel execution for running simulations, but not in data analysis, which can thus take a long time. The project aims to parallelize the Mozaik analysis codebase to remedy this issue.</p>
