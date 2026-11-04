@@ -92,6 +92,15 @@ to the aforemntioned recent experimental findings and (b) to obtain a mechanisti
 
 </details>
 
+<details class="janctx-project" id="project-069397d21abd2e92aec3">
+<summary>Predict responses of neurons from the frontier open weight LLMs</summary>
+
+<p>Can large AI models trained to understand images also predict how neurons in the visual cortex respond? This project will investigate whether visual representations in frontier open-weight multimodal language models can provide accurate neural predictions without training the underlying models on brain recordings.</p>
+<p>The student will first review existing work and identify models that can run on the available computing resources. They will then extract model activations for images shown in neural-recording experiments, identify the model units most closely associated with each recorded neuron's responses, and fit simple linear readouts from those units. Unit selection and fitting will use training data, with predictive accuracy assessed on held-out images and compared with established vision models and, where feasible, models trained directly on neural data.</p>
+<p>The goal is to establish how much of visual neural activity is already captured by general-purpose visual representations, and what additional value training on neural recordings provides.</p>
+
+</details>
+
 <h4 class="janctx-project-category">Disease</h4>
 
 <details class="janctx-project" id="project-31df22431590f569b078">
