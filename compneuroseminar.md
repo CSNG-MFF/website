@@ -28,8 +28,10 @@ To obtain credits, it is required to attend at least 10 seminars, actively parti
 |20.10 | Tibor Rózsa | [Surround modulation is predominantly orientation-unspecific in macaque V1](https://www.sciencedirect.com/science/article/pii/S030100822500036X)| Charles University |
 |27.10 | Pavel Haman | [Layered structure of cortex explains reversal dynamics in bistable perception](https://www.nature.com/articles/s41598-025-20811-2) | Charles University |
 |3.11 | Arnaud Hubert | [Modelling Endocannabinoid-mediated synaptic plasticity and its implication in fast learning](https://theses.fr/2026LYO10059) | Charles University |
-|10.11 | Ján Antolík | | Charles University |
-|24.11 | Debapriya Sengupta | | Charles University |
+|10.11 | Dean's Day
+|17.11 | Day of Struggle for Freedom and Democracy and International Students' Day
+|24.11 | Debapriya Sengupta | [Decoding dynamic visual scenes across the brain hierarchy](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1012297) | Charles University |
+|1.12 | Ján Antolík | | Charles University |
 
 
 ### Past talks
