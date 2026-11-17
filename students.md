@@ -67,13 +67,10 @@ Select a project title to show or hide its description.
 
 </details>
 
-<details class="janctx-project" id="project-d9ffbb2fc912975549ab">
-<summary>Simulation of phosphenes using our decoding model</summary>
+<details class="janctx-project" id="project-c2f719725400407036bb">
+<summary>Network-state dependence of intracortical stimulation efficacy in a mechanistic V1 model</summary>
 
-<p>We have access to massive multi-electrode parallel recordings to tens of thousands visual stimuli from primary visual cortex (V1) of macaque.
-We have developed techniques DNN techniques for decoding visual stimulus from the responses of neurons in V1.
-In this project you will apply this model to decode responses from the massive multi-electrode recordings from macaque V1.
-We will then simulate electrode stimulation in this decoding DNN model and study what perecpetion the model predicts to this artificial stimulation.</p>
+<p>How strongly the brain responds to electrical stimulation may depend not only on where and how strongly we stimulate, but also on the brain’s ongoing activity at that moment. In this project, you will use our biologically detailed model of primary visual cortex (V1) to test whether identical intracortical stimulation produces different responses depending on the spontaneous network state. The goal is to determine whether experimentally observed state-dependent stimulation effects can emerge naturally from cortical circuit dynamics and to identify the mechanisms behind them. The project combines large-scale neural simulation, signal analysis, and computational neuroscience, with direct relevance to the design of future closed-loop visual neuroprostheses.</p>
 
 </details>
 
@@ -98,6 +95,16 @@ to the aforemntioned recent experimental findings and (b) to obtain a mechanisti
 <p>Can large AI models trained to understand images also predict how neurons in the visual cortex respond? This project will investigate whether visual representations in frontier open-weight multimodal language models can provide accurate neural predictions without training the underlying models on brain recordings.</p>
 <p>The student will first review existing work and identify models that can run on the available computing resources. They will then extract model activations for images shown in neural-recording experiments, identify the model units most closely associated with each recorded neuron's responses, and fit simple linear readouts from those units. Unit selection and fitting will use training data, with predictive accuracy assessed on held-out images and compared with established vision models and, where feasible, models trained directly on neural data.</p>
 <p>The goal is to establish how much of visual neural activity is already captured by general-purpose visual representations, and what additional value training on neural recordings provides.</p>
+
+</details>
+
+<details class="janctx-project" id="project-92d3812434e2f57fe029">
+<summary>Test BioVisTwin in a task driven paradigm</summary>
+
+<p><strong>Testing BioVisTwin on dynamic visual tasks</strong></p>
+<p>Can a model of the brain’s early visual system learn to recognise and track objects in video? BioVisTwin is our biologically constrained recurrent neural network model of primary visual cortex. This project will investigate how effectively its architecture supports dynamic visual tasks, and how learning those tasks changes the model’s internal organisation and responses.</p>
+<p>The project offers several directions: using BioVisTwin as the first stage of a larger video-processing network, stacking several adapted BioVisTwin modules, or combining these modules with conventional deep-learning layers. Experiments will compare keeping the initial BioVisTwin stage fixed with training the entire network. A further comparison will examine learning from task objectives alone versus combining task training with neural-response data where available.</p>
+<p>You will select a visual task and dataset, implement and train selected model variants, and evaluate both their task performance and their correspondence with neural recordings. The central question is whether biological constraints and successful visual computation reinforce one another—and where they pull the model in different directions. The scope can be tailored around architecture design, training methods, or analysis of the learned representations.</p>
 
 </details>
 
