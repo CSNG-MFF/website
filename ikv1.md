@@ -26,18 +26,18 @@ Specific info on 1 and 2 will appear here later in the semester.
 
 This semster the course is scheduled for Thursday, from 9:00 till 12:10. The course will take place in S4.
 
-|----------|-------------------------------------------------|----------------------------------------------------------------|------------|
-| **Date** | **Session 1 (90 min)**                          | **Session 2 (90 min)**                                         | **Slides** |
-|**1.10.** | Introduction & Neural biology  (Ján Antolík)    | Neurons biology    (Ján Antolík)                               | [1](https://e.pcloud.link/publink/show?code=XZrB4sZ9AvpYAtdxIuIbHTgpkJXjSIvo9aV) [2](https://e.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX)           |
-|**8.10.** | Neuron models I (Pavel Haman)                   | Neuron models II (Pavel Haman)                                 | [1](https://e.pcloud.link/publink/show?code=XZHqGDZRKyStMspuVp3EAX9HqqM08rGFBnX)           |
-|**15.10**.| Neural coding (Pavel Haman)                     | Cortical Architecture (Pavel Haman)                            | [1](https://e.pcloud.link/publink/show?code=XZJqGDZWW1oQPfPXqJBcLUog3oIvVFPvuyk) [2](https://e.pcloud.link/publink/show?code=XZVqGDZpaR6zN4nes0gFGPrW1RR6LOXpkbk)           |
-|**22.10.**| Graph theory (Aitor)                            | Graph theory (Aitor)                                           | [slides](https://cunicz-my.sharepoint.com/:b:/g/personal/30874500_cuni_cz/IQAiHRR1T_LVSYWAZf-Xt-CHAUFCbsr_xUuMGTDFzQgAv8c?e=4KXfJj) [Exercises](https://github.com/morales-gregorio/teaching-materials/tree/main/Exercise%204%20-%20Graph%20theory) [Solution](https://cunicz-my.sharepoint.com/:u:/g/personal/30874500_cuni_cz/IQBGp0548qwVTaS0i24YwlrMAVRxiQcyzJcgc7kDHF6LEEI?e=uBSg2x)          |
-|**29.10** | Synaptic transmition & plasticity (Ján Antolik) | Visual system 1 (Ján Antolik)                                  |            |
-|**5.11.** | LIF simulations (Karolína Korvasová)            | Brunel Network (Karolína Korvasová)                            |            |
-|**12.11.**| Visual System 2 (Ján Antolík)                   | Introduction to project (Katka Studeničová)                    |            |
-|**19.11.**| Neuromorphic computing (Giulia D'Angelo)        | Introduction to project (Jan Antolik)                          |            |
-|**26.11.**| **TEST**                                        | Semester project (Jan Antolik   + Katka Studeničová)           |            |
-|**3.12.** | Whole brain modeling (Gorka Zamora-López)       | Semester project (Jan Antolik   + Katka Studeničová)           |            |
-|**10.12.**| TBD                                             | Semester project (Jan Antolik   + Katka Studeničová)           |            |
-|**17.12.**| Motor cortex (Matej Hoffmann)                   | Semester project (Jan Antolik   + Katka Studeničová)           |            |
-|**7.1.**  | Semester project (J. Antolik + K. Studeničová)  | Semester project (Jan Antolik   + Katka Studeničová)           |            |
+|----------|---------------------------------------------------|----------------------------------------------------------------|------------|
+| **Date** | **Session 1 (90 min)**                            | **Session 2 (90 min)**                                         | **Slides** |
+|**1.10.** | Introduction & Neural biology  (Ján Antolík)      | Neurons biology    (Ján Antolík)                               | [1](https://e.pcloud.link/publink/show?code=XZrB4sZ9AvpYAtdxIuIbHTgpkJXjSIvo9aV) [2](https://e.pcloud.link/publink/show?code=XZeq2QZoo2ygwAgGHuA1VFlhncDffJ4zIMX)           |
+|**8.10.** | Neuron models I (Pavel Haman)                     | Neuron models II (Pavel Haman)                                 | [1](https://e.pcloud.link/publink/show?code=XZHqGDZRKyStMspuVp3EAX9HqqM08rGFBnX)           |
+|**15.10**.| Neural coding (Pavel Haman)                       | Cortical Architecture (Pavel Haman)                            | [1](https://e.pcloud.link/publink/show?code=XZJqGDZWW1oQPfPXqJBcLUog3oIvVFPvuyk) [2](https://e.pcloud.link/publink/show?code=XZVqGDZpaR6zN4nes0gFGPrW1RR6LOXpkbk)           |
+|**22.10.**| Graph theory (Aitor)                              | Graph theory (Aitor)                                           | [slides](https://cunicz-my.sharepoint.com/:b:/g/personal/30874500_cuni_cz/IQAiHRR1T_LVSYWAZf-Xt-CHAUFCbsr_xUuMGTDFzQgAv8c?e=4KXfJj) [Exercises](https://github.com/morales-gregorio/teaching-materials/tree/main/Exercise%204%20-%20Graph%20theory) [Solution](https://cunicz-my.sharepoint.com/:u:/g/personal/30874500_cuni_cz/IQBGp0548qwVTaS0i24YwlrMAVRxiQcyzJcgc7kDHF6LEEI?e=uBSg2x)          |
+|**29.10** | CANCELLED                                         | CANCELLED                                                      |            |
+|**5.11.** | LIF simulations (Karolína Korvasová)              | Brunel Network (Karolína Korvasová)                            |            |
+|**12.11.**| Synaptic plasticity 7 visual system (Ján Antolik) | Introduction to project (Katka Studeničová)                    |            |
+|**19.11.**| Neuromorphic computing (Giulia D'Angelo)          | Introduction to project (Jan Antolik)                          |            |
+|**26.11.**| **TEST**                                          | Semester project (Jan Antolik   + Katka Studeničová)           |            |
+|**3.12.** | Whole brain modeling (Gorka Zamora-López)         | Semester project (Jan Antolik   + Katka Studeničová)           |            |
+|**10.12.**| Visual System 2 (Ján Antolík                      | Semester project (Jan Antolik   + Katka Studeničová)           |            |
+|**17.12.**| Motor cortex (Matej Hoffmann)                     | Semester project (Jan Antolik   + Katka Studeničová)           |            |
+|**7.1.**  | Semester project (J. Antolik + K. Studeničová)    | Semester project (Jan Antolik   + Katka Studeničová)           |            |
