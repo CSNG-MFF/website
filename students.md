@@ -67,13 +67,10 @@ Select a project title to show or hide its description.
 
 </details>
 
-<details class="janctx-project" id="project-d9ffbb2fc912975549ab">
-<summary>Simulation of phosphenes using our decoding model</summary>
+<details class="janctx-project" id="project-c2f719725400407036bb">
+<summary>Network-state dependence of intracortical stimulation efficacy in a mechanistic V1 model</summary>
 
-<p>We have access to massive multi-electrode parallel recordings to tens of thousands visual stimuli from primary visual cortex (V1) of macaque.
-We have developed techniques DNN techniques for decoding visual stimulus from the responses of neurons in V1.
-In this project you will apply this model to decode responses from the massive multi-electrode recordings from macaque V1.
-We will then simulate electrode stimulation in this decoding DNN model and study what perecpetion the model predicts to this artificial stimulation.</p>
+<p>How strongly the brain responds to electrical stimulation may depend not only on where and how strongly we stimulate, but also on the brain’s ongoing activity at that moment. In this project, you will use our biologically detailed model of primary visual cortex (V1) to test whether identical intracortical stimulation produces different responses depending on the spontaneous network state. The goal is to determine whether experimentally observed state-dependent stimulation effects can emerge naturally from cortical circuit dynamics and to identify the mechanisms behind them. The project combines large-scale neural simulation, signal analysis, and computational neuroscience, with direct relevance to the design of future closed-loop visual neuroprostheses.</p>
 
 </details>
 
@@ -101,15 +98,22 @@ to the aforemntioned recent experimental findings and (b) to obtain a mechanisti
 
 </details>
 
+<details class="janctx-project" id="project-92d3812434e2f57fe029">
+<summary>Test BioVisTwin in a task driven paradigm</summary>
+
+<p><strong>Testing BioVisTwin on dynamic visual tasks</strong></p>
+<p>Can a model of the brain’s early visual system learn to recognise and track objects in video? BioVisTwin is our biologically constrained recurrent neural network model of primary visual cortex. This project will investigate how effectively its architecture supports dynamic visual tasks, and how learning those tasks changes the model’s internal organisation and responses.</p>
+<p>The project offers several directions: using BioVisTwin as the first stage of a larger video-processing network, stacking several adapted BioVisTwin modules, or combining these modules with conventional deep-learning layers. Experiments will compare keeping the initial BioVisTwin stage fixed with training the entire network. A further comparison will examine learning from task objectives alone versus combining task training with neural-response data where available.</p>
+<p>You will select a visual task and dataset, implement and train selected model variants, and evaluate both their task performance and their correspondence with neural recordings. The central question is whether biological constraints and successful visual computation reinforce one another—and where they pull the model in different directions. The scope can be tailored around architecture design, training methods, or analysis of the learned representations.</p>
+
+</details>
+
 <h4 class="janctx-project-category">Disease</h4>
 
 <details class="janctx-project" id="project-31df22431590f569b078">
 <summary>Schizomorphic — visual sensory noise in schizophrenia</summary>
 
-<p>Our clinical collaborators developed a new theory that postulates that schyzophrenia is driven by dopaminergicaly driven failure of developement of predictive signalling along the visual pathway.
-In this project you will take our detailed model of primary visual cortex (V1) to simulate the normal and diseased condition. In the diseased condition, the assumption is that the disruption of dompaminergic system
-cause changes of receptive field size in retina over time. Subsequently, you will use DNN techniques developed in our group to decode visual stimuli from the responses of the control and disease model. The prediction of the hypothesis is that the disruption of the dopaminergic system should
-to reduce ability to appropriately decode visual stimuli from the V1 neural response.</p>
+<p>Our clinical collaborators developed a new theory that postulates that schyzophrenia is driven by dopaminergicaly driven failure of developement of predictive signalling along the visual pathway. In this project you will take our detailed model of primary visual cortex (V1) to simulate the normal and diseased condition. In the diseased condition, the assumption is that the disruption of dompaminergic system cause changes of receptive field size in retina over time. Subsequently, you will use DNN techniques developed in our group to decode visual stimuli from the responses of the control and disease model. The prediction of the hypothesis is that the disruption of the dopaminergic system should to reduce ability to appropriately decode visual stimuli from the V1 neural response.</p>
 
 </details>
 
@@ -119,16 +123,6 @@ to reduce ability to appropriately decode visual stimuli from the V1 neural resp
 <summary>Asymmetric On &amp; Off responses in Retina, LGN and V1</summary>
 
 <p>ON and OFF pathways in the early visual system were long thought of as symmetric in their spatiotemporal properties. However, lately there has been a collection of studies in the retina (<a href="https://doi.org/10.1523/JNEUROSCI.22-07-02737.2002">Chichilnisky 2002</a>, <a href="https://www.pnas.org/doi/10.1073/pnas.1005846107">Ratliff 2010</a>, <a href="https://www.jneurosci.org/content/38/45/9728">Sneha 2018</a>) and in the visual cortex (<a href="https://www.sciencedirect.com/science/article/pii/S221112472100005X">Rahimi-Nasrabadi 2021</a>), which show significant differences between the two pathways, mirroring the statistical differences in natural scenes. The goal of the project will be to expand the current Retina/LGN/V1 model used by the CSNG lab to reflect these findings.</p>
-
-</details>
-
-<details class="janctx-project" id="project-484c8decbccf8035bb5d">
-<summary>Columnar organization of spatial phase in V1 (Alonso)</summary>
-
-<p>Recent <a href="https://www.nature.com/articles/nature17936">work</a> by Alonso Lab has shown that thalamic ON and OFF afferents converging onto neurons in primary visual cortex
-have a very specific organization, which is OFF dominated, OFF centric and runs orthogonal to ocular dominance columns. Our current <a href="./research.html">large-scale integrative model </a>
-of V1 does not feature this specific organization of thalamo-cortical afferents. The goal of this project will be to integrate this specific thalamo-cortical convergence
-into the model, and then analyze the impact of this more specfific connectivity on the functional properties of the model.</p>
 
 </details>
 
