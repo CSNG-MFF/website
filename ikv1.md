@@ -25,6 +25,7 @@ Specific info on 1 and 2 will appear here later in the semester.
 ### Term Project material
 * Ripple project: [data](https://e.pcloud.link/publink/show?code=XZnbjV7Zb4Hadjusrc0oH1dIvyJnP0jkAeg7)  -  [assignment](https://e.pcloud.link/publink/show?code=XZdbjV7ZQUG89jl2xlLhFTjzmmHddu9JJFzk) - [lecture slides](https://e.pcloud.link/publink/show?code=XZUbjV7ZgSBtCeWVisjjlg9143P9P46zSNQy)
 * Network model: [slides](https://e.pcloud.link/publink/show?code=XZwFiV7ZkWnaH50K30h44SQicP6ickRsNMIy)  - [assignemnt](https://e.pcloud.link/publink/show?code=XZUxiV7ZG9rBc8n5Pa4OR4c0Cnt86VGEXxAV) 
+
 ### Lecture overview and slides
 
 This semster the course is scheduled for Thursday, from 9:00 till 12:10. The course will take place in S4.
